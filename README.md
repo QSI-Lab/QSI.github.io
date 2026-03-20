@@ -30,7 +30,7 @@ IJCAI2026QAgent.png
 {
   "id": "IJCAI2026QAgent",
   "title": "QAgent: Quantum Task Planning with Multi-Agent Coordination",
-  "authors": "Alice Zhang, Bob Li, Carol Wang",
+  "authors": "Alice Zhang#, Bob Li#, Carol Wang*",
   "year": 2026,
   "venue": "IJCAI",
   "ccf": "A",
@@ -56,6 +56,7 @@ IJCAI2026QAgent.png
 - `id`: 必须和文件名一致，不带 `.json`
 - `title`: 论文标题
 - `authors`: 作者列表，字符串
+  约定：`#` 表示共一，`*` 表示通讯
 - `year`: 年份，数字
 - `venue`: 会议或期刊名称
 - `ccf`: `A` / `B` / `C` / `N`
