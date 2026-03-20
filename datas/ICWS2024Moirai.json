@@ -1,7 +1,7 @@
 {
   "id": "ICWS2024Moirai",
   "title": "Moirai: Optimizing Quantum Serverless Function Orchestration via Device Allocation and Circuit Deployment",
-  "authors": "Tingting Li, Ziming Zhao",
+  "authors": "Tingting Li, Ziming Zhao*",
   "year": 2024,
   "venue": "ICWS",
   "ccf": "B",
@@ -17,5 +17,5 @@
     "量子智能"
   ],
   "link": "https://icws.conferences.computer.org/2024/",
-  "abstract": ""
+  "abstract": "在快速发展的量子计算领域，云量子服务的出现为更广泛的用户群体打开了对这项尖端技术的访问。随着这些服务需求的增长，高效且及时地交付量子计算能力变得愈发关键。然而，当前在特定机器上执行量子任务的排队方法常常导致资源使用效率低下和等待时间延长。本文介绍了Moirai，一种量子无服务器功能编排框架，旨在缩短最大完成时间并提升设备利用率。利用量子电路的独特特性，Moirai引入了定制化的电路表示方案，结合了有向无环图（DAG）转换和图卷积网络（GCN）嵌入向量特征提取。Moirai的核心是强化学习的应用，它驱动一套用于设备分配和电路部署策略的决策流程。我们对95个主流量子算法电路、3∼7量子比特进行了广泛评估，利用10个IBM量子物理器件，采用三种芯片拓扑结构。结果表明，我们提出的框架显著提升了资源分配效率和整体性能，执行时间比基线方法显著缩短了30%以上。这凸显了Moirai作为优化量子云服务和释放量子计算技术潜力的实用解决方案的效果。"
 }

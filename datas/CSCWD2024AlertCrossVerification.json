@@ -1,7 +1,7 @@
 {
   "id": "CSCWD2024AlertCrossVerification",
   "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
-  "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang",
+  "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
   "year": 2024,
   "venue": "CSCWD",
   "ccf": "C",
@@ -17,5 +17,5 @@
     "网络与算网融合"
   ],
   "link": "http://2024.cscwd.org/",
-  "abstract": ""
+  "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
 }
