@@ -3,7 +3,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "AAAI2023Purifier",
       "title": "Purifier: Defending Data Inference Attacks via Transforming Confidence Scores",
-      "authors": "Ziqi Yang, Lijin Wang, Da Yang, Jie Wan, Ziming Zhao, Ee-Chien Chang, Fan Zhang, Kui Ren",
+      "authors": "Ziqi Yang, Lijin Wang, Da Yang, Jie Wan, Ziming Zhao, Ee-Chien Chang, Fan Zhang*, Kui Ren",
       "year": 2023,
       "venue": "AAAI",
       "ccf": "A",
@@ -78,12 +78,12 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://wp.nyu.edu/acns2024/",
-      "abstract": ""
+      "abstract": "面向 DDoS 攻击研究中表征困难、漏洞发现依赖人工的问题，提出 DDoSMiner 自动化框架，对攻击行为进行系统刻画，并结合分析流程自动挖掘潜在脆弱点，从而提升 DDoS 攻击分析、建模与防护研究的效率。"
     },
     {
       "id": "ASE2025AutoFid",
       "title": "AutoFid: Adaptive and Noise-Aware Fidelity Measurement for Quantum Programs via Circuit Graph Analysis",
-      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao*, Jianwei Yin*",
       "year": 2025,
       "venue": "ASE",
       "ccf": "A",
@@ -99,7 +99,7 @@ window.LAB_PAPERS_BUNDLE = {
         "量子智能"
       ],
       "link": "https://conf.researchr.org/home/ase-2025",
-      "abstract": ""
+      "abstract": "处于噪声高的中尺度量子（NISQ）时代，量子计算机面临着固有噪声和有限量子比特相干性的重大挑战。准确的量子态保真度评估需要多次重复测量以获得统计结果。但由于量子噪声的动态和器件依赖性，确定最佳测量次数仍是一个未解问题。现有方法要么假设对噪声模型有先验知识，要么固有地采用固定的测量策略，这限制了其在实际部署场景中的适用性。本文介绍了AutoFid，一种自适应且能感知噪声的保真度测量框架，能够根据电路结构和硬件反馈自动确定所需测试次数。AutoFid 将量子电路建模为有向无环图，并通过随机游走估计结构复杂度，从而实现测量工作量的估算。它还集成了对转译感知的功能，如门控保真度、深度膨胀和串扰，以优化迭代预算。运行期间，AutoFid 动态采样保真度结果，并基于置信区间采用早期停止策略，减少重复测量，同时保持准确性保证。我们基于18项在真实IBMQ硬件平台上执行的量子基准测试来评估AutoFid。实验结果显示，AutoFid 相比固定射击和基于学习的基线，测量成本降低了超过 50%，同时保真度偏差始终低于 0.01。利用经典软件测试指标和消融研究进行额外分析，展示了其在广泛量子工作负载下的有效性、鲁棒性和适应性。"
     },
     {
       "id": "CompNet2024metaNet",
