@@ -146,7 +146,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "CSCWD2024AlertCrossVerification",
       "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
-      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang",
+      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
       "year": 2024,
       "venue": "CSCWD",
       "ccf": "C",
@@ -162,7 +162,7 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "http://2024.cscwd.org/",
-      "abstract": ""
+      "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
     },
     {
       "id": "DAC2026Bayesian",
@@ -290,7 +290,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "ICWS2024Moirai",
       "title": "Moirai: Optimizing Quantum Serverless Function Orchestration via Device Allocation and Circuit Deployment",
-      "authors": "Tingting Li, Ziming Zhao",
+      "authors": "Tingting Li, Ziming Zhao*",
       "year": 2024,
       "venue": "ICWS",
       "ccf": "B",
@@ -306,7 +306,7 @@ window.LAB_PAPERS_BUNDLE = {
         "量子智能"
       ],
       "link": "https://icws.conferences.computer.org/2024/",
-      "abstract": ""
+      "abstract": "在快速发展的量子计算领域，云量子服务的出现为更广泛的用户群体打开了对这项尖端技术的访问。随着这些服务需求的增长，高效且及时地交付量子计算能力变得愈发关键。然而，当前在特定机器上执行量子任务的排队方法常常导致资源使用效率低下和等待时间延长。本文介绍了Moirai，一种量子无服务器功能编排框架，旨在缩短最大完成时间并提升设备利用率。利用量子电路的独特特性，Moirai引入了定制化的电路表示方案，结合了有向无环图（DAG）转换和图卷积网络（GCN）嵌入向量特征提取。Moirai的核心是强化学习的应用，它驱动一套用于设备分配和电路部署策略的决策流程。我们对95个主流量子算法电路、3∼7量子比特进行了广泛评估，利用10个IBM量子物理器件，采用三种芯片拓扑结构。结果表明，我们提出的框架显著提升了资源分配效率和整体性能，执行时间比基线方法显著缩短了30%以上。这凸显了Moirai作为优化量子云服务和释放量子计算技术潜力的实用解决方案的效果。"
     },
     {
       "id": "IJCAI2025QCDeploy",
@@ -455,7 +455,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "MM2024Minerva",
       "title": "Minerva: Enhancing Quantum Network Performance for High-Fidelity Multimedia Transmission",
-      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
       "year": 2024,
       "venue": "ACM Multimedia (MM)",
       "ccf": "A",
@@ -519,7 +519,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "SECON2024P2PBotnetDetection",
       "title": "A Large-Scale P2P Botnet Detection Framework via Topology and Traffic Co-Verification",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
       "year": 2024,
       "venue": "SECON",
       "ccf": "B",
@@ -535,7 +535,7 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://secon2024.ieee-secon.org/",
-      "abstract": ""
+      "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，结合通信拓扑分析与部分节点流量检测，通过 tScouter、tCommander 和 tPatroller 三个紧耦合组件，在检测精度与分析开销之间取得了有效平衡。实验基于 42 组数据、覆盖 6 类僵尸网络和 7 类合法 P2P 流量，结果表明 TNT 在超过 14 万节点的通信图中仅检查约 2 万个节点即可达到约 99.9% 的检测准确率。"
     },
     {
       "id": "SIGKDD2025TrafficScope",
@@ -643,7 +643,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TCAD2024TPEDet",
       "title": "TPE-Det: A Tamper-Proof External Detector via Hardware Traces Analysis against IoT Malware",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
       "year": 2024,
       "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
       "ccf": "A",
@@ -659,12 +659,12 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
-      "abstract": ""
+      "abstract": "TPE-Det 是一种基于侧信道的 IoT 恶意软件检测方案，通过外部监控串行外设接口（SPI）总线提取片上轨迹并恢复轻量级操作日志，从而避免传统系统调用、系统日志等内部监控易被篡改且数据量过大的问题。实验结果表明，结合统计、序列和图特征的机器学习模型后，TPE-Det 具备较强的防篡改能力，并在检测准确率及时间、空间开销方面优于现有方法。"
     },
     {
       "id": "TDSC2023ERNN",
       "title": "ERNN: Error-Resilient RNN for Encrypted Traffic Detection towards Network-Induced Phenomena",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Jialun Jiang, Fengyuan Yu, Fan Zhang, Congyuan Xu, Xinjie Zhao, Rui Zhang, Shize Guo",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Jialun Jiang, Fengyuan Yu, Fan Zhang*, Congyuan Xu*, Xinjie Zhao, Rui Zhang, Shize Guo",
       "year": 2023,
       "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
       "ccf": "A",
@@ -680,12 +680,12 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://www.computer.org/csdl/journal/tq",
-      "abstract": "针对网络诱导现象（丢包、乱序、延迟抖动）导致加密流量检测性能下降的问题，提出ERNN框架，引入误差弹性机制增强RNN对不完整序列的适应性，在真实网络环境下保持高检测精度。"
+      "abstract": "ERNN 是一种面向网络诱发现象的鲁棒端到端 RNN 流量检测模型，通过引入 session gate，在训练中模拟丢包、重传、乱序等常见异常，并结合 Mealy 机动态调整这些现象的概率分布，从而提升真实网络环境下的检测稳健性。实验表明，ERNN 在 10 Gbps 数据平面、约 16% 异常报文序列条件下仍可识别 98.63% 的加密入侵流量，在多用户并发场景下对加密恶意流量的识别率超过 97%，整体准确率比现有最优方法提升约 4%，且具有更好的稳定性与可扩展性。"
     },
     {
       "id": "TDSC2023I2RNN",
       "title": "I2RNN: An Incremental and Interpretable Recurrent Neural Network for Encrypted Traffic Classification",
-      "authors": "Zhuoxue Song, Ziming Zhao, Fan Zhang, Gang Xiong, Guang Cheng, Xinjie Zhao, Shize Guo",
+      "authors": "Zhuoxue Song, Ziming Zhao, Fan Zhang*, Gang Xiong, Guang Cheng, Xinjie Zhao, Shize Guo",
       "year": 2023,
       "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
       "ccf": "A",
@@ -701,12 +701,12 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://www.computer.org/csdl/journal/tq",
-      "abstract": ""
+      "abstract": "I²RNN 是一种面向加密流量分类的增量式可解释循环神经网络，通过新的序列传播过程提取具有局部鲁棒性的会话指纹，同时提供时间序列特征归因与类别间相似性刻画，从而兼顾分类性能与可解释性。相比需要整体重训练的传统方法，I²RNN 仅需为新增流量类别训练一组额外参数即可完成增量学习，实验表明其在流量分类、增量适应和解释稳定性、鲁棒性与有效性方面均表现突出。"
     },
     {
       "id": "TDSC2024MLTrafficShaping",
       "title": "Effective DDoS Mitigation via ML-Driven In-network Traffic Shaping",
-      "authors": "Ziming Zhao, Zhuotao Liu, Huan Chen, Fan Zhang, Zhuoxue Song, Zhaoxuan Li",
+      "authors": "Ziming Zhao, Zhuotao Liu, Huan Chen, Fan Zhang*, Zhuoxue Song, Zhaoxuan Li",
       "year": 2024,
       "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
       "ccf": "A",
@@ -722,7 +722,7 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://www.computer.org/csdl/journal/tq",
-      "abstract": ""
+      "abstract": "DFNet 提出了一种新的 DDoS 防御范式，即“偏好驱动、网络内强制执行的流量整形”，核心目标不是持续追逐攻击特征，而是在未知攻击条件下优先保障受害者真正期望的流量被可靠转发。实验表明，DFNet 将受害者流量偏好编码进数据平面调度机制后，即使面对未见过的攻击，也能在 80 Gbps 上行、40 Gbps 瓶颈链路条件下转发 99.93% 的目标流量，同时额外转发开销低于 0.1%。"
     },
     {
       "id": "TIFS2023SAGE",
@@ -742,7 +742,7 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-      "abstract": "针对对抗样本生成效率低的问题，提出SAGE框架，通过加速策略引导对抗样本生成方向，在多个基准数据集上显著提升生成速度与攻击成功率，同时保持对抗样本的不可感知性。"
+      "abstract": "SAGE 是一个用于加速黑盒图像对抗样本生成的框架，通过 sLocator 优化初始点、sRudder 优化搜索过程，并结合显著图与边界框信息将扰动更高效地引导到最具攻击性的方向，从而显著降低查询开销。实验表明，SAGE 在 MNIST、CIFAR10、ImageNet 及真实世界 Google Cloud Vision API 上均有效，可将查询次数减少 20% 以上，并将攻击成功率提升至 95%–100%，即使面对经过对抗训练的鲁棒模型仍表现出良好的灵活性、稳定性和低开销。"
     },
     {
       "id": "TIFS2025CGIFuzz",
@@ -830,7 +830,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TMC2023CMD",
       "title": "CMD: Co-Analyzed IoT Malware Detection and Forensics via Network and Hardware Domains",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Xiaofei Xie, Haitao Xu, Binbin Chen",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Fan Zhang*, Xiaofei Xie, Haitao Xu, Binbin Chen",
       "year": 2023,
       "venue": "IEEE Transactions on Mobile Computing (TMC)",
       "ccf": "A",
@@ -846,7 +846,7 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://www.computer.org/csdl/journal/tm",
-      "abstract": ""
+      "abstract": "CMD 是一种结合网络域与硬件域的 IoT 恶意软件检测与取证系统，其中网络侧利用定制胶囊神经网络提取跨源流量的上下文语义，硬件侧则通过片上 SPI 信号以侧信道方式恢复文件操作日志，从而弥补单一视角难以覆盖恶意软件多阶段生命周期的问题。实验表明，CMD 的检测性能优异，F1 值可达约 99.88%，在面对可杀进程或篡改日志的自适应对手时仍可恢复 96.88%–99.75% 的操作命令，同时具备零设备侧延迟、极低 CPU 开销和较小日志存储开销等优势。"
     },
     {
       "id": "TON2024FOSS",
