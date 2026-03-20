@@ -99,7 +99,8 @@ window.LAB_PAPERS_BUNDLE = {
         "量子智能"
       ],
       "link": "https://conf.researchr.org/home/ase-2025",
-      "abstract": "处于噪声高的中尺度量子（NISQ）时代，量子计算机面临着固有噪声和有限量子比特相干性的重大挑战。准确的量子态保真度评估需要多次重复测量以获得统计结果。但由于量子噪声的动态和器件依赖性，确定最佳测量次数仍是一个未解问题。现有方法要么假设对噪声模型有先验知识，要么固有地采用固定的测量策略，这限制了其在实际部署场景中的适用性。本文介绍了AutoFid，一种自适应且能感知噪声的保真度测量框架，能够根据电路结构和硬件反馈自动确定所需测试次数。AutoFid 将量子电路建模为有向无环图，并通过随机游走估计结构复杂度，从而实现测量工作量的估算。它还集成了对转译感知的功能，如门控保真度、深度膨胀和串扰，以优化迭代预算。运行期间，AutoFid 动态采样保真度结果，并基于置信区间采用早期停止策略，减少重复测量，同时保持准确性保证。我们基于18项在真实IBMQ硬件平台上执行的量子基准测试来评估AutoFid。实验结果显示，AutoFid 相比固定射击和基于学习的基线，测量成本降低了超过 50%，同时保真度偏差始终低于 0.01。利用经典软件测试指标和消融研究进行额外分析，展示了其在广泛量子工作负载下的有效性、鲁棒性和适应性。"
+      "abstract": "处于噪声高的中尺度量子（NISQ）时代，量子计算机面临着固有噪声和有限量子比特相干性的重大挑战。准确的量子态保真度评估需要多次重复测量以获得统计结果。但由于量子噪声的动态和器件依赖性，确定最佳测量次数仍是一个未解问题。现有方法要么假设对噪声模型有先验知识，要么固有地采用固定的测量策略，这限制了其在实际部署场景中的适用性。本文介绍了AutoFid，一种自适应且能感知噪声的保真度测量框架，能够根据电路结构和硬件反馈自动确定所需测试次数。AutoFid 将量子电路建模为有向无环图，并通过随机游走估计结构复杂度，从而实现测量工作量的估算。它还集成了对转译感知的功能，如门控保真度、深度膨胀和串扰，以优化迭代预算。运行期间，AutoFid 动态采样保真度结果，并基于置信区间采用早期停止策略，减少重复测量，同时保持准确性保证。我们基于18项在真实IBMQ硬件平台上执行的量子基准测试来评估AutoFid。实验结果显示，AutoFid 相比固定射击和基于学习的基线，测量成本降低了超过 50%，同时保真度偏差始终低于 0.01。利用经典软件测试指标和消融研究进行额外分析，展示了其在广泛量子工作负载下的有效性、鲁棒性和适应性。",
+      "imageUrl": "figures/TIFS2025TDQDF.png"
     },
     {
       "id": "CompNet2024metaNet",
@@ -512,8 +513,9 @@ window.LAB_PAPERS_BUNDLE = {
         "大模型多智能体",
         "网络安全"
       ],
-      "link": "",
-      "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。"
+      "link": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+      "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
+      "imageUrl": "figures/NDSS2026Chimera.png"
     },
     {
       "id": "SECON2024P2PBotnetDetection",
@@ -758,31 +760,32 @@ window.LAB_PAPERS_BUNDLE = {
         "软件工程/系统软件/程序设计语言"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "IoT安全"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/11199890/",
+      "abstract": "CGIFuzz 是首个面向 Linux 物联网设备中 CGI 程序的灰盒模糊测试框架，旨在弥补现有 IoT 漏洞挖掘方法对 CGI 组件关注不足的问题。该方法首先通过 Relay-Pass Instrumentation 实现 CGI 程序的动态插桩，从而支持更有效的执行反馈收集。随后，CGIFuzz 利用大语言模型辅助生成高质量的测试输入，并结合程序运行过程中的关键特征设计漏洞检测预言机，用于识别命令注入和内存破坏等安全问题。实验结果表明，CGIFuzz 在 10 款主流 IoT 设备上相比现有先进模糊测试工具具有更强的路径覆盖和漏洞发现能力。最终，该框架共发现 69 个漏洞，其中包括 13 个此前未知漏洞，并已有 9 个获得 CVE 编号。",
+      "imageUrl": "figures/TIFS2025CGIFuzz.png"
     },
     {
-      "id": "TIFS2025QuantumCloudFingerprinting",
+      "id": "TIFS2025TDQDF",
       "title": "Task-Driven Device Fingerprinting for Quantum Cloud Platforms via Modeling QNN Outcomes under Noise",
       "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
       "year": 2025,
       "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
       "ccf": "A",
-      "core": "A*",
+      "core": "N",
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
       "fields": [
-        "交叉/综合/新兴",
         "网络与信息安全"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子安全"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/11202567/",
+      "abstract": "该工作提出了一种基于量子任务输出的任务驱动量子设备指纹识别方法 TD-QDF，用于从含噪量子计算结果中提取设备特征。与以往依赖硬件细节或噪声先验信息的方法不同，TD-QDF 仅利用量子任务输出即可完成设备识别，因此具有更强的实用性和可部署性。作者在 10 台 IBM 量子计算机上基于 6 种量子神经网络线路进行了大规模实验，并进一步扩展到 4 类经典量子算法和 3 个 127 比特处理器，以验证方法的通用性与可扩展性。实验结果表明，该方法在 3 分类、7 分类和 10 分类设备识别任务中分别取得了较高的准确率，表现出较强的区分能力。总体来看，TD-QDF 为量子云服务中的设备问责、异常检测与安全分析提供了一种新的技术路径。",
+      "imageUrl": "figures/TIFS2025TDQDF.png"
     },
     {
       "id": "TIFS2026RFC",
@@ -1068,6 +1071,7 @@ window.LAB_PAPERS_BUNDLE = {
     "大模型推理与训练",
     "量子智能",
     "AI安全",
+    "IoT安全",
     "加密流量",
     "大数据系统优化",
     "大模型多智能体",
@@ -1079,6 +1083,7 @@ window.LAB_PAPERS_BUNDLE = {
     "算力网络",
     "网络安全",
     "量子EDA",
+    "量子安全",
     "量子数据集",
     "量子软工"
   ],

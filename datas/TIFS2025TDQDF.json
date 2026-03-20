@@ -1,0 +1,21 @@
+{
+  "id": "TIFS2025TDQDF",
+  "title": "Task-Driven Device Fingerprinting for Quantum Cloud Platforms via Modeling QNN Outcomes under Noise",
+  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "year": 2025,
+  "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+  "ccf": "A",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全"
+  ],
+  "researchDirections": [
+    "量子安全"
+  ],
+  "link": "https://ieeexplore.ieee.org/abstract/document/11202567/",
+  "abstract": "该工作提出了一种基于量子任务输出的任务驱动量子设备指纹识别方法 TD-QDF，用于从含噪量子计算结果中提取设备特征。与以往依赖硬件细节或噪声先验信息的方法不同，TD-QDF 仅利用量子任务输出即可完成设备识别，因此具有更强的实用性和可部署性。作者在 10 台 IBM 量子计算机上基于 6 种量子神经网络线路进行了大规模实验，并进一步扩展到 4 类经典量子算法和 3 个 127 比特处理器，以验证方法的通用性与可扩展性。实验结果表明，该方法在 3 分类、7 分类和 10 分类设备识别任务中分别取得了较高的准确率，表现出较强的区分能力。总体来看，TD-QDF 为量子云服务中的设备问责、异常检测与安全分析提供了一种新的技术路径。",
+  "imageUrl": "figures/TIFS2025TDQDF.png"
+}
