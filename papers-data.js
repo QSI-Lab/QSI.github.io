@@ -432,7 +432,7 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作提出了一种面向流数据中新类别发现与增量更新的学习范式Portray Learning。其核心思想是为每个类别维护一个独立的“画像器”（如自编码器），将新类/已知类识别问题转化为多个彼此独立的异常检测任务。每个画像器只负责判断样本是否属于自身类别，因此不同类别之间相互独立，既支持并行处理，也便于在新类别出现时进行增量扩展。与此同时，方法引入极值理论自动确定各画像器的异常阈值，从而减少人工设定参数的需求。实验结果表明，在多个数据集和真实流场景中，Portray Learning 即使在先验知识有限的情况下也优于现有方法。"
     },
     {
-      "id": "JSAC2025VerifyAllTraffic",
+      "id": "JSAC2025FCPlane",
       "title": "Verify All Traffic: Towards Zero-Trust In-Network Intrusion Detection against Multipath Routing",
       "authors": "Ziming Zhao, Zhaoxuan Li, Xiaofei Xie, Zhipeng Liu, Tingting Li, Jiongchi Yu, Fan Zhang, Binbin Chen",
       "year": 2025,
@@ -450,7 +450,7 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=49",
-      "abstract": ""
+      "abstract": "FCPlane 是一种面向零信任入侵检测的转发与计算一体化数据平面框架，旨在解决多交换机部署和多路径路由环境下线速流量分析面临的实际挑战。与现有工作大多只在单一交换机节点上验证不同，FCPlane 进一步考虑了真实网络中广泛存在的多路径转发现象，以及由此带来的负载均衡与检测结果一致性问题。其核心思想是在 flowlet 粒度上协同设计数据转发与模型计算，并引入专门的马尔可夫链模型来支持高效调度与可靠推断。基于两个公开流量数据集、七种先进的网内流量分析模型和多种网络拓扑的实验结果表明，FCPlane 能够在复杂网络环境中实现更稳定有效的流量检测。总体来看，该工作为可编程交换机支持下的高性能零信任流量分析提供了一种更贴近真实部署场景的解决方案。"
     },
     {
       "id": "MM2024Minerva",
@@ -553,10 +553,11 @@ window.LAB_PAPERS_BUNDLE = {
         "人工智能"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "加密流量",
+        "网络安全"
       ],
-      "link": "https://kdd2025.kdd.org/",
-      "abstract": ""
+      "link": "https://dl.acm.org/doi/abs/10.1145/3690624.3709315",
+      "abstract": "TrafficScope 是一种面向加密流量分类的时域—小波融合 Transformer 网络，旨在解决仅依赖流内语义特征时难以区分相似攻击与正常行为的问题。该方法不仅提取流内特征，还进一步建模流量的上下文信息，以形成更全面的表示。针对上下文流量具有非平稳、动态变化的特点，TrafficScope 引入小波变换提取更稳定的不变特征，并通过交叉注意力机制融合时域特征与小波域特征。实验结果表明，TrafficScope 在多组真实流量数据集上优于现有多种先进方法。进一步的相似流内特征、数据污染、流操纵和动态上下文实验也验证了该方法的鲁棒性、稳定性以及跨数据集应用潜力。"
     },
     {
       "id": "SIGKDD2026QuMap",

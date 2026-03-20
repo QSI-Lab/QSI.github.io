@@ -1,5 +1,5 @@
 {
-  "id": "JSAC2025VerifyAllTraffic",
+  "id": "JSAC2025FCPlane",
   "title": "Verify All Traffic: Towards Zero-Trust In-Network Intrusion Detection against Multipath Routing",
   "authors": "Ziming Zhao, Zhaoxuan Li, Xiaofei Xie, Zhipeng Liu, Tingting Li, Jiongchi Yu, Fan Zhang, Binbin Chen",
   "year": 2025,
@@ -17,5 +17,5 @@
     "网络与算网融合"
   ],
   "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=49",
-  "abstract": ""
+  "abstract": "FCPlane 是一种面向零信任入侵检测的转发与计算一体化数据平面框架，旨在解决多交换机部署和多路径路由环境下线速流量分析面临的实际挑战。与现有工作大多只在单一交换机节点上验证不同，FCPlane 进一步考虑了真实网络中广泛存在的多路径转发现象，以及由此带来的负载均衡与检测结果一致性问题。其核心思想是在 flowlet 粒度上协同设计数据转发与模型计算，并引入专门的马尔可夫链模型来支持高效调度与可靠推断。基于两个公开流量数据集、七种先进的网内流量分析模型和多种网络拓扑的实验结果表明，FCPlane 能够在复杂网络环境中实现更稳定有效的流量检测。总体来看，该工作为可编程交换机支持下的高性能零信任流量分析提供了一种更贴近真实部署场景的解决方案。"
 }
