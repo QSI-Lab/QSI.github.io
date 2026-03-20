@@ -3,7 +3,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "AAAI2023Purifier",
       "title": "Purifier: Defending Data Inference Attacks via Transforming Confidence Scores",
-      "authors": "Ziqi Yang, Lijin Wang, Da Yang, Jie Wan, Ziming Zhao, Ee-Chien Chang, Fan Zhang, Kui Ren",
+      "authors": "Ziqi Yang, Lijin Wang, Da Yang, Jie Wan, Ziming Zhao, Ee-Chien Chang, Fan Zhang*, Kui Ren",
       "year": 2023,
       "venue": "AAAI",
       "ccf": "A",
@@ -78,12 +78,12 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://wp.nyu.edu/acns2024/",
-      "abstract": ""
+      "abstract": "面向 DDoS 攻击研究中表征困难、漏洞发现依赖人工的问题，提出 DDoSMiner 自动化框架，对攻击行为进行系统刻画，并结合分析流程自动挖掘潜在脆弱点，从而提升 DDoS 攻击分析、建模与防护研究的效率。"
     },
     {
       "id": "ASE2025AutoFid",
       "title": "AutoFid: Adaptive and Noise-Aware Fidelity Measurement for Quantum Programs via Circuit Graph Analysis",
-      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao*, Jianwei Yin*",
       "year": 2025,
       "venue": "ASE",
       "ccf": "A",
@@ -99,7 +99,8 @@ window.LAB_PAPERS_BUNDLE = {
         "量子智能"
       ],
       "link": "https://conf.researchr.org/home/ase-2025",
-      "abstract": ""
+      "abstract": "处于噪声高的中尺度量子（NISQ）时代，量子计算机面临着固有噪声和有限量子比特相干性的重大挑战。准确的量子态保真度评估需要多次重复测量以获得统计结果。但由于量子噪声的动态和器件依赖性，确定最佳测量次数仍是一个未解问题。现有方法要么假设对噪声模型有先验知识，要么固有地采用固定的测量策略，这限制了其在实际部署场景中的适用性。本文介绍了AutoFid，一种自适应且能感知噪声的保真度测量框架，能够根据电路结构和硬件反馈自动确定所需测试次数。AutoFid 将量子电路建模为有向无环图，并通过随机游走估计结构复杂度，从而实现测量工作量的估算。它还集成了对转译感知的功能，如门控保真度、深度膨胀和串扰，以优化迭代预算。运行期间，AutoFid 动态采样保真度结果，并基于置信区间采用早期停止策略，减少重复测量，同时保持准确性保证。我们基于18项在真实IBMQ硬件平台上执行的量子基准测试来评估AutoFid。实验结果显示，AutoFid 相比固定射击和基于学习的基线，测量成本降低了超过 50%，同时保真度偏差始终低于 0.01。利用经典软件测试指标和消融研究进行额外分析，展示了其在广泛量子工作负载下的有效性、鲁棒性和适应性。",
+      "imageUrl": "figures/TIFS2025TDQDF.png"
     },
     {
       "id": "CompNet2024metaNet",
@@ -206,7 +207,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "DASFAA2025CyberLLM",
       "title": "CyberLLM: Enable Mapping CVE to Tactics and Techniques of Cyber Threats via LLM",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
       "year": 2025,
       "venue": "DASFAA",
       "ccf": "B",
@@ -219,15 +220,15 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "大模型推理与训练"
+        "大模型 for 安全"
       ],
-      "link": "https://dasfaa2025.github.io",
-      "abstract": ""
+      "link": "https://link.springer.com/chapter/10.1007/978-981-95-4155-3_33",
+      "abstract": "CyberLLM 是一种面向网络安全场景的大语言模型方法，用于将 CVE 自动映射到 ATT&CK 框架中的攻击战术与技术。该方法将这一任务建模为多标签分类问题，以适应一个漏洞可能对应多种攻击技术的实际情况。为提升语义表达能力，CyberLLM 对漏洞文本描述进行向量化处理，并结合多种数据增强策略丰富训练信息，同时利用基于 Jaccard 距离的检索机制引入外部知识以增强上下文。实验结果表明，CyberLLM 相比 7 种代表性现有方法具有更好的映射效果。除此之外，作者还通过消融实验和可解释性分析进一步验证了数据增强与检索信息的有效性。"
     },
     {
-      "id": "DATE2025MoECalibration",
+      "id": "DATE2025MoE",
       "title": "Empowering Quantum Error Traceability with MoE for Automatic Calibration",
-      "authors": "Tingting Li, Ziming Zhao, Liqiang Lu, Siwei Tan, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao, Liqiang Lu*, Siwei Tan, Jianwei Yin*",
       "year": 2025,
       "venue": "DATE",
       "ccf": "B",
@@ -242,8 +243,8 @@ window.LAB_PAPERS_BUNDLE = {
       "researchDirections": [
         "量子智能"
       ],
-      "link": "https://www.date-conference.com/date-2025-call-papers",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/10993074",
+      "abstract": "该工作提出了一种基于专家混合（MoE）的量子校准错误回溯方法，用于解决传统自动校准过程中难以定位根因、往往需要反复尝试的问题。该方法借鉴大语言模型中的 MoE 思想，对校准失败进行可追踪分析，从而更快识别导致偏离校准状态的关键误差来源。相比仅依赖经验或固定流程的传统方法，这种机制能够在自动校准过程中实现更高效的错误定位与修正。实验结果表明，该方法在错误追踪能力和校准效率上均明显优于现有技术，并使 77 个量子比特的平均可见度提升了 25.5%。总体来看，这项研究为构建更可靠、可扩展的量子计算系统提供了一条有前景的技术路径。"
     },
     {
       "id": "ESE2022SmartFast",
@@ -268,7 +269,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "FSE2025CAShift",
       "title": "CAShift: Benchmarking Log-Based Cloud Attack Detection under Normality Shift",
-      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu, Bowen Zhang, Ziming Zhao, Yun Lin, Lei Ma, Ruitao Feng, Frank Liauw",
+      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Bowen Zhang, Ziming Zhao, Yun Lin, Lei Ma, Ruitao Feng, Frank Liauw",
       "year": 2025,
       "venue": "ESEC/SIGSOFT FSE",
       "ccf": "A",
@@ -281,10 +282,10 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "云计算与云服务器"
       ],
-      "link": "https://conf.researchr.org/home/fse-2025",
-      "abstract": ""
+      "link": "https://dl.acm.org/doi/abs/10.1145/3729346",
+      "abstract": "CAShift 是一个面向云环境日志异常检测的数据集，旨在弥补现有云系统数据集在行为覆盖范围和整体系统视角上的不足。该数据集综合考虑了云系统中不同软件角色，并支持应用变化、版本变化和云架构变化三种真实的正常性偏移场景，同时包含 20 种针对不同云组件的攻击场景。基于 CAShift，作者系统评估了现有日志异常检测方法在分布偏移条件下的表现，发现各类方法都会受到显著影响，性能最高可下降 34%。此外，论文还进一步研究了持续学习方法在偏移适应中的作用，结果表明其能够在一定程度上缓解性能退化，但效果高度依赖重训练数据比例和具体算法选择。总体来看，CAShift 为研究更鲁棒的云日志异常检测与分布偏移适应提供了重要基础。"
     },
     {
       "id": "ICWS2024Moirai",
@@ -308,12 +309,12 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": ""
     },
     {
-      "id": "IJCAI2025QuantumServerlessDeployment",
+      "id": "IJCAI2025QCDeploy",
       "title": "Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches",
       "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
       "year": 2025,
       "venue": "IJCAI",
-      "ccf": "A",
+      "ccf": "B",
       "core": "A*",
       "thcpl": "B",
       "type": "conference",
@@ -323,10 +324,10 @@ window.LAB_PAPERS_BUNDLE = {
         "交叉/综合/新兴"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子云平台"
       ],
-      "link": "https://2025.ijcai.org/",
-      "abstract": "面向量子无服务器计算中的电路部署优化问题，提出图对比学习与Learning-to-Rank协同设计框架，实现量子电路到多后端设备的高效映射，降低量子资源消耗并提升部署效率。"
+      "link": "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8845.pdf",
+      "abstract": "QCDeploy 是一种面向量子云服务的量子线路部署优化框架，旨在为量子无服务器场景提供更优且更灵活的部署策略。该方法将量子线路表示为有向无环图，并结合图对比学习生成线路表示，再通过面向排序的学习架构输出一组按优先级排列的候选部署方案。与现有方法通常只给出单一启发式结果不同，QCDeploy 能够同时考虑用户需求，并提供多个有效策略供选择。实验结果表明，在多种量子算法线路和不同 IBM 量子设备上，QCDeploy 相比 IBMQ 默认部署方案显著降低了部署开销，并明显提升了线路执行成功率。"
     },
     {
       "id": "INFOCOM2024Demeter",
@@ -373,7 +374,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "INFOCOM2025Fortuna",
       "title": "Fortuna: Towards Efficient Selection of High-Fidelity Link for Quantum Network in the Wild",
-      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
       "year": 2025,
       "venue": "INFOCOM",
       "ccf": "A",
@@ -382,14 +383,13 @@ window.LAB_PAPERS_BUNDLE = {
       "type": "conference",
       "accepted": true,
       "fields": [
-        "计算机网络",
-        "交叉/综合/新兴"
+        "计算机网络"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子网络"
       ],
-      "link": "https://infocom2025.ieee-infocom.org/",
-      "abstract": "面向真实量子网络中高保真度链路高效选择问题，提出Fortuna方法，基于在线学习与保真度预测模型实现链路选择决策的快速自适应，在INFOCOM 2025上验证了其在真实量子网络拓扑上的有效性。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/11044624/",
+      "abstract": "Fortuna 是一种面向量子网络的高保真链路选择算法，旨在解决现有方法依赖保真度分布假设、因而难以适应真实环境的问题。该方法在不预设保真度分布形式的前提下，将链路选择建模为多臂老虎机问题，并结合变异系数与 Thompson Sampling 设计了针对性的链路探索与选择策略。通过这种方式，Fortuna 能够更好地平衡探索与利用之间的关系，从而在噪声环境下更高效地找到高质量链路。实验结果表明，在多种生成分布和基于 10 台 IBMQ 设备提取的真实分布上，Fortuna 相比三种代表性方法都表现更优。特别是，该方法能够显著减少低质量链路选择次数，并明显降低链路保真度偏差。"
     },
     {
       "id": "INFOCOM2026Rocket",
@@ -432,7 +432,7 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作提出了一种面向流数据中新类别发现与增量更新的学习范式Portray Learning。其核心思想是为每个类别维护一个独立的“画像器”（如自编码器），将新类/已知类识别问题转化为多个彼此独立的异常检测任务。每个画像器只负责判断样本是否属于自身类别，因此不同类别之间相互独立，既支持并行处理，也便于在新类别出现时进行增量扩展。与此同时，方法引入极值理论自动确定各画像器的异常阈值，从而减少人工设定参数的需求。实验结果表明，在多个数据集和真实流场景中，Portray Learning 即使在先验知识有限的情况下也优于现有方法。"
     },
     {
-      "id": "JSAC2025VerifyAllTraffic",
+      "id": "JSAC2025FCPlane",
       "title": "Verify All Traffic: Towards Zero-Trust In-Network Intrusion Detection against Multipath Routing",
       "authors": "Ziming Zhao, Zhaoxuan Li, Xiaofei Xie, Zhipeng Liu, Tingting Li, Jiongchi Yu, Fan Zhang, Binbin Chen",
       "year": 2025,
@@ -450,70 +450,7 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=49",
-      "abstract": ""
-    },
-    {
-      "id": "KDD2025TimeWaveletFusion",
-      "title": "Towards Context-Aware Traffic Classification via Time-Wavelet Fusion Network",
-      "authors": "Ziming Zhao, Zhuoxue Song, Xiaofei Xie, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Tingting Li",
-      "year": 2025,
-      "venue": "KDD",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "数据库/数据挖掘/内容检索",
-        "人工智能"
-      ],
-      "researchDirections": [
-        "网络与算网融合"
-      ],
-      "link": "https://kdd2025.kdd.org/",
-      "abstract": ""
-    },
-    {
-      "id": "KDD2026QuaMap",
-      "title": "QuaMap: A Multi-Backend Benchmark Dataset for Quantum Circuit Mapping and Learning-Based Compiler Evaluation",
-      "authors": "Ziming Zhao, Tingting Li, Zhaoxuan Li, Jianwei Yin",
-      "year": 2026,
-      "venue": "KDD",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "数据库/数据挖掘/内容检索",
-        "交叉/综合/新兴"
-      ],
-      "researchDirections": [
-        "量子智能"
-      ],
-      "link": "https://kdd2026.kdd.org/",
-      "abstract": ""
-    },
-    {
-      "id": "KDD2026VQFlow",
-      "title": "VQFlow: A Benchmark Dataset for Encrypted Video Streaming Traffic across QoS Configurations",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
-      "year": 2026,
-      "venue": "KDD",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "数据库/数据挖掘/内容检索",
-        "计算机网络"
-      ],
-      "researchDirections": [
-        "网络与算网融合"
-      ],
-      "link": "https://kdd2026.kdd.org/",
-      "abstract": ""
+      "abstract": "FCPlane 是一种面向零信任入侵检测的转发与计算一体化数据平面框架，旨在解决多交换机部署和多路径路由环境下线速流量分析面临的实际挑战。与现有工作大多只在单一交换机节点上验证不同，FCPlane 进一步考虑了真实网络中广泛存在的多路径转发现象，以及由此带来的负载均衡与检测结果一致性问题。其核心思想是在 flowlet 粒度上协同设计数据转发与模型计算，并引入专门的马尔可夫链模型来支持高效调度与可靠推断。基于两个公开流量数据集、七种先进的网内流量分析模型和多种网络拓扑的实验结果表明，FCPlane 能够在复杂网络环境中实现更稳定有效的流量检测。总体来看，该工作为可编程交换机支持下的高性能零信任流量分析提供了一种更贴近真实部署场景的解决方案。"
     },
     {
       "id": "MM2024Minerva",
@@ -539,7 +476,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "MM2025StealthyAE",
       "title": "Stealthy-AE: Generating Stealthy Adversarial Examples through Online Social Networks",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li*, Fan Zhang*",
       "year": 2025,
       "venue": "ACM Multimedia (MM)",
       "ccf": "A",
@@ -552,10 +489,10 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "AI安全"
       ],
-      "link": "https://acmmm2025.org/",
-      "abstract": ""
+      "link": "https://dl.acm.org/doi/abs/10.1145/3746027.3755240",
+      "abstract": "该工作提出了“隐蔽对抗样本”这一新概念，即样本在通过在线社交网络传播前表现为正常图像，但在经过平台的压缩、格式转换等处理后会激活其对抗性。围绕这一现象，作者设计了一套隐蔽对抗样本生成框架，通过质量因子计算、结合差分 JPEG 层的扩散模型来模拟社交平台传输过程，并利用拉格朗日乘子方法对生成过程进行优化。与传统对抗样本不同，这类方法能够更贴近真实网络传播场景中的攻击方式，因此具有更强的隐蔽性和现实威胁。实验结果表明，该方法在多个社交平台和多种目标模型上均优于七种现有先进对抗样本生成技术。进一步的抗检测评估和不同攻击设置下的扩展实验也验证了该方案的可扩展性与有效性。"
     },
     {
       "id": "NDSS2026Chimera",
@@ -575,8 +512,9 @@ window.LAB_PAPERS_BUNDLE = {
         "大模型多智能体",
         "网络安全"
       ],
-      "link": "",
-      "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。"
+      "link": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+      "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
+      "imageUrl": "figures/NDSS2026Chimera.png"
     },
     {
       "id": "SECON2024P2PBotnetDetection",
@@ -598,6 +536,28 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://secon2024.ieee-secon.org/",
       "abstract": ""
+    },
+    {
+      "id": "SIGKDD2025TrafficScope",
+      "title": "Towards Context-Aware Traffic Classification via Time-Wavelet Fusion Network",
+      "authors": "Ziming Zhao, Zhuoxue Song, Xiaofei Xie, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Tingting Li",
+      "year": 2025,
+      "venue": "KDD",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "数据库/数据挖掘/内容检索",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "加密流量",
+        "网络安全"
+      ],
+      "link": "https://dl.acm.org/doi/abs/10.1145/3690624.3709315",
+      "abstract": "TrafficScope 是一种面向加密流量分类的时域—小波融合 Transformer 网络，旨在解决仅依赖流内语义特征时难以区分相似攻击与正常行为的问题。该方法不仅提取流内特征，还进一步建模流量的上下文信息，以形成更全面的表示。针对上下文流量具有非平稳、动态变化的特点，TrafficScope 引入小波变换提取更稳定的不变特征，并通过交叉注意力机制融合时域特征与小波域特征。实验结果表明，TrafficScope 在多组真实流量数据集上优于现有多种先进方法。进一步的相似流内特征、数据污染、流操纵和动态上下文实验也验证了该方法的鲁棒性、稳定性以及跨数据集应用潜力。"
     },
     {
       "id": "SIGKDD2026QuMap",
@@ -787,7 +747,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TIFS2025CGIFuzz",
       "title": "CGIFuzz: Enabling Gray-Box Fuzzing for Web CGI of IoT Devices",
-      "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao, Jiongyi Chen, Fan Zhang",
+      "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao*, Jiongyi Chen, Fan Zhang*",
       "year": 2025,
       "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
       "ccf": "A",
@@ -800,31 +760,32 @@ window.LAB_PAPERS_BUNDLE = {
         "软件工程/系统软件/程序设计语言"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "IoT安全"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/11199890/",
+      "abstract": "CGIFuzz 是首个面向 Linux 物联网设备中 CGI 程序的灰盒模糊测试框架，旨在弥补现有 IoT 漏洞挖掘方法对 CGI 组件关注不足的问题。该方法首先通过 Relay-Pass Instrumentation 实现 CGI 程序的动态插桩，从而支持更有效的执行反馈收集。随后，CGIFuzz 利用大语言模型辅助生成高质量的测试输入，并结合程序运行过程中的关键特征设计漏洞检测预言机，用于识别命令注入和内存破坏等安全问题。实验结果表明，CGIFuzz 在 10 款主流 IoT 设备上相比现有先进模糊测试工具具有更强的路径覆盖和漏洞发现能力。最终，该框架共发现 69 个漏洞，其中包括 13 个此前未知漏洞，并已有 9 个获得 CVE 编号。",
+      "imageUrl": "figures/TIFS2025CGIFuzz.png"
     },
     {
-      "id": "TIFS2025QuantumCloudFingerprinting",
+      "id": "TIFS2025TDQDF",
       "title": "Task-Driven Device Fingerprinting for Quantum Cloud Platforms via Modeling QNN Outcomes under Noise",
       "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
       "year": 2025,
       "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
       "ccf": "A",
-      "core": "A*",
+      "core": "N",
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
       "fields": [
-        "交叉/综合/新兴",
         "网络与信息安全"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子安全"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/11202567/",
+      "abstract": "该工作提出了一种基于量子任务输出的任务驱动量子设备指纹识别方法 TD-QDF，用于从含噪量子计算结果中提取设备特征。与以往依赖硬件细节或噪声先验信息的方法不同，TD-QDF 仅利用量子任务输出即可完成设备识别，因此具有更强的实用性和可部署性。作者在 10 台 IBM 量子计算机上基于 6 种量子神经网络线路进行了大规模实验，并进一步扩展到 4 类经典量子算法和 3 个 127 比特处理器，以验证方法的通用性与可扩展性。实验结果表明，该方法在 3 分类、7 分类和 10 分类设备识别任务中分别取得了较高的准确率，表现出较强的区分能力。总体来看，TD-QDF 为量子云服务中的设备问责、异常检测与安全分析提供了一种新的技术路径。",
+      "imageUrl": "figures/TIFS2025TDQDF.png"
     },
     {
       "id": "TIFS2026RFC",
@@ -905,8 +866,9 @@ window.LAB_PAPERS_BUNDLE = {
       "researchDirections": [
         "网络与算网融合"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/10638516",
+      "abstract": "FOSS 是一种面向异常检测的网络入侵检测方法，旨在解决未知攻击细粒度识别和合法流量持续变化带来的适应性问题。该方法以孤立树为核心构建模型，通过划分数据分布空间并结合隔离思想，更有效地区分正常流量与异常行为。与此同时，FOSS 还强调增量式模型更新，使系统能够随着网络环境变化不断调整和演进。基于公开网络入侵数据集和与运营商合作的真实部署实验，结果表明 FOSS 在检测性能上优于现有先进方法。尤其在 DDoS 等此前未见攻击的细粒度识别方面，FOSS 展现出较强的实用价值。",
+      "imageUrl": "figures/TON2024FOSS.png"
     },
     {
       "id": "ToN2025Exploiting",
@@ -932,11 +894,11 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TON2025SOFA",
       "title": "SOFA: Service-Oriented Fine-Grained Attack Traffic Detection with Meta Learning",
-      "authors": "Peng Fang, Feiyang Huang, Ziming Zhao, Fan Zhang, Wenrui Ma",
+      "authors": "Peng Fang, Feiyang Huang, Ziming Zhao*, Fan Zhang*, Wenrui Ma",
       "year": 2025,
       "venue": "IEEE/ACM Transactions on Networking (TON)",
       "ccf": "A",
-      "core": "A*",
+      "core": "N",
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
@@ -947,13 +909,13 @@ window.LAB_PAPERS_BUNDLE = {
       "researchDirections": [
         "网络与算网融合"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/11316161",
+      "abstract": "SOFA 是一种面向企业网络的两阶段流量检测框架，旨在提升对已知与未知网络攻击的细粒度识别能力。该方法首先从服务类型出发，对不同业务流量进行区分，并为每类正常流量分别训练独立的一类模型，从而更准确地发现服务相关的异常行为。随后，SOFA 在第二阶段引入基于 ResNet 的孪生网络，利用元学习构建稳健的度量空间，以缓解恶意样本稀缺带来的检测困难。实验结果表明，SOFA 在四个常用网络流量数据集上均取得了优于现有方法的性能，尤其在细粒度攻击检测方面表现突出。总体来看，SOFA 为动态且样本不平衡的企业网络环境提供了一种更具适应性的入侵检测方案。"
     },
     {
       "id": "TON2025TNT",
       "title": "TNT: A Large-Scale P2P Botnet Detection Framework via Communication Topology and Network Traffic",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhijian Xu, Yu Li, Qiang Xu, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhijian Xu, Yu Li, Qiang Xu*, Fan Zhang*",
       "year": 2025,
       "venue": "IEEE/ACM Transactions on Networking (TON)",
       "ccf": "A",
@@ -966,10 +928,11 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "网络安全",
+        "僵尸网络"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
-      "abstract": "提出TNT框架，联合建模P2P僵尸网络的通信拓扑与网络流量特征，基于图神经网络与流量特征融合实现大规模P2P僵尸网络的高精度检测，在真实骨干网数据集上显著优于现有方法。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/11168124",
+      "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，旨在解决传统拓扑识别方法难以区分、流量分析方法又容易受到海量背景流量干扰的问题。该框架结合通信拓扑与网络流量两类信息，由 tScouter、tCommander 和 tPatroller 三个紧密协作的模块分别完成拓扑刻画、节点检查规划和节点流量分析。通过有计划地只检测部分节点流量，TNT 在检测精度与系统开销之间实现了更好的平衡。实验结果表明，在包含 6 类僵尸网络和 7 类正常 P2P 流量的多组场景中，TNT 能够在较少节点检查条件下实现接近 99.9% 的检测准确率。除此之外，论文还从异构节点、精度损失和归因矩阵等角度进行了扩展分析，体现了该方法较强的可解释性与实用价值。"
     },
     {
       "id": "TPDS2026HyFaaS",
@@ -1110,8 +1073,12 @@ window.LAB_PAPERS_BUNDLE = {
     "大模型推理与训练",
     "量子智能",
     "AI安全",
+    "IoT安全",
+    "云计算与云服务器",
+    "僵尸网络",
     "加密流量",
     "大数据系统优化",
+    "大模型 for 安全",
     "大模型多智能体",
     "大模型训练模拟",
     "服务器无感知计算",
@@ -1121,7 +1088,10 @@ window.LAB_PAPERS_BUNDLE = {
     "算力网络",
     "网络安全",
     "量子EDA",
+    "量子云平台",
+    "量子安全",
     "量子数据集",
+    "量子网络",
     "量子软工"
   ],
   "ccfFieldAbbr": {

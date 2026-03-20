@@ -92,7 +92,7 @@ IJCAI2026QAgent.png
 3. 重新生成合并文件：
 
 ```bash
-python3 scripts/build_papers_bundle.py
+python scripts/build_papers_bundle.py
 ```
 
 生成后会更新：

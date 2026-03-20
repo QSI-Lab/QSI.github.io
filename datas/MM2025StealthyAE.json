@@ -1,7 +1,7 @@
 {
   "id": "MM2025StealthyAE",
   "title": "Stealthy-AE: Generating Stealthy Adversarial Examples through Online Social Networks",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li*, Fan Zhang*",
   "year": 2025,
   "venue": "ACM Multimedia (MM)",
   "ccf": "A",
@@ -14,8 +14,8 @@
     "网络与信息安全"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "AI安全"
   ],
-  "link": "https://acmmm2025.org/",
-  "abstract": ""
+  "link": "https://dl.acm.org/doi/abs/10.1145/3746027.3755240",
+  "abstract": "该工作提出了“隐蔽对抗样本”这一新概念，即样本在通过在线社交网络传播前表现为正常图像，但在经过平台的压缩、格式转换等处理后会激活其对抗性。围绕这一现象，作者设计了一套隐蔽对抗样本生成框架，通过质量因子计算、结合差分 JPEG 层的扩散模型来模拟社交平台传输过程，并利用拉格朗日乘子方法对生成过程进行优化。与传统对抗样本不同，这类方法能够更贴近真实网络传播场景中的攻击方式，因此具有更强的隐蔽性和现实威胁。实验结果表明，该方法在多个社交平台和多种目标模型上均优于七种现有先进对抗样本生成技术。进一步的抗检测评估和不同攻击设置下的扩展实验也验证了该方案的可扩展性与有效性。"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "IJCAI2025QCDeploy",
+  "title": "Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches",
+  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "year": 2025,
+  "venue": "IJCAI",
+  "ccf": "B",
+  "core": "A*",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "量子云平台"
+  ],
+  "link": "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8845.pdf",
+  "abstract": "QCDeploy 是一种面向量子云服务的量子线路部署优化框架，旨在为量子无服务器场景提供更优且更灵活的部署策略。该方法将量子线路表示为有向无环图，并结合图对比学习生成线路表示，再通过面向排序的学习架构输出一组按优先级排列的候选部署方案。与现有方法通常只给出单一启发式结果不同，QCDeploy 能够同时考虑用户需求，并提供多个有效策略供选择。实验结果表明，在多种量子算法线路和不同 IBM 量子设备上，QCDeploy 相比 IBMQ 默认部署方案显著降低了部署开销，并明显提升了线路执行成功率。"
+}

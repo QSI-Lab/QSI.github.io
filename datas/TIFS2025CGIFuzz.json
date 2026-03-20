@@ -1,7 +1,7 @@
 {
   "id": "TIFS2025CGIFuzz",
   "title": "CGIFuzz: Enabling Gray-Box Fuzzing for Web CGI of IoT Devices",
-  "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao, Jiongyi Chen, Fan Zhang",
+  "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao*, Jiongyi Chen, Fan Zhang*",
   "year": 2025,
   "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
   "ccf": "A",
@@ -14,8 +14,9 @@
     "软件工程/系统软件/程序设计语言"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "IoT安全"
   ],
-  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-  "abstract": ""
+  "link": "https://ieeexplore.ieee.org/abstract/document/11199890/",
+  "abstract": "CGIFuzz 是首个面向 Linux 物联网设备中 CGI 程序的灰盒模糊测试框架，旨在弥补现有 IoT 漏洞挖掘方法对 CGI 组件关注不足的问题。该方法首先通过 Relay-Pass Instrumentation 实现 CGI 程序的动态插桩，从而支持更有效的执行反馈收集。随后，CGIFuzz 利用大语言模型辅助生成高质量的测试输入，并结合程序运行过程中的关键特征设计漏洞检测预言机，用于识别命令注入和内存破坏等安全问题。实验结果表明，CGIFuzz 在 10 款主流 IoT 设备上相比现有先进模糊测试工具具有更强的路径覆盖和漏洞发现能力。最终，该框架共发现 69 个漏洞，其中包括 13 个此前未知漏洞，并已有 9 个获得 CVE 编号。",
+  "imageUrl": "figures/TIFS2025CGIFuzz.png"
 }

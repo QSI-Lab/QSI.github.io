@@ -1,7 +1,7 @@
 {
   "id": "INFOCOM2025Fortuna",
   "title": "Fortuna: Towards Efficient Selection of High-Fidelity Link for Quantum Network in the Wild",
-  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
   "year": 2025,
   "venue": "INFOCOM",
   "ccf": "A",
@@ -10,12 +10,11 @@
   "type": "conference",
   "accepted": true,
   "fields": [
-    "计算机网络",
-    "交叉/综合/新兴"
+    "计算机网络"
   ],
   "researchDirections": [
-    "量子智能"
+    "量子网络"
   ],
-  "link": "https://infocom2025.ieee-infocom.org/",
-  "abstract": "面向真实量子网络中高保真度链路高效选择问题，提出Fortuna方法，基于在线学习与保真度预测模型实现链路选择决策的快速自适应，在INFOCOM 2025上验证了其在真实量子网络拓扑上的有效性。"
+  "link": "https://ieeexplore.ieee.org/abstract/document/11044624/",
+  "abstract": "Fortuna 是一种面向量子网络的高保真链路选择算法，旨在解决现有方法依赖保真度分布假设、因而难以适应真实环境的问题。该方法在不预设保真度分布形式的前提下，将链路选择建模为多臂老虎机问题，并结合变异系数与 Thompson Sampling 设计了针对性的链路探索与选择策略。通过这种方式，Fortuna 能够更好地平衡探索与利用之间的关系，从而在噪声环境下更高效地找到高质量链路。实验结果表明，在多种生成分布和基于 10 台 IBMQ 设备提取的真实分布上，Fortuna 相比三种代表性方法都表现更优。特别是，该方法能够显著减少低质量链路选择次数，并明显降低链路保真度偏差。"
 }

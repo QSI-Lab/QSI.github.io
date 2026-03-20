@@ -1,7 +1,7 @@
 {
   "id": "FSE2025CAShift",
   "title": "CAShift: Benchmarking Log-Based Cloud Attack Detection under Normality Shift",
-  "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu, Bowen Zhang, Ziming Zhao, Yun Lin, Lei Ma, Ruitao Feng, Frank Liauw",
+  "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Bowen Zhang, Ziming Zhao, Yun Lin, Lei Ma, Ruitao Feng, Frank Liauw",
   "year": 2025,
   "venue": "ESEC/SIGSOFT FSE",
   "ccf": "A",
@@ -14,8 +14,8 @@
     "网络与信息安全"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "云计算与云服务器"
   ],
-  "link": "https://conf.researchr.org/home/fse-2025",
-  "abstract": ""
+  "link": "https://dl.acm.org/doi/abs/10.1145/3729346",
+  "abstract": "CAShift 是一个面向云环境日志异常检测的数据集，旨在弥补现有云系统数据集在行为覆盖范围和整体系统视角上的不足。该数据集综合考虑了云系统中不同软件角色，并支持应用变化、版本变化和云架构变化三种真实的正常性偏移场景，同时包含 20 种针对不同云组件的攻击场景。基于 CAShift，作者系统评估了现有日志异常检测方法在分布偏移条件下的表现，发现各类方法都会受到显著影响，性能最高可下降 34%。此外，论文还进一步研究了持续学习方法在偏移适应中的作用，结果表明其能够在一定程度上缓解性能退化，但效果高度依赖重训练数据比例和具体算法选择。总体来看，CAShift 为研究更鲁棒的云日志异常检测与分布偏移适应提供了重要基础。"
 }
