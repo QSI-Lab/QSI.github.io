@@ -309,12 +309,12 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": ""
     },
     {
-      "id": "IJCAI2025QuantumServerlessDeployment",
+      "id": "IJCAI2025QCDeploy",
       "title": "Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches",
       "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
       "year": 2025,
       "venue": "IJCAI",
-      "ccf": "A",
+      "ccf": "B",
       "core": "A*",
       "thcpl": "B",
       "type": "conference",
@@ -324,10 +324,10 @@ window.LAB_PAPERS_BUNDLE = {
         "交叉/综合/新兴"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子云平台"
       ],
-      "link": "https://2025.ijcai.org/",
-      "abstract": "面向量子无服务器计算中的电路部署优化问题，提出图对比学习与Learning-to-Rank协同设计框架，实现量子电路到多后端设备的高效映射，降低量子资源消耗并提升部署效率。"
+      "link": "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8845.pdf",
+      "abstract": "QCDeploy 是一种面向量子云服务的量子线路部署优化框架，旨在为量子无服务器场景提供更优且更灵活的部署策略。该方法将量子线路表示为有向无环图，并结合图对比学习生成线路表示，再通过面向排序的学习架构输出一组按优先级排列的候选部署方案。与现有方法通常只给出单一启发式结果不同，QCDeploy 能够同时考虑用户需求，并提供多个有效策略供选择。实验结果表明，在多种量子算法线路和不同 IBM 量子设备上，QCDeploy 相比 IBMQ 默认部署方案显著降低了部署开销，并明显提升了线路执行成功率。"
     },
     {
       "id": "INFOCOM2024Demeter",
@@ -374,7 +374,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "INFOCOM2025Fortuna",
       "title": "Fortuna: Towards Efficient Selection of High-Fidelity Link for Quantum Network in the Wild",
-      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
       "year": 2025,
       "venue": "INFOCOM",
       "ccf": "A",
@@ -383,14 +383,13 @@ window.LAB_PAPERS_BUNDLE = {
       "type": "conference",
       "accepted": true,
       "fields": [
-        "计算机网络",
-        "交叉/综合/新兴"
+        "计算机网络"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子网络"
       ],
-      "link": "https://infocom2025.ieee-infocom.org/",
-      "abstract": "面向真实量子网络中高保真度链路高效选择问题，提出Fortuna方法，基于在线学习与保真度预测模型实现链路选择决策的快速自适应，在INFOCOM 2025上验证了其在真实量子网络拓扑上的有效性。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/11044624/",
+      "abstract": "Fortuna 是一种面向量子网络的高保真链路选择算法，旨在解决现有方法依赖保真度分布假设、因而难以适应真实环境的问题。该方法在不预设保真度分布形式的前提下，将链路选择建模为多臂老虎机问题，并结合变异系数与 Thompson Sampling 设计了针对性的链路探索与选择策略。通过这种方式，Fortuna 能够更好地平衡探索与利用之间的关系，从而在噪声环境下更高效地找到高质量链路。实验结果表明，在多种生成分布和基于 10 台 IBMQ 设备提取的真实分布上，Fortuna 相比三种代表性方法都表现更优。特别是，该方法能够显著减少低质量链路选择次数，并明显降低链路保真度偏差。"
     },
     {
       "id": "INFOCOM2026Rocket",
@@ -477,7 +476,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "MM2025StealthyAE",
       "title": "Stealthy-AE: Generating Stealthy Adversarial Examples through Online Social Networks",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li*, Fan Zhang*",
       "year": 2025,
       "venue": "ACM Multimedia (MM)",
       "ccf": "A",
@@ -490,10 +489,10 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "AI安全"
       ],
-      "link": "https://acmmm2025.org/",
-      "abstract": ""
+      "link": "https://dl.acm.org/doi/abs/10.1145/3746027.3755240",
+      "abstract": "该工作提出了“隐蔽对抗样本”这一新概念，即样本在通过在线社交网络传播前表现为正常图像，但在经过平台的压缩、格式转换等处理后会激活其对抗性。围绕这一现象，作者设计了一套隐蔽对抗样本生成框架，通过质量因子计算、结合差分 JPEG 层的扩散模型来模拟社交平台传输过程，并利用拉格朗日乘子方法对生成过程进行优化。与传统对抗样本不同，这类方法能够更贴近真实网络传播场景中的攻击方式，因此具有更强的隐蔽性和现实威胁。实验结果表明，该方法在多个社交平台和多种目标模型上均优于七种现有先进对抗样本生成技术。进一步的抗检测评估和不同攻击设置下的扩展实验也验证了该方案的可扩展性与有效性。"
     },
     {
       "id": "NDSS2026Chimera",
@@ -928,10 +927,11 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "网络安全",
+        "僵尸网络"
       ],
       "link": "https://ieeexplore.ieee.org/abstract/document/11168124",
-      "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，旨在解决传统拓扑分析方法难以区分、流量分析方法又易受海量背景流量干扰的问题。该框架结合通信拓扑与网络流量两类信息，由 tScouter、tCommander 和 tPatroller 三个紧密协作的组件分别完成拓扑刻画、节点检查规划和节点流量分析。通过只对部分节点进行有策略的流量检测，TNT 在检测精度与系统开销之间实现了更好的平衡。实验结果表明，在包含多类僵尸网络和正常 P2P 流量的多组场景中，TNT 能够在较少节点检查条件下实现很高的检测准确率。总体来看，该方法为大规模 P2P 僵尸网络识别提供了一种高效且具有可解释性的解决方案。"
+      "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，旨在解决传统拓扑识别方法难以区分、流量分析方法又容易受到海量背景流量干扰的问题。该框架结合通信拓扑与网络流量两类信息，由 tScouter、tCommander 和 tPatroller 三个紧密协作的模块分别完成拓扑刻画、节点检查规划和节点流量分析。通过有计划地只检测部分节点流量，TNT 在检测精度与系统开销之间实现了更好的平衡。实验结果表明，在包含 6 类僵尸网络和 7 类正常 P2P 流量的多组场景中，TNT 能够在较少节点检查条件下实现接近 99.9% 的检测准确率。除此之外，论文还从异构节点、精度损失和归因矩阵等角度进行了扩展分析，体现了该方法较强的可解释性与实用价值。"
     },
     {
       "id": "TPDS2026HyFaaS",
@@ -1074,6 +1074,7 @@ window.LAB_PAPERS_BUNDLE = {
     "AI安全",
     "IoT安全",
     "云计算与云服务器",
+    "僵尸网络",
     "加密流量",
     "大数据系统优化",
     "大模型 for 安全",
@@ -1086,8 +1087,10 @@ window.LAB_PAPERS_BUNDLE = {
     "算力网络",
     "网络安全",
     "量子EDA",
+    "量子云平台",
     "量子安全",
     "量子数据集",
+    "量子网络",
     "量子软工"
   ],
   "ccfFieldAbbr": {
