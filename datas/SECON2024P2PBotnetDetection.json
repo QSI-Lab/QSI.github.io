@@ -1,7 +1,7 @@
 {
   "id": "SECON2024P2PBotnetDetection",
   "title": "A Large-Scale P2P Botnet Detection Framework via Topology and Traffic Co-Verification",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
   "year": 2024,
   "venue": "SECON",
   "ccf": "B",
@@ -17,5 +17,5 @@
     "网络与算网融合"
   ],
   "link": "https://secon2024.ieee-secon.org/",
-  "abstract": ""
+  "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，结合通信拓扑分析与部分节点流量检测，通过 tScouter、tCommander 和 tPatroller 三个紧耦合组件，在检测精度与分析开销之间取得了有效平衡。实验基于 42 组数据、覆盖 6 类僵尸网络和 7 类合法 P2P 流量，结果表明 TNT 在超过 14 万节点的通信图中仅检查约 2 万个节点即可达到约 99.9% 的检测准确率。"
 }

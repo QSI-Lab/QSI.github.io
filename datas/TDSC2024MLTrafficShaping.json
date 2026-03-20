@@ -1,7 +1,7 @@
 {
   "id": "TDSC2024MLTrafficShaping",
   "title": "Effective DDoS Mitigation via ML-Driven In-network Traffic Shaping",
-  "authors": "Ziming Zhao, Zhuotao Liu, Huan Chen, Fan Zhang, Zhuoxue Song, Zhaoxuan Li",
+  "authors": "Ziming Zhao, Zhuotao Liu, Huan Chen, Fan Zhang*, Zhuoxue Song, Zhaoxuan Li",
   "year": 2024,
   "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
   "ccf": "A",
@@ -17,5 +17,5 @@
     "网络与算网融合"
   ],
   "link": "https://www.computer.org/csdl/journal/tq",
-  "abstract": ""
+  "abstract": "DFNet 提出了一种新的 DDoS 防御范式，即“偏好驱动、网络内强制执行的流量整形”，核心目标不是持续追逐攻击特征，而是在未知攻击条件下优先保障受害者真正期望的流量被可靠转发。实验表明，DFNet 将受害者流量偏好编码进数据平面调度机制后，即使面对未见过的攻击，也能在 80 Gbps 上行、40 Gbps 瓶颈链路条件下转发 99.93% 的目标流量，同时额外转发开销低于 0.1%。"
 }

@@ -16,5 +16,5 @@
     "网络与算网融合"
   ],
   "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-  "abstract": "针对对抗样本生成效率低的问题，提出SAGE框架，通过加速策略引导对抗样本生成方向，在多个基准数据集上显著提升生成速度与攻击成功率，同时保持对抗样本的不可感知性。"
+  "abstract": "SAGE 是一个用于加速黑盒图像对抗样本生成的框架，通过 sLocator 优化初始点、sRudder 优化搜索过程，并结合显著图与边界框信息将扰动更高效地引导到最具攻击性的方向，从而显著降低查询开销。实验表明，SAGE 在 MNIST、CIFAR10、ImageNet 及真实世界 Google Cloud Vision API 上均有效，可将查询次数减少 20% 以上，并将攻击成功率提升至 95%–100%，即使面对经过对抗训练的鲁棒模型仍表现出良好的灵活性、稳定性和低开销。"
 }

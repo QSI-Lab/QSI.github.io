@@ -1,7 +1,7 @@
 {
   "id": "TDSC2023ERNN",
   "title": "ERNN: Error-Resilient RNN for Encrypted Traffic Detection towards Network-Induced Phenomena",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Jialun Jiang, Fengyuan Yu, Fan Zhang, Congyuan Xu, Xinjie Zhao, Rui Zhang, Shize Guo",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Jialun Jiang, Fengyuan Yu, Fan Zhang*, Congyuan Xu*, Xinjie Zhao, Rui Zhang, Shize Guo",
   "year": 2023,
   "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
   "ccf": "A",
@@ -17,5 +17,6 @@
     "网络与算网融合"
   ],
   "link": "https://www.computer.org/csdl/journal/tq",
-  "abstract": "针对网络诱导现象（丢包、乱序、延迟抖动）导致加密流量检测性能下降的问题，提出ERNN框架，引入误差弹性机制增强RNN对不完整序列的适应性，在真实网络环境下保持高检测精度。"
+  "abstract": "ERNN 是一种面向网络诱发现象的鲁棒端到端 RNN 流量检测模型，通过引入 session gate，在训练中模拟丢包、重传、乱序等常见异常，并结合 Mealy 机动态调整这些现象的概率分布，从而提升真实网络环境下的检测稳健性。实验表明，ERNN 在 10 Gbps 数据平面、约 16% 异常报文序列条件下仍可识别 98.63% 的加密入侵流量，在多用户并发场景下对加密恶意流量的识别率超过 97%，整体准确率比现有最优方法提升约 4%，且具有更好的稳定性与可扩展性。"
+
 }

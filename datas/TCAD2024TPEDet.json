@@ -1,7 +1,7 @@
 {
   "id": "TCAD2024TPEDet",
   "title": "TPE-Det: A Tamper-Proof External Detector via Hardware Traces Analysis against IoT Malware",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
   "year": 2024,
   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
   "ccf": "A",
@@ -17,5 +17,5 @@
     "网络与算网融合"
   ],
   "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
-  "abstract": ""
+  "abstract": "TPE-Det 是一种基于侧信道的 IoT 恶意软件检测方案，通过外部监控串行外设接口（SPI）总线提取片上轨迹并恢复轻量级操作日志，从而避免传统系统调用、系统日志等内部监控易被篡改且数据量过大的问题。实验结果表明，结合统计、序列和图特征的机器学习模型后，TPE-Det 具备较强的防篡改能力，并在检测准确率及时间、空间开销方面优于现有方法。"
 }

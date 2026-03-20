@@ -1,7 +1,7 @@
 {
   "id": "TMC2023CMD",
   "title": "CMD: Co-Analyzed IoT Malware Detection and Forensics via Network and Hardware Domains",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Xiaofei Xie, Haitao Xu, Binbin Chen",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Fan Zhang*, Xiaofei Xie, Haitao Xu, Binbin Chen",
   "year": 2023,
   "venue": "IEEE Transactions on Mobile Computing (TMC)",
   "ccf": "A",
@@ -17,5 +17,5 @@
     "网络与算网融合"
   ],
   "link": "https://www.computer.org/csdl/journal/tm",
-  "abstract": ""
+  "abstract": "CMD 是一种结合网络域与硬件域的 IoT 恶意软件检测与取证系统，其中网络侧利用定制胶囊神经网络提取跨源流量的上下文语义，硬件侧则通过片上 SPI 信号以侧信道方式恢复文件操作日志，从而弥补单一视角难以覆盖恶意软件多阶段生命周期的问题。实验表明，CMD 的检测性能优异，F1 值可达约 99.88%，在面对可杀进程或篡改日志的自适应对手时仍可恢复 96.88%–99.75% 的操作命令，同时具备零设备侧延迟、极低 CPU 开销和较小日志存储开销等优势。"
 }
