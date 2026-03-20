@@ -6,16 +6,16 @@
   "venue": "INFOCOM",
   "ccf": "A",
   "core": "A*",
-  "THCPL": "A",
-  "link": "https://ieeexplore.ieee.org/abstract/document/10621303",
+  "thcpl": "A",
   "type": "conference",
   "accepted": true,
   "fields": [
     "计算机网络"
   ],
-  "researchDirection": [
+  "researchDirections": [
     "服务器无感知计算",
     "算力网络"
   ],
+  "link": "https://ieeexplore.ieee.org/abstract/document/10621303",
   "abstract": "针对跨域服务器无感知数据分析中函数级资源调度复杂、SLO难以保证的问题，提出Demeter细粒度函数编排系统。通过分层GNN与多智能体强化学习实现函数级放置与资源分配协同优化，并设计拥塞控制机制。实验显示可降低23.3%–32.7%成本并减少27.4%以上SLO违约。"
 }

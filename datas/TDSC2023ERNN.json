@@ -13,7 +13,9 @@
     "网络与信息安全",
     "计算机网络"
   ],
-  "researchDirection": "网络与算网融合",
+  "researchDirections": [
+    "网络与算网融合"
+  ],
   "link": "https://www.computer.org/csdl/journal/tq",
   "abstract": "针对网络诱导现象（丢包、乱序、延迟抖动）导致加密流量检测性能下降的问题，提出ERNN框架，引入误差弹性机制增强RNN对不完整序列的适应性，在真实网络环境下保持高检测精度。"
 }

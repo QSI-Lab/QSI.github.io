@@ -13,7 +13,9 @@
     "计算机网络",
     "网络与信息安全"
   ],
-  "researchDirection": "网络与算网融合",
+  "researchDirections": [
+    "网络与算网融合"
+  ],
   "link": "https://infocom2024.ieee-infocom.org/",
   "abstract": "提出RNN模型与可编程交换机协同设计的入侵检测系统RIDS，将部分检测逻辑卸载至数据平面，实现线速检测与高精度的有机结合，在INFOCOM 2024上展示了其在真实网络环境中的优越性能。"
 }

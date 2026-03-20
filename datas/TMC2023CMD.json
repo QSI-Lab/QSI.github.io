@@ -13,7 +13,9 @@
     "网络与信息安全",
     "计算机网络"
   ],
-  "researchDirection": "网络与算网融合",
+  "researchDirections": [
+    "网络与算网融合"
+  ],
   "link": "https://www.computer.org/csdl/journal/tm",
   "abstract": ""
 }

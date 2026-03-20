@@ -6,12 +6,15 @@
   "venue": "AAAI",
   "ccf": "A",
   "core": "A*",
-  "THCPL": "A",
-  "link":"https://ojs.aaai.org/index.php/AAAI/article/view/38457",
+  "thcpl": "A",
   "type": "conference",
   "accepted": true,
-  "fields": ["人工智能"],
-  "researchDirection": "量子软工",
-  "abstract": "RelOpt 是一种面向量子程序的语义保持优化框架，旨在在降低噪声影响和优化执行性能的同时，避免现有启发式或学习式方法可能引入的语义错误。它基于轻量级中间语言 QCore，构建了支持部分迹等价、测量分布保持以及近似正确性的关系操作语义，用于刻画优化前后程序之间的正确性关系。RelOpt 在优化过程中结合门数量、线路深度和纠错开销等多种目标进行综合权衡，并且只应用那些经过形式化验证、满足用户指定契约的重写规则。其核心引擎融合了符号模拟、SMT 推理和代价分析，从而实现安全且高效的量子程序优化。实验结果表明，在 QFT、Grover 和 QAOA 等标准基准上，RelOpt 在多项成本指标上均优于 Qiskit、t|ket> 和学习式优化器，同时保持严格的形式化保证。",
-  "imageUrl": "figures/AAAI2026RelOpt.png",
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "量子软工"
+  ],
+  "link": "https://ojs.aaai.org/index.php/AAAI/article/view/38457",
+  "abstract": "RelOpt 是一种面向量子程序的语义保持优化框架，旨在在降低噪声影响和优化执行性能的同时，避免现有启发式或学习式方法可能引入的语义错误。它基于轻量级中间语言 QCore，构建了支持部分迹等价、测量分布保持以及近似正确性的关系操作语义，用于刻画优化前后程序之间的正确性关系。RelOpt 在优化过程中结合门数量、线路深度和纠错开销等多种目标进行综合权衡，并且只应用那些经过形式化验证、满足用户指定契约的重写规则。其核心引擎融合了符号模拟、SMT 推理和代价分析，从而实现安全且高效的量子程序优化。实验结果表明，在 QFT、Grover 和 QAOA 等标准基准上，RelOpt 在多项成本指标上均优于 Qiskit、t|ket> 和学习式优化器，同时保持严格的形式化保证。"
 }

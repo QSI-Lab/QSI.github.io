@@ -89,8 +89,7 @@ IJCAI2026QAgent.png
 
 1. 在 `datas/` 下新增对应 JSON 文件
 2. 在 `figures/` 下放入同名 PNG
-3. 在 [data.js](/mnt/c/Users/11607/Desktop/lab-papers-static/data.js) 的 `paperFiles` 中追加这个 `id`
-4. 重新生成合并文件：
+3. 重新生成合并文件：
 
 ```bash
 python3 scripts/build_papers_bundle.py

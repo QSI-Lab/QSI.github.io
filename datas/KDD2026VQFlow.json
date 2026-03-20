@@ -13,7 +13,9 @@
     "数据库/数据挖掘/内容检索",
     "计算机网络"
   ],
-  "researchDirection": "网络与算网融合",
+  "researchDirections": [
+    "网络与算网融合"
+  ],
   "link": "https://kdd2026.kdd.org/",
   "abstract": ""
 }

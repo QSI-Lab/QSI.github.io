@@ -13,7 +13,9 @@
     "计算机网络",
     "交叉/综合/新兴"
   ],
-  "researchDirection": "量子智能",
+  "researchDirections": [
+    "量子智能"
+  ],
   "link": "https://infocom2025.ieee-infocom.org/",
   "abstract": "面向真实量子网络中高保真度链路高效选择问题，提出Fortuna方法，基于在线学习与保真度预测模型实现链路选择决策的快速自适应，在INFOCOM 2025上验证了其在真实量子网络拓扑上的有效性。"
 }

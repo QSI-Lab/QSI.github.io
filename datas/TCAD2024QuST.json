@@ -13,7 +13,9 @@
     "交叉/综合/新兴",
     "人工智能"
   ],
-  "researchDirection": "量子智能",
+  "researchDirections": [
+    "量子智能"
+  ],
   "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
   "abstract": "针对量子神经网络面临的空间噪声与时间噪声偏差问题，提出QuST优化框架，通过分析不同量子比特的噪声特性进行差异化训练策略设计，有效提升QNN在噪声量子设备上的推理精度与鲁棒性。"
 }

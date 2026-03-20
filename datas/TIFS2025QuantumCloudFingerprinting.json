@@ -13,7 +13,9 @@
     "交叉/综合/新兴",
     "网络与信息安全"
   ],
-  "researchDirection": "量子智能",
+  "researchDirections": [
+    "量子智能"
+  ],
   "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
   "abstract": ""
 }
