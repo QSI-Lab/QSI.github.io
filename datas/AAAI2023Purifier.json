@@ -1,7 +1,7 @@
 {
   "id": "AAAI2023Purifier",
   "title": "Purifier: Defending Data Inference Attacks via Transforming Confidence Scores",
-  "authors": "Ziqi Yang, Lijin Wang, Da Yang, Jie Wan, Ziming Zhao, Ee-Chien Chang, Fan Zhang, Kui Ren",
+  "authors": "Ziqi Yang, Lijin Wang, Da Yang, Jie Wan, Ziming Zhao, Ee-Chien Chang, Fan Zhang*, Kui Ren",
   "year": 2023,
   "venue": "AAAI",
   "ccf": "A",
