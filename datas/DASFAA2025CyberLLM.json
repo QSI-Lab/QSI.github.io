@@ -1,7 +1,7 @@
 {
   "id": "DASFAA2025CyberLLM",
   "title": "CyberLLM: Enable Mapping CVE to Tactics and Techniques of Cyber Threats via LLM",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
   "year": 2025,
   "venue": "DASFAA",
   "ccf": "B",
@@ -14,8 +14,8 @@
     "网络与信息安全"
   ],
   "researchDirections": [
-    "大模型推理与训练"
+    "大模型 for 安全"
   ],
-  "link": "https://dasfaa2025.github.io",
-  "abstract": ""
+  "link": "https://link.springer.com/chapter/10.1007/978-981-95-4155-3_33",
+  "abstract": "CyberLLM 是一种面向网络安全场景的大语言模型方法，用于将 CVE 自动映射到 ATT&CK 框架中的攻击战术与技术。该方法将这一任务建模为多标签分类问题，以适应一个漏洞可能对应多种攻击技术的实际情况。为提升语义表达能力，CyberLLM 对漏洞文本描述进行向量化处理，并结合多种数据增强策略丰富训练信息，同时利用基于 Jaccard 距离的检索机制引入外部知识以增强上下文。实验结果表明，CyberLLM 相比 7 种代表性现有方法具有更好的映射效果。除此之外，作者还通过消融实验和可解释性分析进一步验证了数据增强与检索信息的有效性。"
 }

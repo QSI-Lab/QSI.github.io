@@ -1,0 +1,21 @@
+{
+  "id": "DATE2025MoE",
+  "title": "Empowering Quantum Error Traceability with MoE for Automatic Calibration",
+  "authors": "Tingting Li, Ziming Zhao, Liqiang Lu*, Siwei Tan, Jianwei Yin*",
+  "year": 2025,
+  "venue": "DATE",
+  "ccf": "B",
+  "core": "A",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://ieeexplore.ieee.org/abstract/document/10993074",
+  "abstract": "该工作提出了一种基于专家混合（MoE）的量子校准错误回溯方法，用于解决传统自动校准过程中难以定位根因、往往需要反复尝试的问题。该方法借鉴大语言模型中的 MoE 思想，对校准失败进行可追踪分析，从而更快识别导致偏离校准状态的关键误差来源。相比仅依赖经验或固定流程的传统方法，这种机制能够在自动校准过程中实现更高效的错误定位与修正。实验结果表明，该方法在错误追踪能力和校准效率上均明显优于现有技术，并使 77 个量子比特的平均可见度提升了 25.5%。总体来看，这项研究为构建更可靠、可扩展的量子计算系统提供了一条有前景的技术路径。"
+}

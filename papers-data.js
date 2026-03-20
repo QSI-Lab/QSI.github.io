@@ -207,7 +207,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "DASFAA2025CyberLLM",
       "title": "CyberLLM: Enable Mapping CVE to Tactics and Techniques of Cyber Threats via LLM",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
       "year": 2025,
       "venue": "DASFAA",
       "ccf": "B",
@@ -220,15 +220,15 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "大模型推理与训练"
+        "大模型 for 安全"
       ],
-      "link": "https://dasfaa2025.github.io",
-      "abstract": ""
+      "link": "https://link.springer.com/chapter/10.1007/978-981-95-4155-3_33",
+      "abstract": "CyberLLM 是一种面向网络安全场景的大语言模型方法，用于将 CVE 自动映射到 ATT&CK 框架中的攻击战术与技术。该方法将这一任务建模为多标签分类问题，以适应一个漏洞可能对应多种攻击技术的实际情况。为提升语义表达能力，CyberLLM 对漏洞文本描述进行向量化处理，并结合多种数据增强策略丰富训练信息，同时利用基于 Jaccard 距离的检索机制引入外部知识以增强上下文。实验结果表明，CyberLLM 相比 7 种代表性现有方法具有更好的映射效果。除此之外，作者还通过消融实验和可解释性分析进一步验证了数据增强与检索信息的有效性。"
     },
     {
-      "id": "DATE2025MoECalibration",
+      "id": "DATE2025MoE",
       "title": "Empowering Quantum Error Traceability with MoE for Automatic Calibration",
-      "authors": "Tingting Li, Ziming Zhao, Liqiang Lu, Siwei Tan, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao, Liqiang Lu*, Siwei Tan, Jianwei Yin*",
       "year": 2025,
       "venue": "DATE",
       "ccf": "B",
@@ -243,8 +243,8 @@ window.LAB_PAPERS_BUNDLE = {
       "researchDirections": [
         "量子智能"
       ],
-      "link": "https://www.date-conference.com/date-2025-call-papers",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/10993074",
+      "abstract": "该工作提出了一种基于专家混合（MoE）的量子校准错误回溯方法，用于解决传统自动校准过程中难以定位根因、往往需要反复尝试的问题。该方法借鉴大语言模型中的 MoE 思想，对校准失败进行可追踪分析，从而更快识别导致偏离校准状态的关键误差来源。相比仅依赖经验或固定流程的传统方法，这种机制能够在自动校准过程中实现更高效的错误定位与修正。实验结果表明，该方法在错误追踪能力和校准效率上均明显优于现有技术，并使 77 个量子比特的平均可见度提升了 25.5%。总体来看，这项研究为构建更可靠、可扩展的量子计算系统提供了一条有前景的技术路径。"
     },
     {
       "id": "ESE2022SmartFast",
@@ -269,7 +269,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "FSE2025CAShift",
       "title": "CAShift: Benchmarking Log-Based Cloud Attack Detection under Normality Shift",
-      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu, Bowen Zhang, Ziming Zhao, Yun Lin, Lei Ma, Ruitao Feng, Frank Liauw",
+      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Bowen Zhang, Ziming Zhao, Yun Lin, Lei Ma, Ruitao Feng, Frank Liauw",
       "year": 2025,
       "venue": "ESEC/SIGSOFT FSE",
       "ccf": "A",
@@ -282,10 +282,10 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "云计算与云服务器"
       ],
-      "link": "https://conf.researchr.org/home/fse-2025",
-      "abstract": ""
+      "link": "https://dl.acm.org/doi/abs/10.1145/3729346",
+      "abstract": "CAShift 是一个面向云环境日志异常检测的数据集，旨在弥补现有云系统数据集在行为覆盖范围和整体系统视角上的不足。该数据集综合考虑了云系统中不同软件角色，并支持应用变化、版本变化和云架构变化三种真实的正常性偏移场景，同时包含 20 种针对不同云组件的攻击场景。基于 CAShift，作者系统评估了现有日志异常检测方法在分布偏移条件下的表现，发现各类方法都会受到显著影响，性能最高可下降 34%。此外，论文还进一步研究了持续学习方法在偏移适应中的作用，结果表明其能够在一定程度上缓解性能退化，但效果高度依赖重训练数据比例和具体算法选择。总体来看，CAShift 为研究更鲁棒的云日志异常检测与分布偏移适应提供了重要基础。"
     },
     {
       "id": "ICWS2024Moirai",
@@ -1073,8 +1073,10 @@ window.LAB_PAPERS_BUNDLE = {
     "量子智能",
     "AI安全",
     "IoT安全",
+    "云计算与云服务器",
     "加密流量",
     "大数据系统优化",
+    "大模型 for 安全",
     "大模型多智能体",
     "大模型训练模拟",
     "服务器无感知计算",
