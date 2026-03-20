@@ -16,6 +16,7 @@
   "researchDirections": [
     "网络与算网融合"
   ],
-  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
-  "abstract": ""
+  "link": "https://ieeexplore.ieee.org/abstract/document/10638516",
+  "abstract": "FOSS 是一种面向异常检测的网络入侵检测方法，旨在解决未知攻击细粒度识别和合法流量持续变化带来的适应性问题。该方法以孤立树为核心构建模型，通过划分数据分布空间并结合隔离思想，更有效地区分正常流量与异常行为。与此同时，FOSS 还强调增量式模型更新，使系统能够随着网络环境变化不断调整和演进。基于公开网络入侵数据集和与运营商合作的真实部署实验，结果表明 FOSS 在检测性能上优于现有先进方法。尤其在 DDoS 等此前未见攻击的细粒度识别方面，FOSS 展现出较强的实用价值。",
+  "imageUrl": "figures/TON2024FOSS.png"
 }
