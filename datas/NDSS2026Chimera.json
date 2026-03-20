@@ -1,19 +1,16 @@
 {
-  "id": "NDSS2026Chimera",
-  "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
-  "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu, Yuhan Ma, Ziming Zhao",
-  "year": 2026,
-  "venue": "NDSS",
-  "ccf": "A",
-  "core": "A*",
-  "thcpl": "A",
-  "type": "conference",
-  "accepted": true,
-  "fields": [
-    "网络与信息安全",
-    "人工智能"
-  ],
-  "researchDirection": "大模型推理与训练",
-  "link": "https://www.ndss-symposium.org/ndss2026/",
-  "abstract": ""
+  title: "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+  authors: "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Yuhan Ma, Ziming Zhao*",
+  year: 2026,
+  venue: "NDSS",
+  ccf: "A",
+  core: "A*",
+  THCPL: "A",
+  link:"https://",
+  type: "conference",
+  accepted: true,
+  fields: ["网络与信息安全"],
+  researchDirection: "大模型多智能体, 网络安全"
+  abstract: "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
+  imageUrl: "figures/NDSS2026Chimera.png",
 }

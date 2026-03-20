@@ -1,0 +1,16 @@
+{
+  title: "Assessing and Improving DNN Robustness against Adversarial Examples from the Perspective of Fully Connected Layers",
+  authors: "Ziming Zhao#, Zhaoxuan Li#, Tingting Li*, Fan Zhang*",
+  year: 2026,
+  venue: "IEEE Transactions on Information Forensics and Security (TIFS)",
+  ccf: "A",
+  core: "N",
+  THCPL: "N",
+  link:"https://",
+  type: "journal",
+  accepted: true,
+  fields: ["网络与信息安全"],
+  researchDirection: ["AI安全"],
+  abstract: "该工作提出了一种可插拔的冗余全连接层，用于提升深度神经网络在对抗样本攻击下的鲁棒性。与现有防御方法相比，该方法更强调对多种攻击的适应能力，同时尽量减少对正常样本分类精度和训练开销的影响。为此，作者设计了专门的损失函数，利用余弦相似度增强多个全连接分支之间的差异性和多样性，从而提高模型抵御攻击的能力。基于两个常用数据集和 12 种典型白盒、黑盒攻击的实验结果表明，该方法在几乎不增加训练成本的情况下，能够显著提升防御效果，并基本保持干净样本上的分类性能。",
+  imageUrl: "figures/TIFS2026RFC.png",
+}
