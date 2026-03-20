@@ -1,0 +1,18 @@
+{
+  "id": "INFOCOM2026Rocket",
+  "title": "Rocket: Warming Serverless Inference via Hierarchical ML Artifact Pre-loading and Sharing",
+  "authors": "Xiaofei Yue, Song Yang*, Fan Li, Youqi Li, Yu Wang",
+  "year": 2026,
+  "venue": "INFOCOM",
+  "ccf": "A",
+  "core": "A*",
+  "THCPL": "A",
+  "link": "#",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "计算机网络"
+  ],
+  "researchDirection": "大模型推理与训练",
+  "abstract": "针对服务器无感知AI推理冷启动中模型加载延迟与内存浪费问题，提出Rocket分层ML工件预加载与共享机制。基于双时间尺度预测与上下文老虎机实现动态预加载，并通过共享感知调度提升复用效率。实验显示降低约38%延迟并节省43.8%内存。"
+}

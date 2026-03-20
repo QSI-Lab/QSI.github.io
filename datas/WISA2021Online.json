@@ -1,0 +1,20 @@
+{
+  "id": "WISA2021Online",
+  "title": "Online Runtime Prediction Method for Distributed Iterative Jobs",
+  "authors": "Xiaofei Yue, Lan Shi, Yuhai Zhao*, Hangxu Ji, Guoren Wang",
+  "year": 2021,
+  "venue": "WISA",
+  "ccf": "C",
+  "core": "C",
+  "THCPL": "N",
+  "link": "https://link.springer.com/chapter/10.1007/978-3-030-87571-8_14",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "数据库/数据挖掘/内容检索"
+  ],
+  "researchDirection": [
+    "大数据系统优化"
+  ],
+  "abstract": "针对分布式迭代作业运行时间预测问题，提出基于在线机器学习的多阶段预测方法，通过迭代建模与序列学习显著提升预测精度，在典型场景中提升超过15%。"
+}

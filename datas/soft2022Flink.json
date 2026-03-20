@@ -1,0 +1,20 @@
+{
+  "id": "soft2022Flink",
+  "title": "面向Flink迭代作业的动态资源分配策略",
+  "authors": "岳晓飞, 史岚, 赵宇海*, 季航旭，王国仁",
+  "year": 2022,
+  "venue": "软件学报",
+  "ccf": "A（中文）",
+  "core": "N",
+  "THCPL": "N",
+  "link": "#",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "其他"
+  ],
+  "researchDirection": [
+    "大数据系统优化"
+  ],
+  "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
+}
