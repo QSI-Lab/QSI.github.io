@@ -1,7 +1,7 @@
 {
   "id": "TON2025SOFA",
   "title": "SOFA: Service-Oriented Fine-Grained Attack Traffic Detection with Meta Learning",
-  "authors": "Peng Fang, Feiyang Huang, Ziming Zhao, Fan Zhang, Wenrui Ma",
+  "authors": "Peng Fang, Feiyang Huang, Ziming Zhao*, Fan Zhang*, Wenrui Ma",
   "year": 2025,
   "venue": "IEEE/ACM Transactions on Networking (TON)",
   "ccf": "A",

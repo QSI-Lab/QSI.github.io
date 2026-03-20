@@ -747,7 +747,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TIFS2025CGIFuzz",
       "title": "CGIFuzz: Enabling Gray-Box Fuzzing for Web CGI of IoT Devices",
-      "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao, Jiongyi Chen, Fan Zhang",
+      "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao*, Jiongyi Chen, Fan Zhang*",
       "year": 2025,
       "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
       "ccf": "A",
@@ -894,7 +894,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TON2025SOFA",
       "title": "SOFA: Service-Oriented Fine-Grained Attack Traffic Detection with Meta Learning",
-      "authors": "Peng Fang, Feiyang Huang, Ziming Zhao, Fan Zhang, Wenrui Ma",
+      "authors": "Peng Fang, Feiyang Huang, Ziming Zhao*, Fan Zhang*, Wenrui Ma",
       "year": 2025,
       "venue": "IEEE/ACM Transactions on Networking (TON)",
       "ccf": "A",
@@ -915,7 +915,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TON2025TNT",
       "title": "TNT: A Large-Scale P2P Botnet Detection Framework via Communication Topology and Network Traffic",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhijian Xu, Yu Li, Qiang Xu, Fan Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhijian Xu, Yu Li, Qiang Xu*, Fan Zhang*",
       "year": 2025,
       "venue": "IEEE/ACM Transactions on Networking (TON)",
       "ccf": "A",
@@ -930,8 +930,8 @@ window.LAB_PAPERS_BUNDLE = {
       "researchDirections": [
         "网络与算网融合"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
-      "abstract": "提出TNT框架，联合建模P2P僵尸网络的通信拓扑与网络流量特征，基于图神经网络与流量特征融合实现大规模P2P僵尸网络的高精度检测，在真实骨干网数据集上显著优于现有方法。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/11168124",
+      "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，旨在解决传统拓扑分析方法难以区分、流量分析方法又易受海量背景流量干扰的问题。该框架结合通信拓扑与网络流量两类信息，由 tScouter、tCommander 和 tPatroller 三个紧密协作的组件分别完成拓扑刻画、节点检查规划和节点流量分析。通过只对部分节点进行有策略的流量检测，TNT 在检测精度与系统开销之间实现了更好的平衡。实验结果表明，在包含多类僵尸网络和正常 P2P 流量的多组场景中，TNT 能够在较少节点检查条件下实现很高的检测准确率。总体来看，该方法为大规模 P2P 僵尸网络识别提供了一种高效且具有可解释性的解决方案。"
     },
     {
       "id": "TPDS2026HyFaaS",
