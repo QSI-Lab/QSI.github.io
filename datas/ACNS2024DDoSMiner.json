@@ -14,5 +14,5 @@
   ],
   "researchDirection": "网络与算网融合",
   "link": "https://wp.nyu.edu/acns2024/",
-  "abstract": ""
+  "abstract": "面向 DDoS 攻击研究中表征困难、漏洞发现依赖人工的问题，提出 DDoSMiner 自动化框架，对攻击行为进行系统刻画，并结合分析流程自动挖掘潜在脆弱点，从而提升 DDoS 攻击分析、建模与防护研究的效率。"
 }
