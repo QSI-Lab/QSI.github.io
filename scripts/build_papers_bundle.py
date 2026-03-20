@@ -51,7 +51,7 @@ def build_bundle(manifest: dict, datas_dir: Path) -> dict:
 
     for paper_id in paper_ids:
         paper_path = datas_dir / f"{paper_id}.json"
-
+        print(paper_id)
         if not paper_path.exists():
             missing.append(paper_id)
             continue
