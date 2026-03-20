@@ -1,0 +1,19 @@
+{
+  "id": "TIFS2025QuantumCloudFingerprinting",
+  "title": "Task-Driven Device Fingerprinting for Quantum Cloud Platforms via Modeling QNN Outcomes under Noise",
+  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "year": 2025,
+  "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "交叉/综合/新兴",
+    "网络与信息安全"
+  ],
+  "researchDirection": "量子智能",
+  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+  "abstract": ""
+}

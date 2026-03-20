@@ -1,0 +1,19 @@
+{
+  "id": "DASFAA2025CyberLLM",
+  "title": "CyberLLM: Enable Mapping CVE to Tactics and Techniques of Cyber Threats via LLM",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+  "year": 2025,
+  "venue": "DASFAA",
+  "ccf": "B",
+  "core": "A",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "数据库/数据挖掘/内容检索",
+    "网络与信息安全"
+  ],
+  "researchDirection": "大模型推理与训练",
+  "link": "https://dasfaa2025.github.io",
+  "abstract": ""
+}

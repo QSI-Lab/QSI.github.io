@@ -1,0 +1,18 @@
+{
+  "id": "TIFS2023SAGE",
+  "title": "SAGE: Steering the Adversarial Generation of Examples With Accelerations",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Fan Zhang, Ziqi Yang, Shuang Luo, Tingting Li, Rui Zhang, Kui Ren",
+  "year": 2023,
+  "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+  "abstract": "针对对抗样本生成效率低的问题，提出SAGE框架，通过加速策略引导对抗样本生成方向，在多个基准数据集上显著提升生成速度与攻击成功率，同时保持对抗样本的不可感知性。"
+}

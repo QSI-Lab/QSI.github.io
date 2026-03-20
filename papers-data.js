@@ -1,0 +1,720 @@
+window.LAB_PAPERS_BUNDLE = {
+  "papers": [
+    {
+      "id": "TIFS2023SAGE",
+      "title": "SAGE: Steering the Adversarial Generation of Examples With Accelerations",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Fan Zhang, Ziqi Yang, Shuang Luo, Tingting Li, Rui Zhang, Kui Ren",
+      "year": 2023,
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+      "abstract": "针对对抗样本生成效率低的问题，提出SAGE框架，通过加速策略引导对抗样本生成方向，在多个基准数据集上显著提升生成速度与攻击成功率，同时保持对抗样本的不可感知性。"
+    },
+    {
+      "id": "AAAI2023Purifier",
+      "title": "Purifier: Defending Data Inference Attacks via Transforming Confidence Scores",
+      "authors": "Ziqi Yang, Lijin Wang, Da Yang, Jie Wan, Ziming Zhao, Ee-Chien Chang, Fan Zhang, Kui Ren",
+      "year": 2023,
+      "venue": "AAAI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirection": "大模型推理与训练",
+      "link": "https://www.aaai.org/Conferences/AAAI-23/",
+      "abstract": "通过转换置信度分数来防御数据推理攻击，提出Purifier机制，在保持模型精度的前提下有效抵御成员推断攻击和属性推断攻击，实验验证了方法的有效性与通用性。"
+    },
+    {
+      "id": "ESE2022SmartFast",
+      "title": "SmartFast: an accurate and robust formal analysis tool for Ethereum smart contracts",
+      "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Rui Xue, Wenqiu Ma, Rujin Liang, Ziming Zhao, Sheng Gao",
+      "year": 2022,
+      "venue": "Empirical Software Engineering",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://link.springer.com/journal/10664",
+      "abstract": ""
+    },
+    {
+      "id": "TDSC2023ERNN",
+      "title": "ERNN: Error-Resilient RNN for Encrypted Traffic Detection towards Network-Induced Phenomena",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Jialun Jiang, Fengyuan Yu, Fan Zhang, Congyuan Xu, Xinjie Zhao, Rui Zhang, Shize Guo",
+      "year": 2023,
+      "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "计算机网络"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www.computer.org/csdl/journal/tq",
+      "abstract": "针对网络诱导现象（丢包、乱序、延迟抖动）导致加密流量检测性能下降的问题，提出ERNN框架，引入误差弹性机制增强RNN对不完整序列的适应性，在真实网络环境下保持高检测精度。"
+    },
+    {
+      "id": "TDSC2023I2RNN",
+      "title": "I2RNN: An Incremental and Interpretable Recurrent Neural Network for Encrypted Traffic Classification",
+      "authors": "Zhuoxue Song, Ziming Zhao, Fan Zhang, Gang Xiong, Guang Cheng, Xinjie Zhao, Shize Guo",
+      "year": 2023,
+      "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "人工智能"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www.computer.org/csdl/journal/tq",
+      "abstract": ""
+    },
+    {
+      "id": "TMC2023CMD",
+      "title": "CMD: Co-Analyzed IoT Malware Detection and Forensics via Network and Hardware Domains",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Xiaofei Xie, Haitao Xu, Binbin Chen",
+      "year": 2023,
+      "venue": "IEEE Transactions on Mobile Computing (TMC)",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "计算机网络"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www.computer.org/csdl/journal/tm",
+      "abstract": ""
+    },
+    {
+      "id": "TSE2023VulHunter",
+      "title": "VulHunter: Hunting Vulnerable Smart Contracts at EVM bytecode-level via Multiple Instance Learning",
+      "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Ziming Zhao, Rujin Liang, Rui Xue, Wenhao Li, Fan Zhang, Sheng Gao",
+      "year": 2023,
+      "venue": "IEEE Transactions on Software Engineering (TSE)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www.computer.org/csdl/journal/ts",
+      "abstract": ""
+    },
+    {
+      "id": "INFOCOM2024RIDS",
+      "title": "RIDS: Towards Advanced IDS via RNN Model and Programmable Switches Co-Designed Approaches",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Zhuoxue Song, Fan Zhang, Binbin Chen",
+      "year": 2024,
+      "venue": "INFOCOM",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://infocom2024.ieee-infocom.org/",
+      "abstract": "提出RNN模型与可编程交换机协同设计的入侵检测系统RIDS，将部分检测逻辑卸载至数据平面，实现线速检测与高精度的有机结合，在INFOCOM 2024上展示了其在真实网络环境中的优越性能。"
+    },
+    {
+      "id": "CompSecurity2024DDoSFamily",
+      "title": "DDoS Family: A Novel Perspective for Massive Types of DDoS Attacks",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Zhihao Zhou, Jiongchi Yu, Zhuoxue Song, Xiaofei Xie, Fan Zhang, Rui Zhang",
+      "year": 2024,
+      "venue": "Computers & Security",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www.sciencedirect.com/journal/computers-and-security",
+      "abstract": ""
+    },
+    {
+      "id": "TDSC2024MLTrafficShaping",
+      "title": "Effective DDoS Mitigation via ML-Driven In-network Traffic Shaping",
+      "authors": "Ziming Zhao, Zhuotao Liu, Huan Chen, Fan Zhang, Zhuoxue Song, Zhaoxuan Li",
+      "year": 2024,
+      "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www.computer.org/csdl/journal/tq",
+      "abstract": ""
+    },
+    {
+      "id": "ACNS2024DDoSMiner",
+      "title": "DDoSMiner: An Automated Framework for DDoS Attack Characterization and Vulnerability Mining",
+      "authors": "Xi Ling, Jiongchi Yu, Ziming Zhao, Zhihao Zhou, Haitao Xu, Binbin Chen, Fan Zhang",
+      "year": 2024,
+      "venue": "ACNS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://wp.nyu.edu/acns2024/",
+      "abstract": ""
+    },
+    {
+      "id": "WWW2024Trident",
+      "title": "Trident: A Universal Framework for Fine-Grained and Class-Incremental Unknown Traffic Detection",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Zhuoxue Song, Wenhao Li, Fan Zhang",
+      "year": 2024,
+      "venue": "WWW",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "人工智能"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www2024.thewebconf.org/",
+      "abstract": "提出Trident框架，面向开放网络环境中的未知流量检测难题，支持细粒度分类与类增量学习，通过三叉戟式特征解耦有效区分已知与未知流量类别，在WWW 2024上展示了跨场景泛化能力。"
+    },
+    {
+      "id": "TON2024FOSS",
+      "title": "FOSS: Towards Fine-Grained Unknown Class Detection against the Open-Set Attack Spectrum with Variable Legitimate Traffic",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Xiaofei Xie, Jiongchi Yu, Fan Zhang, Rui Zhang, Binbin Chen, Xiangyang Luo, Ming Hu, Wenrui Ma",
+      "year": 2024,
+      "venue": "IEEE/ACM Transactions on Networking (TON)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
+      "abstract": ""
+    },
+    {
+      "id": "TCAD2024TPEDet",
+      "title": "TPE-Det: A Tamper-Proof External Detector via Hardware Traces Analysis against IoT Malware",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "year": 2024,
+      "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
+      "abstract": ""
+    },
+    {
+      "id": "ICWS2024Moirai",
+      "title": "Moirai: Optimizing Quantum Serverless Function Orchestration via Device Allocation and Circuit Deployment",
+      "authors": "Tingting Li, Ziming Zhao",
+      "year": 2024,
+      "venue": "ICWS",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://icws.conferences.computer.org/2024/",
+      "abstract": ""
+    },
+    {
+      "id": "MM2024Minerva",
+      "title": "Minerva: Enhancing Quantum Network Performance for High-Fidelity Multimedia Transmission",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "year": 2024,
+      "venue": "ACM Multimedia (MM)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机图形学与多媒体",
+        "交叉/综合/新兴"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://2024.acmmm.org/",
+      "abstract": "提出Minerva框架，通过优化量子网络链路调度与保真度管理，提升高保真度多媒体内容在量子网络上的传输性能，为量子互联网在多媒体应用场景中的落地提供关键技术支撑。"
+    },
+    {
+      "id": "TCAD2024QuST",
+      "title": "QuST: Optimizing Quantum Neural Network against Spatial and Temporal Noise Biases",
+      "authors": "Tingting Li, Liqiang Lu, Ziming Zhao, Ziqi Tan, Siwei Tan, Jianwei Yin",
+      "year": 2024,
+      "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "交叉/综合/新兴",
+        "人工智能"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
+      "abstract": "针对量子神经网络面临的空间噪声与时间噪声偏差问题，提出QuST优化框架，通过分析不同量子比特的噪声特性进行差异化训练策略设计，有效提升QNN在噪声量子设备上的推理精度与鲁棒性。"
+    },
+    {
+      "id": "SECON2024P2PBotnetDetection",
+      "title": "A Large-Scale P2P Botnet Detection Framework via Topology and Traffic Co-Verification",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "year": 2024,
+      "venue": "SECON",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://secon2024.ieee-secon.org/",
+      "abstract": ""
+    },
+    {
+      "id": "CompNet2024metaNet",
+      "title": "metaNet: Interpretable Unknown Mobile Malware Identification with a Novel Meta-features Mining Algorithm",
+      "authors": "Zhaoxuan Li, Ziming Zhao, Rui Zhang, Haoyang Lu, Wenhao Li, Fan Zhang, Siqi Lu, Rui Xue",
+      "year": 2024,
+      "venue": "Computer Networks",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://www.sciencedirect.com/journal/computer-networks",
+      "abstract": ""
+    },
+    {
+      "id": "CSCWD2024AlertCrossVerification",
+      "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
+      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang",
+      "year": 2024,
+      "venue": "CSCWD",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "人工智能"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "http://2024.cscwd.org/",
+      "abstract": ""
+    },
+    {
+      "id": "KDD2025TimeWaveletFusion",
+      "title": "Towards Context-Aware Traffic Classification via Time-Wavelet Fusion Network",
+      "authors": "Ziming Zhao, Zhuoxue Song, Xiaofei Xie, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Tingting Li",
+      "year": 2025,
+      "venue": "KDD",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "数据库/数据挖掘/内容检索",
+        "人工智能"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://kdd2025.kdd.org/",
+      "abstract": ""
+    },
+    {
+      "id": "DATE2025MoECalibration",
+      "title": "Empowering Quantum Error Traceability with MoE for Automatic Calibration",
+      "authors": "Tingting Li, Ziming Zhao, Liqiang Lu, Siwei Tan, Jianwei Yin",
+      "year": 2025,
+      "venue": "DATE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://www.date-conference.com/date-2025-call-papers",
+      "abstract": ""
+    },
+    {
+      "id": "INFOCOM2025Fortuna",
+      "title": "Fortuna: Towards Efficient Selection of High-Fidelity Link for Quantum Network in the Wild",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "year": 2025,
+      "venue": "INFOCOM",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "交叉/综合/新兴"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://infocom2025.ieee-infocom.org/",
+      "abstract": "面向真实量子网络中高保真度链路高效选择问题，提出Fortuna方法，基于在线学习与保真度预测模型实现链路选择决策的快速自适应，在INFOCOM 2025上验证了其在真实量子网络拓扑上的有效性。"
+    },
+    {
+      "id": "DASFAA2025CyberLLM",
+      "title": "CyberLLM: Enable Mapping CVE to Tactics and Techniques of Cyber Threats via LLM",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "year": 2025,
+      "venue": "DASFAA",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "数据库/数据挖掘/内容检索",
+        "网络与信息安全"
+      ],
+      "researchDirection": "大模型推理与训练",
+      "link": "https://dasfaa2025.github.io",
+      "abstract": ""
+    },
+    {
+      "id": "JSAC2025VerifyAllTraffic",
+      "title": "Verify All Traffic: Towards Zero-Trust In-Network Intrusion Detection against Multipath Routing",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Xiaofei Xie, Zhipeng Liu, Tingting Li, Jiongchi Yu, Fan Zhang, Binbin Chen",
+      "year": 2025,
+      "venue": "IEEE Journal on Selected Areas in Communications (JSAC)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=49",
+      "abstract": ""
+    },
+    {
+      "id": "FSE2025CAShift",
+      "title": "CAShift: Benchmarking Log-Based Cloud Attack Detection under Normality Shift",
+      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu, Bowen Zhang, Ziming Zhao, Yun Lin, Lei Ma, Ruitao Feng, Frank Liauw",
+      "year": 2025,
+      "venue": "ESEC/SIGSOFT FSE",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://conf.researchr.org/home/fse-2025",
+      "abstract": ""
+    },
+    {
+      "id": "IJCAI2025QuantumServerlessDeployment",
+      "title": "Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "year": 2025,
+      "venue": "IJCAI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://2025.ijcai.org/",
+      "abstract": "面向量子无服务器计算中的电路部署优化问题，提出图对比学习与Learning-to-Rank协同设计框架，实现量子电路到多后端设备的高效映射，降低量子资源消耗并提升部署效率。"
+    },
+    {
+      "id": "MM2025StealthyAE",
+      "title": "Stealthy-AE: Generating Stealthy Adversarial Examples through Online Social Networks",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "year": 2025,
+      "venue": "ACM Multimedia (MM)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机图形学与多媒体",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://acmmm2025.org/",
+      "abstract": ""
+    },
+    {
+      "id": "TON2025TNT",
+      "title": "TNT: A Large-Scale P2P Botnet Detection Framework via Communication Topology and Network Traffic",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhijian Xu, Yu Li, Qiang Xu, Fan Zhang",
+      "year": 2025,
+      "venue": "IEEE/ACM Transactions on Networking (TON)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
+      "abstract": "提出TNT框架，联合建模P2P僵尸网络的通信拓扑与网络流量特征，基于图神经网络与流量特征融合实现大规模P2P僵尸网络的高精度检测，在真实骨干网数据集上显著优于现有方法。"
+    },
+    {
+      "id": "TON2025SOFA",
+      "title": "SOFA: Service-Oriented Fine-Grained Attack Traffic Detection with Meta Learning",
+      "authors": "Peng Fang, Feiyang Huang, Ziming Zhao, Fan Zhang, Wenrui Ma",
+      "year": 2025,
+      "venue": "IEEE/ACM Transactions on Networking (TON)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络与信息安全"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
+      "abstract": ""
+    },
+    {
+      "id": "TIFS2025CGIFuzz",
+      "title": "CGIFuzz: Enabling Gray-Box Fuzzing for Web CGI of IoT Devices",
+      "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao, Jiongyi Chen, Fan Zhang",
+      "year": 2025,
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "软件工程/系统软件/程序设计语言"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+      "abstract": ""
+    },
+    {
+      "id": "ASE2025AutoFid",
+      "title": "AutoFid: Adaptive and Noise-Aware Fidelity Measurement for Quantum Programs via Circuit Graph Analysis",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "year": 2025,
+      "venue": "ASE",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言",
+        "交叉/综合/新兴"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://conf.researchr.org/home/ase-2025",
+      "abstract": ""
+    },
+    {
+      "id": "TIFS2025QuantumCloudFingerprinting",
+      "title": "Task-Driven Device Fingerprinting for Quantum Cloud Platforms via Modeling QNN Outcomes under Noise",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "year": 2025,
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "交叉/综合/新兴",
+        "网络与信息安全"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+      "abstract": ""
+    },
+    {
+      "id": "AAAI2026AdaptiveFidelityEstimation",
+      "title": "Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "year": 2026,
+      "venue": "AAAI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://aaai.org/conference/aaai/aaai-26/",
+      "abstract": ""
+    },
+    {
+      "id": "AAAI2026RelationalVerification",
+      "title": "Relational Verification for Cost-Aware Quantum Program Optimization",
+      "authors": "Ziming Zhao, Tingting Li, Zhaoxuan Li, Jianwei Yin",
+      "year": 2026,
+      "venue": "AAAI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://aaai.org/conference/aaai/aaai-26/",
+      "abstract": ""
+    },
+    {
+      "id": "KDD2026VQFlow",
+      "title": "VQFlow: A Benchmark Dataset for Encrypted Video Streaming Traffic across QoS Configurations",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+      "year": 2026,
+      "venue": "KDD",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "数据库/数据挖掘/内容检索",
+        "计算机网络"
+      ],
+      "researchDirection": "网络与算网融合",
+      "link": "https://kdd2026.kdd.org/",
+      "abstract": ""
+    },
+    {
+      "id": "KDD2026QuaMap",
+      "title": "QuaMap: A Multi-Backend Benchmark Dataset for Quantum Circuit Mapping and Learning-Based Compiler Evaluation",
+      "authors": "Ziming Zhao, Tingting Li, Zhaoxuan Li, Jianwei Yin",
+      "year": 2026,
+      "venue": "KDD",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "数据库/数据挖掘/内容检索",
+        "交叉/综合/新兴"
+      ],
+      "researchDirection": "量子智能",
+      "link": "https://kdd2026.kdd.org/",
+      "abstract": ""
+    },
+    {
+      "id": "NDSS2026Chimera",
+      "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu, Yuhan Ma, Ziming Zhao",
+      "year": 2026,
+      "venue": "NDSS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "人工智能"
+      ],
+      "researchDirection": "大模型推理与训练",
+      "link": "https://www.ndss-symposium.org/ndss2026/",
+      "abstract": ""
+    }
+  ]
+};

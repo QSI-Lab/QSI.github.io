@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>量超智 LAB · 学术论文展示</title>
+    <meta
+      name="description"
+      content="量超智 LAB 学术论文可视化展示平台，支持搜索、筛选、统计概览、本地配图与摘要展示。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__glow hero__glow--left" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--right" aria-hidden="true"></div>
+        <div class="hero__inner">
+          <div class="hero__badge">量</div>
+          <div>
+            <p class="hero__eyebrow">Academic Showcase</p>
+            <h1 class="hero__title">量超智 LAB</h1>
+            <p class="hero__subtitle">学术论文可视化展示平台</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="page-main">
+        <section class="stats-layout" aria-labelledby="stats-title">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Lab Snapshot</p>
+              <h2 id="stats-title" class="section-title">论文概览</h2>
+            </div>
+          </div>
+
+          <div id="summaryStats" class="summary-grid" aria-live="polite"></div>
+
+          <div class="chart-grid">
+            <article class="panel chart-card">
+              <div class="chart-card__head">
+                <h3>年度论文趋势</h3>
+                <span>按年份统计</span>
+              </div>
+              <div id="yearChart" class="year-chart" aria-label="年度论文趋势图"></div>
+            </article>
+
+            <article class="panel chart-card">
+              <div class="chart-card__head">
+                <h3>CCF 等级分布</h3>
+                <span>全部论文</span>
+              </div>
+              <div id="ccfChart" class="ccf-chart" aria-label="CCF 等级分布图"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel controls-panel" aria-labelledby="filters-title">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Search & Filter</p>
+              <h2 id="filters-title" class="section-title">搜索与筛选</h2>
+            </div>
+            <button id="clearFiltersBtn" class="ghost-button" type="button" hidden>清除筛选</button>
+          </div>
+
+          <label class="search-box" for="searchInput">
+            <span class="search-box__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path
+                  d="M10.5 4a6.5 6.5 0 1 0 0 13a6.5 6.5 0 0 0 0-13Zm0 0l9 9"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.8"
+                />
+              </svg>
+            </span>
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="搜索论文标题、作者、期刊或会议..."
+            />
+          </label>
+
+          <div id="filterRows" class="filter-rows"></div>
+        </section>
+
+        <section class="results-strip" aria-live="polite">
+          <div class="results-strip__meta">
+            <p id="resultsCount" class="results-strip__count"></p>
+            <p id="activeSummary" class="results-strip__summary"></p>
+          </div>
+          <div id="sortControls" class="sort-controls" aria-label="论文排序">
+            <button type="button" class="sort-button is-active" data-sort-order="DESC">最新优先</button>
+            <button type="button" class="sort-button" data-sort-order="ASC">最早优先</button>
+          </div>
+        </section>
+
+        <section id="papersList" class="papers-list" aria-live="polite"></section>
+      </main>
+
+      <footer class="site-footer">
+        量超智 LAB · 学术论文展示 · 数据来源：课题组内部整理
+      </footer>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./papers-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

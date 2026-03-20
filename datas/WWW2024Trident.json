@@ -1,0 +1,19 @@
+{
+  "id": "WWW2024Trident",
+  "title": "Trident: A Universal Framework for Fine-Grained and Class-Incremental Unknown Traffic Detection",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Zhuoxue Song, Wenhao Li, Fan Zhang",
+  "year": 2024,
+  "venue": "WWW",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "计算机网络",
+    "人工智能"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://www2024.thewebconf.org/",
+  "abstract": "提出Trident框架，面向开放网络环境中的未知流量检测难题，支持细粒度分类与类增量学习，通过三叉戟式特征解耦有效区分已知与未知流量类别，在WWW 2024上展示了跨场景泛化能力。"
+}

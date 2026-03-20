@@ -1,0 +1,19 @@
+{
+  "id": "CSCWD2024AlertCrossVerification",
+  "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
+  "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang",
+  "year": 2024,
+  "venue": "CSCWD",
+  "ccf": "C",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全",
+    "人工智能"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "http://2024.cscwd.org/",
+  "abstract": ""
+}

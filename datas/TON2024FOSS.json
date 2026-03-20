@@ -1,0 +1,19 @@
+{
+  "id": "TON2024FOSS",
+  "title": "FOSS: Towards Fine-Grained Unknown Class Detection against the Open-Set Attack Spectrum with Variable Legitimate Traffic",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Xiaofei Xie, Jiongchi Yu, Fan Zhang, Rui Zhang, Binbin Chen, Xiangyang Luo, Ming Hu, Wenrui Ma",
+  "year": 2024,
+  "venue": "IEEE/ACM Transactions on Networking (TON)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "计算机网络",
+    "网络与信息安全"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
+  "abstract": ""
+}

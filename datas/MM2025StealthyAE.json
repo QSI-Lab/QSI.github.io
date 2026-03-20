@@ -1,0 +1,19 @@
+{
+  "id": "MM2025StealthyAE",
+  "title": "Stealthy-AE: Generating Stealthy Adversarial Examples through Online Social Networks",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+  "year": 2025,
+  "venue": "ACM Multimedia (MM)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "计算机图形学与多媒体",
+    "网络与信息安全"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://acmmm2025.org/",
+  "abstract": ""
+}

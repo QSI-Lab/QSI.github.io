@@ -1,0 +1,19 @@
+{
+  "id": "TIFS2025CGIFuzz",
+  "title": "CGIFuzz: Enabling Gray-Box Fuzzing for Web CGI of IoT Devices",
+  "authors": "Cheng Shi, Jiongchi Yu, Ziming Zhao, Jiongyi Chen, Fan Zhang",
+  "year": 2025,
+  "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全",
+    "软件工程/系统软件/程序设计语言"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+  "abstract": ""
+}

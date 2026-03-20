@@ -1,0 +1,19 @@
+{
+  "id": "NDSS2026Chimera",
+  "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+  "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu, Yuhan Ma, Ziming Zhao",
+  "year": 2026,
+  "venue": "NDSS",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全",
+    "人工智能"
+  ],
+  "researchDirection": "大模型推理与训练",
+  "link": "https://www.ndss-symposium.org/ndss2026/",
+  "abstract": ""
+}

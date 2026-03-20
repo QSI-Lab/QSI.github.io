@@ -1,0 +1,19 @@
+{
+  "id": "IJCAI2025QuantumServerlessDeployment",
+  "title": "Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches",
+  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "year": 2025,
+  "venue": "IJCAI",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirection": "量子智能",
+  "link": "https://2025.ijcai.org/",
+  "abstract": "面向量子无服务器计算中的电路部署优化问题，提出图对比学习与Learning-to-Rank协同设计框架，实现量子电路到多后端设备的高效映射，降低量子资源消耗并提升部署效率。"
+}

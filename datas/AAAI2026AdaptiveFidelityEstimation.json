@@ -1,0 +1,19 @@
+{
+  "id": "AAAI2026AdaptiveFidelityEstimation",
+  "title": "Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness",
+  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "year": 2026,
+  "venue": "AAAI",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirection": "量子智能",
+  "link": "https://aaai.org/conference/aaai/aaai-26/",
+  "abstract": ""
+}

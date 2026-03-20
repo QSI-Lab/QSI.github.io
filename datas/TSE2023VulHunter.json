@@ -1,0 +1,18 @@
+{
+  "id": "TSE2023VulHunter",
+  "title": "VulHunter: Hunting Vulnerable Smart Contracts at EVM bytecode-level via Multiple Instance Learning",
+  "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Ziming Zhao, Rujin Liang, Rui Xue, Wenhao Li, Fan Zhang, Sheng Gao",
+  "year": 2023,
+  "venue": "IEEE Transactions on Software Engineering (TSE)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "软件工程/系统软件/程序设计语言"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://www.computer.org/csdl/journal/ts",
+  "abstract": ""
+}

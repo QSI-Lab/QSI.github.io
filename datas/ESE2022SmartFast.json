@@ -1,0 +1,18 @@
+{
+  "id": "ESE2022SmartFast",
+  "title": "SmartFast: an accurate and robust formal analysis tool for Ethereum smart contracts",
+  "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Rui Xue, Wenqiu Ma, Rujin Liang, Ziming Zhao, Sheng Gao",
+  "year": 2022,
+  "venue": "Empirical Software Engineering",
+  "ccf": "B",
+  "core": "A",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "软件工程/系统软件/程序设计语言"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://link.springer.com/journal/10664",
+  "abstract": ""
+}

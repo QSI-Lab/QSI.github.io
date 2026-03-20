@@ -1,0 +1,102 @@
+[
+  {
+    "source_title": "1. 多路径路由场景下的网内流量分析模型部署",
+    "figure_file": "JSAC2025VerifyAllTraffic.png",
+    "matched_paper_id": "JSAC2025VerifyAllTraffic"
+  },
+  {
+    "source_title": "2. QCLink：利用SmartNIC对量子-经典混合算法进行计算卸载",
+    "figure_file": "LAB2026QCLinkSmartNICQuantumClassicalOffloading.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "3. CUPTI Agent + eBPF Agent 关联监测",
+    "figure_file": "LAB2026CUPTIAgenteBPFAgentMonitoring.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "1. 密文乘明文常量感知全同态隐私推理加速框架优化",
+    "figure_file": "LAB2026ConstantAwareFHEPrivateInferenceAcceleration.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "2. 面向TFHE的多常数乘法隐私推理加速",
+    "figure_file": "LAB2026TFHEMultiConstantPrivateInferenceAcceleration.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "1. 通用大模型推理场景下的语义检索投机解码技术",
+    "figure_file": "LAB2026SemanticRetrievalSpeculativeDecoding.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "2. 异构算力环境下的高保真大模型训练仿真框架",
+    "figure_file": "LAB2026HighFidelityLLMTrainingSimulation.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "3. BCI：Adaptive Bandwidth-Compution-Interleaving for LLM Inference",
+    "figure_file": "LAB2026BCIAdaptiveBandwidthComputationInterleaving.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "1. 基于量子先验分子表征融合神经网络的分子性质预测",
+    "figure_file": "LAB2026QuantumPriorMolecularPropertyPrediction.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "2. MAQCal：面向多智能体协作的自动化量子读出校准",
+    "figure_file": "LAB2026MAQCalMultiAgentQuantumReadoutCalibration.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "3. 量子芯片单比特初始化调控设计",
+    "figure_file": "LAB2026SingleQubitInitializationControlDesign.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "4. Poseidon：量子流体模拟框架",
+    "figure_file": "LAB2026PoseidonQuantumFluidSimulation.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "1. 协同特征增强与组Mamba神经网络高效器官识别分割方法",
+    "figure_file": "LAB2026GroupMambaOrganSegmentation.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "2. DCA-Net：基于分布对齐与知识蒸馏的半监督医学图像分割方法",
+    "figure_file": "LAB2026DCANetSemiSupervisedMedicalSegmentation.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "3. ConsMatch：基于多视角对比学习与特征一致性约束的半监督医学图像分割方法",
+    "figure_file": "LAB2026ConsMatchSemiSupervisedMedicalSegmentation.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "4. 双阶段牙齿分割",
+    "figure_file": "LAB2026TwoStageToothSegmentation.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "5. AdaMix：基于自适应特征混合策略的半监督医学图像分割方法",
+    "figure_file": "LAB2026AdaMixSemiSupervisedMedicalSegmentation.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "1. 不确定性感知多模态BCI软提示连贯图生成方法",
+    "figure_file": "LAB2026UncertaintyAwareMultimodalBCISoftPromptImageGeneration.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "2. 基于Chain-of-Frame Reasoning的文本到图像生成",
+    "figure_file": "LAB2026ChainOfFrameReasoningTextToImageGeneration.png",
+    "matched_paper_id": null
+  },
+  {
+    "source_title": "1. AlphaFold3相关方向跟踪与应用",
+    "figure_file": "LAB2026AlphaFold3TrackingAndApplications.png",
+    "matched_paper_id": null
+  }
+]

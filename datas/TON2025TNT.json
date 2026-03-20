@@ -1,0 +1,19 @@
+{
+  "id": "TON2025TNT",
+  "title": "TNT: A Large-Scale P2P Botnet Detection Framework via Communication Topology and Network Traffic",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhijian Xu, Yu Li, Qiang Xu, Fan Zhang",
+  "year": 2025,
+  "venue": "IEEE/ACM Transactions on Networking (TON)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "计算机网络",
+    "网络与信息安全"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
+  "abstract": "提出TNT框架，联合建模P2P僵尸网络的通信拓扑与网络流量特征，基于图神经网络与流量特征融合实现大规模P2P僵尸网络的高精度检测，在真实骨干网数据集上显著优于现有方法。"
+}

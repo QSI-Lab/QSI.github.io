@@ -1,0 +1,19 @@
+{
+  "id": "TDSC2023I2RNN",
+  "title": "I2RNN: An Incremental and Interpretable Recurrent Neural Network for Encrypted Traffic Classification",
+  "authors": "Zhuoxue Song, Ziming Zhao, Fan Zhang, Gang Xiong, Guang Cheng, Xinjie Zhao, Shize Guo",
+  "year": 2023,
+  "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+  "ccf": "A",
+  "core": "A",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全",
+    "人工智能"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://www.computer.org/csdl/journal/tq",
+  "abstract": ""
+}

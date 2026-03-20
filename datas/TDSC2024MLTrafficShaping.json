@@ -1,0 +1,19 @@
+{
+  "id": "TDSC2024MLTrafficShaping",
+  "title": "Effective DDoS Mitigation via ML-Driven In-network Traffic Shaping",
+  "authors": "Ziming Zhao, Zhuotao Liu, Huan Chen, Fan Zhang, Zhuoxue Song, Zhaoxuan Li",
+  "year": 2024,
+  "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+  "ccf": "A",
+  "core": "A",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "计算机网络",
+    "网络与信息安全"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://www.computer.org/csdl/journal/tq",
+  "abstract": ""
+}

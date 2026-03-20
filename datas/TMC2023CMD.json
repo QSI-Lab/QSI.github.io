@@ -1,0 +1,19 @@
+{
+  "id": "TMC2023CMD",
+  "title": "CMD: Co-Analyzed IoT Malware Detection and Forensics via Network and Hardware Domains",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Xiaofei Xie, Haitao Xu, Binbin Chen",
+  "year": 2023,
+  "venue": "IEEE Transactions on Mobile Computing (TMC)",
+  "ccf": "A",
+  "core": "A",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全",
+    "计算机网络"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://www.computer.org/csdl/journal/tm",
+  "abstract": ""
+}

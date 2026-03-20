@@ -1,0 +1,18 @@
+{
+  "id": "ACNS2024DDoSMiner",
+  "title": "DDoSMiner: An Automated Framework for DDoS Attack Characterization and Vulnerability Mining",
+  "authors": "Xi Ling, Jiongchi Yu, Ziming Zhao, Zhihao Zhou, Haitao Xu, Binbin Chen, Fan Zhang",
+  "year": 2024,
+  "venue": "ACNS",
+  "ccf": "C",
+  "core": "B",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://wp.nyu.edu/acns2024/",
+  "abstract": ""
+}

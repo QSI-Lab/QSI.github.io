@@ -1,0 +1,19 @@
+{
+  "id": "TCAD2024TPEDet",
+  "title": "TPE-Det: A Tamper-Proof External Detector via Hardware Traces Analysis against IoT Malware",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
+  "year": 2024,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+  "ccf": "A",
+  "core": "A",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "网络与信息安全",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirection": "网络与算网融合",
+  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
+  "abstract": ""
+}
