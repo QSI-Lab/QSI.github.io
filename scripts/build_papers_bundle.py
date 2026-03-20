@@ -22,11 +22,6 @@ def parse_args() -> argparse.Namespace:
         help="Directory containing per-paper JSON files.",
     )
     parser.add_argument(
-        "--json-output",
-        default="papers.json",
-        help="Optional output path for merged JSON.",
-    )
-    parser.add_argument(
         "--js-output",
         default="papers-data.js",
         help="Output path for browser-readable JS bundle.",
@@ -72,9 +67,8 @@ def build_bundle(manifest: dict, datas_dir: Path) -> dict:
     }
 
 
-def write_outputs(bundle: dict, json_output: Path, js_output: Path) -> None:
+def write_outputs(bundle: dict, js_output: Path) -> None:
     bundle_body = json.dumps(bundle, ensure_ascii=False, indent=2)
-    json_output.write_text(bundle_body + "\n", encoding="utf-8")
     js_output.write_text(f"window.LAB_PAPERS_BUNDLE = {bundle_body};\n", encoding="utf-8")
 
 
@@ -82,15 +76,13 @@ def main() -> None:
     args = parse_args()
     manifest_path = Path(args.manifest).resolve()
     datas_dir = Path(args.datas_dir).resolve()
-    json_output = Path(args.json_output).resolve()
     js_output = Path(args.js_output).resolve()
 
     manifest = load_manifest(manifest_path)
     bundle = build_bundle(manifest, datas_dir)
-    write_outputs(bundle, json_output, js_output)
+    write_outputs(bundle, js_output)
 
     print(f"Merged {len(bundle['papers'])} papers")
-    print(f"JSON: {json_output}")
     print(f"JS:   {js_output}")
 
 

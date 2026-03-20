@@ -97,7 +97,6 @@ python3 scripts/build_papers_bundle.py
 
 生成后会更新：
 
-- `papers.json`
 - `papers-data.js`
 
 页面默认读取 `papers-data.js`，这样直接双击打开 `index.html` 也更稳定。
