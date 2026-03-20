@@ -453,70 +453,6 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": ""
     },
     {
-      "id": "KDD2025TimeWaveletFusion",
-      "title": "Towards Context-Aware Traffic Classification via Time-Wavelet Fusion Network",
-      "authors": "Ziming Zhao, Zhuoxue Song, Xiaofei Xie, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Tingting Li",
-      "year": 2025,
-      "venue": "KDD",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "数据库/数据挖掘/内容检索",
-        "人工智能"
-      ],
-      "researchDirections": [
-        "网络与算网融合"
-      ],
-      "link": "https://kdd2025.kdd.org/",
-      "abstract": ""
-    },
-    {
-      "id": "KDD2026QuaMap",
-      "title": "QuaMap: A Multi-Backend Benchmark Dataset for Quantum Circuit Mapping and Learning-Based Compiler Evaluation",
-      "authors": "Ziming Zhao, Tingting Li, Zhaoxuan Li, Jianwei Yin",
-      "year": 2026,
-      "venue": "KDD",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "数据库/数据挖掘/内容检索",
-        "交叉/综合/新兴"
-      ],
-      "researchDirections": [
-        "量子智能"
-      ],
-      "link": "https://kdd2026.kdd.org/",
-      "abstract": "QuaMap 是首个面向量子线路硬件映射的大规模开放基准数据集，旨在系统刻画量子程序在不同硬件后端上的转译与映射效果。该数据集将 75 个代表性量子算法与 10 台 IBM Quantum 设备上的超过 21 万个硬件感知转译线路进行关联，并同时提供原始线路和转译后线路。与已有数据集不同，QuaMap 重点记录了拓扑约束编译带来的影响，包含线路深度、门数量以及 CNOT 数等丰富的结构与性能指标。基于这些数据，作者设计了线路嵌入分类、转译指标预测、映射质量排序和迁移性评估四类基准任务，并提供了可复现的基线方法。实验结果表明，图神经网络在这些任务上明显优于启发式方法和传统模型，为数据驱动的量子编译研究提供了标准化基础。",
-      "imageUrl": "figures/SIGKDD2026QuMap.png"
-    },
-    {
-      "id": "KDD2026VQFlow",
-      "title": "VQFlow: A Benchmark Dataset for Encrypted Video Streaming Traffic across QoS Configurations",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang",
-      "year": 2026,
-      "venue": "KDD",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "数据库/数据挖掘/内容检索",
-        "计算机网络"
-      ],
-      "researchDirections": [
-        "网络与算网融合"
-      ],
-      "link": "https://kdd2026.kdd.org/",
-      "abstract": ""
-    },
-    {
       "id": "MM2024Minerva",
       "title": "Minerva: Enhancing Quantum Network Performance for High-Fidelity Multimedia Transmission",
       "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
@@ -598,6 +534,27 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与算网融合"
       ],
       "link": "https://secon2024.ieee-secon.org/",
+      "abstract": ""
+    },
+    {
+      "id": "SIGKDD2025TrafficScope",
+      "title": "Towards Context-Aware Traffic Classification via Time-Wavelet Fusion Network",
+      "authors": "Ziming Zhao, Zhuoxue Song, Xiaofei Xie, Zhaoxuan Li, Jiongchi Yu, Fan Zhang, Tingting Li",
+      "year": 2025,
+      "venue": "KDD",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "数据库/数据挖掘/内容检索",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "网络与算网融合"
+      ],
+      "link": "https://kdd2025.kdd.org/",
       "abstract": ""
     },
     {
