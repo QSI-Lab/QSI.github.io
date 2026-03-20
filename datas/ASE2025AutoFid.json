@@ -1,7 +1,7 @@
 {
   "id": "ASE2025AutoFid",
   "title": "AutoFid: Adaptive and Noise-Aware Fidelity Measurement for Quantum Programs via Circuit Graph Analysis",
-  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "authors": "Tingting Li, Ziming Zhao*, Jianwei Yin*",
   "year": 2025,
   "venue": "ASE",
   "ccf": "A",
