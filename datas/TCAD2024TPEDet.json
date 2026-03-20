@@ -13,7 +13,9 @@
     "网络与信息安全",
     "计算机体系结构/并行与分布计算/存储系统"
   ],
-  "researchDirection": "网络与算网融合",
+  "researchDirections": [
+    "网络与算网融合"
+  ],
   "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
   "abstract": ""
 }

@@ -13,7 +13,9 @@
     "数据库/数据挖掘/内容检索",
     "网络与信息安全"
   ],
-  "researchDirection": "大模型推理与训练",
+  "researchDirections": [
+    "大模型推理与训练"
+  ],
   "link": "https://dasfaa2025.github.io",
   "abstract": ""
 }

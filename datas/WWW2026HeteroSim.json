@@ -6,15 +6,15 @@
   "venue": "ACM WWW",
   "ccf": "A",
   "core": "A*",
-  "THCPL": "A",
-  "link": "",
+  "thcpl": "A",
   "type": "conference",
   "accepted": true,
   "fields": [
-    "新兴/交叉/综合"
+    "交叉/综合/新兴"
   ],
-  "researchDirection": [
+  "researchDirections": [
     "大模型训练模拟"
   ],
+  "link": "",
   "abstract": "针对异构集群下大语言模型训练系统设计空间巨大、难以高效评估的问题，提出HeteroSim高保真异构LLM训练仿真框架。该方法通过可插拔IR编译器显式刻画并行策略，并结合异构感知的计算规划器与类NCCL的集合通信规划器，在多种异构强度下实现接近真实训练行为的高精度模拟。实验表明，HeteroSim可在分钟级开销下将模拟误差保持在5%以下。"
 }

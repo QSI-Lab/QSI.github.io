@@ -6,16 +6,16 @@
   "venue": "IEEE TPDS",
   "ccf": "A",
   "core": "N",
-  "THCPL": "N",
-  "link": "https://ieeexplore.ieee.org/abstract/document/11242003",
+  "thcpl": "N",
   "type": "journal",
   "accepted": true,
   "fields": [
     "计算机体系结构/并行与分布计算/存储系统"
   ],
-  "researchDirection": [
+  "researchDirections": [
     "服务器无感知计算",
     "算力网络"
   ],
+  "link": "https://ieeexplore.ieee.org/abstract/document/11242003",
   "abstract": "针对服务器无感知ETL工作流中计算与通信资源需求异构问题，提出HyFaaS通算分离编排框架，通过HyDAG建模、灰盒性能建模与两级图分区实现优化部署，并结合运行时调优减少资源浪费。实验显示延迟降低32.7%–50.4%，成本提升1.37倍效率。"
 }

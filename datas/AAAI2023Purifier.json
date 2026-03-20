@@ -12,7 +12,9 @@
   "fields": [
     "人工智能"
   ],
-  "researchDirection": "大模型推理与训练",
+  "researchDirections": [
+    "大模型推理与训练"
+  ],
   "link": "https://www.aaai.org/Conferences/AAAI-23/",
   "abstract": "通过转换置信度分数来防御数据推理攻击，提出Purifier机制，在保持模型精度的前提下有效抵御成员推断攻击和属性推断攻击，实验验证了方法的有效性与通用性。"
 }

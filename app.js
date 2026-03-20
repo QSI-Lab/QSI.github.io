@@ -1,5 +1,5 @@
 (async function () {
-  const manifest = window.LAB_PAPERS_DATA;
+  const manifest = window.LAB_PAPERS_DATA || {};
   const bundle = window.LAB_PAPERS_BUNDLE;
 
   const state = {
@@ -103,7 +103,7 @@
       throw new Error("papers-data.js format is invalid");
     }
 
-    applyDataset(createBundledDataset(manifest, bundle.papers));
+    applyDataset(createBundledDataset(manifest, bundle));
   } catch (error) {
     console.error(error);
     renderFatalState(error);
@@ -846,11 +846,13 @@
     };
   }
 
-  function createBundledDataset(sourceManifest, bundledPapers) {
+  function createBundledDataset(sourceManifest, bundlePayload) {
+    const bundledPapers = Array.isArray(bundlePayload.papers) ? bundlePayload.papers : [];
+
     return {
-      ccfFields: sourceManifest.ccfFields || [],
-      researchDirections: sourceManifest.researchDirections || [],
-      ccfFieldAbbr: sourceManifest.ccfFieldAbbr || {},
+      ccfFields: bundlePayload.ccfFields || sourceManifest.ccfFields || [],
+      researchDirections: bundlePayload.researchDirections || sourceManifest.researchDirections || [],
+      ccfFieldAbbr: bundlePayload.ccfFieldAbbr || sourceManifest.ccfFieldAbbr || {},
       failedFiles: [],
       papers: bundledPapers.map(function (paper) {
         return normalizePaper(paper, paper.id || paper.title || "paper");
@@ -859,8 +861,19 @@
   }
 
   function enrichDataset(sourceDataset) {
+    const fields = [];
     const directions = [];
+    const seenFields = new Set();
     const seenDirections = new Set();
+
+    (sourceDataset.ccfFields || []).forEach(function (field) {
+      if (!field || seenFields.has(field)) {
+        return;
+      }
+
+      seenFields.add(field);
+      fields.push(field);
+    });
 
     (sourceDataset.researchDirections || []).forEach(function (direction) {
       if (!direction || seenDirections.has(direction)) {
@@ -872,6 +885,15 @@
     });
 
     sourceDataset.papers.forEach(function (paper) {
+      paper.fields.forEach(function (field) {
+        if (!field || seenFields.has(field)) {
+          return;
+        }
+
+        seenFields.add(field);
+        fields.push(field);
+      });
+
       paper.researchDirections.forEach(function (direction) {
         if (!direction || seenDirections.has(direction)) {
           return;
@@ -883,7 +905,7 @@
     });
 
     return {
-      ccfFields: sourceDataset.ccfFields || [],
+      ccfFields: fields,
       researchDirections: directions,
       ccfFieldAbbr: sourceDataset.ccfFieldAbbr || {},
       failedFiles: sourceDataset.failedFiles || [],
@@ -930,15 +952,19 @@
   }
 
   function normalizeResearchDirections(paper) {
-    const directions = Array.isArray(paper.researchDirections)
+    const source = Array.isArray(paper.researchDirections)
       ? paper.researchDirections
-        .map(function (direction) {
-          return String(direction).trim();
-        })
-        .filter(Boolean)
-      : typeof paper.researchDirection === "string" && paper.researchDirection.trim()
-        ? [paper.researchDirection.trim()]
-        : [];
+      : Array.isArray(paper.researchDirection)
+        ? paper.researchDirection
+        : typeof paper.researchDirection === "string" && paper.researchDirection.trim()
+          ? [paper.researchDirection.trim()]
+          : [];
+
+    const directions = source
+      .map(function (direction) {
+        return String(direction).trim();
+      })
+      .filter(Boolean);
 
     return directions.filter(function (direction, index) {
       return directions.indexOf(direction) === index;

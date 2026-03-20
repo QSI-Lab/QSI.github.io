@@ -6,15 +6,15 @@
   "venue": "DAC",
   "ccf": "A",
   "core": "A*",
-  "THCPL": "N",
-  "link": "#",
+  "thcpl": "N",
   "type": "conference",
   "accepted": true,
   "fields": [
     "计算机体系结构/并行与分布计算/存储系统"
   ],
-  "researchDirection": [
+  "researchDirections": [
     "模型推理"
   ],
+  "link": "",
   "abstract": "针对MoE推理中专家负载偏斜与动态变化问题，提出sMoE细粒度专家弹性扩缩系统。将推理建模为专家DAG并结合DAGNN与强化学习实现资源调度优化。在满足P95延迟SLO的同时降低21.4%–39.2%推理成本。"
 }

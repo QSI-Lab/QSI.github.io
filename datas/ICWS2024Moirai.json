@@ -13,7 +13,9 @@
     "交叉/综合/新兴",
     "计算机体系结构/并行与分布计算/存储系统"
   ],
-  "researchDirection": "量子智能",
+  "researchDirections": [
+    "量子智能"
+  ],
   "link": "https://icws.conferences.computer.org/2024/",
   "abstract": ""
 }

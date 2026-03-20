@@ -6,15 +6,15 @@
   "venue": "The Journal of Supercomputing",
   "ccf": "C",
   "core": "N",
-  "THCPL": "N",
-  "link": "https://link.springer.com/article/10.1007/s11227-024-06085-x",
+  "thcpl": "N",
   "type": "journal",
   "accepted": true,
   "fields": [
     "计算机体系结构/并行与分布计算/存储系统"
   ],
-  "researchDirection": [
+  "researchDirections": [
     "大数据系统优化"
   ],
+  "link": "https://link.springer.com/article/10.1007/s11227-024-06085-x",
   "abstract": "针对Flink迭代作业运行时间预测问题，提出TimeLink动态预测方法，通过融合离线与在线特征并进行相似作业匹配，实现实时预测。实验表明误差低至5.91%，显著优于现有方法。"
 }

@@ -13,7 +13,9 @@
     "软件工程/系统软件/程序设计语言",
     "交叉/综合/新兴"
   ],
-  "researchDirection": "量子智能",
+  "researchDirections": [
+    "量子智能"
+  ],
   "link": "https://conf.researchr.org/home/ase-2025",
   "abstract": ""
 }

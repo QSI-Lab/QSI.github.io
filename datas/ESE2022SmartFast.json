@@ -12,7 +12,9 @@
   "fields": [
     "软件工程/系统软件/程序设计语言"
   ],
-  "researchDirection": "网络与算网融合",
+  "researchDirections": [
+    "网络与算网融合"
+  ],
   "link": "https://link.springer.com/journal/10664",
   "abstract": ""
 }
