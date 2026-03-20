@@ -866,8 +866,9 @@ window.LAB_PAPERS_BUNDLE = {
       "researchDirections": [
         "网络与算网融合"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/10638516",
+      "abstract": "FOSS 是一种面向异常检测的网络入侵检测方法，旨在解决未知攻击细粒度识别和合法流量持续变化带来的适应性问题。该方法以孤立树为核心构建模型，通过划分数据分布空间并结合隔离思想，更有效地区分正常流量与异常行为。与此同时，FOSS 还强调增量式模型更新，使系统能够随着网络环境变化不断调整和演进。基于公开网络入侵数据集和与运营商合作的真实部署实验，结果表明 FOSS 在检测性能上优于现有先进方法。尤其在 DDoS 等此前未见攻击的细粒度识别方面，FOSS 展现出较强的实用价值。",
+      "imageUrl": "figures/TON2024FOSS.png"
     },
     {
       "id": "ToN2025Exploiting",
@@ -897,7 +898,7 @@ window.LAB_PAPERS_BUNDLE = {
       "year": 2025,
       "venue": "IEEE/ACM Transactions on Networking (TON)",
       "ccf": "A",
-      "core": "A*",
+      "core": "N",
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
@@ -908,8 +909,8 @@ window.LAB_PAPERS_BUNDLE = {
       "researchDirections": [
         "网络与算网融合"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90",
-      "abstract": ""
+      "link": "https://ieeexplore.ieee.org/abstract/document/11316161",
+      "abstract": "SOFA 是一种面向企业网络的两阶段流量检测框架，旨在提升对已知与未知网络攻击的细粒度识别能力。该方法首先从服务类型出发，对不同业务流量进行区分，并为每类正常流量分别训练独立的一类模型，从而更准确地发现服务相关的异常行为。随后，SOFA 在第二阶段引入基于 ResNet 的孪生网络，利用元学习构建稳健的度量空间，以缓解恶意样本稀缺带来的检测困难。实验结果表明，SOFA 在四个常用网络流量数据集上均取得了优于现有方法的性能，尤其在细粒度攻击检测方面表现突出。总体来看，SOFA 为动态且样本不平衡的企业网络环境提供了一种更具适应性的入侵检测方案。"
     },
     {
       "id": "TON2025TNT",
