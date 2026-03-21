@@ -915,7 +915,7 @@
 
   async function loadPaperFile(fileId) {
     const response = await fetch("./datas/" + encodeURIComponent(fileId) + ".json", {
-      cache: "no-store",
+      cache: "reload",
     });
 
     if (!response.ok) {
