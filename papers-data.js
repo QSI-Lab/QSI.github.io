@@ -103,25 +103,48 @@ window.LAB_PAPERS_BUNDLE = {
       "imageUrl": "figures/TIFS2025TDQDF.png"
     },
     {
+      "id": "CCS2024SmartContractSymX",
+      "title": "Demo: Enhancing Smart Contract Security Comprehensively through Dynamic Symbolic Execution",
+      "authors": "Zhaoxuan Li, Ziming Zhao, Wenhao Li, Rui Zhang, Rui Xue, Siqi Lu, Fan Zhang",
+      "year": 2024,
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程",
+        "网络安全"
+      ],
+      "researchDirections": [
+        "网络安全"
+      ],
+      "link": "https://doi.org/10.1145/3658644.3691365",
+      "abstract": "针对智能合约漏洞仿真、结果验证与行为识别需求，以及传统符号执行难以还原合约真实执行路径的问题，本文提出一种基于动态符号执行的智能合约安全增强方法。该方法通过选择性规避策略尽可能保留相对完整的循环路径，结合真实合约执行以保证调用合约与被调用合约之间的数据一致性，并通过及时记录 EVM 操作过程中的状态变化来支持多交易连续执行。在此基础上，系统能够同时完成漏洞检测、漏洞验证和合约调用行为识别。实验结果表明，该方法实现了 90.22% 的漏洞检测准确率和 98.04% 的合约调用行为识别准确率，并能够有效验证重入、任意发送、合约自毁、整数溢出等典型漏洞。"
+    },
+    {
       "id": "CompNet2024metaNet",
       "title": "metaNet: Interpretable Unknown Mobile Malware Identification with a Novel Meta-features Mining Algorithm",
       "authors": "Zhaoxuan Li, Ziming Zhao, Rui Zhang, Haoyang Lu, Wenhao Li, Fan Zhang, Siqi Lu, Rui Xue",
       "year": 2024,
       "venue": "Computer Networks",
       "ccf": "B",
-      "core": "A",
-      "thcpl": "N",
+      "core": "B",
+      "thcpl": "B",
       "type": "journal",
       "accepted": true,
       "fields": [
         "计算机网络",
-        "网络与信息安全"
+        "网络安全",
+        "人工智能"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "未知检测",
+        "机器学习"
       ],
-      "link": "https://www.sciencedirect.com/journal/computer-networks",
-      "abstract": ""
+      "link": "https://dl.acm.org/doi/10.1016/j.comnet.2024.110563",
+      "abstract": "针对已知与未知家族移动恶意软件在开放集场景下面临的准确性、鲁棒性、稳定性与可解释识别挑战，本文提出 metaNet 方法。该方法综合提取类别静态与动态特征，基于 FP-trees 挖掘类别特征频繁项，并结合差集过滤得到类别元特征；在此基础上，构建异构孪生 U-Net 网络模型 HSU-Net 以完成二分类与多分类任务。实验结果表明，metaNet 不仅能够实现已知家族样本的高精度识别，在未知家族识别场景下也具有优异表现：二分类任务中，已知家族识别准确率达到 99.52%，在已知 80% 家族条件下未知家族识别准确率达到 99.31%；多分类任务中，已知与未知家族样本识别准确率分别达到 99.05% 和 93.45%。此外，该方法还支持少样本识别并能有效缓解特征混淆带来的影响。在 16 个类别、112 个去中心化应用程序（DApps）流量数据集上，metaNet 也能够准确识别 94.6% 的全已知 DApp 样本和 81.36% 的已知 80% DApp 样本类别。"
     },
     {
       "id": "CompSecurity2024DDoSFamily",
@@ -247,24 +270,25 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作提出了一种基于专家混合（MoE）的量子校准错误回溯方法，用于解决传统自动校准过程中难以定位根因、往往需要反复尝试的问题。该方法借鉴大语言模型中的 MoE 思想，对校准失败进行可追踪分析，从而更快识别导致偏离校准状态的关键误差来源。相比仅依赖经验或固定流程的传统方法，这种机制能够在自动校准过程中实现更高效的错误定位与修正。实验结果表明，该方法在错误追踪能力和校准效率上均明显优于现有技术，并使 77 个量子比特的平均可见度提升了 25.5%。总体来看，这项研究为构建更可靠、可扩展的量子计算系统提供了一条有前景的技术路径。"
     },
     {
-      "id": "ESE2022SmartFast",
-      "title": "SmartFast: an accurate and robust formal analysis tool for Ethereum smart contracts",
+      "id": "EMSE2022SmartFast",
+      "title": "SmartFast: An Accurate and Robust Formal Analysis Tool for Ethereum Smart Contracts",
       "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Rui Xue, Wenqiu Ma, Rujin Liang, Ziming Zhao, Sheng Gao",
       "year": 2022,
       "venue": "Empirical Software Engineering",
       "ccf": "B",
       "core": "A",
-      "thcpl": "N",
+      "thcpl": "B",
       "type": "journal",
       "accepted": true,
       "fields": [
-        "软件工程/系统软件/程序设计语言"
+        "软件工程",
+        "网络安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "网络安全"
       ],
-      "link": "https://link.springer.com/journal/10664",
-      "abstract": ""
+      "link": "https://doi.org/10.1007/s10664-022-10218-2",
+      "abstract": "针对现有以太坊智能合约漏洞分析方法在漏洞覆盖范围有限、验证效率较低以及检测精度不足等方面的问题，本文提出了形式化分析工具 SmartFast。该方法设计了能够覆盖更丰富合约语义的中间表示 SmartIR，并实现 Solidity 源码到中间表示的转换；同时结合定制化漏洞安全模式与污点分析技术完成漏洞匹配与检测。实验结果表明，SmartFast 可检测 119 种智能合约漏洞，超过当时代表性工具 Slither 的 71 种，并取得 98.43% 的精确率和 85.12% 的召回率；此外，该方法对破坏数据依赖关系和上下文语义关联的代码混淆手段也表现出较强鲁棒性。"
     },
     {
       "id": "FSE2025CAShift",
@@ -286,6 +310,47 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://dl.acm.org/doi/abs/10.1145/3729346",
       "abstract": "CAShift 是一个面向云环境日志异常检测的数据集，旨在弥补现有云系统数据集在行为覆盖范围和整体系统视角上的不足。该数据集综合考虑了云系统中不同软件角色，并支持应用变化、版本变化和云架构变化三种真实的正常性偏移场景，同时包含 20 种针对不同云组件的攻击场景。基于 CAShift，作者系统评估了现有日志异常检测方法在分布偏移条件下的表现，发现各类方法都会受到显著影响，性能最高可下降 34%。此外，论文还进一步研究了持续学习方法在偏移适应中的作用，结果表明其能够在一定程度上缓解性能退化，但效果高度依赖重训练数据比例和具体算法选择。总体来看，CAShift 为研究更鲁棒的云日志异常检测与分布偏移适应提供了重要基础。"
+    },
+    {
+      "id": "ICAIS2021KeyHierarchicalManagement",
+      "title": "Secure and Efficient Key Hierarchical Management and Collaborative Signature Schemes of Blockchain",
+      "authors": "Rui Zhang, Zhaoxuan Li, Lijuan Zheng",
+      "year": 2021,
+      "venue": "International Conference on Artificial Intelligence and Security",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "网络安全"
+      ],
+      "researchDirections": [
+        "网络安全"
+      ],
+      "link": "https://doi.org/10.1007/978-3-030-78612-0_27",
+      "abstract": "为了提升区块链密钥管理的安全性与效率，并满足协同签名场景下的应用需求，本文提出了一种结合安全多方计算与特征加密的层次化密钥管理与协同签名方案。该方案能够保障各层级密钥的安全性，抵御数据篡改攻击、密钥窃取攻击、碎片泄漏攻击和明文窃取攻击；同时，在保证安全性的基础上减少用户文件共享时间和存储开销，提高系统资源利用率与整体运行效率。"
+    },
+    {
+      "id": "ICWS2020SmartContractExecution",
+      "title": "A Secure and Efficient Smart Contract Execution Scheme",
+      "authors": "Zhaoxuan Li, Rui Zhang, Pengchao Li",
+      "year": 2020,
+      "venue": "IEEE International Conference on Web Services",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程",
+        "网络安全"
+      ],
+      "researchDirections": [
+        "网络安全"
+      ],
+      "link": "https://doi.org/10.1007/978-3-030-59618-7_2",
+      "abstract": "针对基于安全多方计算的智能合约执行过程中，攻击者可以执行与重构者相同过程以恢复共享秘密值、从而导致隐私泄露的问题，本文提出一种安全高效的智能合约执行方案。该方法改进了 DGHV 半同态加密算法，以减小公钥大小和密文长度并提升加密效率；在此基础上，进一步设计融合安全多方计算与同态加密的智能合约执行框架 SMPC-HE，在保证合约执行隐私性的同时确保计算结果的正确性，并提升执行公平性。理论分析与实验结果表明，该方案具有良好的安全性、较高的执行效率以及较低的空间开销。"
     },
     {
       "id": "ICWS2024Moirai",
@@ -725,6 +790,26 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "DFNet 提出了一种新的 DDoS 防御范式，即“偏好驱动、网络内强制执行的流量整形”，核心目标不是持续追逐攻击特征，而是在未知攻击条件下优先保障受害者真正期望的流量被可靠转发。实验表明，DFNet 将受害者流量偏好编码进数据平面调度机制后，即使面对未见过的攻击，也能在 80 Gbps 上行、40 Gbps 瓶颈链路条件下转发 99.93% 的目标流量，同时额外转发开销低于 0.1%。"
     },
     {
+      "id": "TDSC2024NotJustSumming",
+      "title": "Not Just Summing: The Identifier Leakage of Private-Join-and-Compute and its Improvement",
+      "authors": "Siqi Lu, Hanjie Dong, Zhaoxuan Li, Laurence T. Yang",
+      "year": 2024,
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "网络安全"
+      ],
+      "researchDirections": [
+        "网络安全"
+      ],
+      "link": "https://doi.org/10.1109/TDSC.2024.3371569",
+      "abstract": "针对隐私交集求和（Private Intersection-Sum, PIS）协议在诚实且好奇敌手模型下存在用户标识符泄露风险的问题，本文系统分析了 Google 开源 Private-Join-and-Compute 库中的安全缺陷，指出攻击者可通过构造特殊输入数据结构推断交集项，从而实施用户标识符窃取攻击。为解决该问题，本文基于差分隐私技术提出了一种改进的 PIS 协议，并对 Private-Join-and-Compute 开源库进行了优化。通过基于 Game 序列的形式化分析以及基于 Tamarin 工具的安全性证明，结果表明改进后的协议在几乎不引入明显额外开销的情况下，有效抵御了已发现的攻击，并提升了协议在实际应用场景中的安全性。"
+    },
+    {
       "id": "TIFS2023SAGE",
       "title": "SAGE: Steering the Adversarial Generation of Examples With Accelerations",
       "authors": "Ziming Zhao, Zhaoxuan Li, Fan Zhang, Ziqi Yang, Shuang Luo, Tingting Li, Rui Zhang, Kui Ren",
@@ -959,23 +1044,26 @@ window.LAB_PAPERS_BUNDLE = {
     },
     {
       "id": "TSE2023VulHunter",
-      "title": "VulHunter: Hunting Vulnerable Smart Contracts at EVM bytecode-level via Multiple Instance Learning",
+      "title": "VulHunter: Hunting Vulnerable Smart Contracts at EVM Bytecode-level via Multiple Instance Learning",
       "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Ziming Zhao, Rujin Liang, Rui Xue, Wenhao Li, Fan Zhang, Sheng Gao",
       "year": 2023,
-      "venue": "IEEE Transactions on Software Engineering (TSE)",
+      "venue": "IEEE Transactions on Software Engineering",
       "ccf": "A",
       "core": "A*",
-      "thcpl": "N",
+      "thcpl": "A",
       "type": "journal",
       "accepted": true,
       "fields": [
-        "软件工程/系统软件/程序设计语言"
+        "软件工程",
+        "网络安全",
+        "人工智能"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "AI安全",
+        "机器学习"
       ],
-      "link": "https://www.computer.org/csdl/journal/ts",
-      "abstract": ""
+      "link": "https://doi.org/10.1109/TSE.2023.3317209",
+      "abstract": "针对智能合约字节码级漏洞分析中存在的分析需求强、人工规则制定困难以及现有人工智能方法检测结果难以直接利用等问题，本文提出了面向 EVM 字节码的智能合约漏洞检测方法 VulHunter。该方法利用多示例学习机制缓解细粒度执行路径标签缺失条件下模型训练困难的问题，并结合符号执行对检测结果进行可达性验证，从而自动消除部分误报。实验结果表明，VulHunter 能够以更高的准确性、更高的效率和更强的鲁棒性完成合约漏洞检测，达到 90.04% 的准确率，在 121KB 合约上的平均分析时间为 4.4 秒，分析失败率为 0%，并实现了从漏洞检测、漏洞代码定位到结果验证的全流程自动化执行。"
     },
     {
       "id": "WISA2021Online",
@@ -1072,7 +1160,9 @@ window.LAB_PAPERS_BUNDLE = {
     "人工智能",
     "交叉/综合/新兴",
     "交叉/新兴",
-    "其他"
+    "其他",
+    "网络安全",
+    "软件工程"
   ],
   "researchDirections": [
     "网络与算网融合",
@@ -1113,6 +1203,8 @@ window.LAB_PAPERS_BUNDLE = {
     "人工智能": "人工智能",
     "交叉/综合/新兴": "交叉/新兴",
     "交叉/新兴": "交叉/新兴",
-    "其他": "其他"
+    "其他": "其他",
+    "网络安全": "网络安全",
+    "软件工程": "软件工程"
   }
 };
