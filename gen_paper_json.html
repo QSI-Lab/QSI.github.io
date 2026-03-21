@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>论文 JSON 生成器</title>
+    <style>
+      :root {
+        --bg: #edf4fb;
+        --surface: rgba(255, 255, 255, 0.94);
+        --surface-strong: #ffffff;
+        --border: rgba(31, 71, 132, 0.12);
+        --border-strong: rgba(31, 71, 132, 0.18);
+        --text: #16304d;
+        --text-soft: #60738c;
+        --text-faint: #8b9ab0;
+        --primary: #1f5ed8;
+        --primary-strong: #183d90;
+        --primary-soft: #e8f0ff;
+        --shadow-soft: 0 10px 28px rgba(18, 52, 100, 0.08);
+        --radius-xl: 26px;
+        --radius-lg: 20px;
+        --radius-md: 14px;
+        --radius-sm: 999px;
+        --font-sans: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--text);
+        font-family: var(--font-sans);
+        background:
+          radial-gradient(circle at top left, rgba(73, 128, 255, 0.18), transparent 30%),
+          radial-gradient(circle at top right, rgba(16, 185, 129, 0.12), transparent 26%),
+          linear-gradient(180deg, #f4f8fc 0%, var(--bg) 48%, #e6eef7 100%);
+      }
+
+      body,
+      input,
+      select,
+      textarea,
+      button {
+        font: inherit;
+      }
+
+      .page {
+        width: min(1220px, calc(100vw - 28px));
+        margin: 0 auto;
+        padding: 28px 0 36px;
+      }
+
+      .hero {
+        margin-bottom: 18px;
+        padding: 28px;
+        border-radius: var(--radius-xl);
+        background: linear-gradient(135deg, #132b59 0%, #1d4fa7 52%, #2f78ff 100%);
+        color: #ffffff;
+        box-shadow: var(--shadow-soft);
+      }
+
+      .hero__eyebrow {
+        margin: 0 0 8px;
+        color: rgba(216, 231, 255, 0.82);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-size: clamp(28px, 4vw, 38px);
+      }
+
+      .hero p {
+        margin: 10px 0 0;
+        color: rgba(226, 237, 255, 0.9);
+        line-height: 1.8;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr);
+        gap: 18px;
+      }
+
+      .panel {
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        background: var(--surface);
+        box-shadow: var(--shadow-soft);
+      }
+
+      .panel__body {
+        padding: 20px;
+      }
+
+      .panel__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .panel__head h2 {
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .panel__head p {
+        margin: 6px 0 0;
+        color: var(--text-faint);
+        font-size: 13px;
+      }
+
+      .form-grid {
+        display: grid;
+        gap: 16px;
+      }
+
+      .field-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .field {
+        display: grid;
+        gap: 8px;
+      }
+
+      .field--full {
+        grid-column: 1 / -1;
+      }
+
+      .field label,
+      .choice-section__title {
+        color: var(--text);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .field__hint {
+        color: var(--text-faint);
+        font-size: 12px;
+        line-height: 1.6;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      input[type="url"],
+      select,
+      textarea {
+        width: 100%;
+        min-height: 44px;
+        padding: 11px 14px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-md);
+        background: var(--surface-strong);
+        color: var(--text);
+        transition: border-color 160ms ease, box-shadow 160ms ease;
+      }
+
+      textarea {
+        min-height: 140px;
+        resize: vertical;
+        line-height: 1.75;
+      }
+
+      input:focus,
+      select:focus,
+      textarea:focus {
+        outline: none;
+        border-color: rgba(29, 78, 216, 0.34);
+        box-shadow: 0 0 0 5px rgba(29, 78, 216, 0.08);
+      }
+
+      .inline-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 44px;
+        padding: 0 14px;
+        border: 1px solid var(--border-strong);
+        border-radius: var(--radius-md);
+        background: var(--surface-strong);
+        color: var(--text-soft);
+        font-weight: 700;
+      }
+
+      .choice-section {
+        display: grid;
+        gap: 10px;
+      }
+
+      .choice-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 10px;
+      }
+
+      .choice {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 42px;
+        padding: 0 12px;
+        border: 1px solid rgba(31, 71, 132, 0.1);
+        border-radius: 14px;
+        background: #f8fbff;
+        color: var(--text-soft);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .choice input {
+        margin: 0;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .button {
+        min-height: 42px;
+        padding: 0 16px;
+        border: 0;
+        border-radius: var(--radius-sm);
+        background: linear-gradient(135deg, #1d4ed8, #2563eb);
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 800;
+        cursor: pointer;
+        box-shadow: 0 12px 22px rgba(20, 61, 126, 0.16);
+      }
+
+      .button--ghost {
+        border: 1px solid rgba(31, 71, 132, 0.12);
+        background: #ffffff;
+        color: var(--text-soft);
+        box-shadow: none;
+      }
+
+      .notice {
+        padding: 14px 16px;
+        border-radius: 16px;
+        background: rgba(29, 78, 216, 0.06);
+        color: var(--text-soft);
+        font-size: 13px;
+        line-height: 1.8;
+      }
+
+      .summary-grid {
+        display: grid;
+        gap: 12px;
+      }
+
+      .summary-card {
+        padding: 14px 16px;
+        border: 1px solid rgba(31, 71, 132, 0.08);
+        border-radius: 16px;
+        background: #f8fbff;
+      }
+
+      .summary-card__label {
+        margin: 0 0 6px;
+        color: var(--text-faint);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .summary-card__value {
+        margin: 0;
+        color: var(--text);
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.6;
+        word-break: break-word;
+      }
+
+      .output {
+        width: 100%;
+        min-height: 420px;
+        padding: 16px;
+        border: 1px solid rgba(31, 71, 132, 0.12);
+        border-radius: 16px;
+        background: #0f172a;
+        color: #d9e6ff;
+        font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+        font-size: 13px;
+        line-height: 1.7;
+        white-space: pre-wrap;
+      }
+
+      .output:focus {
+        outline: none;
+      }
+
+      .footer-note {
+        margin-top: 10px;
+        color: var(--text-faint);
+        font-size: 12px;
+        line-height: 1.8;
+      }
+
+      @media (max-width: 980px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 720px) {
+        .page {
+          width: min(100vw - 20px, 1220px);
+          padding-top: 18px;
+        }
+
+        .hero,
+        .panel__body {
+          padding: 18px;
+        }
+
+        .field-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <section class="hero">
+        <p class="hero__eyebrow">Paper JSON Generator</p>
+        <h1>单篇论文 JSON 生成器</h1>
+        <p>
+          填完这张表，会自动生成单篇论文 JSON 内容，并给出推荐文件名、JSON 放置目录、图片命名和图片放置目录。
+          图片不需要上传，后续手动放到 `figures/` 即可。
+        </p>
+      </section>
+
+      <div class="layout">
+        <section class="panel">
+          <div class="panel__body">
+            <div class="panel__head">
+              <div>
+                <h2>论文信息</h2>
+                <p>尽量用选择项，只有必要信息才输入文本。</p>
+              </div>
+            </div>
+
+            <form id="paperForm" class="form-grid">
+              <div class="field-grid">
+                <div class="field field--full">
+                  <label for="titleInput">论文标题</label>
+                  <input id="titleInput" name="title" type="text" placeholder="例如：QAgent: Quantum Task Planning with Multi-Agent Coordination" />
+                </div>
+
+                <div class="field field--full">
+                  <label for="authorsInput">作者</label>
+                  <input id="authorsInput" name="authors" type="text" placeholder="例如：Alice Zhang#, Bob Li#, Carol Wang*" />
+                  <div class="field__hint">约定：`#` 表示共一，`*` 表示通讯。</div>
+                </div>
+
+                <div class="field">
+                  <label for="yearInput">年份</label>
+                  <input id="yearInput" name="year" type="number" min="2000" max="2100" value="2026" />
+                </div>
+
+                <div class="field">
+                  <label for="typeSelect">类型</label>
+                  <select id="typeSelect" name="type">
+                    <option value="conference">conference</option>
+                    <option value="journal">journal</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="venuePresetInput">会议 / 期刊预设</label>
+                  <input id="venuePresetInput" name="venuePreset" type="text" list="venuePresetList" placeholder="例如：IJCAI / TIFS / DAC" />
+                  <datalist id="venuePresetList"></datalist>
+                  <div class="field__hint">输入常用简称后，会自动补全下面的“命名用简称”和“会议 / 期刊名称”，也可以手动覆盖。</div>
+                </div>
+
+                <div class="field">
+                  <label for="venueCodeInput">命名用简称</label>
+                  <input id="venueCodeInput" name="venueCode" type="text" placeholder="例如：IJCAI / KDD / TIFS" />
+                </div>
+
+                <div class="field field--full">
+                  <label for="venueInput">会议 / 期刊名称</label>
+                  <input id="venueInput" name="venue" type="text" placeholder="例如：IJCAI" />
+                </div>
+
+                <div class="field">
+                  <label for="paperAliasInput">论文缩写 / 文件名后缀</label>
+                  <input id="paperAliasInput" name="paperAlias" type="text" placeholder="例如：QAgent" />
+                  <div class="field__hint">会自动根据标题生成，也可以手动改。</div>
+                </div>
+
+                <div class="field">
+                  <label for="linkInput">原文链接</label>
+                  <input id="linkInput" name="link" type="url" placeholder="https://..." />
+                </div>
+
+                <div class="field">
+                  <label for="pdfInput">PDF 链接，可留空</label>
+                  <input id="pdfInput" name="pdf" type="url" placeholder="https://..." />
+                </div>
+
+                <div class="field">
+                  <label for="doiInput">DOI 链接，可留空</label>
+                  <input id="doiInput" name="doi" type="url" placeholder="https://doi.org/..." />
+                </div>
+
+                <div class="field">
+                  <span class="choice-section__title">是否已录用</span>
+                  <label class="inline-toggle">
+                    <input id="acceptedInput" name="accepted" type="checkbox" checked />
+                    <span>accepted = true</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="field-grid">
+                <div class="field">
+                  <label for="ccfSelect">CCF</label>
+                  <select id="ccfSelect" name="ccf">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="N">N</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="coreSelect">CORE</label>
+                  <select id="coreSelect" name="core">
+                    <option value="A*">A*</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="N">N</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="thcplSelect">THCPL</label>
+                  <select id="thcplSelect" name="thcpl">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="N">N</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="choice-section field--full">
+                <div class="choice-section__title">研究领域（可多选）</div>
+                <div id="fieldsChoices" class="choice-grid"></div>
+                <div class="field">
+                  <label for="extraFieldsInput">附加研究领域</label>
+                  <input id="extraFieldsInput" type="text" placeholder="多个请用英文逗号分隔，例如：其他, 多媒体系统" />
+                </div>
+              </div>
+
+              <div class="choice-section field--full">
+                <div class="choice-section__title">研究方向（可多选）</div>
+                <div id="directionsChoices" class="choice-grid"></div>
+                <div class="field">
+                  <label for="extraDirectionsInput">附加研究方向</label>
+                  <input id="extraDirectionsInput" type="text" placeholder="多个请用英文逗号分隔，例如：模型推理, 量子软工" />
+                </div>
+              </div>
+
+              <div class="field field--full">
+                <label for="abstractInput">摘要</label>
+                <textarea id="abstractInput" name="abstract" placeholder="这里填写摘要"></textarea>
+              </div>
+
+              <div class="actions">
+                <button id="generateBtn" class="button" type="button">生成 JSON</button>
+                <button id="copyBtn" class="button button--ghost" type="button">复制 JSON</button>
+                <button id="resetBtn" class="button button--ghost" type="reset">清空表单</button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__body">
+            <div class="panel__head">
+              <div>
+                <h2>生成结果</h2>
+                <p>下面是推荐命名和可直接保存的 JSON 内容。</p>
+              </div>
+            </div>
+
+            <div class="summary-grid">
+              <article class="summary-card">
+                <p class="summary-card__label">推荐 ID</p>
+                <p id="recommendedId" class="summary-card__value">未生成</p>
+              </article>
+
+              <article class="summary-card">
+                <p class="summary-card__label">JSON 文件</p>
+                <p id="jsonFileName" class="summary-card__value">datas/未生成.json</p>
+              </article>
+
+              <article class="summary-card">
+                <p class="summary-card__label">图片文件</p>
+                <p id="figureFileName" class="summary-card__value">figures/未生成.png</p>
+              </article>
+
+              <article class="summary-card">
+                <p class="summary-card__label">说明</p>
+                <p class="summary-card__value">图片无需上传到本页，只需后续手动放入 `figures/`。</p>
+              </article>
+            </div>
+
+            <div class="notice" style="margin-top: 14px;">
+              推荐保存位置：
+              `datas/&lt;推荐ID&gt;.json`
+              <br />
+              推荐图片位置：
+              `figures/&lt;推荐ID&gt;.png`
+            </div>
+
+            <textarea id="jsonOutput" class="output" spellcheck="false"></textarea>
+            <p class="footer-note">
+              如果自动生成的“论文缩写 / 文件名后缀”不符合你的命名习惯，可以直接修改左侧输入框，再重新点击“生成 JSON”。
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const VENUE_PRESETS = [
+          { code: "AAAI", venue: "AAAI" },
+          { code: "ACNS", venue: "ACNS" },
+          { code: "ASE", venue: "ASE" },
+          { code: "CCS", venue: "ACM SIGSAC Conference on Computer and Communications Security" },
+          { code: "CSCWD", venue: "CSCWD" },
+          { code: "CompNet", venue: "Computer Networks" },
+          { code: "CompSecurity", venue: "Computers & Security" },
+          { code: "DAC", venue: "DAC" },
+          { code: "DASFAA", venue: "DASFAA" },
+          { code: "DATE", venue: "DATE" },
+          { code: "EMSE", venue: "Empirical Software Engineering" },
+          { code: "FSE", venue: "ESEC/SIGSOFT FSE" },
+          { code: "ICAIS", venue: "International Conference on Artificial Intelligence and Security" },
+          { code: "ICWS", venue: "ICWS" },
+          { code: "IJCAI", venue: "IJCAI" },
+          { code: "INFOCOM", venue: "INFOCOM" },
+          { code: "INS", venue: "Information Sciences (INS)" },
+          { code: "JSAC", venue: "IEEE Journal on Selected Areas in Communications (JSAC)" },
+          { code: "MM", venue: "ACM Multimedia (MM)" },
+          { code: "NDSS", venue: "NDSS" },
+          { code: "SECON", venue: "SECON" },
+          { code: "SIGKDD", venue: "SIGKDD" },
+          { code: "TCAD", venue: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)" },
+          { code: "TDSC", venue: "IEEE Transactions on Dependable and Secure Computing (TDSC)" },
+          { code: "TIFS", venue: "IEEE Transactions on Information Forensics and Security (TIFS)" },
+          { code: "TJSC", venue: "The Journal of Supercomputing" },
+          { code: "TMC", venue: "IEEE Transactions on Mobile Computing (TMC)" },
+          { code: "TON", venue: "IEEE/ACM Transactions on Networking (TON)" },
+          { code: "TPDS", venue: "IEEE TPDS" },
+          { code: "TSE", venue: "IEEE Transactions on Software Engineering" },
+          { code: "WISA", venue: "WISA" },
+          { code: "WWW", venue: "WWW" },
+        ];
+
+        const FIELD_OPTIONS = [
+          "计算机体系结构/并行与分布计算/存储系统",
+          "计算机网络",
+          "网络与信息安全",
+          "软件工程/系统软件/程序设计语言",
+          "数据库/数据挖掘/内容检索",
+          "计算机科学理论",
+          "计算机图形学与多媒体",
+          "人工智能",
+          "人机交互与普适计算",
+          "交叉/综合/新兴",
+          "其他",
+        ];
+
+        const RESEARCH_DIRECTION_OPTIONS = [
+          "网络与算网融合",
+          "隐私计算",
+          "大模型推理与训练",
+          "量子智能",
+          "医学智能",
+          "脑机与生成式智能",
+          "AI for Science",
+          "模型推理",
+          "大模型训练模拟",
+          "大模型多智能体",
+          "网络安全",
+          "量子软工",
+          "量子EDA",
+          "量子网络",
+          "量子数据集",
+          "量子云平台",
+          "量子安全",
+          "加密流量",
+          "AI安全",
+          "IoT安全",
+          "大数据系统优化",
+          "服务器无感知计算",
+          "算力网络",
+          "碳感知算网",
+          "系统取证",
+          "未知检测",
+          "机器学习",
+          "僵尸网络",
+          "端网融合",
+          "云计算与云服务器",
+          "大模型 for 安全",
+        ];
+
+        const STOP_WORDS = new Set([
+          "a", "an", "the", "for", "and", "or", "to", "of", "in", "on", "via", "with", "under",
+          "against", "towards", "toward", "based", "using", "from", "by", "into", "across",
+        ]);
+
+        const elements = {
+          form: document.getElementById("paperForm"),
+          title: document.getElementById("titleInput"),
+          authors: document.getElementById("authorsInput"),
+          year: document.getElementById("yearInput"),
+          type: document.getElementById("typeSelect"),
+          venuePreset: document.getElementById("venuePresetInput"),
+          venueCode: document.getElementById("venueCodeInput"),
+          venue: document.getElementById("venueInput"),
+          paperAlias: document.getElementById("paperAliasInput"),
+          link: document.getElementById("linkInput"),
+          pdf: document.getElementById("pdfInput"),
+          doi: document.getElementById("doiInput"),
+          accepted: document.getElementById("acceptedInput"),
+          fieldsChoices: document.getElementById("fieldsChoices"),
+          directionsChoices: document.getElementById("directionsChoices"),
+          extraFields: document.getElementById("extraFieldsInput"),
+          extraDirections: document.getElementById("extraDirectionsInput"),
+          abstract: document.getElementById("abstractInput"),
+          generateBtn: document.getElementById("generateBtn"),
+          copyBtn: document.getElementById("copyBtn"),
+          resetBtn: document.getElementById("resetBtn"),
+          recommendedId: document.getElementById("recommendedId"),
+          jsonFileName: document.getElementById("jsonFileName"),
+          figureFileName: document.getElementById("figureFileName"),
+          jsonOutput: document.getElementById("jsonOutput"),
+          ccf: document.getElementById("ccfSelect"),
+          core: document.getElementById("coreSelect"),
+          thcpl: document.getElementById("thcplSelect"),
+        };
+
+        init();
+
+        function init() {
+          renderVenuePresetList();
+          renderChoices(elements.fieldsChoices, FIELD_OPTIONS, "fields");
+          renderChoices(elements.directionsChoices, RESEARCH_DIRECTION_OPTIONS, "directions");
+          bindEvents();
+          applyVenuePreset();
+          generateJson();
+        }
+
+        function renderVenuePresetList() {
+          const list = document.getElementById("venuePresetList");
+          if (!list) {
+            return;
+          }
+
+          list.innerHTML = VENUE_PRESETS.map(function (item) {
+            return '<option value="' + escapeAttribute(item.code) + '">' + escapeHtml(item.venue) + "</option>";
+          }).join("");
+        }
+
+        function renderChoices(container, values, name) {
+          container.innerHTML = values
+            .map(function (value, index) {
+              const id = name + "-choice-" + index;
+              return (
+                '<label class="choice" for="' +
+                escapeAttribute(id) +
+                '">' +
+                '<input id="' +
+                escapeAttribute(id) +
+                '" type="checkbox" data-choice-group="' +
+                escapeAttribute(name) +
+                '" value="' +
+                escapeAttribute(value) +
+                '">' +
+                "<span>" +
+                escapeHtml(value) +
+                "</span>" +
+                "</label>"
+              );
+            })
+            .join("");
+        }
+
+        function bindEvents() {
+          elements.venuePreset.addEventListener("input", function () {
+            applyVenuePreset();
+            generateJson();
+          });
+
+          elements.title.addEventListener("input", function () {
+            if (!elements.paperAlias.dataset.userEdited) {
+              elements.paperAlias.value = suggestPaperAlias(elements.title.value);
+            }
+            generateJson();
+          });
+
+          elements.paperAlias.addEventListener("input", function () {
+            elements.paperAlias.dataset.userEdited = elements.paperAlias.value.trim() ? "true" : "";
+            generateJson();
+          });
+
+          elements.form.addEventListener("input", generateJson);
+          elements.form.addEventListener("change", generateJson);
+
+          elements.generateBtn.addEventListener("click", generateJson);
+
+          elements.copyBtn.addEventListener("click", async function () {
+            generateJson();
+            try {
+              await navigator.clipboard.writeText(elements.jsonOutput.value);
+              elements.copyBtn.textContent = "已复制";
+              setTimeout(function () {
+                elements.copyBtn.textContent = "复制 JSON";
+              }, 1200);
+            } catch (error) {
+              elements.jsonOutput.focus();
+              elements.jsonOutput.select();
+            }
+          });
+
+          elements.resetBtn.addEventListener("click", function () {
+            window.setTimeout(function () {
+              elements.paperAlias.dataset.userEdited = "";
+              applyVenuePreset();
+              generateJson();
+            }, 0);
+          });
+        }
+
+        function applyVenuePreset() {
+          const selectedCode = elements.venuePreset.value.trim().toUpperCase();
+          const preset = VENUE_PRESETS.find(function (item) {
+            return item.code.toUpperCase() === selectedCode || item.venue.toUpperCase() === selectedCode;
+          });
+
+          if (!preset) {
+            return;
+          }
+
+          if (!elements.venueCode.value.trim() || elements.venueCode.dataset.fromPreset === "true") {
+            elements.venueCode.value = preset.code;
+            elements.venueCode.dataset.fromPreset = "true";
+          }
+
+          if (!elements.venue.value.trim() || elements.venue.dataset.fromPreset === "true") {
+            elements.venue.value = preset.venue;
+            elements.venue.dataset.fromPreset = "true";
+          }
+        }
+
+        function generateJson() {
+          const paper = collectPaperData();
+          const id = paper.id;
+          const jsonText = JSON.stringify(paper.json, null, 2);
+
+          elements.recommendedId.textContent = id || "未生成";
+          elements.jsonFileName.textContent = id ? "datas/" + id + ".json" : "datas/未生成.json";
+          elements.figureFileName.textContent = id ? "figures/" + id + ".png" : "figures/未生成.png";
+          elements.jsonOutput.value = jsonText;
+        }
+
+        function collectPaperData() {
+          const title = elements.title.value.trim();
+          const venueCode = sanitizeIdentifier(elements.venueCode.value.trim().toUpperCase());
+          const year = String(elements.year.value || "").trim();
+          const paperAlias = sanitizeIdentifier(elements.paperAlias.value.trim() || suggestPaperAlias(title));
+          const id = venueCode && year && paperAlias ? venueCode + year + paperAlias : "";
+          const fields = collectCheckedValues("fields").concat(splitExtraValues(elements.extraFields.value));
+          const researchDirections = collectCheckedValues("directions").concat(splitExtraValues(elements.extraDirections.value));
+
+          const jsonObject = {
+            id: id || "请补全年份/简称/论文缩写",
+            title: title,
+            authors: elements.authors.value.trim(),
+            year: Number(elements.year.value) || 0,
+            venue: elements.venue.value.trim(),
+            ccf: elements.ccf.value,
+            core: elements.core.value,
+            thcpl: elements.thcpl.value,
+            type: elements.type.value,
+            accepted: elements.accepted.checked,
+            fields: uniqueValues(fields),
+            researchDirections: uniqueValues(researchDirections),
+            link: elements.link.value.trim(),
+            abstract: elements.abstract.value.trim(),
+          };
+
+          if (elements.pdf.value.trim()) {
+            jsonObject.pdf = elements.pdf.value.trim();
+          }
+
+          if (elements.doi.value.trim()) {
+            jsonObject.doi = elements.doi.value.trim();
+          }
+
+          return {
+            id: id,
+            json: jsonObject,
+          };
+        }
+
+        function collectCheckedValues(groupName) {
+          return Array.from(document.querySelectorAll('[data-choice-group="' + groupName + '"]:checked'))
+            .map(function (input) {
+              return input.value;
+            });
+        }
+
+        function splitExtraValues(text) {
+          return text
+            .split(/[,\n，；;]/)
+            .map(function (item) {
+              return item.trim();
+            })
+            .filter(Boolean);
+        }
+
+        function uniqueValues(values) {
+          const result = [];
+          const seen = new Set();
+          values.forEach(function (value) {
+            if (!value || seen.has(value)) {
+              return;
+            }
+            seen.add(value);
+            result.push(value);
+          });
+          return result;
+        }
+
+        function suggestPaperAlias(title) {
+          const trimmed = title.trim();
+          if (!trimmed) {
+            return "";
+          }
+
+          const prefixMatch = trimmed.match(/^([A-Za-z0-9][A-Za-z0-9-]{1,24})\s*:/);
+          if (prefixMatch) {
+            return sanitizeIdentifier(prefixMatch[1]);
+          }
+
+          const words = trimmed
+            .replace(/[^A-Za-z0-9\s-]/g, " ")
+            .split(/[\s-]+/)
+            .map(function (word) {
+              return word.trim();
+            })
+            .filter(function (word) {
+              return word && !STOP_WORDS.has(word.toLowerCase());
+            })
+            .slice(0, 6);
+
+          if (!words.length) {
+            return "PaperShortName";
+          }
+
+          return words
+            .map(function (word) {
+              return word.charAt(0).toUpperCase() + word.slice(1);
+            })
+            .join("")
+            .replace(/[^A-Za-z0-9]/g, "");
+        }
+
+        function sanitizeIdentifier(value) {
+          const cleaned = value.replace(/[^A-Za-z0-9]/g, "");
+          return cleaned ? cleaned.charAt(0).toUpperCase() + cleaned.slice(1) : "";
+        }
+
+        function escapeHtml(value) {
+          return String(value)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+        }
+
+        function escapeAttribute(value) {
+          return escapeHtml(value);
+        }
+      })();
+    </script>
+  </body>
+</html>

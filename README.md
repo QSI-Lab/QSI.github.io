@@ -87,11 +87,25 @@ IJCAI2026QAgent.png
 
 ## 4. 新增论文后的操作
 
-1. 在 `datas/` 下新增对应 JSON 文件
-2. 在 `figures/` 下放入同名 PNG
-3. 重新生成合并文件：
+推荐先使用网页生成器：
+
+- 打开页面底部“打开论文 JSON 生成器”按钮跳转到生成器页面
+- 在网页中填写论文信息
+- “会议 / 期刊预设”现在是文本框，可直接输入如 `IJCAI`、`TIFS`、`DAC`
+- 生成器会自动给出：
+  - 推荐 `id`
+  - 推荐 JSON 文件名：`datas/<id>.json`
+  - 推荐图片文件名：`figures/<id>.png`
+  - 可直接复制的 JSON 内容
+
+然后按下面步骤落地：
+
+1. 把生成的 JSON代码保存为json文件，json文件保存到 `datas/` 目录
+2. 手动把对应 PNG 图片放到 `figures/` 目录
+3. 自行或联系管理员重新生成合并文件：
 
 ```bash
+#在项目根目录执行
 python scripts/build_papers_bundle.py
 ```
 
@@ -99,7 +113,7 @@ python scripts/build_papers_bundle.py
 
 - `papers-data.js`
 
-页面默认读取 `papers-data.js`，这样直接双击打开 `index.html` 也更稳定。
+页面默认读取 `papers-data.js`。
 
 ## 5. 可选参考
 
