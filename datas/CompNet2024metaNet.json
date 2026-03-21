@@ -5,17 +5,19 @@
   "year": 2024,
   "venue": "Computer Networks",
   "ccf": "B",
-  "core": "A",
-  "thcpl": "N",
+  "core": "B",
+  "thcpl": "B",
   "type": "journal",
   "accepted": true,
   "fields": [
     "计算机网络",
-    "网络与信息安全"
+    "网络安全",
+    "人工智能"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "未知检测",
+    "机器学习"
   ],
-  "link": "https://www.sciencedirect.com/journal/computer-networks",
-  "abstract": ""
+  "link": "https://dl.acm.org/doi/10.1016/j.comnet.2024.110563",
+  "abstract": "针对已知与未知家族移动恶意软件在开放集场景下面临的准确性、鲁棒性、稳定性与可解释识别挑战，本文提出 metaNet 方法。该方法综合提取类别静态与动态特征，基于 FP-trees 挖掘类别特征频繁项，并结合差集过滤得到类别元特征；在此基础上，构建异构孪生 U-Net 网络模型 HSU-Net 以完成二分类与多分类任务。实验结果表明，metaNet 不仅能够实现已知家族样本的高精度识别，在未知家族识别场景下也具有优异表现：二分类任务中，已知家族识别准确率达到 99.52%，在已知 80% 家族条件下未知家族识别准确率达到 99.31%；多分类任务中，已知与未知家族样本识别准确率分别达到 99.05% 和 93.45%。此外，该方法还支持少样本识别并能有效缓解特征混淆带来的影响。在 16 个类别、112 个去中心化应用程序（DApps）流量数据集上，metaNet 也能够准确识别 94.6% 的全已知 DApp 样本和 81.36% 的已知 80% DApp 样本类别。"
 }

@@ -1,0 +1,20 @@
+{
+  "id": "TDSC2024NotJustSumming",
+  "title": "Not Just Summing: The Identifier Leakage of Private-Join-and-Compute and its Improvement",
+  "authors": "Siqi Lu, Hanjie Dong, Zhaoxuan Li, Laurence T. Yang",
+  "year": 2024,
+  "venue": "IEEE Transactions on Dependable and Secure Computing",
+  "ccf": "A",
+  "core": "A",
+  "thcpl": "A",
+  "type": "journal",
+  "accepted": true,
+  "fields": [
+    "网络安全"
+  ],
+  "researchDirections": [
+    "网络安全"
+  ],
+  "link": "https://doi.org/10.1109/TDSC.2024.3371569",
+  "abstract": "针对隐私交集求和（Private Intersection-Sum, PIS）协议在诚实且好奇敌手模型下存在用户标识符泄露风险的问题，本文系统分析了 Google 开源 Private-Join-and-Compute 库中的安全缺陷，指出攻击者可通过构造特殊输入数据结构推断交集项，从而实施用户标识符窃取攻击。为解决该问题，本文基于差分隐私技术提出了一种改进的 PIS 协议，并对 Private-Join-and-Compute 开源库进行了优化。通过基于 Game 序列的形式化分析以及基于 Tamarin 工具的安全性证明，结果表明改进后的协议在几乎不引入明显额外开销的情况下，有效抵御了已发现的攻击，并提升了协议在实际应用场景中的安全性。"
+}

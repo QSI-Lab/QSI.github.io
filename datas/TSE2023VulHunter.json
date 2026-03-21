@@ -1,20 +1,23 @@
 {
   "id": "TSE2023VulHunter",
-  "title": "VulHunter: Hunting Vulnerable Smart Contracts at EVM bytecode-level via Multiple Instance Learning",
+  "title": "VulHunter: Hunting Vulnerable Smart Contracts at EVM Bytecode-level via Multiple Instance Learning",
   "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Ziming Zhao, Rujin Liang, Rui Xue, Wenhao Li, Fan Zhang, Sheng Gao",
   "year": 2023,
-  "venue": "IEEE Transactions on Software Engineering (TSE)",
+  "venue": "IEEE Transactions on Software Engineering",
   "ccf": "A",
   "core": "A*",
-  "thcpl": "N",
+  "thcpl": "A",
   "type": "journal",
   "accepted": true,
   "fields": [
-    "软件工程/系统软件/程序设计语言"
+    "软件工程",
+    "网络安全",
+    "人工智能"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "AI安全",
+    "机器学习"
   ],
-  "link": "https://www.computer.org/csdl/journal/ts",
-  "abstract": ""
+  "link": "https://doi.org/10.1109/TSE.2023.3317209",
+  "abstract": "针对智能合约字节码级漏洞分析中存在的分析需求强、人工规则制定困难以及现有人工智能方法检测结果难以直接利用等问题，本文提出了面向 EVM 字节码的智能合约漏洞检测方法 VulHunter。该方法利用多示例学习机制缓解细粒度执行路径标签缺失条件下模型训练困难的问题，并结合符号执行对检测结果进行可达性验证，从而自动消除部分误报。实验结果表明，VulHunter 能够以更高的准确性、更高的效率和更强的鲁棒性完成合约漏洞检测，达到 90.04% 的准确率，在 121KB 合约上的平均分析时间为 4.4 秒，分析失败率为 0%，并实现了从漏洞检测、漏洞代码定位到结果验证的全流程自动化执行。"
 }

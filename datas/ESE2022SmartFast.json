@@ -1,20 +1,21 @@
 {
-  "id": "ESE2022SmartFast",
-  "title": "SmartFast: an accurate and robust formal analysis tool for Ethereum smart contracts",
+  "id": "EMSE2022SmartFast",
+  "title": "SmartFast: An Accurate and Robust Formal Analysis Tool for Ethereum Smart Contracts",
   "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Rui Xue, Wenqiu Ma, Rujin Liang, Ziming Zhao, Sheng Gao",
   "year": 2022,
   "venue": "Empirical Software Engineering",
   "ccf": "B",
   "core": "A",
-  "thcpl": "N",
+  "thcpl": "B",
   "type": "journal",
   "accepted": true,
   "fields": [
-    "软件工程/系统软件/程序设计语言"
+    "软件工程",
+    "网络安全"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "网络安全"
   ],
-  "link": "https://link.springer.com/journal/10664",
-  "abstract": ""
+  "link": "https://doi.org/10.1007/s10664-022-10218-2",
+  "abstract": "针对现有以太坊智能合约漏洞分析方法在漏洞覆盖范围有限、验证效率较低以及检测精度不足等方面的问题，本文提出了形式化分析工具 SmartFast。该方法设计了能够覆盖更丰富合约语义的中间表示 SmartIR，并实现 Solidity 源码到中间表示的转换；同时结合定制化漏洞安全模式与污点分析技术完成漏洞匹配与检测。实验结果表明，SmartFast 可检测 119 种智能合约漏洞，超过当时代表性工具 Slither 的 71 种，并取得 98.43% 的精确率和 85.12% 的召回率；此外，该方法对破坏数据依赖关系和上下文语义关联的代码混淆手段也表现出较强鲁棒性。"
 }

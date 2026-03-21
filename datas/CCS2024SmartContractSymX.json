@@ -1,0 +1,21 @@
+{
+  "id": "CCS2024SmartContractSymX",
+  "title": "Demo: Enhancing Smart Contract Security Comprehensively through Dynamic Symbolic Execution",
+  "authors": "Zhaoxuan Li, Ziming Zhao, Wenhao Li, Rui Zhang, Rui Xue, Siqi Lu, Fan Zhang",
+  "year": 2024,
+  "venue": "ACM SIGSAC Conference on Computer and Communications Security",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "软件工程",
+    "网络安全"
+  ],
+  "researchDirections": [
+    "网络安全"
+  ],
+  "link": "https://doi.org/10.1145/3658644.3691365",
+  "abstract": "针对智能合约漏洞仿真、结果验证与行为识别需求，以及传统符号执行难以还原合约真实执行路径的问题，本文提出一种基于动态符号执行的智能合约安全增强方法。该方法通过选择性规避策略尽可能保留相对完整的循环路径，结合真实合约执行以保证调用合约与被调用合约之间的数据一致性，并通过及时记录 EVM 操作过程中的状态变化来支持多交易连续执行。在此基础上，系统能够同时完成漏洞检测、漏洞验证和合约调用行为识别。实验结果表明，该方法实现了 90.22% 的漏洞检测准确率和 98.04% 的合约调用行为识别准确率，并能够有效验证重入、任意发送、合约自毁、整数溢出等典型漏洞。"
+}

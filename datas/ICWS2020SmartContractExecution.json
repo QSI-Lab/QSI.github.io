@@ -1,0 +1,21 @@
+{
+  "id": "ICWS2020SmartContractExecution",
+  "title": "A Secure and Efficient Smart Contract Execution Scheme",
+  "authors": "Zhaoxuan Li, Rui Zhang, Pengchao Li",
+  "year": 2020,
+  "venue": "IEEE International Conference on Web Services",
+  "ccf": "B",
+  "core": "A",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "软件工程",
+    "网络安全"
+  ],
+  "researchDirections": [
+    "网络安全"
+  ],
+  "link": "https://doi.org/10.1007/978-3-030-59618-7_2",
+  "abstract": "针对基于安全多方计算的智能合约执行过程中，攻击者可以执行与重构者相同过程以恢复共享秘密值、从而导致隐私泄露的问题，本文提出一种安全高效的智能合约执行方案。该方法改进了 DGHV 半同态加密算法，以减小公钥大小和密文长度并提升加密效率；在此基础上，进一步设计融合安全多方计算与同态加密的智能合约执行框架 SMPC-HE，在保证合约执行隐私性的同时确保计算结果的正确性，并提升执行公平性。理论分析与实验结果表明，该方案具有良好的安全性、较高的执行效率以及较低的空间开销。"
+}

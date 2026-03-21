@@ -1,0 +1,20 @@
+{
+  "id": "ICAIS2021KeyHierarchicalManagement",
+  "title": "Secure and Efficient Key Hierarchical Management and Collaborative Signature Schemes of Blockchain",
+  "authors": "Rui Zhang, Zhaoxuan Li, Lijuan Zheng",
+  "year": 2021,
+  "venue": "International Conference on Artificial Intelligence and Security",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "网络安全"
+  ],
+  "researchDirections": [
+    "网络安全"
+  ],
+  "link": "https://doi.org/10.1007/978-3-030-78612-0_27",
+  "abstract": "为了提升区块链密钥管理的安全性与效率，并满足协同签名场景下的应用需求，本文提出了一种结合安全多方计算与特征加密的层次化密钥管理与协同签名方案。该方案能够保障各层级密钥的安全性，抵御数据篡改攻击、密钥窃取攻击、碎片泄漏攻击和明文窃取攻击；同时，在保证安全性的基础上减少用户文件共享时间和存储开销，提高系统资源利用率与整体运行效率。"
+}
