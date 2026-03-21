@@ -2,7 +2,37 @@
 
 本项目中，每篇论文使用一个独立 JSON 文件，放在 `datas/` 目录中。
 
-## 1. 文件命名规则
+## 1. 新增论文操作
+
+推荐先使用网页生成器：
+
+- 打开页面底部“打开论文 JSON 生成器”按钮跳转到生成器页面
+- 在网页中填写论文信息
+- “会议 / 期刊预设”现在是文本框，可直接输入如 `IJCAI`、`TIFS`、`DAC`
+- 生成器会自动给出：
+  - 推荐 `id`
+  - 推荐 JSON 文件名：`datas/<id>.json`
+  - 推荐图片文件名：`figures/<id>.png`
+  - 可直接复制的 JSON 内容
+
+然后按下面步骤落地：
+
+1. 把生成的 JSON代码保存为json文件，json文件保存到 `datas/` 目录
+2. 手动把对应 PNG 图片放到 `figures/` 目录
+3. 自行或联系管理员重新生成合并文件：
+
+```bash
+#在项目根目录执行
+python scripts/build_papers_bundle.py
+```
+
+生成后会更新：
+
+- `papers-data.js`
+
+页面默认读取 `papers-data.js`。
+
+## 2. 文件命名规则
 
 JSON 文件名格式：
 
@@ -22,7 +52,7 @@ IJCAI2026QAgent.json
 IJCAI2026QAgent.png
 ```
 
-## 2. JSON 格式
+## 3. JSON 格式
 
 示例：
 
@@ -51,7 +81,7 @@ IJCAI2026QAgent.png
 }
 ```
 
-## 3. 字段说明
+## 4. 字段说明
 
 - `id`: 必须和文件名一致，不带 `.json`
 - `title`: 论文标题
@@ -85,35 +115,7 @@ IJCAI2026QAgent.png
 }
 ```
 
-## 4. 新增论文后的操作
 
-推荐先使用网页生成器：
-
-- 打开页面底部“打开论文 JSON 生成器”按钮跳转到生成器页面
-- 在网页中填写论文信息
-- “会议 / 期刊预设”现在是文本框，可直接输入如 `IJCAI`、`TIFS`、`DAC`
-- 生成器会自动给出：
-  - 推荐 `id`
-  - 推荐 JSON 文件名：`datas/<id>.json`
-  - 推荐图片文件名：`figures/<id>.png`
-  - 可直接复制的 JSON 内容
-
-然后按下面步骤落地：
-
-1. 把生成的 JSON代码保存为json文件，json文件保存到 `datas/` 目录
-2. 手动把对应 PNG 图片放到 `figures/` 目录
-3. 自行或联系管理员重新生成合并文件：
-
-```bash
-#在项目根目录执行
-python scripts/build_papers_bundle.py
-```
-
-生成后会更新：
-
-- `papers-data.js`
-
-页面默认读取 `papers-data.js`。
 
 ## 5. 可选参考
 
