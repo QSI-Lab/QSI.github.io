@@ -6,7 +6,7 @@
 
 推荐先使用网页生成器：
 
-- 打开https://qsi-lab.github.io/QSI.github.io/页面底部“打开论文 JSON 生成器”按钮跳转到生成器页面
+- 打开https://qsi-lab.github.io/QSI.github.io/ 页面底部“打开论文 JSON 生成器”按钮跳转到生成器页面
 - 在网页中填写论文信息
 - “会议 / 期刊预设”现在是文本框，可直接输入如 `IJCAI`、`TIFS`、`DAC`
 - 生成器会自动给出：
