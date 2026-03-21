@@ -1,0 +1,21 @@
+{
+  "id": "CCS2023ThemisPoster",
+  "title": "Poster: Detecting Adversarial Examples Hidden under Watermark Perturbation via Usable Information Theory",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhuoxue Song, Fan Zhang, Rui Zhang",
+  "year": 2023,
+  "venue": "ACM SIGSAC Conference on Computer and Communications Security",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "网络安全",
+    "人工智能"
+  ],
+  "researchDirections": [
+    "AI安全"
+  ],
+  "link": "https://doi.org/10.1145/3576915.3624396",
+  "abstract": "针对图像水印可被攻击者利用以构造对抗样本、从而混淆深度学习分类器，而现有针对噪声扰动的对抗样本检测方法对水印型扰动效果不佳的问题，本文提出基于可用信息论的水印对抗样本检测方法 Themis。该方法无需修改受保护的分类器，也不依赖对抗样本生成过程信息，而是通过辅助模型计算样本的点可用信息（PVI）分数，从而识别隐藏在水印扰动下的对抗样本。实验结果表明，在 InceptionV3 等常用模型及多种攻击设置下，Themis 相较于 5 种现有 SOTA 方法的检测准确率提升超过 15%，同时具有更高的 AUC 和较低的额外开销。"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "RTSS2023RealTimeIDS",
+  "title": "Work-in-Progress: Towards Real-Time IDS via RNN and Programmable Switches Co-Designed Approach",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Zhuoxue Song, Fan Zhang",
+  "year": 2023,
+  "venue": "IEEE Real-Time Systems Symposium",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "计算机网络",
+    "网络安全",
+    "人工智能"
+  ],
+  "researchDirections": [
+    "网络安全",
+    "机器学习"
+  ],
+  "link": "https://doi.org/10.1109/RTSS59052.2023.00045",
+  "abstract": "针对实时入侵检测系统在高带宽网络环境下面临的时延、吞吐与检测精度难以兼顾的问题，本文提出一种结合循环神经网络与可编程交换机协同设计的实时入侵检测方法。该方法基于可编程交换机数据平面的计算能力与部署约束，对 GRU 模型进行轻量化简化与重构，使检测过程能够在交换机侧高效执行。实验结果表明，RIDS 可在 100Gbps 带宽的数据平面中实现纳秒级处理时延，并取得显著的入侵与恶意软件检测效果，F1 值约为 99%。"
+}

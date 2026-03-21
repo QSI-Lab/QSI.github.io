@@ -1,0 +1,23 @@
+{
+  "id": "SIGCOMM2024P2PBotnetPoster",
+  "title": "Poster: Combine Topology and Traffic to Calibrate P2P Botnet Identification in Large-Scale Network",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Fan Zhang, Tingting Li, Jianwei Yin",
+  "year": 2024,
+  "venue": "ACM SIGCOMM 2024 Conference: Posters and Demos",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "计算机网络",
+    "网络安全",
+    "人工智能"
+  ],
+  "researchDirections": [
+    "僵尸网络",
+    "机器学习"
+  ],
+  "link": "https://doi.org/10.1145/3672202.3673720",
+  "abstract": "针对超过 100K 海量僵尸网络节点对互联网基础设施造成严重破坏，以及大规模 P2P 僵尸网络识别结果中存在误识别校准困难的问题，本文提出一种结合网络拓扑与流量特征的校准方法。该方法设计了基于强化学习的智能节点检索过程，能够以尽可能少的检索开销校准更多错误识别结果，从而提升大规模网络环境下 P2P 僵尸网络识别的准确性与效率。基于超过 10 万个通信节点和 7 种常见 P2P 协议构建的测试实验床结果表明，该方法在误识别校准效果上优于现有方法。"
+}

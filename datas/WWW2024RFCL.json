@@ -1,0 +1,22 @@
+{
+  "id": "WWW2024RFCL",
+  "title": "Improving Model Robustness against Adversarial Examples with Redundant Fully Connected Layer",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Jiongchi Yu, Fan Zhang, Rui Zhang",
+  "year": 2024,
+  "venue": "ACM Web Conference",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "人工智能",
+    "网络安全"
+  ],
+  "researchDirections": [
+    "AI安全",
+    "机器学习"
+  ],
+  "link": "https://doi.org/10.1145/3589335.3651524",
+  "abstract": "针对现有对抗样本防御技术在跨攻击场景适应性、干净样本识别准确性、模型鲁棒性与训练效率之间难以兼顾的问题，本文提出一种冗余全连接层方法。该方法通过设计多个相互正交的全连接层，并将其与现有检测模型结合，缓解原始模型在对抗扰动下的性能退化，从而提升模型对对抗样本的鲁棒性。实验结果表明，该方法在 12 种白盒和黑盒攻击设置下均可实现超过 20% 的准确率提升，同时基本不影响模型对干净样本的识别性能。"
+}

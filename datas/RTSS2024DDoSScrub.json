@@ -1,0 +1,21 @@
+{
+  "id": "RTSS2024DDoSScrub",
+  "title": "Work-in-Progress: Analyzing Worst-Case DDoS Traffic Scrub Effect and Recovery Delay via Attack Vector Combination",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li",
+  "year": 2024,
+  "venue": "IEEE Real-Time Systems Symposium",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "计算机网络",
+    "网络安全"
+  ],
+  "researchDirections": [
+    "网络安全"
+  ],
+  "link": "https://doi.org/10.1109/RTSS62706.2024.00052",
+  "abstract": "针对学术界和工业界广泛关注的 DDoS 缓解问题，本文研究了强攻击者通过组合不同 DDoS 攻击向量，以最大化绕过流量过滤与检测器的数据包数量，并进一步影响清洗效果和恢复时延的现象。为此，本文将攻击向量组合建模为组合优化问题，分析最坏情况下攻击流量清洗效果与恢复延迟，为理解和设计面向极端对抗场景的 DDoS 防御方法提供了新的视角和深刻见解。"
+}
