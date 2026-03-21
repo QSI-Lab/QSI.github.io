@@ -103,6 +103,29 @@ window.LAB_PAPERS_BUNDLE = {
       "imageUrl": "figures/TIFS2025TDQDF.png"
     },
     {
+      "id": "BIBM2024DCANet",
+      "title": "DCA-Net:Data-Driven Collaborative Assistance Network  for Semi-supervised Medical Segmentation",
+      "authors": "Yuhan Chen, Chunshi Wang, Bin Zhao*",
+      "year": 2024,
+      "venue": "BIBM",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴",
+        "半监督学习",
+        "医学图像分割"
+      ],
+      "researchDirections": [
+        "医学智能"
+      ],
+      "link": "https://ieeexplore.ieee.org/abstract/document/10821880/",
+      "abstract": "在本文当中，我们重点关注半监督医学图像分割问题中标记数据与未标记数据之间的经验匹配问题。当标记数据与未标记数据之间的经验匹配度不高时，网络无法更好的利用从标记数据当中学到的知识。为此，我们提出了一种高效优雅的方法，称为\"DCA-Net\"，该方法使用了频域中的数据增强模块-STM与数据双向复制粘贴-BCP, 可以更好的减少标记数据与未标记数据的分布差距。同时，我们将知识蒸馏领域与半监督学习相结合，促进更深入的特征学习和更稳定的模型行为。我们使用\"DCA-Net\"在LA数据集与ACDC数据集进行实验并取得Sota的效果。"
+    },
+    {
       "id": "CCS2024SmartContractSymX",
       "title": "Demo: Enhancing Smart Contract Security Comprehensively through Dynamic Symbolic Execution",
       "authors": "Zhaoxuan Li, Ziming Zhao, Wenhao Li, Rui Zhang, Rui Xue, Siqi Lu, Fan Zhang",
@@ -122,6 +145,27 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://doi.org/10.1145/3658644.3691365",
       "abstract": "针对智能合约漏洞仿真、结果验证与行为识别需求，以及传统符号执行难以还原合约真实执行路径的问题，本文提出一种基于动态符号执行的智能合约安全增强方法。该方法通过选择性规避策略尽可能保留相对完整的循环路径，结合真实合约执行以保证调用合约与被调用合约之间的数据一致性，并通过及时记录 EVM 操作过程中的状态变化来支持多交易连续执行。在此基础上，系统能够同时完成漏洞检测、漏洞验证和合约调用行为识别。实验结果表明，该方法实现了 90.22% 的漏洞检测准确率和 98.04% 的合约调用行为识别准确率，并能够有效验证重入、任意发送、合约自毁、整数溢出等典型漏洞。"
+    },
+    {
+      "id": "CSCWD2024AlertCrossVerification",
+      "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
+      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
+      "year": 2024,
+      "venue": "CSCWD",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "网络与算网融合"
+      ],
+      "link": "http://2024.cscwd.org/",
+      "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
     },
     {
       "id": "CompNet2024metaNet",
@@ -165,27 +209,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://www.sciencedirect.com/journal/computers-and-security",
       "abstract": ""
-    },
-    {
-      "id": "CSCWD2024AlertCrossVerification",
-      "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
-      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
-      "year": 2024,
-      "venue": "CSCWD",
-      "ccf": "C",
-      "core": "N",
-      "thcpl": "N",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "网络与信息安全",
-        "人工智能"
-      ],
-      "researchDirections": [
-        "网络与算网融合"
-      ],
-      "link": "http://2024.cscwd.org/",
-      "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
     },
     {
       "id": "DAC2026Bayesian",
@@ -518,6 +541,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "FCPlane 是一种面向零信任入侵检测的转发与计算一体化数据平面框架，旨在解决多交换机部署和多路径路由环境下线速流量分析面临的实际挑战。与现有工作大多只在单一交换机节点上验证不同，FCPlane 进一步考虑了真实网络中广泛存在的多路径转发现象，以及由此带来的负载均衡与检测结果一致性问题。其核心思想是在 flowlet 粒度上协同设计数据转发与模型计算，并引入专门的马尔可夫链模型来支持高效调度与可靠推断。基于两个公开流量数据集、七种先进的网内流量分析模型和多种网络拓扑的实验结果表明，FCPlane 能够在复杂网络环境中实现更稳定有效的流量检测。总体来看，该工作为可编程交换机支持下的高性能零信任流量分析提供了一种更贴近真实部署场景的解决方案。"
     },
     {
+      "id": "MICCAI2025NovelTwoStageApproach3DDental",
+      "title": "A Novel Two-Stage Approach for 3D Dental Tooth  Instance Segmentation",
+      "authors": "Yuhan Chen, Chunshi Wang, Bin Zhao*",
+      "year": 2025,
+      "venue": "MICCAI",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴",
+        "半监督学习",
+        "医学图像分割"
+      ],
+      "researchDirections": [
+        "医学智能"
+      ],
+      "link": "https://link.springer.com/chapter/10.1007/978-3-031-88977-6_18",
+      "abstract": "牙齿CBCT实例分割是推动数字化牙科保健系统的基础步骤，其中牙齿分割的精度在准确的医学诊断中发挥着关键作用。传统神经网络在准确定位和分类3D牙科图像中的牙齿方面面临着重大挑战。这在CBCT扫描中存在复杂解剖结构的情况下尤为棘手。此外，从这些扫描中手动识别和标注每颗牙齿对医疗专业人员来说是一项非常耗时且繁重的任务。为了解决这些问题，在本文，我们提出了两阶段进行牙齿实例分割的半监督方法,并进行了创新性的数据预处理，我们的网络在\"MICCAI STS 2024 Challenge Task 2\"验证集当中取得了排名第四的优异成绩，并且性能超出其他主流的半监督网络。"
+    },
+    {
       "id": "MM2024Minerva",
       "title": "Minerva: Enhancing Quantum Network Performance for High-Fidelity Multimedia Transmission",
       "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
@@ -665,24 +711,27 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "VQFlow 是一个大规模、公开可用的视频流量数据集，旨在研究不同 QoS 条件下的视频传输行为。该数据集在受控环境中系统采集了加密视频流量，并覆盖分辨率、帧率和码率控制策略等关键参数变化。与以往数据集不同，VQFlow 将数据包级流量与时间对齐的播放配置和网络状态标注相结合，支持细粒度分析。基于该数据集，作者开展了 QoS 分类、码率估计、流量建模和异常检测等任务的基准实验。结果表明，VQFlow 为多媒体系统、网络管理及加密流量机器学习研究提供了可靠且可复现的基础。"
     },
     {
-      "id": "soft2022Flink",
-      "title": "面向Flink迭代作业的动态资源分配策略",
-      "authors": "岳晓飞, 史岚, 赵宇海*, 季航旭，王国仁",
-      "year": 2022,
-      "venue": "软件学报",
-      "ccf": "A",
+      "id": "SMC2025ConsMatch",
+      "title": "ConsMatch: Semi-Supervised Medical Image Segmentation via Multi-View Contrast and Feature Consistency",
+      "authors": "Yuhan Chen, You Li*, Bin Zhao*",
+      "year": 2025,
+      "venue": "SMC",
+      "ccf": "C",
       "core": "N",
       "thcpl": "N",
-      "type": "journal",
+      "type": "conference",
       "accepted": true,
       "fields": [
-        "其他"
+        "人工智能",
+        "交叉/综合/新兴",
+        "半监督学习",
+        "医学图像分割"
       ],
       "researchDirections": [
-        "大数据系统优化"
+        "医学智能"
       ],
-      "link": "",
-      "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/11342848",
+      "abstract": "在半监督医学图像分割任务中，重点在于如何充分利用未标记数据。然而， 当前大多数方法难以解决医学图像轮廓难以分割，对于未标记数据的特征探索不足等问题。为克服上述问题，本文提出了一种基于对比学习的半监督医学图像分割框架-ConsMatch。我们设计了两个关键模块：MCR（Multi-View Contrastive Representation）模块，利用对比学习思想最大化同一图像在不同扰动下的特征相似度，同时最小化不同图像之间的冗余结构相似性；FCR（Feature-level Consistency Regularization）模块，通过最小化不同增强视图下的结构相似矩阵分布差异，引导模型学习具有稳定结构表达的特征。该方法引入特征空间的结构约束，通过多视图对比表示学习和结构一致性正则化，从多个维度强化模型对未标记数据的学习能力。我们在ACDC数据集以及LA数据集进行广泛实验,均取得较好结果。我们的代码在https://github.com/magic-fortune/ConsMatch中可以找到。"
     },
     {
       "id": "TCAD2024QuST",
@@ -958,27 +1007,6 @@ window.LAB_PAPERS_BUNDLE = {
       "imageUrl": "figures/TON2024FOSS.png"
     },
     {
-      "id": "ToN2025Exploiting",
-      "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
-      "authors": "Xiaofei Yue, Song Yang*, Liehuang Zhu, Stojan Trajanovski, Fan Li, Xiaoming Fu",
-      "year": 2025,
-      "venue": "IEEE/ACM Transactions on Networking (ToN)",
-      "ccf": "A",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
-      "accepted": true,
-      "fields": [
-        "计算机网络"
-      ],
-      "researchDirections": [
-        "服务器无感知计算",
-        "算力网络"
-      ],
-      "link": "https://ieeexplore.ieee.org/abstract/document/10742121",
-      "abstract": "针对广域环境下服务器无感知分析中粗粒度调度低效问题，提出函数粒度资源弹性利用框架Demeter，通过多智能体强化学习联合优化放置与资源分配，并结合拥塞控制机制。实验表明成本降低最高46.6%，SLO违约率降至15%以下。"
-    },
-    {
       "id": "TON2025SOFA",
       "title": "SOFA: Service-Oriented Fine-Grained Attack Traffic Detection with Meta Learning",
       "authors": "Peng Fang, Feiyang Huang, Ziming Zhao*, Fan Zhang*, Wenrui Ma",
@@ -1066,6 +1094,27 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对智能合约字节码级漏洞分析中存在的分析需求强、人工规则制定困难以及现有人工智能方法检测结果难以直接利用等问题，本文提出了面向 EVM 字节码的智能合约漏洞检测方法 VulHunter。该方法利用多示例学习机制缓解细粒度执行路径标签缺失条件下模型训练困难的问题，并结合符号执行对检测结果进行可达性验证，从而自动消除部分误报。实验结果表明，VulHunter 能够以更高的准确性、更高的效率和更强的鲁棒性完成合约漏洞检测，达到 90.04% 的准确率，在 121KB 合约上的平均分析时间为 4.4 秒，分析失败率为 0%，并实现了从漏洞检测、漏洞代码定位到结果验证的全流程自动化执行。"
     },
     {
+      "id": "ToN2025Exploiting",
+      "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
+      "authors": "Xiaofei Yue, Song Yang*, Liehuang Zhu, Stojan Trajanovski, Fan Li, Xiaoming Fu",
+      "year": 2025,
+      "venue": "IEEE/ACM Transactions on Networking (ToN)",
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络"
+      ],
+      "researchDirections": [
+        "服务器无感知计算",
+        "算力网络"
+      ],
+      "link": "https://ieeexplore.ieee.org/abstract/document/10742121",
+      "abstract": "针对广域环境下服务器无感知分析中粗粒度调度低效问题，提出函数粒度资源弹性利用框架Demeter，通过多智能体强化学习联合优化放置与资源分配，并结合拥塞控制机制。实验表明成本降低最高46.6%，SLO违约率降至15%以下。"
+    },
+    {
       "id": "WISA2021Online",
       "title": "Online Runtime Prediction Method for Distributed Iterative Jobs",
       "authors": "Xiaofei Yue, Lan Shi, Yuhai Zhao*, Hangxu Ji, Guoren Wang",
@@ -1148,6 +1197,26 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "针对异构集群下大语言模型训练系统设计空间巨大、难以高效评估的问题，提出HeteroSim高保真异构LLM训练仿真框架。该方法通过可插拔IR编译器显式刻画并行策略，并结合异构感知的计算规划器与类NCCL的集合通信规划器，在多种异构强度下实现接近真实训练行为的高精度模拟。实验表明，HeteroSim可在分钟级开销下将模拟误差保持在5%以下。"
+    },
+    {
+      "id": "soft2022Flink",
+      "title": "面向Flink迭代作业的动态资源分配策略",
+      "authors": "岳晓飞, 史岚, 赵宇海*, 季航旭，王国仁",
+      "year": 2022,
+      "venue": "软件学报",
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "大数据系统优化"
+      ],
+      "link": "",
+      "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
     }
   ],
   "ccfFields": [
@@ -1160,6 +1229,8 @@ window.LAB_PAPERS_BUNDLE = {
     "人工智能",
     "交叉/综合/新兴",
     "其他",
+    "医学图像分割",
+    "半监督学习",
     "网络安全",
     "软件工程"
   ],
@@ -1167,6 +1238,7 @@ window.LAB_PAPERS_BUNDLE = {
     "网络与算网融合",
     "大模型推理与训练",
     "量子智能",
+    "医学智能",
     "AI安全",
     "IoT安全",
     "云计算与云服务器",
@@ -1202,6 +1274,8 @@ window.LAB_PAPERS_BUNDLE = {
     "人工智能": "人工智能",
     "交叉/综合/新兴": "交叉/新兴",
     "其他": "其他",
+    "医学图像分割": "医学图像分割",
+    "半监督学习": "半监督学习",
     "网络安全": "网络安全",
     "软件工程": "软件工程"
   }
