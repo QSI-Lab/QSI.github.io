@@ -800,7 +800,9 @@
     const figureFile = paper.id + ".png";
     const abstractClass = paper.abstract.trim() ? "paper-abstract" : "paper-abstract is-placeholder";
 
-    badges.push(renderBadge("CCF " + paper.ccf, BADGE_CLASSES.ccf[paper.ccf] || "badge--ccf-none"));
+    if (paper.ccf && paper.ccf !== "N") {
+      badges.push(renderBadge("CCF " + paper.ccf, BADGE_CLASSES.ccf[paper.ccf] || "badge--ccf-none"));
+    }
 
     if (paper.core && paper.core !== "N") {
       badges.push(renderBadge("CORE " + paper.core, BADGE_CLASSES.core[paper.core] || "badge--ccf-none"));
