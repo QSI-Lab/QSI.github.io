@@ -1,0 +1,24 @@
+{
+  "id": "NatCommun2024CreatingAndControllingGlobalGHZEntanglement",
+  "title": "Creating and controlling global Greenberger-Horne-Zeilinger entanglement on quantum processors",
+  "authors": "Zehang Bao, Shibo Xu, Zixuan Song, Ke Wang, Liang Xiang, Zitian Zhu, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Ziqi Tan, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Jiarun Zhong, Tingting Li, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Yang-Ren Liu, Liangtian Zhao, Jie Hao, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Biao Huang, H. Wang",
+  "year": 2024,
+  "venue": "Nature Communications",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41467-024-53140-5",
+  "doi": "https://doi.org/10.1038/s41467-024-53140-5",
+  "abstract": "该工作提出了一套面向大规模 GHZ 纠缠态的创建、保护与操控策略，并在高保真数字量子电路支持下完成系列实验。作者在超导量子处理器上成功制备了最多 60 比特的真多体 GHZ 态，并将其嵌入特制的 cat scar 离散时间晶体本征态中，以延长其寿命并实现可控操纵。结果为大规模脆弱纠缠态的稳定操作提供了新路径，也凸显了超导处理器在研究非平衡量子物态方面的潜力。"
+}

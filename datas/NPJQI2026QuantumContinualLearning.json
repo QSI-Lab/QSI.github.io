@@ -1,0 +1,24 @@
+{
+  "id": "NPJQI2026QuantumContinualLearning",
+  "title": "Experimental demonstration of quantum continual learning with superconducting qubits",
+  "authors": "Chuanyu Zhang, Zhide Lu, Liangtian Zhao, Shibo Xu, Weikang Li, Ke Wang, Jiachen Chen, Yaozu Wu, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wenjie Jiang, Zheng-Zhi Sun, Pei-Xin Shen, Hekang Li, Qiujiang Guo, Zhen Wang, Jie Hao, H. Wang, Dong-Ling Deng, Chao Song",
+  "year": 2026,
+  "venue": "npj Quantum Information",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41534-025-01174-y",
+  "doi": "https://doi.org/10.1038/s41534-025-01174-y",
+  "abstract": "该工作在超导量子处理器上实验演示了量子持续学习，并系统展示了量子分类器在顺序任务训练中的灾难性遗忘现象。为缓解这一问题，作者引入弹性权重巩固策略，使模型在连续三项任务训练后仍能保留先前知识，并取得超过 92.3% 的平均准确率。研究结果表明，量子学习系统可以通过合适机制获得面向连续任务的适应能力，为量子机器学习的长期部署提供了可行路径。"
+}

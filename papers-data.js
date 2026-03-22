@@ -365,6 +365,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对智能合约漏洞仿真、结果验证与行为识别需求，以及传统符号执行难以还原合约真实执行路径的问题，本文提出一种基于动态符号执行的智能合约安全增强方法。该方法通过选择性规避策略尽可能保留相对完整的循环路径，结合真实合约执行以保证调用合约与被调用合约之间的数据一致性，并通过及时记录 EVM 操作过程中的状态变化来支持多交易连续执行。在此基础上，系统能够同时完成漏洞检测、漏洞验证和合约调用行为识别。实验结果表明，该方法实现了 90.22% 的漏洞检测准确率和 98.04% 的合约调用行为识别准确率，并能够有效验证重入、任意发送、合约自毁、整数溢出等典型漏洞。"
     },
     {
+      "id": "CommPhys2024SimulatingUnsteadyFlows",
+      "title": "Simulating unsteady flows on a superconducting quantum processor",
+      "authors": "Zhaoyuan Meng, Jiarun Zhong, Shibo Xu, Ke Wang, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Zehang Bao, Zitian Zhu, Ziqi Tan, Tingting Li, Pengfei Zhang, Shiying Xiong, Hekang Li, Qiujiang Guo, Zhen Wang, Chao Song, H. Wang, Yue Yang",
+      "year": 2024,
+      "venue": "Communications Physics",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s42005-024-01845-w",
+      "doi": "https://doi.org/10.1038/s42005-024-01845-w",
+      "abstract": "该工作在超导量子处理器上实现了非定常流体的数字量子模拟，算法基于薛定谔方程流体力学形式下的哈密顿量演化。作者利用 10 个量子比特分别模拟二维可压缩发散流与二维衰减涡流，实验结果较好刻画了平均密度、动量分布及其时序变化。研究表明，量子计算有望在复杂流体动力学乃至湍流模拟中发挥作用。"
+    },
+    {
       "id": "CompNet2024metaNet",
       "title": "metaNet: Interpretable Unknown Mobile Malware Identification with a Novel Meta-features Mining Algorithm",
       "authors": "Zhaoxuan Li, Ziming Zhao, Rui Zhang, Haoyang Lu, Wenhao Li, Fan Zhang, Siqi Lu, Rui Xue",
@@ -964,6 +988,174 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本文面向 NISQ 时代量子网络中高保真链路选择这一关键问题展开研究。由于量子噪声的普遍存在，量子链路保真度较低且波动明显，使得安全通信与高质量数据传输面临挑战。为此，本文提出了一种无需预先假设保真度分布的高效链路选择算法 QLSel，并将问题建模为多臂赌博机问题，以应对探索与利用之间的权衡。具体而言，QLSel 结合变异系数与 Thompson Sampling，设计了定制化的链路探索策略和链路选择概率机制。大量实验结果表明，QLSel 在性能上显著优于现有代表性方法。"
     },
     {
+      "id": "NatCommun2024CreatingAndControllingGlobalGHZEntanglement",
+      "title": "Creating and controlling global Greenberger-Horne-Zeilinger entanglement on quantum processors",
+      "authors": "Zehang Bao, Shibo Xu, Zixuan Song, Ke Wang, Liang Xiang, Zitian Zhu, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Ziqi Tan, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Jiarun Zhong, Tingting Li, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Yang-Ren Liu, Liangtian Zhao, Jie Hao, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Biao Huang, H. Wang",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41467-024-53140-5",
+      "doi": "https://doi.org/10.1038/s41467-024-53140-5",
+      "abstract": "该工作提出了一套面向大规模 GHZ 纠缠态的创建、保护与操控策略，并在高保真数字量子电路支持下完成系列实验。作者在超导量子处理器上成功制备了最多 60 比特的真多体 GHZ 态，并将其嵌入特制的 cat scar 离散时间晶体本征态中，以延长其寿命并实现可控操纵。结果为大规模脆弱纠缠态的稳定操作提供了新路径，也凸显了超导处理器在研究非平衡量子物态方面的潜力。"
+    },
+    {
+      "id": "NatCommun2024EmergenceOfSteadyQuantumTransport",
+      "title": "Emergence of steady quantum transport in a superconducting processor",
+      "authors": "Pengfei Zhang, Yu Gao, Xiansong Xu, Ning Wang, Hang Dong, Chu Guo, Jinfeng Deng, Xu Zhang, Jiachen Chen, Shibo Xu, Ke Wang, Yaozu Wu, Chuanyu Zhang, Feitong Jin, Xuhao Zhu, Aosai Zhang, Yiren Zou, Ziqi Tan, Zhengyi Cui, Zitian Zhu, Fanhao Shen, Tingting Li, Jiarun Zhong, Zehang Bao, Liangtian Zhao, Jie Hao, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, H. Wang, Dario Poletti",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41467-024-54332-9",
+      "doi": "https://doi.org/10.1038/s41467-024-54332-9",
+      "abstract": "该工作在超导量子处理器上通过量子比特梯形结构模拟热浴，实验演示了非平衡稳态量子输运的形成过程。作者观测到粒子流对热浴初始化细节并不敏感，且其时间涨落会随热浴规模增大而迅速减小，呈现出类似热力学极限下的稳态行为。结合单站点分辨控制与测量，研究进一步展示了通过调节热浴填充与谱性质来调控稳态流的能力。"
+    },
+    {
+      "id": "NatCommun2024LongLivedTopologicalTimeCrystallineOrder",
+      "title": "Long-lived topological time-crystalline order on a quantum processor",
+      "authors": "Liang Xiang, Wenjie Jiang, Zehang Bao, Zixuan Song, Shibo Xu, Ke Wang, Jiachen Chen, Feitong Jin, Xuhao Zhu, Zitian Zhu, Fanhao Shen, Ning Wang, Chuanyu Zhang, Yaozu Wu, Yiren Zou, Jiarun Zhong, Zhengyi Cui, Aosai Zhang, Ziqi Tan, Tingting Li, Yu Gao, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Si Jiang, Weikang Li, Zhide Lu, Zheng-Zhi Sun, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Fangli Liu, Zhe-Xuan Gong, Alexey V. Gorshkov, Norman Y. Yao, Thomas Iadecola, Francisco Machado, H. Wang, Dong-Ling Deng",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41467-024-53077-9",
+      "doi": "https://doi.org/10.1038/s41467-024-53077-9",
+      "abstract": "该工作在方格排布的可编程超导量子处理器上，通过周期驱动表面码哈密顿量，观测到预热拓扑有序时间晶体的关键信号。实验中，离散时间平移对称性破缺并不体现在局域量上，而是反映在非局域逻辑算符的次谐响应之中；同时，作者还结合拓扑纠缠熵测量验证了其背后的拓扑有序。结果展示了利用噪声中等规模量子处理器探索非平衡拓扑物态的可行性。"
+    },
+    {
+      "id": "NatCommun2025DemonstratingQuantumErrorMitigation",
+      "title": "Demonstrating quantum error mitigation on logical qubits",
+      "authors": "Aosai Zhang, Haipeng Xie, Yu Gao, Jia-Nan Yang, Zehang Bao, Zitian Zhu, Jiachen Chen, Ning Wang, Chuanyu Zhang, Jiarun Zhong, Shibo Xu, Ke Wang, Yaozu Wu, Feitong Jin, Xuhao Zhu, Yiren Zou, Ziqi Tan, Zhengyi Cui, Fanhao Shen, Tingting Li, Yihang Han, Yiyang He, Gongyu Liu, Jiayuan Shen, Han Wang, Yanzhe Wang, Hang Dong, Jinfeng Deng, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Pengfei Zhang, Ying Li, H. Wang",
+      "year": 2025,
+      "venue": "Nature Communications",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41467-025-67768-4",
+      "doi": "https://doi.org/10.1038/s41467-025-67768-4",
+      "abstract": "该工作将零噪声外推这一实用量子误差缓解技术应用到超导处理器上的量子纠错电路中，用于降低逻辑层错误。通过人为放大物理量子比特上的噪声并建立输出结果与噪声强度之间的多项式关系，作者实现了对逻辑误差的有效外推抑制。实验表明，该方法在重复码和表面码等多种容错电路中都能稳定降低逻辑错误，并在多轮纠错场景下依然保持效果。"
+    },
+    {
+      "id": "NatCommun2025ObservationOfMinimalAndMaximalSpeedLimits",
+      "title": "Observation of minimal and maximal speed limits for few and many-body states",
+      "authors": "Zitian Zhu, Lei Gao, Zehang Bao, Liang Xiang, Zixuan Song, Shibo Xu, Ke Wang, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Ziqi Tan, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Jiarun Zhong, Tingting Li, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Zhen Wang, Chao Song, Chen Cheng, Qiujiang Guo, Hekang Li, H. Wang, Hai-Qing Lin, Rubem Mondaini",
+      "year": 2025,
+      "venue": "Nature Communications",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41467-025-56451-3",
+      "doi": "https://doi.org/10.1038/s41467-025-56451-3",
+      "abstract": "该工作基于可编程超导量子处理器，对单体和多体量子系统的演化过程进行了系统实验研究，用于检验量子态变化速度的基本极限。作者不仅验证了已知的最大量子速度极限，还通过调节哈密顿量参数，观测到不同界之间的交叉行为以及较少被实验验证的最小速度极限。结果为理解量子态演化约束及其在更复杂开放系统中的推广提供了实验基础。"
+    },
+    {
+      "id": "NatPhys2026LowOverheadQuantumErrorCorrectionCodes",
+      "title": "Demonstration of low-overhead quantum error correction codes",
+      "authors": "Ke Wang, Zhide Lu, Chuanyu Zhang, Gongyu Liu, Jiachen Chen, Yanzhe Wang, Yaozu Wu, Shibo Xu, Xuhao Zhu, Feitong Jin, Yu Gao, Ziqi Tan, Zhengyi Cui, Ning Wang, Yiren Zou, Aosai Zhang, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Yihang Han, Yiyang He, Jiayuan Shen, Han Wang, Jia-Nan Yang, Zixuan Song, Jinfeng Deng, Hang Dong, Zheng-Zhi Sun, Weikang Li, Qi Ye, Si Jiang, Yixuan Ma, Pei-Xin Shen, Pengfei Zhang, Hekang Li, Qiujiang Guo, Zhen Wang, Chao Song, H. Wang, Dong-Ling Deng",
+      "year": 2026,
+      "venue": "Nature Physics",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41567-025-03157-4",
+      "doi": "https://doi.org/10.1038/s41567-025-03157-4",
+      "abstract": "该工作在 32 比特超导量子处理器上实验演示了两类低开销量子低密度奇偶校验纠错码，包括距离为 4 的双变量自行车码和距离为 3 的穿孔双变量自行车码。作者利用带有重叠长程耦合器的二维架构，实现了所有非局域权重 6 稳定子的同步测量，并报告了对应逻辑比特每周期的逻辑错误率。结果表明，长程耦合超导处理器上实施低开销量子纠错是可行的，为可扩展容错量子计算提供了实验依据。"
+    },
+    {
+      "id": "Nature2025TopologicalPrethermalStrongZeroModes",
+      "title": "Topological prethermal strong zero modes on superconducting processors",
+      "authors": "Feitong Jin, Si Jiang, Xuhao Zhu, Zehang Bao, Fanhao Shen, Ke Wang, Zitian Zhu, Shibo Xu, Zixuan Song, Jiachen Chen, Ziqi Tan, Yaozu Wu, Chuanyu Zhang, Yu Gao, Ning Wang, Yiren Zou, Aosai Zhang, Tingting Li, Jiarun Zhong, Zhengyi Cui, Yihang Han, Yiyang He, Han Wang, Jia-Nan Yang, Yanzhe Wang, Jiayuan Shen, Gongyu Liu, Jinfeng Deng, Hang Dong, Pengfei Zhang, Weikang Li, Dong Yuan, Zhide Lu, Zheng-Zhi Sun, Hekang Li, Junxiang Zhang, Chao Song, Zhen Wang, Qiujiang Guo, Francisco Machado, Jack Kemp, Thomas Iadecola, Norman Y. Yao, H. Wang, Dong-Ling Deng",
+      "year": 2025,
+      "venue": "Nature",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41586-025-09476-z",
+      "doi": "https://doi.org/10.1038/s41586-025-09476-z",
+      "abstract": "该工作在 100 比特可编程超导量子处理器上，通过数字量子模拟一维无序自由稳定子哈密顿量，观测到由预热区间涌现对称性保护的拓扑边界模。实验表明，这类拓扑零模能够在有限温度和无无序条件下保持长寿命，并可通过稳定子强度二聚化进一步抑制其与体激发的耦合。作者还利用这些边界模编码逻辑量子比特并制备逻辑 Bell 态，展示了其作为稳健边界量子存储单元的潜力。"
+    },
+    {
       "id": "NDSS2026Chimera",
       "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
       "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Yuhan Ma, Ziming Zhao*",
@@ -986,6 +1178,54 @@ window.LAB_PAPERS_BUNDLE = {
       "link": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
       "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
       "imageUrl": "figures/NDSS2026Chimera.png"
+    },
+    {
+      "id": "NPJQI2025QuantumEnsembleLearning",
+      "title": "Quantum ensemble learning with a programmable superconducting processor",
+      "authors": "Jiachen Chen, Yaozu Wu, Zhen Yang, Shibo Xu, Xuan Ye, Daili Li, Ke Wang, Chuanyu Zhang, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wei Zhang, Hekang Li, Qiujiang Guo, Zhen Wang, Ying Li, Xiaoting Wang, Chao Song, H. Wang",
+      "year": 2025,
+      "venue": "npj Quantum Information",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41534-025-01037-6",
+      "doi": "https://doi.org/10.1038/s41534-025-01037-6",
+      "abstract": "该工作提出了 AdaBoost.Q，一种面向量子分类器的集成学习方法，通过在自适应训练与组合过程中重新分配注意力来提升量子模型的学习能力。作者在可编程超导量子处理器上验证了该方法对量子神经网络和量子卷积网络等多种模型的增强效果，在多类分类和量子特征识别任务上均取得明显性能提升。研究为推动量子机器学习从噪声设备走向实际应用提供了基础工具。"
+    },
+    {
+      "id": "NPJQI2026QuantumContinualLearning",
+      "title": "Experimental demonstration of quantum continual learning with superconducting qubits",
+      "authors": "Chuanyu Zhang, Zhide Lu, Liangtian Zhao, Shibo Xu, Weikang Li, Ke Wang, Jiachen Chen, Yaozu Wu, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wenjie Jiang, Zheng-Zhi Sun, Pei-Xin Shen, Hekang Li, Qiujiang Guo, Zhen Wang, Jie Hao, H. Wang, Dong-Ling Deng, Chao Song",
+      "year": 2026,
+      "venue": "npj Quantum Information",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41534-025-01174-y",
+      "doi": "https://doi.org/10.1038/s41534-025-01174-y",
+      "abstract": "该工作在超导量子处理器上实验演示了量子持续学习，并系统展示了量子分类器在顺序任务训练中的灾难性遗忘现象。为缓解这一问题，作者引入弹性权重巩固策略，使模型在连续三项任务训练后仍能保留先前知识，并取得超过 92.3% 的平均准确率。研究结果表明，量子学习系统可以通过合适机制获得面向连续任务的适应能力，为量子机器学习的长期部署提供了可行路径。"
     },
     {
       "id": "QCNC2025QuFM",

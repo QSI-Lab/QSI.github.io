@@ -1,0 +1,24 @@
+{
+  "id": "NPJQI2025QuantumEnsembleLearning",
+  "title": "Quantum ensemble learning with a programmable superconducting processor",
+  "authors": "Jiachen Chen, Yaozu Wu, Zhen Yang, Shibo Xu, Xuan Ye, Daili Li, Ke Wang, Chuanyu Zhang, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wei Zhang, Hekang Li, Qiujiang Guo, Zhen Wang, Ying Li, Xiaoting Wang, Chao Song, H. Wang",
+  "year": 2025,
+  "venue": "npj Quantum Information",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41534-025-01037-6",
+  "doi": "https://doi.org/10.1038/s41534-025-01037-6",
+  "abstract": "该工作提出了 AdaBoost.Q，一种面向量子分类器的集成学习方法，通过在自适应训练与组合过程中重新分配注意力来提升量子模型的学习能力。作者在可编程超导量子处理器上验证了该方法对量子神经网络和量子卷积网络等多种模型的增强效果，在多类分类和量子特征识别任务上均取得明显性能提升。研究为推动量子机器学习从噪声设备走向实际应用提供了基础工具。"
+}

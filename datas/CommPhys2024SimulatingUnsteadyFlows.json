@@ -1,0 +1,24 @@
+{
+  "id": "CommPhys2024SimulatingUnsteadyFlows",
+  "title": "Simulating unsteady flows on a superconducting quantum processor",
+  "authors": "Zhaoyuan Meng, Jiarun Zhong, Shibo Xu, Ke Wang, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Zehang Bao, Zitian Zhu, Ziqi Tan, Tingting Li, Pengfei Zhang, Shiying Xiong, Hekang Li, Qiujiang Guo, Zhen Wang, Chao Song, H. Wang, Yue Yang",
+  "year": 2024,
+  "venue": "Communications Physics",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s42005-024-01845-w",
+  "doi": "https://doi.org/10.1038/s42005-024-01845-w",
+  "abstract": "该工作在超导量子处理器上实现了非定常流体的数字量子模拟，算法基于薛定谔方程流体力学形式下的哈密顿量演化。作者利用 10 个量子比特分别模拟二维可压缩发散流与二维衰减涡流，实验结果较好刻画了平均密度、动量分布及其时序变化。研究表明，量子计算有望在复杂流体动力学乃至湍流模拟中发挥作用。"
+}

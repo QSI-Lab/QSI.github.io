@@ -1,0 +1,24 @@
+{
+  "id": "NatCommun2025ObservationOfMinimalAndMaximalSpeedLimits",
+  "title": "Observation of minimal and maximal speed limits for few and many-body states",
+  "authors": "Zitian Zhu, Lei Gao, Zehang Bao, Liang Xiang, Zixuan Song, Shibo Xu, Ke Wang, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Ziqi Tan, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Jiarun Zhong, Tingting Li, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Zhen Wang, Chao Song, Chen Cheng, Qiujiang Guo, Hekang Li, H. Wang, Hai-Qing Lin, Rubem Mondaini",
+  "year": 2025,
+  "venue": "Nature Communications",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41467-025-56451-3",
+  "doi": "https://doi.org/10.1038/s41467-025-56451-3",
+  "abstract": "该工作基于可编程超导量子处理器，对单体和多体量子系统的演化过程进行了系统实验研究，用于检验量子态变化速度的基本极限。作者不仅验证了已知的最大量子速度极限，还通过调节哈密顿量参数，观测到不同界之间的交叉行为以及较少被实验验证的最小速度极限。结果为理解量子态演化约束及其在更复杂开放系统中的推广提供了实验基础。"
+}

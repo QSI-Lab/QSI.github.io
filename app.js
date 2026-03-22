@@ -251,7 +251,7 @@
       { label: "CORE A / A*", value: coreACount, tone: "gold" },
       { label: "THCPL A 类", value: thcplACount, tone: "rose" },
       { label: "期刊论文", value: journalCount, tone: "green" },
-      { label: "NCS", value: ncsCount, tone: "violet" },
+      { label: "NCS", note: "(nature, cell, science)", value: ncsCount, tone: "violet" },
       { label: "NCS子刊", value: ncsSubCount, tone: "indigo" },
       { label: "SCI 1区", value: sci1Count, tone: "teal" },
       { label: "SCI 2区", value: sci2Count, tone: "sky" },
@@ -269,6 +269,7 @@
           "</span>" +
           '<span class="stat-card__label">' +
           escapeHtml(card.label) +
+          (card.note ? '<small class="stat-card__note">' + escapeHtml(card.note) + "</small>" : "") +
           "</span>" +
           "</article>"
         );

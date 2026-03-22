@@ -1,0 +1,24 @@
+{
+  "id": "NatCommun2025DemonstratingQuantumErrorMitigation",
+  "title": "Demonstrating quantum error mitigation on logical qubits",
+  "authors": "Aosai Zhang, Haipeng Xie, Yu Gao, Jia-Nan Yang, Zehang Bao, Zitian Zhu, Jiachen Chen, Ning Wang, Chuanyu Zhang, Jiarun Zhong, Shibo Xu, Ke Wang, Yaozu Wu, Feitong Jin, Xuhao Zhu, Yiren Zou, Ziqi Tan, Zhengyi Cui, Fanhao Shen, Tingting Li, Yihang Han, Yiyang He, Gongyu Liu, Jiayuan Shen, Han Wang, Yanzhe Wang, Hang Dong, Jinfeng Deng, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Pengfei Zhang, Ying Li, H. Wang",
+  "year": 2025,
+  "venue": "Nature Communications",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41467-025-67768-4",
+  "doi": "https://doi.org/10.1038/s41467-025-67768-4",
+  "abstract": "该工作将零噪声外推这一实用量子误差缓解技术应用到超导处理器上的量子纠错电路中，用于降低逻辑层错误。通过人为放大物理量子比特上的噪声并建立输出结果与噪声强度之间的多项式关系，作者实现了对逻辑误差的有效外推抑制。实验表明，该方法在重复码和表面码等多种容错电路中都能稳定降低逻辑错误，并在多轮纠错场景下依然保持效果。"
+}

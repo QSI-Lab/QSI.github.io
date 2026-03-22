@@ -1,0 +1,24 @@
+{
+  "id": "Nature2025TopologicalPrethermalStrongZeroModes",
+  "title": "Topological prethermal strong zero modes on superconducting processors",
+  "authors": "Feitong Jin, Si Jiang, Xuhao Zhu, Zehang Bao, Fanhao Shen, Ke Wang, Zitian Zhu, Shibo Xu, Zixuan Song, Jiachen Chen, Ziqi Tan, Yaozu Wu, Chuanyu Zhang, Yu Gao, Ning Wang, Yiren Zou, Aosai Zhang, Tingting Li, Jiarun Zhong, Zhengyi Cui, Yihang Han, Yiyang He, Han Wang, Jia-Nan Yang, Yanzhe Wang, Jiayuan Shen, Gongyu Liu, Jinfeng Deng, Hang Dong, Pengfei Zhang, Weikang Li, Dong Yuan, Zhide Lu, Zheng-Zhi Sun, Hekang Li, Junxiang Zhang, Chao Song, Zhen Wang, Qiujiang Guo, Francisco Machado, Jack Kemp, Thomas Iadecola, Norman Y. Yao, H. Wang, Dong-Ling Deng",
+  "year": 2025,
+  "venue": "Nature",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41586-025-09476-z",
+  "doi": "https://doi.org/10.1038/s41586-025-09476-z",
+  "abstract": "该工作在 100 比特可编程超导量子处理器上，通过数字量子模拟一维无序自由稳定子哈密顿量，观测到由预热区间涌现对称性保护的拓扑边界模。实验表明，这类拓扑零模能够在有限温度和无无序条件下保持长寿命，并可通过稳定子强度二聚化进一步抑制其与体激发的耦合。作者还利用这些边界模编码逻辑量子比特并制备逻辑 Bell 态，展示了其作为稳健边界量子存储单元的潜力。"
+}

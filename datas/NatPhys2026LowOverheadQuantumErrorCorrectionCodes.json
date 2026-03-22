@@ -1,0 +1,24 @@
+{
+  "id": "NatPhys2026LowOverheadQuantumErrorCorrectionCodes",
+  "title": "Demonstration of low-overhead quantum error correction codes",
+  "authors": "Ke Wang, Zhide Lu, Chuanyu Zhang, Gongyu Liu, Jiachen Chen, Yanzhe Wang, Yaozu Wu, Shibo Xu, Xuhao Zhu, Feitong Jin, Yu Gao, Ziqi Tan, Zhengyi Cui, Ning Wang, Yiren Zou, Aosai Zhang, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Yihang Han, Yiyang He, Jiayuan Shen, Han Wang, Jia-Nan Yang, Zixuan Song, Jinfeng Deng, Hang Dong, Zheng-Zhi Sun, Weikang Li, Qi Ye, Si Jiang, Yixuan Ma, Pei-Xin Shen, Pengfei Zhang, Hekang Li, Qiujiang Guo, Zhen Wang, Chao Song, H. Wang, Dong-Ling Deng",
+  "year": 2026,
+  "venue": "Nature Physics",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41567-025-03157-4",
+  "doi": "https://doi.org/10.1038/s41567-025-03157-4",
+  "abstract": "该工作在 32 比特超导量子处理器上实验演示了两类低开销量子低密度奇偶校验纠错码，包括距离为 4 的双变量自行车码和距离为 3 的穿孔双变量自行车码。作者利用带有重叠长程耦合器的二维架构，实现了所有非局域权重 6 稳定子的同步测量，并报告了对应逻辑比特每周期的逻辑错误率。结果表明，长程耦合超导处理器上实施低开销量子纠错是可行的，为可扩展容错量子计算提供了实验依据。"
+}

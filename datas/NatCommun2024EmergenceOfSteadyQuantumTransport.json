@@ -1,0 +1,24 @@
+{
+  "id": "NatCommun2024EmergenceOfSteadyQuantumTransport",
+  "title": "Emergence of steady quantum transport in a superconducting processor",
+  "authors": "Pengfei Zhang, Yu Gao, Xiansong Xu, Ning Wang, Hang Dong, Chu Guo, Jinfeng Deng, Xu Zhang, Jiachen Chen, Shibo Xu, Ke Wang, Yaozu Wu, Chuanyu Zhang, Feitong Jin, Xuhao Zhu, Aosai Zhang, Yiren Zou, Ziqi Tan, Zhengyi Cui, Zitian Zhu, Fanhao Shen, Tingting Li, Jiarun Zhong, Zehang Bao, Liangtian Zhao, Jie Hao, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, H. Wang, Dario Poletti",
+  "year": 2024,
+  "venue": "Nature Communications",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41467-024-54332-9",
+  "doi": "https://doi.org/10.1038/s41467-024-54332-9",
+  "abstract": "该工作在超导量子处理器上通过量子比特梯形结构模拟热浴，实验演示了非平衡稳态量子输运的形成过程。作者观测到粒子流对热浴初始化细节并不敏感，且其时间涨落会随热浴规模增大而迅速减小，呈现出类似热力学极限下的稳态行为。结合单站点分辨控制与测量，研究进一步展示了通过调节热浴填充与谱性质来调控稳态流的能力。"
+}

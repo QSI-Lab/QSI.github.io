@@ -1,0 +1,24 @@
+{
+  "id": "NatCommun2024LongLivedTopologicalTimeCrystallineOrder",
+  "title": "Long-lived topological time-crystalline order on a quantum processor",
+  "authors": "Liang Xiang, Wenjie Jiang, Zehang Bao, Zixuan Song, Shibo Xu, Ke Wang, Jiachen Chen, Feitong Jin, Xuhao Zhu, Zitian Zhu, Fanhao Shen, Ning Wang, Chuanyu Zhang, Yaozu Wu, Yiren Zou, Jiarun Zhong, Zhengyi Cui, Aosai Zhang, Ziqi Tan, Tingting Li, Yu Gao, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Si Jiang, Weikang Li, Zhide Lu, Zheng-Zhi Sun, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Fangli Liu, Zhe-Xuan Gong, Alexey V. Gorshkov, Norman Y. Yao, Thomas Iadecola, Francisco Machado, H. Wang, Dong-Ling Deng",
+  "year": 2024,
+  "venue": "Nature Communications",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NCS_SUB",
+  "sciZone": "SCI1",
+  "fields": [
+    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子智能"
+  ],
+  "link": "https://www.nature.com/articles/s41467-024-53077-9",
+  "doi": "https://doi.org/10.1038/s41467-024-53077-9",
+  "abstract": "该工作在方格排布的可编程超导量子处理器上，通过周期驱动表面码哈密顿量，观测到预热拓扑有序时间晶体的关键信号。实验中，离散时间平移对称性破缺并不体现在局域量上，而是反映在非局域逻辑算符的次谐响应之中；同时，作者还结合拓扑纠缠熵测量验证了其背后的拓扑有序。结果展示了利用噪声中等规模量子处理器探索非平衡拓扑物态的可行性。"
+}
