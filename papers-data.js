@@ -75,10 +75,52 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "网络安全",
+        "符号执行"
       ],
-      "link": "https://wp.nyu.edu/acns2024/",
-      "abstract": "面向 DDoS 攻击研究中表征困难、漏洞发现依赖人工的问题，提出 DDoSMiner 自动化框架，对攻击行为进行系统刻画，并结合分析流程自动挖掘潜在脆弱点，从而提升 DDoS 攻击分析、建模与防护研究的效率。"
+      "link": "https://link.springer.com/chapter/10.1007/978-3-031-54773-7_12",
+      "abstract": "本文针对不断演化的分布式拒绝服务攻击提出了一种自动化攻击特征分析与漏洞挖掘框架 DDoSMiner。面对基于规则的流量分析和深度包检测等传统防御手段，攻击者持续寻找新的攻击面和流量放大方式以绕过检测。为此，DDoSMiner 通过分析 TCP 类 DDoS 攻击的系统调用模式，构建攻击调用流图（ACFG），并识别攻击流量与正常流量之间的关键差异特征。进一步地，该框架提取丢弃节点和关键 TCP 状态，并结合符号执行技术探索 DDoS 攻击的变种。实验结果表明，DDoSMiner 能够发现新的 DDoS 攻击轨迹，且生成的攻击流量能够绕过 Snort 及其三种主流规则集的检测。"
+    },
+    {
+      "id": "ARXIV2026ARepositoryLevel",
+      "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+      "authors": "Keke Lian#, Bing Wang#, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Miaoqian Lin, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li*, Dong Zhang*",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大数据系统优化"
+      ],
+      "link": "https://arxiv.org/pdf/2508.18106",
+      "abstract": "现有针对 LLM 生成代码安全性的评测基准与真实 AI 辅助编程场景脱节，难以反映生产环境中的实际风险。为此，作者提出了更贴近真实仓库级编程任务的安全评测基准 A.S.E，并通过实验发现当前主流 LLM 在安全编码方面仍存在明显不足，尤其在复杂仓库场景下表现下降，而且更大的推理预算也未必能带来更好的代码生成效果。"
+    },
+    {
+      "id": "ARXIV2026DataEfficient",
+      "title": "Data-Efficient Large Language Model Training: A Survey",
+      "authors": "Xinyang Liu, Qiang Hu∗, Yujie Ma, Zhenheng Tang, Jiongchi Yu, Tianlin Li, Yao Zhang, Junjie Wang, Hao Liu, Yongqiang Lyu, Yves Le Traon",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练"
+      ],
+      "link": "https://wellido.github.io/paper/DS4LLM.pdf",
+      "abstract": "构建大语言模型通常依赖大规模高质量数据，代价高且计算开销大，因此本文系统综述了“有限数据下构建 LLM”的研究进展。文章梳理了数据高效训练的统一问题与术语，系统分析了如何识别对预训练和微调最关键的数据样本，并总结了该领域的挑战与未来研究方向。",
+      "pdf": "https://wellido.github.io/paper/DS4LLM.pdf"
     },
     {
       "id": "ARXIV2026HumanintheLoopforFuzzTesting",
@@ -99,6 +141,88 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://arxiv.org/pdf/2603.13411",
       "abstract": "传统模糊测试虽然有效，但依赖自动化启发式方法，难以发现深层或复杂漏洞，因此需要将人类专家引入模糊测试流程。文章据此提出了一个 Human-in-the-Loop 模糊测试研究路线图，重点关注人类监控、人类引导，以及人类与大语言模型协作，以构建下一代交互式、智能化的模糊测试体系。"
+    },
+    {
+      "id": "ARXIV2026LEVERAGINGLLM",
+      "title": "Chengjia Wang, Lanling Tang, Ming Yuan, Jiongchi Yu*, Xiaofei Xie, Jiajun Bu",
+      "authors": "LEVERAGING LLM AGENTS FOR AUTOMATEDVIDEO GAME TESTING",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练",
+        "大数据系统优化"
+      ],
+      "link": "https://arxiv.org/pdf/2509.22170",
+      "abstract": "提出了一个面向MMORPG测试的LLM驱动智能代理框架TITAN，通过状态抽象、动作优化、长程推理与自反纠错以及基于LLM的测试判定机制，显著提升了任务完成率和缺陷检测能力。实验表明，该方法在真实商业游戏中优于现有自动化测试方案，并已成功应用于多个实际QA流程中。"
+    },
+    {
+      "id": "ARXIV2026PTCBENCH",
+      "title": "PTCBENCH: Benchmarking Contextual Stability of Personality Traits in LLM Systems",
+      "authors": "Jiongchi Yu#, Yuhan Ma#, Xiaoyu Zhang*, Junjie Wang, Qiang Hu, Chao Shen, and Xiaofei Xie",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练"
+      ],
+      "link": "https://arxiv.org/pdf/2602.00016",
+      "abstract": "随着 LLM 被广泛用于情感陪伴和智能体系统，保持其人格的一致性对用户信任很重要，但现有研究忽视了人格会随情境变化这一心理学事实。为此，作者提出了 PTCBench，在不同地点与人生事件等 12 类情境下系统评估 LLM 的人格一致性，并发现某些情境会显著改变模型的人格特征，甚至影响其推理能力。"
+    },
+    {
+      "id": "ARXIV2026TheFoundationCracks",
+      "title": "The Foundation Cracks: A Comprehensive Study on Bugs and Testing Practices in LLM Libraries",
+      "authors": "Weipeng Jiang, Xiaoyu Zhang, Xiaofei Xie, Jiongchi Yu, Yuhan Zhi, Shiqing Ma, Chao Shen",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型 for 安全"
+      ],
+      "link": "https://arxiv.org/pdf/2506.12320",
+      "abstract": "LLM 库作为大模型生态的基础设施，虽然至关重要，但存在大量影响系统可靠性的缺陷。本文通过对 HuggingFace Transformers 和 vLLM 中 313 个缺陷修复提交及 7,748 个测试函数的实证分析，系统总结了缺陷表现、根因和测试方法，并发现 API 误用已成为最主要的缺陷来源，而现有测试在用例、驱动和预言机方面仍明显不足。"
+    },
+    {
+      "id": "ARXIV2026Understanding",
+      "title": "Understanding the Supply Chain and Risks of Large Language Model Applications",
+      "authors": "Yujie Ma, Lili Quan, Xiaofei Xie, Qiang Hu, Jiongchi Yu, Yao Zhang, Sen Chen",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练",
+        "大数据系统优化"
+      ],
+      "link": "https://arxiv.org/pdf/2507.18105",
+      "abstract": "LLM 系统依赖复杂的软件供应链（模型、数据集、库等），但现有风险研究多局限于模型或数据层面，缺乏系统性评估基准。为此，作者提出 LLMSCBench 数据集，刻画 LLM 生态中的依赖关系与安全风险，并通过实证分析揭示其广泛且复杂的供应链漏洞，强调加强安全与隐私防护的必要性。"
     },
     {
       "id": "ASE2025AutoFid",
@@ -234,7 +358,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "CompSecurity2024DDoSFamily",
       "title": "DDoS Family: A Novel Perspective for Massive Types of DDoS Attacks",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Zhihao Zhou, Jiongchi Yu, Zhuoxue Song, Xiaofei Xie, Fan Zhang, Rui Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Zhihao Zhou, Jiongchi Yu, Zhuoxue Song, Xiaofei Xie, Fan Zhang*, Rui Zhang",
       "year": 2024,
       "venue": "Computers & Security",
       "ccf": "B",
@@ -246,10 +370,11 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "网络安全",
+        "网络流量"
       ],
-      "link": "https://www.sciencedirect.com/journal/computers-and-security",
-      "abstract": ""
+      "link": "https://www.sciencedirect.com/science/article/pii/S0167404823005734",
+      "abstract": "本文针对 DDoS 防御中攻击变种不断增多所带来的识别与响应难题，提出了“DDoS 家族”这一新概念。随着攻击策略日益复杂，传统机器学习方法在二分类和细粒度攻击分类两端都面临局限，同时大量攻击类别也会导致过滤规则表臃肿、缓解响应变慢。为此，本文从流量模式刻画、攻击指纹生成以及基于社区发现的交叉执行家族划分三个方面构建技术路线，以实现对相似攻击的统一建模。大量实验表明，该方法能够有效刻画攻击之间的相似性，辅助模型分类与未知攻击检测，并优化防御策略、提升过滤响应速度。特别地，研究发现仅用一条规则即可防御 15 种具有同质行为特征的攻击，同时“统计反向数据包”在应对部分攻击时比以往方案更高效、更鲁棒。"
     },
     {
       "id": "CSCWD2024AlertCrossVerification",
@@ -559,10 +684,13 @@ window.LAB_PAPERS_BUNDLE = {
         "网络与信息安全"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "网络安全",
+        "入侵检测",
+        "软硬件部署",
+        "可编程交换机"
       ],
-      "link": "https://infocom2024.ieee-infocom.org/",
-      "abstract": "提出RNN模型与可编程交换机协同设计的入侵检测系统RIDS，将部分检测逻辑卸载至数据平面，实现线速检测与高精度的有机结合，在INFOCOM 2024上展示了其在真实网络环境中的优越性能。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/10621290",
+      "abstract": "本文针对现有基于深度学习的入侵检测系统难以在网络内高效部署的问题，提出了一种面向可编程交换机协同设计的轻量级模型 RIDS。由于传统深度学习模型通常具有高度非线性和非凸性，其复杂结构不利于在数据平面中实现高性能推理。为此，RIDS 由两个核心组件构成：rLearner 负责设计具备网络内可部署性的 RNN 学习模型，rEnforcer 则实现模型在可编程交换机中的具体执行流水线。通过原型系统和真实测试床评估，结果表明 RIDS 能够在保持高检测精度的同时，实现对高速网络带宽的良好适配。实验进一步显示，RIDS 在实现约 99% F1 分数的同时，可支持每端口 100 Gbps 的吞吐，并仅引入纳秒级延迟，显著优于现有方案。"
     },
     {
       "id": "INFOCOM2025Fortuna",
@@ -705,10 +833,10 @@ window.LAB_PAPERS_BUNDLE = {
         "交叉/综合/新兴"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子网络"
       ],
       "link": "https://2024.acmmm.org/",
-      "abstract": "提出Minerva框架，通过优化量子网络链路调度与保真度管理，提升高保真度多媒体内容在量子网络上的传输性能，为量子互联网在多媒体应用场景中的落地提供关键技术支撑。"
+      "abstract": "本文面向量子网络中多任务、多数据包场景下的高保真链路分配问题展开研究。现有工作大多只关注单个数据包的高保真链路选择，忽视了多数据包传输中的链路分配与调度需求，从而限制了量子网络在实际多媒体应用中的可扩展性。为此，本文提出了一个新的框架 Minerva，通过中值淘汰方法估计链路保真度，并结合传输策略为多个任务选择高保真链路。与此同时，针对多媒体分块传输场景，本文进一步引入调度策略，在综合考虑链路保真度与网络整体利用率的基础上，最大化分块传输的累计收益。实验结果表明，相比随机方法和均匀分布方法，Minerva 在减少跳数和执行时间的同时，能够显著提升平均保真度，展现出良好的性能优势与应用潜力。"
     },
     {
       "id": "MM2025StealthyAE",
@@ -1009,23 +1137,23 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "TCAD2024QuST",
       "title": "QuST: Optimizing Quantum Neural Network against Spatial and Temporal Noise Biases",
-      "authors": "Tingting Li, Liqiang Lu, Ziming Zhao, Ziqi Tan, Siwei Tan, Jianwei Yin",
+      "authors": "Tingting Li, Liqiang Lu*, Ziming Zhao, Ziqi Tan, Siwei Tan, Jianwei Yin*",
       "year": 2024,
       "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
       "ccf": "A",
-      "core": "A",
+      "core": "N",
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
       "fields": [
-        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统",
         "人工智能"
       ],
       "researchDirections": [
-        "量子智能"
+        "量子神经网络"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
-      "abstract": "针对量子神经网络面临的空间噪声与时间噪声偏差问题，提出QuST优化框架，通过分析不同量子比特的噪声特性进行差异化训练策略设计，有效提升QNN在噪声量子设备上的推理精度与鲁棒性。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/10701050/",
+      "abstract": "本文针对量子神经网络在噪声环境下性能下降及频繁重训练成本高的问题，提出了一种一次训练即可适应动态噪声变化的鲁棒训练框架 QuST。该方法旨在同时应对不同量子设备之间的空间噪声差异以及同一设备随时间变化的时间噪声偏移，从而在不断变化的噪声条件下保持模型精度。具体而言，QuST 首先提出电路序列正确性（CSC）指标来刻画噪声环境中的电路可靠性，并将其作为训练权重融入损失函数，同时利用 KL 散度对齐有噪声与无噪声推理结果，以提升模型抗噪能力。进一步地，QuST 通过多尺度噪声感知训练增强模型在不同噪声强度下的鲁棒性。基于 MNIST、FashionMNIST、190 天历史噪声模拟以及 7 台真实 IBMQ 量子计算机的实验结果表明，QuST 在时间维度和空间维度上均显著提升了模型准确率，并能够在无需重训练的情况下持续保持较高性能。"
     },
     {
       "id": "TCAD2024TPEDet",
@@ -1034,7 +1162,7 @@ window.LAB_PAPERS_BUNDLE = {
       "year": 2024,
       "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
       "ccf": "A",
-      "core": "A",
+      "core": "N",
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
@@ -1043,10 +1171,11 @@ window.LAB_PAPERS_BUNDLE = {
         "计算机体系结构/并行与分布计算/存储系统"
       ],
       "researchDirections": [
-        "网络与算网融合"
+        "网络安全",
+        "端网融合"
       ],
-      "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
-      "abstract": "TPE-Det 是一种基于侧信道的 IoT 恶意软件检测方案，通过外部监控串行外设接口（SPI）总线提取片上轨迹并恢复轻量级操作日志，从而避免传统系统调用、系统日志等内部监控易被篡改且数据量过大的问题。实验结果表明，结合统计、序列和图特征的机器学习模型后，TPE-Det 具备较强的防篡改能力，并在检测准确率及时间、空间开销方面优于现有方法。"
+      "link": "https://ieeexplore.ieee.org/abstract/document/10745786/",
+      "abstract": "本文针对物联网设备中恶意软件检测面临的监控易被篡改和日志数据量过大的问题，提出了一种基于侧信道的外部监测方案 TPE-Det。与依赖系统调用、系统日志或硬件性能计数器的传统方法不同，TPE-Det 通过 SPI 总线提取芯片级运行痕迹，并设计日志恢复流程，以实现对设备行为的外部感知。该方法具有对抗者难以察觉且难以篡改的优势，同时恢复得到的日志主要聚焦于文件操作命令，相比完整系统日志更加轻量。基于这些恢复日志，本文进一步结合统计特征、序列特征和图特征，构建多种机器学习模型用于恶意软件识别。实验结果表明，TPE-Det 在保证较高检测准确率的同时，还具备良好的防篡改能力以及较低的时间和空间开销。"
     },
     {
       "id": "TDSC2023ERNN",
@@ -1538,7 +1667,9 @@ window.LAB_PAPERS_BUNDLE = {
     "云计算与云服务器",
     "代码修复",
     "僵尸网络",
+    "入侵检测",
     "加密流量",
+    "可编程交换机",
     "大数据系统优化",
     "大模型 for 安全",
     "大模型多智能体",
@@ -1551,10 +1682,13 @@ window.LAB_PAPERS_BUNDLE = {
     "游戏测试",
     "碳感知算网",
     "端网融合",
+    "符号执行",
     "算力网络",
     "系统取证",
     "网络安全",
+    "网络流量",
     "软件测试",
+    "软硬件部署",
     "量子EDA",
     "量子云平台",
     "量子安全",
