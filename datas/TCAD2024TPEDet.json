@@ -5,7 +5,7 @@
   "year": 2024,
   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
   "ccf": "A",
-  "core": "A",
+  "core": "N",
   "thcpl": "N",
   "type": "journal",
   "accepted": true,
@@ -14,8 +14,8 @@
     "计算机体系结构/并行与分布计算/存储系统"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "网络安全", "端网融合"
   ],
-  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
-  "abstract": "TPE-Det 是一种基于侧信道的 IoT 恶意软件检测方案，通过外部监控串行外设接口（SPI）总线提取片上轨迹并恢复轻量级操作日志，从而避免传统系统调用、系统日志等内部监控易被篡改且数据量过大的问题。实验结果表明，结合统计、序列和图特征的机器学习模型后，TPE-Det 具备较强的防篡改能力，并在检测准确率及时间、空间开销方面优于现有方法。"
+  "link": "https://ieeexplore.ieee.org/abstract/document/10745786/",
+  "abstract": "本文针对物联网设备中恶意软件检测面临的监控易被篡改和日志数据量过大的问题，提出了一种基于侧信道的外部监测方案 TPE-Det。与依赖系统调用、系统日志或硬件性能计数器的传统方法不同，TPE-Det 通过 SPI 总线提取芯片级运行痕迹，并设计日志恢复流程，以实现对设备行为的外部感知。该方法具有对抗者难以察觉且难以篡改的优势，同时恢复得到的日志主要聚焦于文件操作命令，相比完整系统日志更加轻量。基于这些恢复日志，本文进一步结合统计特征、序列特征和图特征，构建多种机器学习模型用于恶意软件识别。实验结果表明，TPE-Det 在保证较高检测准确率的同时，还具备良好的防篡改能力以及较低的时间和空间开销。"
 }
