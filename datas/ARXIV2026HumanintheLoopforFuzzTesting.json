@@ -1,0 +1,20 @@
+{
+  "id": "ARXIV2026HumanintheLoopforFuzzTesting",
+  "title": "Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead",
+  "authors": "JIONGCHI YU#, XIAOLIN WEN#, SIZHE CHENG, XIAOFEI XIE,QIANG HU*,  YONG WANG*",
+  "year": 2026,
+  "venue": "arxiv",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": false,
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型 for 安全"
+  ],
+  "link": "https://arxiv.org/pdf/2603.13411",
+  "abstract": "传统模糊测试虽然有效，但依赖自动化启发式方法，难以发现深层或复杂漏洞，因此需要将人类专家引入模糊测试流程。文章据此提出了一个 Human-in-the-Loop 模糊测试研究路线图，重点关注人类监控、人类引导，以及人类与大语言模型协作，以构建下一代交互式、智能化的模糊测试体系。"
+}
