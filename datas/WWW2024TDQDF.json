@@ -1,0 +1,20 @@
+{
+  "id": "WWW2024TDQDF",
+  "title": "Task-Driven Quantum Device Fingerprint Identification via Modeling QNN Outcome Shift Induced by Quantum Noise",
+  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
+  "year": 2024,
+  "venue": "WWW Short",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "量子安全"
+  ],
+  "link": "https://dl.acm.org/doi/abs/10.1145/3589335.3651567",
+  "abstract": "本文关注云端量子计算服务中的设备指纹识别与安全问题。尽管云量子计算为用户提供了便捷的资源访问方式，但也带来了隐私泄露、恶意程序注入等潜在风险，而量子设备指纹识别可能正是此类攻击的前置步骤。为此，本文提出了一种基于量子神经网络任务结果的任务驱动量子设备指纹识别方法 TD-QDF。与以往依赖硬件细节的方案不同，TD-QDF 无需获取底层硬件信息，因此在实际场景中具有更高的可用性。基于 10 台真实 IBM 量子计算机和 3 类 QNN 电路的大量实验表明，该方法能够有效区分不同量子设备，并为提升量子计算系统的安全性与可追责性提供了新的思路。"
+}

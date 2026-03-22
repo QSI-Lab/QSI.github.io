@@ -81,6 +81,26 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "面向 DDoS 攻击研究中表征困难、漏洞发现依赖人工的问题，提出 DDoSMiner 自动化框架，对攻击行为进行系统刻画，并结合分析流程自动挖掘潜在脆弱点，从而提升 DDoS 攻击分析、建模与防护研究的效率。"
     },
     {
+      "id": "ARXIV2026HumanintheLoopforFuzzTesting",
+      "title": "Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead",
+      "authors": "JIONGCHI YU#, XIAOLIN WEN#, SIZHE CHENG, XIAOFEI XIE,QIANG HU*,  YONG WANG*",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型 for 安全"
+      ],
+      "link": "https://arxiv.org/pdf/2603.13411",
+      "abstract": "传统模糊测试虽然有效，但依赖自动化启发式方法，难以发现深层或复杂漏洞，因此需要将人类专家引入模糊测试流程。文章据此提出了一个 Human-in-the-Loop 模糊测试研究路线图，重点关注人类监控、人类引导，以及人类与大语言模型协作，以构建下一代交互式、智能化的模糊测试体系。"
+    },
+    {
       "id": "ASE2025AutoFid",
       "title": "AutoFid: Adaptive and Noise-Aware Fidelity Measurement for Quantum Programs via Circuit Graph Analysis",
       "authors": "Tingting Li, Ziming Zhao*, Jianwei Yin*",
@@ -712,6 +732,26 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作提出了“隐蔽对抗样本”这一新概念，即样本在通过在线社交网络传播前表现为正常图像，但在经过平台的压缩、格式转换等处理后会激活其对抗性。围绕这一现象，作者设计了一套隐蔽对抗样本生成框架，通过质量因子计算、结合差分 JPEG 层的扩散模型来模拟社交平台传输过程，并利用拉格朗日乘子方法对生成过程进行优化。与传统对抗样本不同，这类方法能够更贴近真实网络传播场景中的攻击方式，因此具有更强的隐蔽性和现实威胁。实验结果表明，该方法在多个社交平台和多种目标模型上均优于七种现有先进对抗样本生成技术。进一步的抗检测评估和不同攻击设置下的扩展实验也验证了该方案的可扩展性与有效性。"
     },
     {
+      "id": "MobiCom2024QLSel",
+      "title": "QLSel: Demonstrating Efficient High-Fidelity Link Selection for Quantum Networks in the Wild",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
+      "year": 2024,
+      "venue": "MobiCom Demo",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络"
+      ],
+      "researchDirections": [
+        "量子网络"
+      ],
+      "link": "https://dl.acm.org/doi/abs/10.1145/3636534.3698853",
+      "abstract": "本文面向 NISQ 时代量子网络中高保真链路选择这一关键问题展开研究。由于量子噪声的普遍存在，量子链路保真度较低且波动明显，使得安全通信与高质量数据传输面临挑战。为此，本文提出了一种无需预先假设保真度分布的高效链路选择算法 QLSel，并将问题建模为多臂赌博机问题，以应对探索与利用之间的权衡。具体而言，QLSel 结合变异系数与 Thompson Sampling，设计了定制化的链路探索策略和链路选择概率机制。大量实验结果表明，QLSel 在性能上显著优于现有代表性方法。"
+    },
+    {
       "id": "NDSS2026Chimera",
       "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
       "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Yuhan Ma, Ziming Zhao*",
@@ -732,6 +772,46 @@ window.LAB_PAPERS_BUNDLE = {
       "link": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
       "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
       "imageUrl": "figures/NDSS2026Chimera.png"
+    },
+    {
+      "id": "QCNC2025QuFM",
+      "title": "QuFM: Towards Efficient Quantum Link Fidelity Measurements in Quantum Networks",
+      "authors": "Ziming Zhao, Tingting Li*, Zhaoxuan Li",
+      "year": 2025,
+      "venue": "QCNC",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络"
+      ],
+      "researchDirections": [
+        "量子网络"
+      ],
+      "link": "https://ieeexplore.ieee.org/abstract/document/11000192/",
+      "abstract": "本文聚焦于量子网络中的链路保真度测量问题。量子网络凭借叠加态、纠缠等量子力学特性，具备超越经典通信系统的潜力，但在当前 NISQ 设备条件下，噪声、误差与退相干会显著影响通信质量。针对现有保真度测量方法在测量开销与测量精度之间难以兼顾的问题，本文提出了一种自适应测量方案 QuFM。该方法利用卡尔曼滤波对量子态层析过程进行建模，判断系统是否达到稳定状态，从而提前终止迭代、减少测量次数。实验结果表明，QuFM 在保证测量准确性的同时显著提升了测量效率，并能够适用于不同误差类型和多种网络拓扑。"
+    },
+    {
+      "id": "QCNC2025QuFrame",
+      "title": "QuFrame: A Novel Encoding Ensemble Framework for Quantum Neural Networks",
+      "authors": "Tingting Li, Ziming Zhao, Liqiang Lu*, Jianwei Yin*",
+      "year": 2025,
+      "venue": "QCNC",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "量子神经网络"
+      ],
+      "link": "https://ieeexplore.ieee.org/abstract/document/11000218",
+      "abstract": "本文关注量子神经网络在经典任务中的数据编码问题。由于经典数据需要先映射为量子态，其编码方式将直接影响模型的特征表达能力和整体性能，而现有方法在编码空间、容错性等方面仍存在不足。为此，本文提出了一种新的量子编码集成框架 QuFrame，通过融合多种编码方法的优势，设计了包含复数线性层加权编码、L2 归一化以及基于梯度下降的权重优化在内的完整流程。与此同时，论文还引入了一系列量子态分布评估指标，并构建了多种量子核函数，为 QuFrame 提供理论分析和可视化支持。实验结果表明，与四种典型量子态编码方法相比，QuFrame 在平均准确率和 F1 分数上分别提升了 7.2%∼31.85% 和 11%∼37.74%。"
     },
     {
       "id": "RTSS2023RealTimeIDS",
@@ -1330,17 +1410,16 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "WWW2024RFCL",
       "title": "Improving Model Robustness against Adversarial Examples with Redundant Fully Connected Layer",
-      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Jiongchi Yu, Fan Zhang, Rui Zhang",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Jiongchi Yu, Fan Zhang*, Rui Zhang",
       "year": 2024,
-      "venue": "ACM Web Conference",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
+      "venue": "WWW Short",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
       "type": "conference",
       "accepted": true,
       "fields": [
-        "人工智能",
-        "网络安全"
+        "交叉/综合/新兴"
       ],
       "researchDirections": [
         "AI安全",
@@ -1348,6 +1427,26 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://doi.org/10.1145/3589335.3651524",
       "abstract": "针对现有对抗样本防御技术在跨攻击场景适应性、干净样本识别准确性、模型鲁棒性与训练效率之间难以兼顾的问题，本文提出一种冗余全连接层方法。该方法通过设计多个相互正交的全连接层，并将其与现有检测模型结合，缓解原始模型在对抗扰动下的性能退化，从而提升模型对对抗样本的鲁棒性。实验结果表明，该方法在 12 种白盒和黑盒攻击设置下均可实现超过 20% 的准确率提升，同时基本不影响模型对干净样本的识别性能。"
+    },
+    {
+      "id": "WWW2024TDQDF",
+      "title": "Task-Driven Quantum Device Fingerprint Identification via Modeling QNN Outcome Shift Induced by Quantum Noise",
+      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
+      "year": 2024,
+      "venue": "WWW Short",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "量子安全"
+      ],
+      "link": "https://dl.acm.org/doi/abs/10.1145/3589335.3651567",
+      "abstract": "本文关注云端量子计算服务中的设备指纹识别与安全问题。尽管云量子计算为用户提供了便捷的资源访问方式，但也带来了隐私泄露、恶意程序注入等潜在风险，而量子设备指纹识别可能正是此类攻击的前置步骤。为此，本文提出了一种基于量子神经网络任务结果的任务驱动量子设备指纹识别方法 TD-QDF。与以往依赖硬件细节的方案不同，TD-QDF 无需获取底层硬件信息，因此在实际场景中具有更高的可用性。基于 10 台真实 IBM 量子计算机和 3 类 QNN 电路的大量实验表明，该方法能够有效区分不同量子设备，并为提升量子计算系统的安全性与可追责性提供了新的思路。"
     },
     {
       "id": "WWW2024Trident",
@@ -1460,6 +1559,7 @@ window.LAB_PAPERS_BUNDLE = {
     "量子云平台",
     "量子安全",
     "量子数据集",
+    "量子神经网络",
     "量子网络",
     "量子软工"
   ],

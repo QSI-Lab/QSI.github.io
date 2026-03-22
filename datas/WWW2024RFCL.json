@@ -1,17 +1,16 @@
 {
   "id": "WWW2024RFCL",
   "title": "Improving Model Robustness against Adversarial Examples with Redundant Fully Connected Layer",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Jiongchi Yu, Fan Zhang, Rui Zhang",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Jiongchi Yu, Fan Zhang*, Rui Zhang",
   "year": 2024,
-  "venue": "ACM Web Conference",
-  "ccf": "A",
-  "core": "A*",
-  "thcpl": "A",
+  "venue": "WWW Short",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
   "type": "conference",
   "accepted": true,
   "fields": [
-    "人工智能",
-    "网络安全"
+    "交叉/综合/新兴"
   ],
   "researchDirections": [
     "AI安全",

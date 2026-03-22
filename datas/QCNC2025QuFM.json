@@ -1,0 +1,20 @@
+{
+  "id": "QCNC2025QuFM",
+  "title": "QuFM: Towards Efficient Quantum Link Fidelity Measurements in Quantum Networks",
+  "authors": "Ziming Zhao, Tingting Li*, Zhaoxuan Li",
+  "year": 2025,
+  "venue": "QCNC",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "计算机网络"
+  ],
+  "researchDirections": [
+    "量子网络"
+  ],
+  "link": "https://ieeexplore.ieee.org/abstract/document/11000192/",
+  "abstract": "本文聚焦于量子网络中的链路保真度测量问题。量子网络凭借叠加态、纠缠等量子力学特性，具备超越经典通信系统的潜力，但在当前 NISQ 设备条件下，噪声、误差与退相干会显著影响通信质量。针对现有保真度测量方法在测量开销与测量精度之间难以兼顾的问题，本文提出了一种自适应测量方案 QuFM。该方法利用卡尔曼滤波对量子态层析过程进行建模，判断系统是否达到稳定状态，从而提前终止迭代、减少测量次数。实验结果表明，QuFM 在保证测量准确性的同时显著提升了测量效率，并能够适用于不同误差类型和多种网络拓扑。"
+}

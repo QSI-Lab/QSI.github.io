@@ -1,0 +1,20 @@
+{
+  "id": "QCNC2025QuFrame",
+  "title": "QuFrame: A Novel Encoding Ensemble Framework for Quantum Neural Networks",
+  "authors": "Tingting Li, Ziming Zhao, Liqiang Lu*, Jianwei Yin*",
+  "year": 2025,
+  "venue": "QCNC",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "量子神经网络"
+  ],
+  "link": "https://ieeexplore.ieee.org/abstract/document/11000218",
+  "abstract": "本文关注量子神经网络在经典任务中的数据编码问题。由于经典数据需要先映射为量子态，其编码方式将直接影响模型的特征表达能力和整体性能，而现有方法在编码空间、容错性等方面仍存在不足。为此，本文提出了一种新的量子编码集成框架 QuFrame，通过融合多种编码方法的优势，设计了包含复数线性层加权编码、L2 归一化以及基于梯度下降的权重优化在内的完整流程。与此同时，论文还引入了一系列量子态分布评估指标，并构建了多种量子核函数，为 QuFrame 提供理论分析和可视化支持。实验结果表明，与四种典型量子态编码方法相比，QuFrame 在平均准确率和 F1 分数上分别提升了 7.2%∼31.85% 和 11%∼37.74%。"
+}
