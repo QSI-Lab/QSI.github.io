@@ -100,47 +100,6 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": false,
-      "fields": [
-        "人工智能"
-      ],
-      "researchDirections": [
-        "大数据系统优化"
-      ],
-      "link": "https://arxiv.org/pdf/2508.18106",
-      "abstract": "现有针对 LLM 生成代码安全性的评测基准与真实 AI 辅助编程场景脱节，难以反映生产环境中的实际风险。为此，作者提出了更贴近真实仓库级编程任务的安全评测基准 A.S.E，并通过实验发现当前主流 LLM 在安全编码方面仍存在明显不足，尤其在复杂仓库场景下表现下降，而且更大的推理预算也未必能带来更好的代码生成效果。"
-    },
-    {
-      "id": "ARXIV2026DataEfficient",
-      "title": "Data-Efficient Large Language Model Training: A Survey",
-      "authors": "Xinyang Liu, Qiang Hu∗, Yujie Ma, Zhenheng Tang, Jiongchi Yu, Tianlin Li, Yao Zhang, Junjie Wang, Hao Liu, Yongqiang Lyu, Yves Le Traon",
-      "year": 2026,
-      "venue": "arxiv",
-      "ccf": "N",
-      "core": "N",
-      "thcpl": "N",
-      "type": "conference",
-      "accepted": false,
-      "fields": [
-        "人工智能"
-      ],
-      "researchDirections": [
-        "大模型推理与训练"
-      ],
-      "link": "https://wellido.github.io/paper/DS4LLM.pdf",
-      "abstract": "构建大语言模型通常依赖大规模高质量数据，代价高且计算开销大，因此本文系统综述了“有限数据下构建 LLM”的研究进展。文章梳理了数据高效训练的统一问题与术语，系统分析了如何识别对预训练和微调最关键的数据样本，并总结了该领域的挑战与未来研究方向。",
-      "pdf": "https://wellido.github.io/paper/DS4LLM.pdf"
-    },
-    {
-      "id": "ARXIV2026ARepositoryLevel",
-      "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
-      "authors": "Keke Lian#, Bing Wang#, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Miaoqian Lin, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li*, Dong Zhang*",
-      "year": 2026,
-      "venue": "arxiv",
-      "ccf": "N",
-      "core": "N",
-      "thcpl": "N",
-      "type": "conference",
-      "accepted": false,
       "ncsCategory": "NONE",
       "sciZone": "NONE",
       "fields": [
