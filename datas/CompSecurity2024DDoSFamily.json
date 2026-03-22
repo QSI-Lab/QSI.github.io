@@ -1,7 +1,7 @@
 {
   "id": "CompSecurity2024DDoSFamily",
   "title": "DDoS Family: A Novel Perspective for Massive Types of DDoS Attacks",
-  "authors": "Ziming Zhao, Zhaoxuan Li, Zhihao Zhou, Jiongchi Yu, Zhuoxue Song, Xiaofei Xie, Fan Zhang, Rui Zhang",
+  "authors": "Ziming Zhao, Zhaoxuan Li, Zhihao Zhou, Jiongchi Yu, Zhuoxue Song, Xiaofei Xie, Fan Zhang*, Rui Zhang",
   "year": 2024,
   "venue": "Computers & Security",
   "ccf": "B",
@@ -15,8 +15,8 @@
     "网络与信息安全"
   ],
   "researchDirections": [
-    "网络与算网融合"
+    "网络安全", "网络流量"
   ],
-  "link": "https://www.sciencedirect.com/journal/computers-and-security",
-  "abstract": ""
+  "link": "https://www.sciencedirect.com/science/article/pii/S0167404823005734",
+  "abstract": "本文针对 DDoS 防御中攻击变种不断增多所带来的识别与响应难题，提出了“DDoS 家族”这一新概念。随着攻击策略日益复杂，传统机器学习方法在二分类和细粒度攻击分类两端都面临局限，同时大量攻击类别也会导致过滤规则表臃肿、缓解响应变慢。为此，本文从流量模式刻画、攻击指纹生成以及基于社区发现的交叉执行家族划分三个方面构建技术路线，以实现对相似攻击的统一建模。大量实验表明，该方法能够有效刻画攻击之间的相似性，辅助模型分类与未知攻击检测，并优化防御策略、提升过滤响应速度。特别地，研究发现仅用一条规则即可防御 15 种具有同质行为特征的攻击，同时“统计反向数据包”在应对部分攻击时比以往方案更高效、更鲁棒。"
 }

@@ -1,23 +1,23 @@
 {
   "id": "TCAD2024QuST",
   "title": "QuST: Optimizing Quantum Neural Network against Spatial and Temporal Noise Biases",
-  "authors": "Tingting Li, Liqiang Lu, Ziming Zhao, Ziqi Tan, Siwei Tan, Jianwei Yin",
+  "authors": "Tingting Li, Liqiang Lu*, Ziming Zhao, Ziqi Tan, Siwei Tan, Jianwei Yin*",
   "year": 2024,
   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
   "ccf": "A",
-  "core": "A",
+  "core": "N",
   "thcpl": "N",
   "type": "journal",
   "accepted": true,
   "ncsCategory": "NONE",
   "sciZone": "SCI1",
   "fields": [
-    "交叉/综合/新兴",
+    "计算机体系结构/并行与分布计算/存储系统",
     "人工智能"
   ],
   "researchDirections": [
-    "量子智能"
+    "量子神经网络"
   ],
-  "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43",
-  "abstract": "针对量子神经网络面临的空间噪声与时间噪声偏差问题，提出QuST优化框架，通过分析不同量子比特的噪声特性进行差异化训练策略设计，有效提升QNN在噪声量子设备上的推理精度与鲁棒性。"
+  "link": "https://ieeexplore.ieee.org/abstract/document/10701050/",
+  "abstract": "本文针对量子神经网络在噪声环境下性能下降及频繁重训练成本高的问题，提出了一种一次训练即可适应动态噪声变化的鲁棒训练框架 QuST。该方法旨在同时应对不同量子设备之间的空间噪声差异以及同一设备随时间变化的时间噪声偏移，从而在不断变化的噪声条件下保持模型精度。具体而言，QuST 首先提出电路序列正确性（CSC）指标来刻画噪声环境中的电路可靠性，并将其作为训练权重融入损失函数，同时利用 KL 散度对齐有噪声与无噪声推理结果，以提升模型抗噪能力。进一步地，QuST 通过多尺度噪声感知训练增强模型在不同噪声强度下的鲁棒性。基于 MNIST、FashionMNIST、190 天历史噪声模拟以及 7 台真实 IBMQ 量子计算机的实验结果表明，QuST 在时间维度和空间维度上均显著提升了模型准确率，并能够在无需重训练的情况下持续保持较高性能。"
 }
