@@ -1,0 +1,20 @@
+{
+  "id": "ARXIV2026TheFoundationCracks",
+  "title": "The Foundation Cracks: A Comprehensive Study on Bugs and Testing Practices in LLM Libraries",
+  "authors": "Weipeng Jiang, Xiaoyu Zhang, Xiaofei Xie, Jiongchi Yu, Yuhan Zhi, Shiqing Ma, Chao Shen",
+  "year": 2026,
+  "venue": "arxiv",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": false,
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型 for 安全"
+  ],
+  "link": "https://arxiv.org/pdf/2506.12320",
+  "abstract": "LLM 库作为大模型生态的基础设施，虽然至关重要，但存在大量影响系统可靠性的缺陷。本文通过对 HuggingFace Transformers 和 vLLM 中 313 个缺陷修复提交及 7,748 个测试函数的实证分析，系统总结了缺陷表现、根因和测试方法，并发现 API 误用已成为最主要的缺陷来源，而现有测试在用例、驱动和预言机方面仍明显不足。"
+}

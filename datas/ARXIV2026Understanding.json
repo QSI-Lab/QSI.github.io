@@ -1,0 +1,21 @@
+{
+  "id": "ARXIV2026Understanding",
+  "title": "Understanding the Supply Chain and Risks of Large Language Model Applications",
+  "authors": "Yujie Ma, Lili Quan, Xiaofei Xie, Qiang Hu, Jiongchi Yu, Yao Zhang, Sen Chen",
+  "year": 2026,
+  "venue": "arxiv",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": false,
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型推理与训练",
+    "大数据系统优化"
+  ],
+  "link": "https://arxiv.org/pdf/2507.18105",
+  "abstract": "LLM 系统依赖复杂的软件供应链（模型、数据集、库等），但现有风险研究多局限于模型或数据层面，缺乏系统性评估基准。为此，作者提出 LLMSCBench 数据集，刻画 LLM 生态中的依赖关系与安全风险，并通过实证分析揭示其广泛且复杂的供应链漏洞，强调加强安全与隐私防护的必要性。"
+}
