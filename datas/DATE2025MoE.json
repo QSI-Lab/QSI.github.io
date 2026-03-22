@@ -9,6 +9,8 @@
   "thcpl": "B",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "交叉/综合/新兴",
     "计算机体系结构/并行与分布计算/存储系统"

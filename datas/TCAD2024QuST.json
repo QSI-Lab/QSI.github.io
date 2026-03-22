@@ -9,6 +9,8 @@
   "thcpl": "N",
   "type": "journal",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI1",
   "fields": [
     "交叉/综合/新兴",
     "人工智能"

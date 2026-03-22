@@ -31,6 +31,17 @@ KNOWN_RESEARCH_DIRECTIONS = [
     "AI for Science",
 ]
 
+KNOWN_NCS_CATEGORIES = [
+    "NCS",
+    "NCS_SUB",
+]
+
+KNOWN_SCI_ZONES = [
+    "SCI1",
+    "SCI2",
+    "SCI3",
+]
+
 CCF_FIELD_ABBR = {
     "计算机体系结构/并行与分布计算/存储系统": "体系结构",
     "计算机网络": "计算机网络",
@@ -79,6 +90,7 @@ def build_bundle(datas_dir: Path) -> dict:
         except JSONDecodeError as error:
             raise ValueError(f"Invalid JSON in {paper_path.name}: {error}") from error
 
+        validate_paper(paper, paper_path.name)
         papers.append(paper)
 
         for field in paper.get("fields", []):
@@ -101,11 +113,43 @@ def build_bundle(datas_dir: Path) -> dict:
         "papers": papers,
         "ccfFields": ordered_fields,
         "researchDirections": ordered_directions,
+        "ncsCategories": KNOWN_NCS_CATEGORIES,
+        "sciZones": KNOWN_SCI_ZONES,
         "ccfFieldAbbr": {
             field: CCF_FIELD_ABBR.get(field, field)
             for field in ordered_fields
         },
     }
+
+
+def validate_paper(paper: dict, file_name: str) -> None:
+    required_fields = ("id", "type", "ncsCategory", "sciZone")
+
+    for field_name in required_fields:
+        if field_name not in paper:
+            raise ValueError(f"{file_name} is missing required field: {field_name}")
+
+    ncs_category = str(paper["ncsCategory"]).strip()
+    sci_zone = str(paper["sciZone"]).strip()
+
+    if ncs_category not in set(KNOWN_NCS_CATEGORIES + ["NONE"]):
+        raise ValueError(
+            f"{file_name} has invalid ncsCategory: {paper['ncsCategory']!r}. "
+            f"Expected one of: {KNOWN_NCS_CATEGORIES + ['NONE']}"
+        )
+
+    if sci_zone not in set(KNOWN_SCI_ZONES + ["NONE"]):
+        raise ValueError(
+            f"{file_name} has invalid sciZone: {paper['sciZone']!r}. "
+            f"Expected one of: {KNOWN_SCI_ZONES + ['NONE']}"
+        )
+
+    paper_type = str(paper["type"]).strip()
+
+    if paper_type == "conference" and (ncs_category != "NONE" or sci_zone != "NONE"):
+        raise ValueError(
+            f"{file_name} is a conference paper and must use ncsCategory='NONE' and sciZone='NONE'"
+        )
 
 
 def ordered_values(values: list[str], preferred_order: list[str]) -> list[str]:

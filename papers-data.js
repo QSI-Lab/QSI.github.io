@@ -11,6 +11,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能"
       ],
@@ -31,6 +33,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能"
       ],
@@ -51,6 +55,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能"
       ],
@@ -71,6 +77,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "网络与信息安全"
       ],
@@ -79,6 +87,51 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://wp.nyu.edu/acns2024/",
       "abstract": "面向 DDoS 攻击研究中表征困难、漏洞发现依赖人工的问题，提出 DDoSMiner 自动化框架，对攻击行为进行系统刻画，并结合分析流程自动挖掘潜在脆弱点，从而提升 DDoS 攻击分析、建模与防护研究的效率。"
+    },
+    {
+      "id": "ARXIV2026ARepositoryLevel",
+      "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+      "authors": "Keke Lian#, Bing Wang#, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Miaoqian Lin, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li*, Dong Zhang*",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大数据系统优化"
+      ],
+      "link": "https://arxiv.org/pdf/2508.18106",
+      "abstract": "现有针对 LLM 生成代码安全性的评测基准与真实 AI 辅助编程场景脱节，难以反映生产环境中的实际风险。为此，作者提出了更贴近真实仓库级编程任务的安全评测基准 A.S.E，并通过实验发现当前主流 LLM 在安全编码方面仍存在明显不足，尤其在复杂仓库场景下表现下降，而且更大的推理预算也未必能带来更好的代码生成效果。"
+    },
+    {
+      "id": "ARXIV2026DataEfficient",
+      "title": "Data-Efficient Large Language Model Training: A Survey",
+      "authors": "Xinyang Liu, Qiang Hu∗, Yujie Ma, Zhenheng Tang, Jiongchi Yu, Tianlin Li, Yao Zhang, Junjie Wang, Hao Liu, Yongqiang Lyu, Yves Le Traon",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练"
+      ],
+      "link": "https://wellido.github.io/paper/DS4LLM.pdf",
+      "abstract": "构建大语言模型通常依赖大规模高质量数据，代价高且计算开销大，因此本文系统综述了“有限数据下构建 LLM”的研究进展。文章梳理了数据高效训练的统一问题与术语，系统分析了如何识别对预训练和微调最关键的数据样本，并总结了该领域的挑战与未来研究方向。",
+      "pdf": "https://wellido.github.io/paper/DS4LLM.pdf"
     },
     {
       "id": "ARXIV2026HumanintheLoopforFuzzTesting",
@@ -91,6 +144,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能"
       ],
@@ -99,6 +154,96 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://arxiv.org/pdf/2603.13411",
       "abstract": "传统模糊测试虽然有效，但依赖自动化启发式方法，难以发现深层或复杂漏洞，因此需要将人类专家引入模糊测试流程。文章据此提出了一个 Human-in-the-Loop 模糊测试研究路线图，重点关注人类监控、人类引导，以及人类与大语言模型协作，以构建下一代交互式、智能化的模糊测试体系。"
+    },
+    {
+      "id": "ARXIV2026LEVERAGINGLLM",
+      "title": "Chengjia Wang, Lanling Tang, Ming Yuan, Jiongchi Yu*, Xiaofei Xie, Jiajun Bu",
+      "authors": "LEVERAGING LLM AGENTS FOR AUTOMATEDVIDEO GAME TESTING",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练",
+        "大数据系统优化"
+      ],
+      "link": "https://arxiv.org/pdf/2509.22170",
+      "abstract": "提出了一个面向MMORPG测试的LLM驱动智能代理框架TITAN，通过状态抽象、动作优化、长程推理与自反纠错以及基于LLM的测试判定机制，显著提升了任务完成率和缺陷检测能力。实验表明，该方法在真实商业游戏中优于现有自动化测试方案，并已成功应用于多个实际QA流程中。"
+    },
+    {
+      "id": "ARXIV2026PTCBENCH",
+      "title": "PTCBENCH: Benchmarking Contextual Stability of Personality Traits in LLM Systems",
+      "authors": "Jiongchi Yu#, Yuhan Ma#, Xiaoyu Zhang*, Junjie Wang, Qiang Hu, Chao Shen, and Xiaofei Xie",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练"
+      ],
+      "link": "https://arxiv.org/pdf/2602.00016",
+      "abstract": "随着 LLM 被广泛用于情感陪伴和智能体系统，保持其人格的一致性对用户信任很重要，但现有研究忽视了人格会随情境变化这一心理学事实。为此，作者提出了 PTCBench，在不同地点与人生事件等 12 类情境下系统评估 LLM 的人格一致性，并发现某些情境会显著改变模型的人格特征，甚至影响其推理能力。"
+    },
+    {
+      "id": "ARXIV2026TheFoundationCracks",
+      "title": "The Foundation Cracks: A Comprehensive Study on Bugs and Testing Practices in LLM Libraries",
+      "authors": "Weipeng Jiang, Xiaoyu Zhang, Xiaofei Xie, Jiongchi Yu, Yuhan Zhi, Shiqing Ma, Chao Shen",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型 for 安全"
+      ],
+      "link": "https://arxiv.org/pdf/2506.12320",
+      "abstract": "LLM 库作为大模型生态的基础设施，虽然至关重要，但存在大量影响系统可靠性的缺陷。本文通过对 HuggingFace Transformers 和 vLLM 中 313 个缺陷修复提交及 7,748 个测试函数的实证分析，系统总结了缺陷表现、根因和测试方法，并发现 API 误用已成为最主要的缺陷来源，而现有测试在用例、驱动和预言机方面仍明显不足。"
+    },
+    {
+      "id": "ARXIV2026Understanding",
+      "title": "Understanding the Supply Chain and Risks of Large Language Model Applications",
+      "authors": "Yujie Ma, Lili Quan, Xiaofei Xie, Qiang Hu, Jiongchi Yu, Yao Zhang, Sen Chen",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型推理与训练",
+        "大数据系统优化"
+      ],
+      "link": "https://arxiv.org/pdf/2507.18105",
+      "abstract": "LLM 系统依赖复杂的软件供应链（模型、数据集、库等），但现有风险研究多局限于模型或数据层面，缺乏系统性评估基准。为此，作者提出 LLMSCBench 数据集，刻画 LLM 生态中的依赖关系与安全风险，并通过实证分析揭示其广泛且复杂的供应链漏洞，强调加强安全与隐私防护的必要性。"
     },
     {
       "id": "ASE2025AutoFid",
@@ -111,6 +256,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程/系统软件/程序设计语言",
         "交叉/综合/新兴"
@@ -133,6 +280,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程/系统软件/程序设计语言",
         "人工智能"
@@ -154,6 +303,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能",
         "交叉/综合/新兴",
@@ -177,6 +328,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "网络安全",
         "人工智能"
@@ -198,6 +351,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程",
         "网络安全"
@@ -219,6 +374,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机网络",
         "网络安全",
@@ -242,6 +399,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全"
       ],
@@ -262,6 +421,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "网络与信息安全",
         "人工智能"
@@ -283,6 +444,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机体系结构/并行与分布计算/存储系统"
       ],
@@ -303,6 +466,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机体系结构/并行与分布计算/存储系统"
       ],
@@ -323,6 +488,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "数据库/数据挖掘/内容检索",
         "网络与信息安全"
@@ -344,6 +511,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "交叉/综合/新兴",
         "计算机体系结构/并行与分布计算/存储系统"
@@ -365,6 +534,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "软件工程",
         "网络安全"
@@ -386,6 +557,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程/系统软件/程序设计语言",
         "网络与信息安全"
@@ -407,6 +580,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "网络安全"
       ],
@@ -427,6 +602,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程/系统软件/程序设计语言"
       ],
@@ -448,6 +625,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程/系统软件/程序设计语言",
         "人工智能"
@@ -470,6 +649,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程",
         "网络安全"
@@ -491,6 +672,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "交叉/综合/新兴",
         "计算机体系结构/并行与分布计算/存储系统"
@@ -512,6 +695,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能",
         "交叉/综合/新兴"
@@ -533,6 +718,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络"
       ],
@@ -554,6 +741,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络",
         "网络与信息安全"
@@ -575,6 +764,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络"
       ],
@@ -595,6 +786,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络"
       ],
@@ -615,6 +808,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "数据库/数据挖掘/内容检索"
       ],
@@ -635,6 +830,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "软件工程/系统软件/程序设计语言"
       ],
@@ -656,6 +853,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机网络",
         "网络与信息安全"
@@ -677,6 +876,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能",
         "交叉/综合/新兴",
@@ -700,6 +901,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机图形学与多媒体",
         "交叉/综合/新兴"
@@ -721,6 +924,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机图形学与多媒体",
         "网络与信息安全"
@@ -742,6 +947,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络"
       ],
@@ -762,6 +969,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "网络与信息安全"
       ],
@@ -784,6 +993,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络"
       ],
@@ -804,6 +1015,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能"
       ],
@@ -824,6 +1037,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络",
         "网络安全",
@@ -847,6 +1062,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络",
         "网络安全"
@@ -868,6 +1085,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "B",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络",
         "网络与信息安全"
@@ -889,6 +1108,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络",
         "网络安全",
@@ -912,6 +1133,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "数据库/数据挖掘/内容检索",
         "人工智能"
@@ -934,6 +1157,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "数据库/数据挖掘/内容检索"
       ],
@@ -954,6 +1179,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "数据库/数据挖掘/内容检索"
       ],
@@ -974,6 +1201,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "人工智能",
         "交叉/综合/新兴",
@@ -997,6 +1226,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "其他"
       ],
@@ -1017,6 +1248,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "交叉/综合/新兴",
         "人工智能"
@@ -1038,6 +1271,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全",
         "计算机体系结构/并行与分布计算/存储系统"
@@ -1059,6 +1294,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全",
         "计算机网络"
@@ -1080,6 +1317,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全",
         "人工智能"
@@ -1101,6 +1340,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机网络",
         "网络与信息安全"
@@ -1122,6 +1363,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络安全"
       ],
@@ -1142,6 +1385,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全"
       ],
@@ -1162,6 +1407,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全",
         "软件工程/系统软件/程序设计语言"
@@ -1184,6 +1431,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全"
       ],
@@ -1205,6 +1454,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全"
       ],
@@ -1225,6 +1476,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI2",
       "fields": [
         "计算机体系结构/并行与分布计算/存储系统"
       ],
@@ -1245,6 +1498,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "网络与信息安全",
         "计算机网络"
@@ -1268,6 +1523,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机网络",
         "网络与信息安全"
@@ -1290,6 +1547,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机网络"
       ],
@@ -1311,6 +1570,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机网络",
         "网络与信息安全"
@@ -1332,6 +1593,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机网络",
         "网络与信息安全"
@@ -1354,6 +1617,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "计算机体系结构/并行与分布计算/存储系统"
       ],
@@ -1375,6 +1640,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "journal",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
       "fields": [
         "软件工程",
         "网络安全",
@@ -1398,6 +1665,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "数据库/数据挖掘/内容检索"
       ],
@@ -1418,6 +1687,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "交叉/综合/新兴"
       ],
@@ -1439,6 +1710,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "N",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "交叉/综合/新兴"
       ],
@@ -1459,10 +1732,12 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "计算机网络",
         "人工智能",
-        "交叉/综合/新兴"
+        "交叉/新兴"
       ],
       "researchDirections": [
         "网络安全",
@@ -1483,6 +1758,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "交叉/综合/新兴"
       ],
@@ -1503,6 +1780,8 @@ window.LAB_PAPERS_BUNDLE = {
       "thcpl": "A",
       "type": "conference",
       "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
         "交叉/综合/新兴"
       ],
@@ -1522,6 +1801,7 @@ window.LAB_PAPERS_BUNDLE = {
     "计算机图形学与多媒体",
     "人工智能",
     "交叉/综合/新兴",
+    "交叉/新兴",
     "其他",
     "医学图像分割",
     "半监督学习",
@@ -1563,6 +1843,15 @@ window.LAB_PAPERS_BUNDLE = {
     "量子网络",
     "量子软工"
   ],
+  "ncsCategories": [
+    "NCS",
+    "NCS_SUB"
+  ],
+  "sciZones": [
+    "SCI1",
+    "SCI2",
+    "SCI3"
+  ],
   "ccfFieldAbbr": {
     "计算机体系结构/并行与分布计算/存储系统": "体系结构",
     "计算机网络": "计算机网络",
@@ -1572,6 +1861,7 @@ window.LAB_PAPERS_BUNDLE = {
     "计算机图形学与多媒体": "图形学/多媒体",
     "人工智能": "人工智能",
     "交叉/综合/新兴": "交叉/新兴",
+    "交叉/新兴": "交叉/新兴",
     "其他": "其他",
     "医学图像分割": "医学图像分割",
     "半监督学习": "半监督学习",

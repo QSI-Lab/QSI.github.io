@@ -60,6 +60,15 @@ window.LAB_PAPERS_DATA = {
     "脑机与生成式智能",
     "AI for Science"
   ],
+  "ncsCategories": [
+    "NCS",
+    "NCS_SUB"
+  ],
+  "sciZones": [
+    "SCI1",
+    "SCI2",
+    "SCI3"
+  ],
   "ccfFieldAbbr": {
     "计算机体系结构/并行与分布计算/存储系统": "体系结构",
     "计算机网络": "计算机网络",

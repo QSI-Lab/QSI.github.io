@@ -9,6 +9,8 @@
   "thcpl": "N",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "人工智能"
   ],

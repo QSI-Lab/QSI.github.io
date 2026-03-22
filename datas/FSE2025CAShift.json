@@ -9,6 +9,8 @@
   "thcpl": "A",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "软件工程/系统软件/程序设计语言",
     "网络与信息安全"

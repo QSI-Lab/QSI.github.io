@@ -6,6 +6,8 @@
     selectedCCF: "ALL",
     selectedCORE: "ALL",
     selectedTHCPL: "ALL",
+    selectedNCS: "ALL",
+    selectedSCI: "ALL",
     selectedField: "ALL",
     selectedDirection: "ALL",
     selectedYear: "ALL",
@@ -43,6 +45,17 @@
       B: "chip--amber",
       N: "chip--slate",
     },
+    ncs: {
+      ALL: "chip--blue",
+      NCS: "chip--purple",
+      NCS_SUB: "chip--indigo",
+    },
+    sci: {
+      ALL: "chip--blue",
+      SCI1: "chip--teal",
+      SCI2: "chip--sky",
+      SCI3: "chip--slate",
+    },
     field: "chip--blue",
     direction: "chip--indigo",
     year: "chip--blue",
@@ -67,6 +80,15 @@
       A: "badge--thcpl-a",
       B: "badge--thcpl-b",
       N: "badge--ccf-none",
+    },
+    ncs: {
+      NCS: "badge--ncs-main",
+      NCS_SUB: "badge--ncs-sub",
+    },
+    sci: {
+      SCI1: "badge--sci-1",
+      SCI2: "badge--sci-2",
+      SCI3: "badge--sci-3",
     },
   };
 
@@ -201,6 +223,8 @@
     state.selectedCCF = "ALL";
     state.selectedCORE = "ALL";
     state.selectedTHCPL = "ALL";
+    state.selectedNCS = "ALL";
+    state.selectedSCI = "ALL";
     state.selectedField = "ALL";
     state.selectedDirection = "ALL";
     state.selectedYear = "ALL";
@@ -215,6 +239,11 @@
     const coreACount = papers.filter(function (paper) { return paper.core === "A*" || paper.core === "A"; }).length;
     const thcplACount = papers.filter(function (paper) { return paper.thcpl === "A"; }).length;
     const journalCount = papers.filter(function (paper) { return paper.type === "journal"; }).length;
+    const ncsCount = papers.filter(function (paper) { return paper.ncsCategory === "NCS"; }).length;
+    const ncsSubCount = papers.filter(function (paper) { return paper.ncsCategory === "NCS_SUB"; }).length;
+    const sci1Count = papers.filter(function (paper) { return paper.sciZone === "SCI1"; }).length;
+    const sci2Count = papers.filter(function (paper) { return paper.sciZone === "SCI2"; }).length;
+    const sci3Count = papers.filter(function (paper) { return paper.sciZone === "SCI3"; }).length;
 
     const cards = [
       { label: "总论文数", value: totalCount, tone: "blue" },
@@ -222,6 +251,11 @@
       { label: "CORE A / A*", value: coreACount, tone: "gold" },
       { label: "THCPL A 类", value: thcplACount, tone: "rose" },
       { label: "期刊论文", value: journalCount, tone: "green" },
+      { label: "NCS", value: ncsCount, tone: "violet" },
+      { label: "NCS子刊", value: ncsSubCount, tone: "indigo" },
+      { label: "SCI 1区", value: sci1Count, tone: "teal" },
+      { label: "SCI 2区", value: sci2Count, tone: "sky" },
+      { label: "SCI 3区", value: sci3Count, tone: "slate" },
     ];
 
     elements.summaryStats.innerHTML = cards
@@ -449,6 +483,40 @@
         ),
       ),
       createFilterRow(
+        "NCS 标签",
+        createOptionButtons(
+          ["ALL"].concat(dataset.ncsCategories),
+          "selectedNCS",
+          function (value) {
+            return value === "ALL" ? "全部" : getNCSLabel(value);
+          },
+          function (value) {
+            return value === "ALL" ? papers.length : papers.filter(function (paper) { return paper.ncsCategory === value; }).length;
+          },
+          state.selectedNCS,
+          function (value) {
+            return CHIP_TONES.ncs[value];
+          },
+        ),
+      ),
+      createFilterRow(
+        "SCI 分区",
+        createOptionButtons(
+          ["ALL"].concat(dataset.sciZones),
+          "selectedSCI",
+          function (value) {
+            return value === "ALL" ? "全部" : getSCILabel(value);
+          },
+          function (value) {
+            return value === "ALL" ? papers.length : papers.filter(function (paper) { return paper.sciZone === value; }).length;
+          },
+          state.selectedSCI,
+          function (value) {
+            return CHIP_TONES.sci[value];
+          },
+        ),
+      ),
+      createFilterRow(
         "研究领域",
         createOptionButtons(
           ["ALL"].concat(dataset.ccfFields),
@@ -602,6 +670,14 @@
         return false;
       }
 
+      if (state.selectedNCS !== "ALL" && paper.ncsCategory !== state.selectedNCS) {
+        return false;
+      }
+
+      if (state.selectedSCI !== "ALL" && paper.sciZone !== state.selectedSCI) {
+        return false;
+      }
+
       if (state.selectedField !== "ALL" && !paper.fields.includes(state.selectedField)) {
         return false;
       }
@@ -628,6 +704,8 @@
         paper.venue,
         paper.abstract,
         paper.researchDirections.join(" "),
+        getNCSLabel(paper.ncsCategory),
+        getSCILabel(paper.sciZone),
       ].some(function (value) {
         return String(value).toLowerCase().includes(query);
       });
@@ -645,6 +723,8 @@
       state.selectedCCF !== "ALL" ||
       state.selectedCORE !== "ALL" ||
       state.selectedTHCPL !== "ALL" ||
+      state.selectedNCS !== "ALL" ||
+      state.selectedSCI !== "ALL" ||
       state.selectedField !== "ALL" ||
       state.selectedDirection !== "ALL" ||
       state.selectedYear !== "ALL" ||
@@ -667,6 +747,14 @@
 
     if (state.selectedTHCPL !== "ALL") {
       parts.push(state.selectedTHCPL === "N" ? "非 THCPL" : "THCPL " + state.selectedTHCPL);
+    }
+
+    if (state.selectedNCS !== "ALL") {
+      parts.push(getNCSLabel(state.selectedNCS));
+    }
+
+    if (state.selectedSCI !== "ALL") {
+      parts.push(getSCILabel(state.selectedSCI));
     }
 
     if (state.selectedField !== "ALL") {
@@ -719,6 +807,14 @@
 
     if (paper.thcpl && paper.thcpl !== "N") {
       badges.push(renderBadge("THCPL " + paper.thcpl, BADGE_CLASSES.thcpl[paper.thcpl] || "badge--ccf-none"));
+    }
+
+    if (paper.type === "journal" && paper.ncsCategory !== "NONE") {
+      badges.push(renderBadge(getNCSLabel(paper.ncsCategory), BADGE_CLASSES.ncs[paper.ncsCategory] || "badge--soft"));
+    }
+
+    if (paper.type === "journal" && paper.sciZone !== "NONE") {
+      badges.push(renderBadge(getSCILabel(paper.sciZone), BADGE_CLASSES.sci[paper.sciZone] || "badge--soft"));
     }
 
     badges.push(renderBadge(paper.type === "journal" ? "期刊" : "会议", "badge--muted"));
@@ -840,6 +936,8 @@
     return {
       ccfFields: sourceManifest.ccfFields || [],
       researchDirections: sourceManifest.researchDirections || [],
+      ncsCategories: sourceManifest.ncsCategories || [],
+      sciZones: sourceManifest.sciZones || [],
       ccfFieldAbbr: sourceManifest.ccfFieldAbbr || {},
       failedFiles: failedFiles,
       papers: loadedPapers,
@@ -852,6 +950,8 @@
     return {
       ccfFields: bundlePayload.ccfFields || sourceManifest.ccfFields || [],
       researchDirections: bundlePayload.researchDirections || sourceManifest.researchDirections || [],
+      ncsCategories: bundlePayload.ncsCategories || sourceManifest.ncsCategories || [],
+      sciZones: bundlePayload.sciZones || sourceManifest.sciZones || [],
       ccfFieldAbbr: bundlePayload.ccfFieldAbbr || sourceManifest.ccfFieldAbbr || {},
       failedFiles: [],
       papers: bundledPapers.map(function (paper) {
@@ -907,6 +1007,8 @@
     return {
       ccfFields: fields,
       researchDirections: directions,
+      ncsCategories: sourceDataset.ncsCategories || [],
+      sciZones: sourceDataset.sciZones || [],
       ccfFieldAbbr: sourceDataset.ccfFieldAbbr || {},
       failedFiles: sourceDataset.failedFiles || [],
       papers: sourceDataset.papers || [],
@@ -939,6 +1041,8 @@
       ccf: normalizeRank(paper.ccf, "N"),
       core: normalizeRank(paper.core, "N"),
       thcpl: normalizeRank(paper.thcpl, "N"),
+      ncsCategory: normalizeJournalTag(paper.ncsCategory, ["NCS", "NCS_SUB"], "NONE"),
+      sciZone: normalizeJournalTag(paper.sciZone, ["SCI1", "SCI2", "SCI3"], "NONE"),
       type: paper.type === "journal" ? "journal" : "conference",
       accepted: Boolean(paper.accepted),
       fields: Array.isArray(paper.fields) ? paper.fields : [],
@@ -979,6 +1083,44 @@
     }
 
     return normalized;
+  }
+
+  function normalizeJournalTag(value, allowedValues, fallback) {
+    const normalized = String(value || fallback).trim().toUpperCase();
+
+    if (!normalized || normalized === "NONE") {
+      return fallback;
+    }
+
+    return allowedValues.indexOf(normalized) >= 0 ? normalized : fallback;
+  }
+
+  function getNCSLabel(value) {
+    if (value === "NCS_SUB") {
+      return "NCS子刊";
+    }
+
+    if (value === "NCS") {
+      return "NCS";
+    }
+
+    return "";
+  }
+
+  function getSCILabel(value) {
+    if (value === "SCI1") {
+      return "SCI 1区";
+    }
+
+    if (value === "SCI2") {
+      return "SCI 2区";
+    }
+
+    if (value === "SCI3") {
+      return "SCI 3区";
+    }
+
+    return "";
   }
 
   function renderFatalState(error) {

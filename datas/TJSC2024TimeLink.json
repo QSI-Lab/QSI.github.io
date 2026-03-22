@@ -9,6 +9,8 @@
   "thcpl": "N",
   "type": "journal",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI2",
   "fields": [
     "计算机体系结构/并行与分布计算/存储系统"
   ],

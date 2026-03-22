@@ -9,6 +9,8 @@
   "thcpl": "B",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "软件工程",
     "网络安全"

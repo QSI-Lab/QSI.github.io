@@ -9,6 +9,8 @@
   "thcpl": "B",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "人工智能",
     "交叉/综合/新兴"

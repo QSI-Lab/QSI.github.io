@@ -9,12 +9,15 @@
   "thcpl": "N",
   "type": "journal",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI1",
   "fields": [
     "计算机网络",
     "网络与信息安全"
   ],
   "researchDirections": [
-    "网络安全", "僵尸网络"
+    "网络安全",
+    "僵尸网络"
   ],
   "link": "https://ieeexplore.ieee.org/abstract/document/11168124",
   "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，旨在解决传统拓扑识别方法难以区分、流量分析方法又容易受到海量背景流量干扰的问题。该框架结合通信拓扑与网络流量两类信息，由 tScouter、tCommander 和 tPatroller 三个紧密协作的模块分别完成拓扑刻画、节点检查规划和节点流量分析。通过有计划地只检测部分节点流量，TNT 在检测精度与系统开销之间实现了更好的平衡。实验结果表明，在包含 6 类僵尸网络和 7 类正常 P2P 流量的多组场景中，TNT 能够在较少节点检查条件下实现接近 99.9% 的检测准确率。除此之外，论文还从异构节点、精度损失和归因矩阵等角度进行了扩展分析，体现了该方法较强的可解释性与实用价值。"

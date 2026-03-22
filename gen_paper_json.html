@@ -460,6 +460,27 @@
                     <option value="N">N</option>
                   </select>
                 </div>
+
+                <div class="field">
+                  <label for="ncsCategorySelect">NCS 分类</label>
+                  <select id="ncsCategorySelect" name="ncsCategory">
+                    <option value="NONE">NONE</option>
+                    <option value="NCS">NCS</option>
+                    <option value="NCS_SUB">NCS子刊</option>
+                  </select>
+                  <div class="field__hint">仅期刊使用，会议论文会自动固定为 `NONE`。</div>
+                </div>
+
+                <div class="field">
+                  <label for="sciZoneSelect">SCI 分区</label>
+                  <select id="sciZoneSelect" name="sciZone">
+                    <option value="NONE">NONE</option>
+                    <option value="SCI1">SCI 1区</option>
+                    <option value="SCI2">SCI 2区</option>
+                    <option value="SCI3">SCI 3区</option>
+                  </select>
+                  <div class="field__hint">仅期刊使用，会议论文会自动固定为 `NONE`。</div>
+                </div>
               </div>
 
               <div class="choice-section field--full">
@@ -661,6 +682,8 @@
           ccf: document.getElementById("ccfSelect"),
           core: document.getElementById("coreSelect"),
           thcpl: document.getElementById("thcplSelect"),
+          ncsCategory: document.getElementById("ncsCategorySelect"),
+          sciZone: document.getElementById("sciZoneSelect"),
         };
 
         init();
@@ -671,6 +694,7 @@
           renderChoices(elements.directionsChoices, RESEARCH_DIRECTION_OPTIONS, "directions");
           bindEvents();
           applyVenuePreset();
+          syncJournalTagInputs();
           generateJson();
         }
 
@@ -715,6 +739,11 @@
             generateJson();
           });
 
+          elements.type.addEventListener("change", function () {
+            syncJournalTagInputs();
+            generateJson();
+          });
+
           elements.title.addEventListener("input", function () {
             if (!elements.paperAlias.dataset.userEdited) {
               elements.paperAlias.value = suggestPaperAlias(elements.title.value);
@@ -750,9 +779,22 @@
             window.setTimeout(function () {
               elements.paperAlias.dataset.userEdited = "";
               applyVenuePreset();
+              syncJournalTagInputs();
               generateJson();
             }, 0);
           });
+        }
+
+        function syncJournalTagInputs() {
+          const isJournal = elements.type.value === "journal";
+
+          elements.ncsCategory.disabled = !isJournal;
+          elements.sciZone.disabled = !isJournal;
+
+          if (!isJournal) {
+            elements.ncsCategory.value = "NONE";
+            elements.sciZone.value = "NONE";
+          }
         }
 
         function applyVenuePreset() {
@@ -807,6 +849,8 @@
             thcpl: elements.thcpl.value,
             type: elements.type.value,
             accepted: elements.accepted.checked,
+            ncsCategory: elements.type.value === "journal" ? elements.ncsCategory.value : "NONE",
+            sciZone: elements.type.value === "journal" ? elements.sciZone.value : "NONE",
             fields: uniqueValues(fields),
             researchDirections: uniqueValues(researchDirections),
             link: elements.link.value.trim(),

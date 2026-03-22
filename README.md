@@ -68,6 +68,8 @@ IJCAI2026QAgent.png
   "thcpl": "B",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "人工智能",
     "交叉/综合/新兴"
@@ -94,10 +96,17 @@ IJCAI2026QAgent.png
 - `thcpl`: `A` / `B` / `N`
 - `type`: `conference` 或 `journal`
 - `accepted`: `true` 或 `false`
+- `ncsCategory`: `NCS` / `NCS_SUB` / `NONE`
+- `sciZone`: `SCI1` / `SCI2` / `SCI3` / `NONE`
 - `fields`: 研究领域，数组，可多个
 - `researchDirections`: 研究方向，数组，可多个
 - `link`: 原文链接、会议主页、期刊主页等
 - `abstract`: 摘要
+
+填写约定：
+
+- 会议论文统一使用 `ncsCategory: "NONE"`、`sciZone: "NONE"`
+- 期刊论文按实际情况手工填写 `NCS` / `NCS子刊` / `SCI分区`
 
 兼容旧格式：
 

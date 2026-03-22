@@ -9,6 +9,8 @@
   "thcpl": "N",
   "type": "journal",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI1",
   "fields": [
     "网络与信息安全",
     "计算机网络"
@@ -18,5 +20,4 @@
   ],
   "link": "https://www.computer.org/csdl/journal/tq",
   "abstract": "ERNN 是一种面向网络诱发现象的鲁棒端到端 RNN 流量检测模型，通过引入 session gate，在训练中模拟丢包、重传、乱序等常见异常，并结合 Mealy 机动态调整这些现象的概率分布，从而提升真实网络环境下的检测稳健性。实验表明，ERNN 在 10 Gbps 数据平面、约 16% 异常报文序列条件下仍可识别 98.63% 的加密入侵流量，在多用户并发场景下对加密恶意流量的识别率超过 97%，整体准确率比现有最优方法提升约 4%，且具有更好的稳定性与可扩展性。"
-
 }

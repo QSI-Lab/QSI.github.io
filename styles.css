@@ -186,7 +186,7 @@ button {
 
 .summary-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -227,6 +227,26 @@ button {
 
 .stat-card--rose {
   background: linear-gradient(135deg, #c2416c, #eb5f8f);
+}
+
+.stat-card--violet {
+  background: linear-gradient(135deg, #6d28d9, #8b5cf6);
+}
+
+.stat-card--indigo {
+  background: linear-gradient(135deg, #3730a3, #4f46e5);
+}
+
+.stat-card--teal {
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
+}
+
+.stat-card--sky {
+  background: linear-gradient(135deg, #0369a1, #0ea5e9);
+}
+
+.stat-card--slate {
+  background: linear-gradient(135deg, #475569, #64748b);
 }
 
 .stat-card__value {
@@ -753,6 +773,31 @@ button {
   color: #ffffff;
 }
 
+.badge--ncs-main {
+  background: #6d28d9;
+  color: #ffffff;
+}
+
+.badge--ncs-sub {
+  background: #4338ca;
+  color: #ffffff;
+}
+
+.badge--sci-1 {
+  background: #ccfbf1;
+  color: #0f766e;
+}
+
+.badge--sci-2 {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.badge--sci-3 {
+  background: #e2e8f0;
+  color: #475569;
+}
+
 .badge--soft {
   background: #eef4ff;
   color: #315caa;
@@ -998,6 +1043,12 @@ button {
   border-color: rgba(29, 78, 216, 0.24);
   background: #f8fbff;
   box-shadow: 0 12px 22px rgba(18, 52, 100, 0.12);
+}
+
+@media (max-width: 1200px) {
+  .summary-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 980px) {

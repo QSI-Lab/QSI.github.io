@@ -9,6 +9,8 @@
   "thcpl": "A",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "计算机网络"
   ],

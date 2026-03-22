@@ -9,6 +9,8 @@
   "thcpl": "A",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "数据库/数据挖掘/内容检索"
   ],

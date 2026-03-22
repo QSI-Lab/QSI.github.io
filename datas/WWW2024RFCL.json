@@ -9,6 +9,8 @@
   "thcpl": "N",
   "type": "conference",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
   "fields": [
     "交叉/综合/新兴"
   ],

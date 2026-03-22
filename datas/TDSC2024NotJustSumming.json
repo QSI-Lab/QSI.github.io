@@ -9,6 +9,8 @@
   "thcpl": "A",
   "type": "journal",
   "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI1",
   "fields": [
     "网络安全"
   ],
