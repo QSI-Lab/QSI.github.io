@@ -250,12 +250,10 @@
       { label: "CCF A 类", value: ccfACount, tone: "red" },
       { label: "CORE A / A*", value: coreACount, tone: "gold" },
       { label: "THCPL A 类", value: thcplACount, tone: "rose" },
-      { label: "期刊论文", value: journalCount, tone: "green" },
       { label: "NCS", note: "(nature, cell, science)", value: ncsCount, tone: "violet" },
       { label: "NCS子刊", value: ncsSubCount, tone: "indigo" },
       { label: "SCI 1区", value: sci1Count, tone: "teal" },
       { label: "SCI 2区", value: sci2Count, tone: "sky" },
-      { label: "SCI 3区", value: sci3Count, tone: "slate" },
     ];
 
     elements.summaryStats.innerHTML = cards
