@@ -1,0 +1,20 @@
+{
+  "id": "ICSE2023GameRTS",
+  "title": "GameRTS: A Regression Testing Framework for Video Games",
+  "authors": "Jiongchi Yu#, Yuechen Wu#, Xiaofei Xie, Wei Le, Lei Ma, Yingfeng Chen, Yujing Hu, Fan Zhang",
+  "year": 2023,
+  "venue": "International Conference on Software Engineering",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "软件工程/系统软件/程序设计语言"
+  ],
+  "researchDirections": [
+    "软件测试", "游戏测试"
+  ],
+  "link": "https://ieeexplore.ieee.org/document/10172905/",
+  "abstract": "GameRTS 是一种面向视频游戏的软件回归测试框架，用于解决游戏开发中频繁更新、测试周期长等特点带来的测试效率问题。该方法首先通过实证研究分析游戏开发流程、缺陷特征及其上下文敏感性，在此基础上提出一种兼顾安全性与实用性的回归测试选择技术。具体而言，GameRTS 将游戏测试建模为状态转移图，并建立游戏状态/动作与多种游戏文件之间的依赖关系，通过变更影响分析识别受影响的测试路径，从而选择最小必要测试集合。实验结果表明，GameRTS 能显著减少测试开销，同时保持对回归缺陷的完整检测能力，并优于传统基于文件级的 RTS 方法，在减少测试规模的同时还能发现新的关键缺陷。"
+}

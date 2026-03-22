@@ -103,6 +103,27 @@ window.LAB_PAPERS_BUNDLE = {
       "imageUrl": "figures/TIFS2025TDQDF.png"
     },
     {
+      "id": "ASE2025Defects4C",
+      "title": "Defects4C: Benchmarking Large Language Model Repair Capability with C/C++ Bugs",
+      "authors": "Jian Wang, Xiaofei Xie, Qiang Hu, Shangqing Liu, Jiongchi Yu, Jiaolong Kong, Yi Li",
+      "year": 2025,
+      "venue": "International Conference on Automated Software Engineering",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "代码修复"
+      ],
+      "link": "https://arxiv.org/abs/2510.11059",
+      "abstract": "Defects4C 是一个面向 C/C++ 程序修复的高质量基准数据集，用于解决当前自动程序修复研究中缺乏真实世界 C/C++ 数据的问题。该方法从开源仓库中构建包含约 900 万条缺陷相关提交、248 个高质量缺陷函数和 102 个漏洞函数的数据集，并配套测试用例以支持可复现评估。在此基础上，基于 Defects4C 对 24 个主流大语言模型在 C/C++ 缺陷修复任务中的能力进行了系统实验分析。结果表明，尽管 LLM 在 Java 等语言上表现良好，但在真实 C/C++ 场景下修复性能显著下降，尤其在多行缺陷和依赖上下文信息的问题上表现不足。总体而言，Defects4C 为评估和改进 LLM 驱动的程序修复方法提供了关键基础，同时揭示了当前方法在复杂系统级语言中的局限性"
+    },
+    {
       "id": "BIBM2024DCANet",
       "title": "DCA-Net:Data-Driven Collaborative Assistance Network  for Semi-supervised Medical Segmentation",
       "authors": "Yuhan Chen, Chunshi Wang, Bin Zhao*",
@@ -126,6 +147,27 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "在本文当中，我们重点关注半监督医学图像分割问题中标记数据与未标记数据之间的经验匹配问题。当标记数据与未标记数据之间的经验匹配度不高时，网络无法更好的利用从标记数据当中学到的知识。为此，我们提出了一种高效优雅的方法，称为\"DCA-Net\"，该方法使用了频域中的数据增强模块-STM与数据双向复制粘贴-BCP, 可以更好的减少标记数据与未标记数据的分布差距。同时，我们将知识蒸馏领域与半监督学习相结合，促进更深入的特征学习和更稳定的模型行为。我们使用\"DCA-Net\"在LA数据集与ACDC数据集进行实验并取得Sota的效果。"
     },
     {
+      "id": "CCS2023ThemisPoster",
+      "title": "Poster: Detecting Adversarial Examples Hidden under Watermark Perturbation via Usable Information Theory",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Zhuoxue Song, Fan Zhang, Rui Zhang",
+      "year": 2023,
+      "venue": "ACM SIGSAC Conference on Computer and Communications Security",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "网络安全",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "AI安全"
+      ],
+      "link": "https://doi.org/10.1145/3576915.3624396",
+      "abstract": "针对图像水印可被攻击者利用以构造对抗样本、从而混淆深度学习分类器，而现有针对噪声扰动的对抗样本检测方法对水印型扰动效果不佳的问题，本文提出基于可用信息论的水印对抗样本检测方法 Themis。该方法无需修改受保护的分类器，也不依赖对抗样本生成过程信息，而是通过辅助模型计算样本的点可用信息（PVI）分数，从而识别隐藏在水印扰动下的对抗样本。实验结果表明，在 InceptionV3 等常用模型及多种攻击设置下，Themis 相较于 5 种现有 SOTA 方法的检测准确率提升超过 15%，同时具有更高的 AUC 和较低的额外开销。"
+    },
+    {
       "id": "CCS2024SmartContractSymX",
       "title": "Demo: Enhancing Smart Contract Security Comprehensively through Dynamic Symbolic Execution",
       "authors": "Zhaoxuan Li, Ziming Zhao, Wenhao Li, Rui Zhang, Rui Xue, Siqi Lu, Fan Zhang",
@@ -145,27 +187,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://doi.org/10.1145/3658644.3691365",
       "abstract": "针对智能合约漏洞仿真、结果验证与行为识别需求，以及传统符号执行难以还原合约真实执行路径的问题，本文提出一种基于动态符号执行的智能合约安全增强方法。该方法通过选择性规避策略尽可能保留相对完整的循环路径，结合真实合约执行以保证调用合约与被调用合约之间的数据一致性，并通过及时记录 EVM 操作过程中的状态变化来支持多交易连续执行。在此基础上，系统能够同时完成漏洞检测、漏洞验证和合约调用行为识别。实验结果表明，该方法实现了 90.22% 的漏洞检测准确率和 98.04% 的合约调用行为识别准确率，并能够有效验证重入、任意发送、合约自毁、整数溢出等典型漏洞。"
-    },
-    {
-      "id": "CSCWD2024AlertCrossVerification",
-      "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
-      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
-      "year": 2024,
-      "venue": "CSCWD",
-      "ccf": "C",
-      "core": "N",
-      "thcpl": "N",
-      "type": "conference",
-      "accepted": true,
-      "fields": [
-        "网络与信息安全",
-        "人工智能"
-      ],
-      "researchDirections": [
-        "网络与算网融合"
-      ],
-      "link": "http://2024.cscwd.org/",
-      "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
     },
     {
       "id": "CompNet2024metaNet",
@@ -209,6 +230,27 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://www.sciencedirect.com/journal/computers-and-security",
       "abstract": ""
+    },
+    {
+      "id": "CSCWD2024AlertCrossVerification",
+      "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
+      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
+      "year": 2024,
+      "venue": "CSCWD",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "网络与信息安全",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "网络与算网融合"
+      ],
+      "link": "http://2024.cscwd.org/",
+      "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
     },
     {
       "id": "DAC2026Bayesian",
@@ -353,6 +395,49 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://doi.org/10.1007/978-3-030-78612-0_27",
       "abstract": "为了提升区块链密钥管理的安全性与效率，并满足协同签名场景下的应用需求，本文提出了一种结合安全多方计算与特征加密的层次化密钥管理与协同签名方案。该方案能够保障各层级密钥的安全性，抵御数据篡改攻击、密钥窃取攻击、碎片泄漏攻击和明文窃取攻击；同时，在保证安全性的基础上减少用户文件共享时间和存储开销，提高系统资源利用率与整体运行效率。"
+    },
+    {
+      "id": "ICSE2023GameRTS",
+      "title": "GameRTS: A Regression Testing Framework for Video Games",
+      "authors": "Jiongchi Yu#, Yuechen Wu#, Xiaofei Xie, Wei Le, Lei Ma, Yingfeng Chen, Yujing Hu, Fan Zhang",
+      "year": 2023,
+      "venue": "International Conference on Software Engineering",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言"
+      ],
+      "researchDirections": [
+        "软件测试",
+        "游戏测试"
+      ],
+      "link": "https://ieeexplore.ieee.org/document/10172905/",
+      "abstract": "GameRTS 是一种面向视频游戏的软件回归测试框架，用于解决游戏开发中频繁更新、测试周期长等特点带来的测试效率问题。该方法首先通过实证研究分析游戏开发流程、缺陷特征及其上下文敏感性，在此基础上提出一种兼顾安全性与实用性的回归测试选择技术。具体而言，GameRTS 将游戏测试建模为状态转移图，并建立游戏状态/动作与多种游戏文件之间的依赖关系，通过变更影响分析识别受影响的测试路径，从而选择最小必要测试集合。实验结果表明，GameRTS 能显著减少测试开销，同时保持对回归缺陷的完整检测能力，并优于传统基于文件级的 RTS 方法，在减少测试规模的同时还能发现新的关键缺陷。"
+    },
+    {
+      "id": "ICSEPOSTER2026AutoEmpirical",
+      "title": "Towards Automatic Software Faults Analysis",
+      "authors": "Jiongchi Yu#, Weipeng Jiang#, Xiaoyu Zhang*, Qiang Hu*, Xiaofei Xie, Chao Shen",
+      "year": 2026,
+      "venue": "International Conference on Software Engineering",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型多智能体",
+        "实证研究"
+      ],
+      "link": "https://arxiv.org/abs/2510.04997",
+      "abstract": "AutoEmpirical 是一种基于大语言模型的自动化软件故障实证研究框架，旨在解决传统故障分析过程中人工成本高、效率低的问题。该方法将实证研究流程划分为研究定义、数据准备和故障分析三个阶段，并通过多模型协作实现各阶段任务自动化。在具体实现中，大模型用于自动选择研究对象、筛选故障相关问题，并基于预定义分类体系对故障症状与根因进行标注与分析。实验结果表明，该框架可将原本需数周完成的分析任务缩短至约两小时，实现约20倍效率提升；但在细粒度分类任务中准确率仍有限，尤其在根因分析方面存在不足。总体而言，AutoEmpirical 展示了 LLM 在自动化软件工程研究中的潜力，同时也揭示了其在复杂推理与上下文理解方面的挑战。"
     },
     {
       "id": "ICWS2020SmartContractExecution",
@@ -520,6 +605,27 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作提出了一种面向流数据中新类别发现与增量更新的学习范式Portray Learning。其核心思想是为每个类别维护一个独立的“画像器”（如自编码器），将新类/已知类识别问题转化为多个彼此独立的异常检测任务。每个画像器只负责判断样本是否属于自身类别，因此不同类别之间相互独立，既支持并行处理，也便于在新类别出现时进行增量扩展。与此同时，方法引入极值理论自动确定各画像器的异常阈值，从而减少人工设定参数的需求。实验结果表明，在多个数据集和真实流场景中，Portray Learning 即使在先验知识有限的情况下也优于现有方法。"
     },
     {
+      "id": "ISSTA2024BugsPods",
+      "title": "Bugs in Pods: Understanding Bugs in Container Runtime Systems",
+      "authors": "Jiongchi Yu, Xiaofei Xie, Cen Zhang, Sen Chen, Yuekang Li, Wenbo Shen",
+      "year": 2024,
+      "venue": "The ACM SIGSOFT International Symposium on Software Testing and Analysis",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "软件工程/系统软件/程序设计语言"
+      ],
+      "researchDirections": [
+        "云计算与云服务器",
+        "实证研究"
+      ],
+      "link": "https://dl.acm.org/doi/10.1145/3650212.3680366",
+      "abstract": "该论文针对容器运行时系统（CRS）这一云计算核心基础设施，开展了首个系统性的缺陷实证研究。作者从主流 CRS 项目中收集了 429 个真实缺陷，并通过人工分析构建了涵盖 16 类症状和 13 类根因的分类体系。在此基础上，论文进一步评估了单元测试、集成测试和模糊测试等主流方法对这些缺陷的检测能力。结果表明，大部分缺陷难以被现有测试方法发现，主要原因在于缺乏测试驱动、测试预言和有效测试用例。总体而言，该研究揭示了 CRS 缺陷的特征与检测挑战，为改进容器基础设施的测试与质量保障提供了重要参考。"
+    },
+    {
       "id": "JSAC2025FCPlane",
       "title": "Verify All Traffic: Towards Zero-Trust In-Network Intrusion Detection against Multipath Routing",
       "authors": "Ziming Zhao, Zhaoxuan Li, Xiaofei Xie, Zhipeng Liu, Tingting Li, Jiongchi Yu, Fan Zhang, Binbin Chen",
@@ -628,6 +734,50 @@ window.LAB_PAPERS_BUNDLE = {
       "imageUrl": "figures/NDSS2026Chimera.png"
     },
     {
+      "id": "RTSS2023RealTimeIDS",
+      "title": "Work-in-Progress: Towards Real-Time IDS via RNN and Programmable Switches Co-Designed Approach",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Zhuoxue Song, Fan Zhang",
+      "year": 2023,
+      "venue": "IEEE Real-Time Systems Symposium",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络安全",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "网络安全",
+        "机器学习"
+      ],
+      "link": "https://doi.org/10.1109/RTSS59052.2023.00045",
+      "abstract": "针对实时入侵检测系统在高带宽网络环境下面临的时延、吞吐与检测精度难以兼顾的问题，本文提出一种结合循环神经网络与可编程交换机协同设计的实时入侵检测方法。该方法基于可编程交换机数据平面的计算能力与部署约束，对 GRU 模型进行轻量化简化与重构，使检测过程能够在交换机侧高效执行。实验结果表明，RIDS 可在 100Gbps 带宽的数据平面中实现纳秒级处理时延，并取得显著的入侵与恶意软件检测效果，F1 值约为 99%。"
+    },
+    {
+      "id": "RTSS2024DDoSScrub",
+      "title": "Work-in-Progress: Analyzing Worst-Case DDoS Traffic Scrub Effect and Recovery Delay via Attack Vector Combination",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li",
+      "year": 2024,
+      "venue": "IEEE Real-Time Systems Symposium",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络安全"
+      ],
+      "researchDirections": [
+        "网络安全"
+      ],
+      "link": "https://doi.org/10.1109/RTSS62706.2024.00052",
+      "abstract": "针对学术界和工业界广泛关注的 DDoS 缓解问题，本文研究了强攻击者通过组合不同 DDoS 攻击向量，以最大化绕过流量过滤与检测器的数据包数量，并进一步影响清洗效果和恢复时延的现象。为此，本文将攻击向量组合建模为组合优化问题，分析最坏情况下攻击流量清洗效果与恢复延迟，为理解和设计面向极端对抗场景的 DDoS 防御方法提供了新的视角和深刻见解。"
+    },
+    {
       "id": "SECON2024P2PBotnetDetection",
       "title": "A Large-Scale P2P Botnet Detection Framework via Topology and Traffic Co-Verification",
       "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
@@ -647,6 +797,29 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://secon2024.ieee-secon.org/",
       "abstract": "TNT 是一种面向大规模 P2P 僵尸网络的检测框架，结合通信拓扑分析与部分节点流量检测，通过 tScouter、tCommander 和 tPatroller 三个紧耦合组件，在检测精度与分析开销之间取得了有效平衡。实验基于 42 组数据、覆盖 6 类僵尸网络和 7 类合法 P2P 流量，结果表明 TNT 在超过 14 万节点的通信图中仅检查约 2 万个节点即可达到约 99.9% 的检测准确率。"
+    },
+    {
+      "id": "SIGCOMM2024P2PBotnetPoster",
+      "title": "Poster: Combine Topology and Traffic to Calibrate P2P Botnet Identification in Large-Scale Network",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Fan Zhang, Tingting Li, Jianwei Yin",
+      "year": 2024,
+      "venue": "ACM SIGCOMM 2024 Conference: Posters and Demos",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "计算机网络",
+        "网络安全",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "僵尸网络",
+        "机器学习"
+      ],
+      "link": "https://doi.org/10.1145/3672202.3673720",
+      "abstract": "针对超过 100K 海量僵尸网络节点对互联网基础设施造成严重破坏，以及大规模 P2P 僵尸网络识别结果中存在误识别校准困难的问题，本文提出一种结合网络拓扑与流量特征的校准方法。该方法设计了基于强化学习的智能节点检索过程，能够以尽可能少的检索开销校准更多错误识别结果，从而提升大规模网络环境下 P2P 僵尸网络识别的准确性与效率。基于超过 10 万个通信节点和 7 种常见 P2P 协议构建的测试实验床结果表明，该方法在误识别校准效果上优于现有方法。"
     },
     {
       "id": "SIGKDD2025TrafficScope",
@@ -732,6 +905,26 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://ieeexplore.ieee.org/abstract/document/11342848",
       "abstract": "在半监督医学图像分割任务中，重点在于如何充分利用未标记数据。然而， 当前大多数方法难以解决医学图像轮廓难以分割，对于未标记数据的特征探索不足等问题。为克服上述问题，本文提出了一种基于对比学习的半监督医学图像分割框架-ConsMatch。我们设计了两个关键模块：MCR（Multi-View Contrastive Representation）模块，利用对比学习思想最大化同一图像在不同扰动下的特征相似度，同时最小化不同图像之间的冗余结构相似性；FCR（Feature-level Consistency Regularization）模块，通过最小化不同增强视图下的结构相似矩阵分布差异，引导模型学习具有稳定结构表达的特征。该方法引入特征空间的结构约束，通过多视图对比表示学习和结构一致性正则化，从多个维度强化模型对未标记数据的学习能力。我们在ACDC数据集以及LA数据集进行广泛实验,均取得较好结果。我们的代码在https://github.com/magic-fortune/ConsMatch中可以找到。"
+    },
+    {
+      "id": "soft2022Flink",
+      "title": "面向Flink迭代作业的动态资源分配策略",
+      "authors": "岳晓飞, 史岚, 赵宇海*, 季航旭，王国仁",
+      "year": 2022,
+      "venue": "软件学报",
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "大数据系统优化"
+      ],
+      "link": "",
+      "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
     },
     {
       "id": "TCAD2024QuST",
@@ -1007,6 +1200,27 @@ window.LAB_PAPERS_BUNDLE = {
       "imageUrl": "figures/TON2024FOSS.png"
     },
     {
+      "id": "ToN2025Exploiting",
+      "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
+      "authors": "Xiaofei Yue, Song Yang*, Liehuang Zhu, Stojan Trajanovski, Fan Li, Xiaoming Fu",
+      "year": 2025,
+      "venue": "IEEE/ACM Transactions on Networking (ToN)",
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "fields": [
+        "计算机网络"
+      ],
+      "researchDirections": [
+        "服务器无感知计算",
+        "算力网络"
+      ],
+      "link": "https://ieeexplore.ieee.org/abstract/document/10742121",
+      "abstract": "针对广域环境下服务器无感知分析中粗粒度调度低效问题，提出函数粒度资源弹性利用框架Demeter，通过多智能体强化学习联合优化放置与资源分配，并结合拥塞控制机制。实验表明成本降低最高46.6%，SLO违约率降至15%以下。"
+    },
+    {
       "id": "TON2025SOFA",
       "title": "SOFA: Service-Oriented Fine-Grained Attack Traffic Detection with Meta Learning",
       "authors": "Peng Fang, Feiyang Huang, Ziming Zhao*, Fan Zhang*, Wenrui Ma",
@@ -1094,27 +1308,6 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对智能合约字节码级漏洞分析中存在的分析需求强、人工规则制定困难以及现有人工智能方法检测结果难以直接利用等问题，本文提出了面向 EVM 字节码的智能合约漏洞检测方法 VulHunter。该方法利用多示例学习机制缓解细粒度执行路径标签缺失条件下模型训练困难的问题，并结合符号执行对检测结果进行可达性验证，从而自动消除部分误报。实验结果表明，VulHunter 能够以更高的准确性、更高的效率和更强的鲁棒性完成合约漏洞检测，达到 90.04% 的准确率，在 121KB 合约上的平均分析时间为 4.4 秒，分析失败率为 0%，并实现了从漏洞检测、漏洞代码定位到结果验证的全流程自动化执行。"
     },
     {
-      "id": "ToN2025Exploiting",
-      "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
-      "authors": "Xiaofei Yue, Song Yang*, Liehuang Zhu, Stojan Trajanovski, Fan Li, Xiaoming Fu",
-      "year": 2025,
-      "venue": "IEEE/ACM Transactions on Networking (ToN)",
-      "ccf": "A",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
-      "accepted": true,
-      "fields": [
-        "计算机网络"
-      ],
-      "researchDirections": [
-        "服务器无感知计算",
-        "算力网络"
-      ],
-      "link": "https://ieeexplore.ieee.org/abstract/document/10742121",
-      "abstract": "针对广域环境下服务器无感知分析中粗粒度调度低效问题，提出函数粒度资源弹性利用框架Demeter，通过多智能体强化学习联合优化放置与资源分配，并结合拥塞控制机制。实验表明成本降低最高46.6%，SLO违约率降至15%以下。"
-    },
-    {
       "id": "WISA2021Online",
       "title": "Online Runtime Prediction Method for Distributed Iterative Jobs",
       "authors": "Xiaofei Yue, Lan Shi, Yuhai Zhao*, Hangxu Ji, Guoren Wang",
@@ -1133,6 +1326,28 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://link.springer.com/chapter/10.1007/978-3-030-87571-8_14",
       "abstract": "针对分布式迭代作业运行时间预测问题，提出基于在线机器学习的多阶段预测方法，通过迭代建模与序列学习显著提升预测精度，在典型场景中提升超过15%。"
+    },
+    {
+      "id": "WWW2024RFCL",
+      "title": "Improving Model Robustness against Adversarial Examples with Redundant Fully Connected Layer",
+      "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Jiongchi Yu, Fan Zhang, Rui Zhang",
+      "year": 2024,
+      "venue": "ACM Web Conference",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "fields": [
+        "人工智能",
+        "网络安全"
+      ],
+      "researchDirections": [
+        "AI安全",
+        "机器学习"
+      ],
+      "link": "https://doi.org/10.1145/3589335.3651524",
+      "abstract": "针对现有对抗样本防御技术在跨攻击场景适应性、干净样本识别准确性、模型鲁棒性与训练效率之间难以兼顾的问题，本文提出一种冗余全连接层方法。该方法通过设计多个相互正交的全连接层，并将其与现有检测模型结合，缓解原始模型在对抗扰动下的性能退化，从而提升模型对对抗样本的鲁棒性。实验结果表明，该方法在 12 种白盒和黑盒攻击设置下均可实现超过 20% 的准确率提升，同时基本不影响模型对干净样本的识别性能。"
     },
     {
       "id": "WWW2024Trident",
@@ -1197,26 +1412,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "针对异构集群下大语言模型训练系统设计空间巨大、难以高效评估的问题，提出HeteroSim高保真异构LLM训练仿真框架。该方法通过可插拔IR编译器显式刻画并行策略，并结合异构感知的计算规划器与类NCCL的集合通信规划器，在多种异构强度下实现接近真实训练行为的高精度模拟。实验表明，HeteroSim可在分钟级开销下将模拟误差保持在5%以下。"
-    },
-    {
-      "id": "soft2022Flink",
-      "title": "面向Flink迭代作业的动态资源分配策略",
-      "authors": "岳晓飞, 史岚, 赵宇海*, 季航旭，王国仁",
-      "year": 2022,
-      "venue": "软件学报",
-      "ccf": "A",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
-      "accepted": true,
-      "fields": [
-        "其他"
-      ],
-      "researchDirections": [
-        "大数据系统优化"
-      ],
-      "link": "",
-      "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
     }
   ],
   "ccfFields": [
@@ -1242,21 +1437,25 @@ window.LAB_PAPERS_BUNDLE = {
     "AI安全",
     "IoT安全",
     "云计算与云服务器",
+    "代码修复",
     "僵尸网络",
     "加密流量",
     "大数据系统优化",
     "大模型 for 安全",
     "大模型多智能体",
     "大模型训练模拟",
+    "实证研究",
     "服务器无感知计算",
     "未知检测",
     "机器学习",
     "模型推理",
+    "游戏测试",
     "碳感知算网",
     "端网融合",
     "算力网络",
     "系统取证",
     "网络安全",
+    "软件测试",
     "量子EDA",
     "量子云平台",
     "量子安全",

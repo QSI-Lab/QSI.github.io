@@ -1,0 +1,21 @@
+{
+  "id": "ASE2025Defects4C",
+  "title": "Defects4C: Benchmarking Large Language Model Repair Capability with C/C++ Bugs",
+  "authors": "Jian Wang, Xiaofei Xie, Qiang Hu, Shangqing Liu, Jiongchi Yu, Jiaolong Kong, Yi Li",
+  "year": 2025,
+  "venue": "International Conference on Automated Software Engineering",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "软件工程/系统软件/程序设计语言",
+    "人工智能"
+  ],
+  "researchDirections": [
+    "代码修复"
+  ],
+  "link": "https://arxiv.org/abs/2510.11059",
+  "abstract": "Defects4C 是一个面向 C/C++ 程序修复的高质量基准数据集，用于解决当前自动程序修复研究中缺乏真实世界 C/C++ 数据的问题。该方法从开源仓库中构建包含约 900 万条缺陷相关提交、248 个高质量缺陷函数和 102 个漏洞函数的数据集，并配套测试用例以支持可复现评估。在此基础上，基于 Defects4C 对 24 个主流大语言模型在 C/C++ 缺陷修复任务中的能力进行了系统实验分析。结果表明，尽管 LLM 在 Java 等语言上表现良好，但在真实 C/C++ 场景下修复性能显著下降，尤其在多行缺陷和依赖上下文信息的问题上表现不足。总体而言，Defects4C 为评估和改进 LLM 驱动的程序修复方法提供了关键基础，同时揭示了当前方法在复杂系统级语言中的局限性"
+}

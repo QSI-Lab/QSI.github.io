@@ -1,0 +1,22 @@
+{
+  "id": "ICSEPOSTER2026AutoEmpirical",
+  "title": "Towards Automatic Software Faults Analysis",
+  "authors": "Jiongchi Yu#, Weipeng Jiang#, Xiaoyu Zhang*, Qiang Hu*, Xiaofei Xie, Chao Shen",
+  "year": 2026,
+  "venue": "International Conference on Software Engineering",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "软件工程/系统软件/程序设计语言",
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型多智能体",
+    "实证研究"
+  ],
+  "link": "https://arxiv.org/abs/2510.04997",
+  "abstract": "AutoEmpirical 是一种基于大语言模型的自动化软件故障实证研究框架，旨在解决传统故障分析过程中人工成本高、效率低的问题。该方法将实证研究流程划分为研究定义、数据准备和故障分析三个阶段，并通过多模型协作实现各阶段任务自动化。在具体实现中，大模型用于自动选择研究对象、筛选故障相关问题，并基于预定义分类体系对故障症状与根因进行标注与分析。实验结果表明，该框架可将原本需数周完成的分析任务缩短至约两小时，实现约20倍效率提升；但在细粒度分类任务中准确率仍有限，尤其在根因分析方面存在不足。总体而言，AutoEmpirical 展示了 LLM 在自动化软件工程研究中的潜力，同时也揭示了其在复杂推理与上下文理解方面的挑战。"
+}

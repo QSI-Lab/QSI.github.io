@@ -1,0 +1,21 @@
+{
+  "id": "ISSTA2024BugsPods",
+  "title": "Bugs in Pods: Understanding Bugs in Container Runtime Systems",
+  "authors": "Jiongchi Yu, Xiaofei Xie, Cen Zhang, Sen Chen, Yuekang Li, Wenbo Shen",
+  "year": 2024,
+  "venue": "The ACM SIGSOFT International Symposium on Software Testing and Analysis",
+  "ccf": "A",
+  "core": "A",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "软件工程/系统软件/程序设计语言"
+  ],
+  "researchDirections": [
+    "云计算与云服务器",
+    "实证研究"
+  ],
+  "link": "https://dl.acm.org/doi/10.1145/3650212.3680366",
+  "abstract": "该论文针对容器运行时系统（CRS）这一云计算核心基础设施，开展了首个系统性的缺陷实证研究。作者从主流 CRS 项目中收集了 429 个真实缺陷，并通过人工分析构建了涵盖 16 类症状和 13 类根因的分类体系。在此基础上，论文进一步评估了单元测试、集成测试和模糊测试等主流方法对这些缺陷的检测能力。结果表明，大部分缺陷难以被现有测试方法发现，主要原因在于缺乏测试驱动、测试预言和有效测试用例。总体而言，该研究揭示了 CRS 缺陷的特征与检测挑战，为改进容器基础设施的测试与质量保障提供了重要参考。"
+}
