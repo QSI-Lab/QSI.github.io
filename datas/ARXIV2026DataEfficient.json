@@ -1,0 +1,21 @@
+{
+  "id": "ARXIV2026DataEfficient",
+  "title": "Data-Efficient Large Language Model Training: A Survey",
+  "authors": "Xinyang Liu, Qiang Hu∗, Yujie Ma, Zhenheng Tang, Jiongchi Yu, Tianlin Li, Yao Zhang, Junjie Wang, Hao Liu, Yongqiang Lyu, Yves Le Traon",
+  "year": 2026,
+  "venue": "arxiv",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": false,
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型推理与训练"
+  ],
+  "link": "https://wellido.github.io/paper/DS4LLM.pdf",
+  "abstract": "构建大语言模型通常依赖大规模高质量数据，代价高且计算开销大，因此本文系统综述了“有限数据下构建 LLM”的研究进展。文章梳理了数据高效训练的统一问题与术语，系统分析了如何识别对预训练和微调最关键的数据样本，并总结了该领域的挑战与未来研究方向。",
+  "pdf": "https://wellido.github.io/paper/DS4LLM.pdf"
+}

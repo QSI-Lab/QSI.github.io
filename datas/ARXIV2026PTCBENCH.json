@@ -1,0 +1,20 @@
+{
+  "id": "ARXIV2026PTCBENCH",
+  "title": "PTCBENCH: Benchmarking Contextual Stability of Personality Traits in LLM Systems",
+  "authors": "Jiongchi Yu#, Yuhan Ma#, Xiaoyu Zhang*, Junjie Wang, Qiang Hu, Chao Shen, and Xiaofei Xie",
+  "year": 2026,
+  "venue": "arxiv",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": false,
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型推理与训练"
+  ],
+  "link": "https://arxiv.org/pdf/2602.00016",
+  "abstract": "随着 LLM 被广泛用于情感陪伴和智能体系统，保持其人格的一致性对用户信任很重要，但现有研究忽视了人格会随情境变化这一心理学事实。为此，作者提出了 PTCBench，在不同地点与人生事件等 12 类情境下系统评估 LLM 的人格一致性，并发现某些情境会显著改变模型的人格特征，甚至影响其推理能力。"
+}
