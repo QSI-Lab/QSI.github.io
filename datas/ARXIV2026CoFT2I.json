@@ -1,0 +1,22 @@
+{
+  "id": "ARXIV2026CoFT2I",
+  "title": "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation",
+  "authors": "Chengzhuo Tong, Mingkun Chang, Shenglong Zhang, Yuran Wang, Cheng Liang, Zhizheng Zhao, Ruichuan An, Bohan Zeng, Yang Shi, Yifan Dai, Ziming Zhao, Guanbin Li, Pengfei Wan, Yuanxing Zhang, Wentao Zhang",
+  "year": 2026,
+  "venue": "arxiv",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": false,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "文生图", "大模型"
+  ],
+  "link": "https://arxiv.org/abs/2601.10061",
+  "abstract": "本文提出 CoF-T2I，将视频生成模型中的 Chain-of-Frame（CoF）推理能力 引入文本到图像生成任务，通过逐帧渐进式视觉细化，把中间帧作为显式推理过程，最终帧作为生成结果。 为构建这种可解释的生成流程，作者设计了 CoF-Evol-Instruct 数据集，用于刻画从语义到审美的连续生成轨迹。 同时，为了进一步提升生成质量并减少视频模型常见的运动伪影问题，方法中采用了对每一帧进行独立编码的策略。 实验结果表明，CoF-T2I 相比基础视频模型取得了显著提升，并在多个具有挑战性的基准测试中表现出较强竞争力，在 GenEval 上达到 0.86，在 Imagine-Bench 上达到 7.468。"
+}

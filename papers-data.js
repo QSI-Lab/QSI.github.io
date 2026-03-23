@@ -112,6 +112,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "现有针对 LLM 生成代码安全性的评测基准与真实 AI 辅助编程场景脱节，难以反映生产环境中的实际风险。为此，作者提出了更贴近真实仓库级编程任务的安全评测基准 A.S.E，并通过实验发现当前主流 LLM 在安全编码方面仍存在明显不足，尤其在复杂仓库场景下表现下降，而且更大的推理预算也未必能带来更好的代码生成效果。"
     },
     {
+      "id": "ARXIV2026CoFT2I",
+      "title": "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation",
+      "authors": "Chengzhuo Tong, Mingkun Chang, Shenglong Zhang, Yuran Wang, Cheng Liang, Zhizheng Zhao, Ruichuan An, Bohan Zeng, Yang Shi, Yifan Dai, Ziming Zhao, Guanbin Li, Pengfei Wan, Yuanxing Zhang, Wentao Zhang",
+      "year": 2026,
+      "venue": "arxiv",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "文生图",
+        "大模型"
+      ],
+      "link": "https://arxiv.org/abs/2601.10061",
+      "abstract": "本文提出 CoF-T2I，将视频生成模型中的 Chain-of-Frame（CoF）推理能力 引入文本到图像生成任务，通过逐帧渐进式视觉细化，把中间帧作为显式推理过程，最终帧作为生成结果。 为构建这种可解释的生成流程，作者设计了 CoF-Evol-Instruct 数据集，用于刻画从语义到审美的连续生成轨迹。 同时，为了进一步提升生成质量并减少视频模型常见的运动伪影问题，方法中采用了对每一帧进行独立编码的策略。 实验结果表明，CoF-T2I 相比基础视频模型取得了显著提升，并在多个具有挑战性的基准测试中表现出较强竞争力，在 GenEval 上达到 0.86，在 Imagine-Bench 上达到 7.468。"
+    },
+    {
       "id": "ARXIV2026DataEfficient",
       "title": "Data-Efficient Large Language Model Training: A Survey",
       "authors": "Xinyang Liu, Qiang Hu∗, Yujie Ma, Zhenheng Tang, Jiongchi Yu, Tianlin Li, Yao Zhang, Junjie Wang, Hao Liu, Yongqiang Lyu, Yves Le Traon",
@@ -594,6 +617,31 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://dl.acm.org/doi/abs/10.1145/3729346",
       "abstract": "CAShift 是一个面向云环境日志异常检测的数据集，旨在弥补现有云系统数据集在行为覆盖范围和整体系统视角上的不足。该数据集综合考虑了云系统中不同软件角色，并支持应用变化、版本变化和云架构变化三种真实的正常性偏移场景，同时包含 20 种针对不同云组件的攻击场景。基于 CAShift，作者系统评估了现有日志异常检测方法在分布偏移条件下的表现，发现各类方法都会受到显著影响，性能最高可下降 34%。此外，论文还进一步研究了持续学习方法在偏移适应中的作用，结果表明其能够在一定程度上缓解性能退化，但效果高度依赖重训练数据比例和具体算法选择。总体来看，CAShift 为研究更鲁棒的云日志异常检测与分布偏移适应提供了重要基础。"
+    },
+    {
+      "id": "FSE2026CrypFormBench",
+      "title": "CrypFormBench: Benchmarking Formal Analysis Capability of Large Language Models for Cryptographic schemes",
+      "authors": "Zhaoxuan Li, Qionglu Zhang, Hengyuan Liu, Xiaoyan Gu, Xianhui Lu, Hongbo Liu, Bingzheng Wang, Haihui Fan, Ziming Zhao, Rui Zhang, Li Zhou",
+      "year": 2026,
+      "venue": "ACM International Conference on the Foundations of Software Engineering",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "软件工程",
+        "网络安全",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型 for 安全",
+        "AI安全"
+      ],
+      "link": "",
+      "abstract": "针对密码方案形式化分析长期依赖专家手动抽象与编写工具特定规范、耗时高且门槛高，以及现有相关基准主要覆盖符号安全、规模有限、难以系统评估大语言模型在密码方案分析中核心能力的问题，本文提出 CrypFormBench 基准。该基准首次联合覆盖符号安全与计算安全，包含 700 个实例，覆盖 677 个密码方案、7 种主流形式验证语言和 160 个安全属性，并建立了自动化评估流水线与多维评分框架，用于系统衡量大语言模型在解释、生成、补全、转换和修正五项核心任务上的能力。基于对 9 个先进大语言模型的实验评估，结果表明模型在解释与补全任务上表现相对较好，但在生成、转换和修正任务上仍存在明显局限，其中 Claude-3.5 取得最高总分 48.7/100。进一步地，本文提出了少样本提示、Pass@K 采样和轻量级微调等优化建议，为大语言模型辅助密码方案形式化分析提供了系统评估基准与实践指导。"
     },
     {
       "id": "ICAIS2021KeyHierarchicalManagement",
@@ -2068,10 +2116,12 @@ window.LAB_PAPERS_BUNDLE = {
     "加密流量",
     "可编程交换机",
     "大数据系统优化",
+    "大模型",
     "大模型 for 安全",
     "大模型多智能体",
     "大模型训练模拟",
     "实证研究",
+    "文生图",
     "服务器无感知计算",
     "未知检测",
     "机器学习",
