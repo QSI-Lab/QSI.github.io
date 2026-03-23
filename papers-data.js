@@ -710,6 +710,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "为了提升区块链密钥管理的安全性与效率，并满足协同签名场景下的应用需求，本文提出了一种结合安全多方计算与特征加密的层次化密钥管理与协同签名方案。该方案能够保障各层级密钥的安全性，抵御数据篡改攻击、密钥窃取攻击、碎片泄漏攻击和明文窃取攻击；同时，在保证安全性的基础上减少用户文件共享时间和存储开销，提高系统资源利用率与整体运行效率。"
     },
     {
+      "id": "ICME2026EfficientMedicalImageSegmentationCollaborativeFeature",
+      "title": "Towards Efficient Medical Image Segmentation via Collaborative Feature Enhancement and Inception GroupMamba",
+      "authors": "Fangi Kong, Yuhan Chen, Ziming Zhao*",
+      "year": 2026,
+      "venue": "ICME",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "医学智能",
+        "医学图像处理"
+      ],
+      "link": "",
+      "abstract": "本工作面向医学图像分割任务，提出了一种轻量化U形网络 CEIGM-UNet。该方法通过协同特征增强层（CFEL）强化解码阶段的关键信息传播，并结合调制式 Inception Group Mamba 层（MIGML）实现多尺度特征建模与长程依赖保持，从而提升复杂解剖结构和噪声干扰条件下的分割性能。实验结果表明，该模型在 Synapse 和 ACDC 数据集上均取得了较优的分割精度，同时具有更少的参数量和计算开销，并具备良好的跨模态迁移与实际部署潜力。"
+    },
+    {
       "id": "ICSE2023GameRTS",
       "title": "GameRTS: A Regression Testing Framework for Video Games",
       "authors": "Jiongchi Yu#, Yuechen Wu#, Xiaofei Xie, Wei Le, Lei Ma, Yingfeng Chen, Yujing Hu, Fan Zhang",
@@ -1455,6 +1479,33 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "网络攻击检测在网络安全中扮演着重要角色。网络攻击检测的对象主要为僵尸网络, SQL 注入等攻击行为。随着安全套接层/安全传输层 (SSL/TLS) 加密协议的广泛使用, 针对 SSL/TLS 协议本身发起的 SSL/TLS 攻击日益增多, 因此通过搭建网络流采集环境, 构建了包含 4 种 SSL/TLS 攻击网络流与正常网络流的网络流数据集。针对当前网络攻击流检测的可观测性有限, 网络流原始时空域分离性有限等问题, 提出流谱理论, 将网络空间中的威胁行为通过 “势变” 过程从原始时空域空间映射到变换域空间, 具象为 “势变谱”, 形成可分离, 可观测的特征表示集合, 实现对网络流的高效分析。流谱理论在实际网络空间威胁行为检测中的应用关键是在给定变换算子的情况下, 针对特定威胁网络流找到势变基底矩阵。"
+    },
+    {
+      "id": "SEC2026AccelerationFrameworkPrivacyPreservingNeuralNetwork",
+      "title": "An Acceleration Framework for Privacy-Preserving Neural Network Inference Using Fully Homomorphic Encryption",
+      "authors": "Fanqi Kong, Ziming Zhao, Yongheng Li, Jing Wen, ShaolingLiang, Baohua Huang*",
+      "year": 2026,
+      "venue": "SEC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "计算机体系结构/并行与分布计算/存储系统",
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "隐私计算",
+        "AI安全",
+        "机器学习",
+        "同态加密"
+      ],
+      "link": "",
+      "abstract": "本工作面向隐私保护机器学习服务场景，研究了全同态加密（FHE）下神经网络推理的高效实现方法。针对加密推理中计算代价最高的“密文与明文权重乘法”操作，提出了一种基于门控机制和常数感知编译优化的加速框架，将复杂乘法转换为更低成本的加减法与位移操作，从而显著降低FHE推理开销。实验结果表明，该方法可将平均执行时间提升至原来的4.23倍、初始化门数最高减少65%，并使加密CNN推理速度提升近3倍，为实际MLaaS场景下的隐私保护神经网络推理提供了更高效的技术方案。"
     },
     {
       "id": "SECON2024P2PBotnetDetection",
@@ -2241,6 +2292,7 @@ window.LAB_PAPERS_BUNDLE = {
   ],
   "researchDirections": [
     "网络与算网融合",
+    "隐私计算",
     "大模型推理与训练",
     "量子智能",
     "医学智能",
@@ -2252,7 +2304,9 @@ window.LAB_PAPERS_BUNDLE = {
     "僵尸网络",
     "入侵检测",
     "加密流量",
+    "医学图像处理",
     "可编程交换机",
+    "同态加密",
     "大数据系统优化",
     "大模型",
     "大模型 for 安全",

@@ -1,0 +1,27 @@
+{
+  "id": "SEC2026AccelerationFrameworkPrivacyPreservingNeuralNetwork",
+  "title": "An Acceleration Framework for Privacy-Preserving Neural Network Inference Using Fully Homomorphic Encryption",
+  "authors": "Fanqi Kong, Ziming Zhao, Yongheng Li, Jing Wen, ShaolingLiang, Baohua Huang*",
+  "year": 2026,
+  "venue": "SEC",
+  "ccf": "C",
+  "core": "N",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "计算机体系结构/并行与分布计算/存储系统",
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "隐私计算",
+    "AI安全",
+    "机器学习",
+    "同态加密"
+  ],
+  "link": "",
+  "abstract": "本工作面向隐私保护机器学习服务场景，研究了全同态加密（FHE）下神经网络推理的高效实现方法。针对加密推理中计算代价最高的“密文与明文权重乘法”操作，提出了一种基于门控机制和常数感知编译优化的加速框架，将复杂乘法转换为更低成本的加减法与位移操作，从而显著降低FHE推理开销。实验结果表明，该方法可将平均执行时间提升至原来的4.23倍、初始化门数最高减少65%，并使加密CNN推理速度提升近3倍，为实际MLaaS场景下的隐私保护神经网络推理提供了更高效的技术方案。"
+}

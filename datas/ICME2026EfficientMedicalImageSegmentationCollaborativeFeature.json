@@ -1,0 +1,24 @@
+{
+  "id": "ICME2026EfficientMedicalImageSegmentationCollaborativeFeature",
+  "title": "Towards Efficient Medical Image Segmentation via Collaborative Feature Enhancement and Inception GroupMamba",
+  "authors": "Fangi Kong, Yuhan Chen, Ziming Zhao*",
+  "year": 2026,
+  "venue": "ICME",
+  "ccf": "B",
+  "core": "A",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "医学智能",
+    "医学图像处理"
+  ],
+  "link": "",
+  "abstract": "本工作面向医学图像分割任务，提出了一种轻量化U形网络 CEIGM-UNet。该方法通过协同特征增强层（CFEL）强化解码阶段的关键信息传播，并结合调制式 Inception Group Mamba 层（MIGML）实现多尺度特征建模与长程依赖保持，从而提升复杂解剖结构和噪声干扰条件下的分割性能。实验结果表明，该模型在 Synapse 和 ACDC 数据集上均取得了较优的分割精度，同时具有更少的参数量和计算开销，并具备良好的跨模态迁移与实际部署潜力。"
+}
