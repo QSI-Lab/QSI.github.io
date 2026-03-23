@@ -1368,6 +1368,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对学术界和工业界广泛关注的 DDoS 缓解问题，本文研究了强攻击者通过组合不同 DDoS 攻击向量，以最大化绕过流量过滤与检测器的数据包数量，并进一步影响清洗效果和恢复时延的现象。为此，本文将攻击向量组合建模为组合优化问题，分析最坏情况下攻击流量清洗效果与恢复延迟，为理解和设计面向极端对抗场景的 DDoS 防御方法提供了新的视角和深刻见解。"
     },
     {
+      "id": "sec2022Traffic",
+      "title": "基于流谱理论的 SSL/TLS 协议攻击检测方法",
+      "authors": "郭世泽, 张帆, 宋卓学, 赵子鸣, 赵新杰, 王小娟, 罗向阳",
+      "year": 2022,
+      "venue": "网络与信息安全学报",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "网络安全",
+        "加密流量"
+      ],
+      "link": "",
+      "abstract": "网络攻击检测在网络安全中扮演着重要角色。网络攻击检测的对象主要为僵尸网络, SQL 注入等攻击行为。随着安全套接层/安全传输层 (SSL/TLS) 加密协议的广泛使用, 针对 SSL/TLS 协议本身发起的 SSL/TLS 攻击日益增多, 因此通过搭建网络流采集环境, 构建了包含 4 种 SSL/TLS 攻击网络流与正常网络流的网络流数据集。针对当前网络攻击流检测的可观测性有限, 网络流原始时空域分离性有限等问题, 提出流谱理论, 将网络空间中的威胁行为通过 “势变” 过程从原始时空域空间映射到变换域空间, 具象为 “势变谱”, 形成可分离, 可观测的特征表示集合, 实现对网络流的高效分析。流谱理论在实际网络空间威胁行为检测中的应用关键是在给定变换算子的情况下, 针对特定威胁网络流找到势变基底矩阵。"
+    },
+    {
       "id": "SECON2024P2PBotnetDetection",
       "title": "A Large-Scale P2P Botnet Detection Framework via Topology and Traffic Co-Verification",
       "authors": "Ziming Zhao, Zhaoxuan Li, Tingting Li, Fan Zhang*",
