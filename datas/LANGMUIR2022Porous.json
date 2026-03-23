@@ -1,0 +1,22 @@
+{
+  "id": "LANGMUIR2022Porous",
+  "title": "Porous Photo-Fenton Catalysts Rapidly Triggered by Levodopa-Based Mussel-Inspired Coatings for Enhanced Dye Degradation and Sterilization",
+  "authors": "Shangjin Yang, Zhiyuan Xu, Lingyun Zou, Jiongchi Yu, Jian Ji, Zhikang Xu",
+  "year": 2022,
+  "venue": "Langmuir",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI2",
+  "fields": [
+    "其他"
+  ],
+  "researchDirections": [
+    "AI for Science"
+  ],
+  "link": "https://pubs.acs.org/doi/10.1021/acs.langmuir.2c00999",
+  "abstract": "针对传统光-Fenton催化剂存在活性位点固定困难、制备周期长以及光催化效率受限等问题，作者提出了一种基于左旋多巴-聚乙烯亚胺仿贻贝涂层的快速构建策略，用于在多孔基底上原位生长纳米棒催化剂。该涂层通过儿茶酚和羧基与Fe离子的强配位作用，不仅实现了催化剂的高效固定，还将矿化时间从传统的24-48小时显著缩短至约2小时，同时改善了催化剂的能带结构，提升了光吸收与电子传输效率。实验结果表明，优化条件下材料在30分钟内对亚甲基蓝的降解率可达99%，并能高效降解多种染料体系；同时在20分钟光照下对大肠杆菌和金黄色葡萄球菌的灭活率分别达到93%和94%。此外，该催化剂具有良好的循环稳定性，多次使用后仍保持90%以上的降解效率。"
+}

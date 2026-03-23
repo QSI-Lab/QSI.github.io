@@ -90,6 +90,50 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本文针对不断演化的分布式拒绝服务攻击提出了一种自动化攻击特征分析与漏洞挖掘框架 DDoSMiner。面对基于规则的流量分析和深度包检测等传统防御手段，攻击者持续寻找新的攻击面和流量放大方式以绕过检测。为此，DDoSMiner 通过分析 TCP 类 DDoS 攻击的系统调用模式，构建攻击调用流图（ACFG），并识别攻击流量与正常流量之间的关键差异特征。进一步地，该框架提取丢弃节点和关键 TCP 状态，并结合符号执行技术探索 DDoS 攻击的变种。实验结果表明，DDoSMiner 能够发现新的 DDoS 攻击轨迹，且生成的攻击流量能够绕过 Snort 及其三种主流规则集的检测。"
     },
     {
+      "id": "ACTAP2021MoS2",
+      "title": "MoS2 Membranes with Photothermal Conversion Property for Nanofiltration and Antibacterial Activity",
+      "authors": "Jiongchi Yu, Mengqi Ma, Chengye Zhu, Dengfeng Hu, Jian Ji, Zhikang Xu",
+      "year": 2021,
+      "venue": "ACTA POLYMERICA SINICA",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI3",
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "AI for Science"
+      ],
+      "link": "https://www.gfzxb.org/en/article/doi/10.11777/j.issn1000-3304.2020.20264/",
+      "abstract": "针对二维纳米片构建的层状纳滤膜在稳定性差、盐截留性能不足以及制备复杂等问题，作者提出了一种基于单宁酸功能化二硫化钼纳米片并通过均苯三甲酰氯交联的新型薄层复合纳滤膜结构。该方法通过界面聚合构建致密交联网络，有效调控膜孔结构，从而显著提升膜的稳定性与分离性能。实验结果表明，该膜对多价盐（如 Na₂SO₄）具有较高截留率，对带负电染料的截留率超过98.5%，同时对染料/盐混合体系具有良好的选择性分离能力。此外，MoS₂ 纳米片赋予膜优异的光热转换性能，在近红外照射下可实现抗菌与自清洁功能，从而缓解膜污染问题。整体来看，该工作提出了一种兼具高效分离、稳定性和抗菌能力的多功能纳滤膜设计策略，在工业废水处理等场景具有应用潜力。"
+    },
+    {
+      "id": "ACTAPH2021Calculation",
+      "title": "Calculation and Optimization of Correlation Function in Distillation Method of Lattice Quantum Chromodynamcis",
+      "authors": "Renqiang Zhang, Xiangyu Jiang, Jiongchi Yu, Chong Zeng, Ming Gong, Shun Xu",
+      "year": 2021,
+      "venue": "ACTA PHYSICA SINICA",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI3",
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "AI for Science"
+      ],
+      "link": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20210030",
+      "abstract": "针对格点量子色动力学中蒸馏算法在构造关联函数时面临的数据规模大、计算复杂度高的问题，作者提出了一套多层次优化的计算方案。该方法基于蒸馏算法中约化传播子与拉普拉斯本征系统的结构，通过引入中间变量对计算过程进行重构，将原本随本征向量数四次方增长的计算复杂度降低为三次方，从而显著减少计算开销。在实现层面，作者结合MPI、OpenMP以及SIMD三层并行优化技术，并针对数据布局与复数运算进行向量化改造，以提升计算效率与内存访问性能。实验结果表明，该程序在大规模并行环境下具有良好的扩展性，在512个进程下仍可达到约70%的并行效率，同时相比串行计算实现显著加速。"
+    },
+    {
       "id": "ARXIV2026ARepositoryLevel",
       "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
       "authors": "Keke Lian#, Bing Wang#, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Miaoqian Lin, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li*, Dong Zhang*",
@@ -941,6 +985,28 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=49",
       "abstract": "FCPlane 是一种面向零信任入侵检测的转发与计算一体化数据平面框架，旨在解决多交换机部署和多路径路由环境下线速流量分析面临的实际挑战。与现有工作大多只在单一交换机节点上验证不同，FCPlane 进一步考虑了真实网络中广泛存在的多路径转发现象，以及由此带来的负载均衡与检测结果一致性问题。其核心思想是在 flowlet 粒度上协同设计数据转发与模型计算，并引入专门的马尔可夫链模型来支持高效调度与可靠推断。基于两个公开流量数据集、七种先进的网内流量分析模型和多种网络拓扑的实验结果表明，FCPlane 能够在复杂网络环境中实现更稳定有效的流量检测。总体来看，该工作为可编程交换机支持下的高性能零信任流量分析提供了一种更贴近真实部署场景的解决方案。"
+    },
+    {
+      "id": "LANGMUIR2022Porous",
+      "title": "Porous Photo-Fenton Catalysts Rapidly Triggered by Levodopa-Based Mussel-Inspired Coatings for Enhanced Dye Degradation and Sterilization",
+      "authors": "Shangjin Yang, Zhiyuan Xu, Lingyun Zou, Jiongchi Yu, Jian Ji, Zhikang Xu",
+      "year": 2022,
+      "venue": "Langmuir",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI2",
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "AI for Science"
+      ],
+      "link": "https://pubs.acs.org/doi/10.1021/acs.langmuir.2c00999",
+      "abstract": "针对传统光-Fenton催化剂存在活性位点固定困难、制备周期长以及光催化效率受限等问题，作者提出了一种基于左旋多巴-聚乙烯亚胺仿贻贝涂层的快速构建策略，用于在多孔基底上原位生长纳米棒催化剂。该涂层通过儿茶酚和羧基与Fe离子的强配位作用，不仅实现了催化剂的高效固定，还将矿化时间从传统的24-48小时显著缩短至约2小时，同时改善了催化剂的能带结构，提升了光吸收与电子传输效率。实验结果表明，优化条件下材料在30分钟内对亚甲基蓝的降解率可达99%，并能高效降解多种染料体系；同时在20分钟光照下对大肠杆菌和金黄色葡萄球菌的灭活率分别达到93%和94%。此外，该催化剂具有良好的循环稳定性，多次使用后仍保持90%以上的降解效率。"
     },
     {
       "id": "MICCAI2025NovelTwoStageApproach3DDental",
@@ -2178,6 +2244,7 @@ window.LAB_PAPERS_BUNDLE = {
     "大模型推理与训练",
     "量子智能",
     "医学智能",
+    "AI for Science",
     "AI安全",
     "IoT安全",
     "云计算与云服务器",

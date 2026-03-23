@@ -1,0 +1,22 @@
+{
+  "id": "ACTAPH2021Calculation",
+  "title": "Calculation and Optimization of Correlation Function in Distillation Method of Lattice Quantum Chromodynamcis",
+  "authors": "Renqiang Zhang, Xiangyu Jiang, Jiongchi Yu, Chong Zeng, Ming Gong, Shun Xu",
+  "year": 2021,
+  "venue": "ACTA PHYSICA SINICA",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI3",
+  "fields": [
+    "其他"
+  ],
+  "researchDirections": [
+    "AI for Science"
+  ],
+  "link": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20210030",
+  "abstract": "针对格点量子色动力学中蒸馏算法在构造关联函数时面临的数据规模大、计算复杂度高的问题，作者提出了一套多层次优化的计算方案。该方法基于蒸馏算法中约化传播子与拉普拉斯本征系统的结构，通过引入中间变量对计算过程进行重构，将原本随本征向量数四次方增长的计算复杂度降低为三次方，从而显著减少计算开销。在实现层面，作者结合MPI、OpenMP以及SIMD三层并行优化技术，并针对数据布局与复数运算进行向量化改造，以提升计算效率与内存访问性能。实验结果表明，该程序在大规模并行环境下具有良好的扩展性，在512个进程下仍可达到约70%的并行效率，同时相比串行计算实现显著加速。"
+}
