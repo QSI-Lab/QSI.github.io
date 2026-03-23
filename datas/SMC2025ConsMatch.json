@@ -13,12 +13,10 @@
     "sciZone": "NONE",
     "fields": [
         "人工智能",
-        "交叉/综合/新兴",
-        "半监督学习",
-        "医学图像分割"
+        "交叉/综合/新兴"
     ],
     "researchDirections": [
-        "医学智能"
+        "医学智能", "半监督学习", "医学图像分割"
     ],
     "link": "https://ieeexplore.ieee.org/abstract/document/11342848",
     "abstract": "在半监督医学图像分割任务中，重点在于如何充分利用未标记数据。然而， 当前大多数方法难以解决医学图像轮廓难以分割，对于未标记数据的特征探索不足等问题。为克服上述问题，本文提出了一种基于对比学习的半监督医学图像分割框架-ConsMatch。我们设计了两个关键模块：MCR（Multi-View Contrastive Representation）模块，利用对比学习思想最大化同一图像在不同扰动下的特征相似度，同时最小化不同图像之间的冗余结构相似性；FCR（Feature-level Consistency Regularization）模块，通过最小化不同增强视图下的结构相似矩阵分布差异，引导模型学习具有稳定结构表达的特征。该方法引入特征空间的结构约束，通过多视图对比表示学习和结构一致性正则化，从多个维度强化模型对未标记数据的学习能力。我们在ACDC数据集以及LA数据集进行广泛实验,均取得较好结果。我们的代码在https://github.com/magic-fortune/ConsMatch中可以找到。"
