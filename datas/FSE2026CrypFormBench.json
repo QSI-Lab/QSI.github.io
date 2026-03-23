@@ -1,0 +1,23 @@
+{
+  "id": "FSE2026CrypFormBench",
+  "title": "CrypFormBench: Benchmarking Formal Analysis Capability of Large Language Models for Cryptographic schemes",
+  "authors": "Zhaoxuan Li, Qionglu Zhang, Hengyuan Liu, Xiaoyan Gu, Xianhui Lu, Hongbo Liu, Bingzheng Wang, Haihui Fan, Ziming Zhao, Rui Zhang, Li Zhou",
+  "year": 2026,
+  "venue": "ACM International Conference on the Foundations of Software Engineering",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "fields": [
+    "软件工程",
+    "网络安全",
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型 for 安全",
+    "AI安全"
+  ],
+  "link": "",
+  "abstract": "针对密码方案形式化分析长期依赖专家手动抽象与编写工具特定规范、耗时高且门槛高，以及现有相关基准主要覆盖符号安全、规模有限、难以系统评估大语言模型在密码方案分析中核心能力的问题，本文提出 CrypFormBench 基准。该基准首次联合覆盖符号安全与计算安全，包含 700 个实例，覆盖 677 个密码方案、7 种主流形式验证语言和 160 个安全属性，并建立了自动化评估流水线与多维评分框架，用于系统衡量大语言模型在解释、生成、补全、转换和修正五项核心任务上的能力。基于对 9 个先进大语言模型的实验评估，结果表明模型在解释与补全任务上表现相对较好，但在生成、转换和修正任务上仍存在明显局限，其中 Claude-3.5 取得最高总分 48.7/100。进一步地，本文提出了少样本提示、Pass@K 采样和轻量级微调等优化建议，为大语言模型辅助密码方案形式化分析提供了系统评估基准与实践指导。"
+}
