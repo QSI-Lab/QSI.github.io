@@ -2042,6 +2042,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "Trident 是一种面向未知加密攻击流量检测的通用框架，旨在解决现有异常检测方法在细粒度新型攻击识别和增量更新适应性方面的不足。其核心思想是将已知类与新类识别问题解耦，转化为多个彼此独立的一类学习任务，从而提升对未知攻击的检测能力。基于这一思路，Trident 设计了 tSieve、tScissors 和 tMagnifier 三个主要模块，分别用于流量表征、异常阈值确定和聚类分析，并支持灵活配置。实验结果表明，在四个常用网络流量数据集上，Trident 显著优于 16 种现有先进方法。进一步的概念漂移、开销和参数分析也证明了该框架在稳定性、可扩展性和实用性方面的优势。"
     },
     {
+      "id": "WWW2026BitFlip",
+      "title": "Has the Two-Decade-Old Prophecy Come True? Artificial Bad Intelligence Triggered by Merely a Single-Bit Flip in Large Language Models",
+      "authors": "Yu Yan, Siqi Lu, Yang Gao, Zhaoxuan Li, Ziming Zhao, Qingjun Yuan, Yongjuan Wang",
+      "year": 2026,
+      "venue": "WWW",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "大模型安全",
+        "比特翻转",
+        "网络安全"
+      ],
+      "link": "",
+      "abstract": "本论文系统研究了以 .gguf 单文件格式部署的大语言模型在硬件层面面临的 单比特翻转攻击 风险，并首次验证：只需翻转权重文件中的一个关键比特，就可能引发语义层面的严重异常。作者发现，这类攻击可导致三种典型后果：模型输出事实性错误、模型能力灾难性退化，以及生成有害甚至极端恶意内容。为高效定位海量参数中的脆弱比特，论文提出了基于信息论的权重敏感性熵模型和概率启发式扫描框架 BitSifter。此外，作者还设计了一个端到端远程攻击链，表明在仅具备普通网络连接、无需昂贵设备和复杂提示工程的条件下，也能在现实 Web 服务部署场景中较快触发成功攻击。该研究揭示了 LLM 在底层硬件攻击面上的普遍安全隐患，说明单一比特扰动就可能使在线模型产生自然流畅却难以察觉的错误回复，甚至输出极端危险内容。"
+    },
+    {
       "id": "WWW2026Carbon",
       "title": "Fair and Carbon-Aware LLM Routing for Web Services",
       "authors": "Tingting Li, Ziming Zhao*, Zhaoxuan Li*, Xiaofei Yue, Jiongchi Yu",
@@ -2084,6 +2108,30 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "针对异构集群下大语言模型训练系统设计空间巨大、难以高效评估的问题，提出HeteroSim高保真异构LLM训练仿真框架。该方法通过可插拔IR编译器显式刻画并行策略，并结合异构感知的计算规划器与类NCCL的集合通信规划器，在多种异构强度下实现接近真实训练行为的高精度模拟。实验表明，HeteroSim可在分钟级开销下将模拟误差保持在5%以下。"
+    },
+    {
+      "id": "WWW2026RegimeGuard",
+      "title": "RegimeGuard: Continual Learning Queue Scheduling for Socially Critical Web Services",
+      "authors": "Zhipeng Liu, Ziming Zhao*, Fan Zhang*",
+      "year": 2026,
+      "venue": "WWW",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "模型调度",
+        "服务质量",
+        "可编程交换机"
+      ],
+      "link": "",
+      "abstract": "本论文提出了 RegimeGuard，一种面向可编程交换机队列调度的持续学习框架，旨在提升在线心理咨询、危机热线、远程医疗等社会关键型 Web 服务在网络拥塞下的可靠性。其核心思路是在数据平面提供少量可解释的队列优先级和主动队列管理（AQM）阈值，并由交换机外控制器针对正常期与突发期等反复出现的负载环境持续学习调度策略。为避免在环境切换中遗忘已有有效策略，RegimeGuard结合了经验回放、参数正则化和轻量级适配器等方法，以缓解灾难性遗忘问题。作者在 BMv2 软件交换机上实现了该系统，并通过包含后台流量与社会关键会话的多租户追踪驱动工作负载进行评估。结果表明，相比静态配置、多配置基线和朴素在线学习方法，RegimeGuard能够更有效地降低关键业务的尾时延和 SLO 违约率，并在满足关键目标时提升后台流量吞吐。"
     }
   ],
   "ccfFields": [
@@ -2119,13 +2167,17 @@ window.LAB_PAPERS_BUNDLE = {
     "大模型",
     "大模型 for 安全",
     "大模型多智能体",
+    "大模型安全",
     "大模型训练模拟",
     "实证研究",
     "文生图",
     "服务器无感知计算",
+    "服务质量",
     "未知检测",
     "机器学习",
     "模型推理",
+    "模型调度",
+    "比特翻转",
     "游戏测试",
     "碳感知算网",
     "端网融合",

@@ -1,0 +1,22 @@
+{
+  "id": "WWW2026BitFlip",
+  "title": "Has the Two-Decade-Old Prophecy Come True? Artificial Bad Intelligence Triggered by Merely a Single-Bit Flip in Large Language Models",
+  "authors": "Yu Yan, Siqi Lu, Yang Gao, Zhaoxuan Li, Ziming Zhao, Qingjun Yuan, Yongjuan Wang",
+  "year": 2026,
+  "venue": "WWW",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "大模型安全", "比特翻转", "网络安全"
+  ],
+  "link": "",
+  "abstract": "本论文系统研究了以 .gguf 单文件格式部署的大语言模型在硬件层面面临的 单比特翻转攻击 风险，并首次验证：只需翻转权重文件中的一个关键比特，就可能引发语义层面的严重异常。作者发现，这类攻击可导致三种典型后果：模型输出事实性错误、模型能力灾难性退化，以及生成有害甚至极端恶意内容。为高效定位海量参数中的脆弱比特，论文提出了基于信息论的权重敏感性熵模型和概率启发式扫描框架 BitSifter。此外，作者还设计了一个端到端远程攻击链，表明在仅具备普通网络连接、无需昂贵设备和复杂提示工程的条件下，也能在现实 Web 服务部署场景中较快触发成功攻击。该研究揭示了 LLM 在底层硬件攻击面上的普遍安全隐患，说明单一比特扰动就可能使在线模型产生自然流畅却难以察觉的错误回复，甚至输出极端危险内容。"
+}
