@@ -67,6 +67,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "RelOpt 是一种面向量子程序的语义保持优化框架，旨在在降低噪声影响和优化执行性能的同时，避免现有启发式或学习式方法可能引入的语义错误。它基于轻量级中间语言 QCore，构建了支持部分迹等价、测量分布保持以及近似正确性的关系操作语义，用于刻画优化前后程序之间的正确性关系。RelOpt 在优化过程中结合门数量、线路深度和纠错开销等多种目标进行综合权衡，并且只应用那些经过形式化验证、满足用户指定契约的重写规则。其核心引擎融合了符号模拟、SMT 推理和代价分析，从而实现安全且高效的量子程序优化。实验结果表明，在 QFT、Grover 和 QAOA 等标准基准上，RelOpt 在多项成本指标上均优于 Qiskit、t|ket> 和学习式优化器，同时保持严格的形式化保证。"
     },
     {
+      "id": "ACL2026QRepair",
+      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
+      "authors": "Tingting Li, Ziming Zhao*, Zhaoxuan Li, Jiongchi Yu, Xiaofei Yue, Jianwei Yin*",
+      "year": 2026,
+      "venue": "ACL",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "量子软工",
+        "量子代码修复"
+      ],
+      "link": "",
+      "abstract": "这篇工作提出了一种“可解释的量子程序修复”框架，旨在解决现有大语言模型修复方法只给出事后自然语言解释、却无法执行和验证的问题。针对存在错误的量子电路，该方法不仅生成修复候选方案，还会同步产出结构化的变换依据，并将其编译为可由机器检查的可执行证明轨迹。系统结合电路等价性检查、ZX 演算、稳定子分析和量子模拟等形式化验证后端，只有在解释被完全验证通过时才接受修复结果。实验表明，在 QASMBench 的量子程序缺陷修复任务中，该方法在保持有竞争力修复成功率的同时，显著提升了语义准确性和解释可信度。"
+    },
+    {
       "id": "ACNS2024DDoSMiner",
       "title": "DDoSMiner: An Automated Framework for DDoS Attack Characterization and Vulnerability Mining",
       "authors": "Xi Ling, Jiongchi Yu, Ziming Zhao, Zhihao Zhou, Haitao Xu, Binbin Chen, Fan Zhang",
@@ -2302,6 +2325,7 @@ window.LAB_PAPERS_BUNDLE = {
     "入侵检测",
     "加密流量",
     "医学图像分割",
+    "医学图像处理",
     "半监督学习",
     "可编程交换机",
     "同态加密",
@@ -2332,6 +2356,7 @@ window.LAB_PAPERS_BUNDLE = {
     "软硬件部署",
     "量子EDA",
     "量子云平台",
+    "量子代码修复",
     "量子安全",
     "量子数据集",
     "量子神经网络",
