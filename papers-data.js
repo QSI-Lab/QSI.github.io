@@ -185,10 +185,10 @@ window.LAB_PAPERS_BUNDLE = {
       "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
       "authors": "Keke Lian#, Bing Wang#, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Miaoqian Lin, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li*, Dong Zhang*",
       "year": 2026,
-      "venue": "arxiv",
-      "ccf": "N",
-      "core": "N",
-      "thcpl": "N",
+      "venue": "ACL",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
       "type": "conference",
       "accepted": false,
       "ncsCategory": "NONE",
@@ -197,7 +197,9 @@ window.LAB_PAPERS_BUNDLE = {
         "人工智能"
       ],
       "researchDirections": [
-        "大数据系统优化"
+        "大模型代码修复",
+        "代码安全",
+        "基准测试"
       ],
       "link": "https://arxiv.org/pdf/2508.18106",
       "abstract": "现有针对 LLM 生成代码安全性的评测基准与真实 AI 辅助编程场景脱节，难以反映生产环境中的实际风险。为此，作者提出了更贴近真实仓库级编程任务的安全评测基准 A.S.E，并通过实验发现当前主流 LLM 在安全编码方面仍存在明显不足，尤其在复杂仓库场景下表现下降，而且更大的推理预算也未必能带来更好的代码生成效果。"
@@ -2369,6 +2371,7 @@ window.LAB_PAPERS_BUNDLE = {
     "IoT安全",
     "云计算与云服务器",
     "代码修复",
+    "代码安全",
     "僵尸网络",
     "入侵检测",
     "加密流量",
@@ -2378,9 +2381,11 @@ window.LAB_PAPERS_BUNDLE = {
     "可编程交换机",
     "可靠性测试",
     "同态加密",
+    "基准测试",
     "大数据系统优化",
     "大模型",
     "大模型 for 安全",
+    "大模型代码修复",
     "大模型多智能体",
     "大模型安全",
     "大模型推理优化",
