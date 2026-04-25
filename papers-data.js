@@ -90,8 +90,8 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "这篇工作提出了一种“可解释的量子程序修复”框架，旨在解决现有大语言模型修复方法只给出事后自然语言解释、却无法执行和验证的问题。针对存在错误的量子电路，该方法不仅生成修复候选方案，还会同步产出结构化的变换依据，并将其编译为可由机器检查的可执行证明轨迹。系统结合电路等价性检查、ZX 演算、稳定子分析和量子模拟等形式化验证后端，只有在解释被完全验证通过时才接受修复结果。实验表明，在 QASMBench 的量子程序缺陷修复任务中，该方法在保持有竞争力修复成功率的同时，显著提升了语义准确性和解释可信度。"
     },
     {
-      "id": "ACL2026QRepair",
-      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
+      "id": "ACL2026QUARTZ",
+      "title": "QUARTZ: Quantile-Aware Routing and Queueing for TTFT SLOs in LLM Serving",
       "authors": "Z Li, Yifan Zheng, Fanqi Kong, Ziming Zhao*",
       "year": 2026,
       "venue": "ACL",
