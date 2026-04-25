@@ -90,6 +90,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "这篇工作提出了一种“可解释的量子程序修复”框架，旨在解决现有大语言模型修复方法只给出事后自然语言解释、却无法执行和验证的问题。针对存在错误的量子电路，该方法不仅生成修复候选方案，还会同步产出结构化的变换依据，并将其编译为可由机器检查的可执行证明轨迹。系统结合电路等价性检查、ZX 演算、稳定子分析和量子模拟等形式化验证后端，只有在解释被完全验证通过时才接受修复结果。实验表明，在 QASMBench 的量子程序缺陷修复任务中，该方法在保持有竞争力修复成功率的同时，显著提升了语义准确性和解释可信度。"
     },
     {
+      "id": "ACL2026QRepair",
+      "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
+      "authors": "Z Li, Yifan Zheng, Fanqi Kong, Ziming Zhao*",
+      "year": 2026,
+      "venue": "ACL",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型服务",
+        "大模型推理优化",
+        "推理与调度"
+      ],
+      "link": "",
+      "abstract": "本论文关注大语言模型在线服务中的首 token 延迟（TTFT）问题，指出现有路由器在混合负载下往往忽略请求成本差异，容易造成队列阻塞和尾延迟放大。为此，提出 QUARTZ，一种面向 LLM Serving 的分位数感知路由与排队层，利用路由端可见的轻量信号预测保守的请求成本分位数，而非单一点估计。QUARTZ 结合这些成本分位数与 worker backlog 状态进行调度和准入决策，从而更好地满足 TTFT 尾延迟 SLO，同时兼顾公平性。作者将 QUARTZ 实现为 SGLang 的路由器升级，并在交互式与 RAG 工作负载上验证了其有效性，结果显示该方法能够降低 TTFT 尾延迟和 SLO 违约率。"
+    },
+    {
       "id": "ACNS2024DDoSMiner",
       "title": "DDoSMiner: An Automated Framework for DDoS Attack Characterization and Vulnerability Mining",
       "authors": "Xi Ling, Jiongchi Yu, Ziming Zhao, Zhihao Zhou, Haitao Xu, Binbin Chen, Fan Zhang",
@@ -1694,6 +1718,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
     },
     {
+      "id": "TASE2026CMGFuzz",
+      "title": "Learn by Analogy: Distribution-aware Fuzz Testing for DNNs via Cross-Modal Generation",
+      "authors": "Boli Huang, Tianlin Li, Ming Hu, Ziming Zhao and Mingsong Chen",
+      "year": 2023,
+      "venue": "TASE",
+      "ccf": "C",
+      "core": "NONE",
+      "thcpl": "NONE",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "软件工程"
+      ],
+      "researchDirections": [
+        "神经网络",
+        "可靠性测试",
+        "鲁棒性"
+      ],
+      "link": "",
+      "abstract": "这篇论文关注安全关键场景中 DNN 的可靠性测试问题，指出现有基于训练数据变异的测试方法容易受训练分布限制，难以覆盖真实部署中更广泛的目标分布。提出一种分布感知的模糊测试框架，利用成熟的 AIGC 模型将训练数据先转换到抽象模态，从而保留任务相关语义并弱化颜色、背景、姿态等无关特征。随后，框架基于这些抽象中间数据生成更加多样化的测试样例，并通过聚类式数据清洗机制过滤无效输入。实验结果表明，该方法相比现有 DNN 测试技术可显著提升覆盖率，最高提升 39.47%，同时发现更多模型错误，并带来更好的测试集精度改进。"
+    },
+    {
       "id": "TCAD2024QuST",
       "title": "QuST: Optimizing Quantum Neural Network against Spatial and Temporal Noise Biases",
       "authors": "Tingting Li, Liqiang Lu*, Ziming Zhao, Ziqi Tan, Siwei Tan, Jianwei Yin*",
@@ -2328,14 +2376,18 @@ window.LAB_PAPERS_BUNDLE = {
     "医学图像处理",
     "半监督学习",
     "可编程交换机",
+    "可靠性测试",
     "同态加密",
     "大数据系统优化",
     "大模型",
     "大模型 for 安全",
     "大模型多智能体",
     "大模型安全",
+    "大模型推理优化",
+    "大模型服务",
     "大模型训练模拟",
     "实证研究",
+    "推理与调度",
     "文生图",
     "服务器无感知计算",
     "服务质量",
@@ -2346,6 +2398,7 @@ window.LAB_PAPERS_BUNDLE = {
     "比特翻转",
     "游戏测试",
     "碳感知算网",
+    "神经网络",
     "端网融合",
     "符号执行",
     "算力网络",
@@ -2361,7 +2414,8 @@ window.LAB_PAPERS_BUNDLE = {
     "量子数据集",
     "量子神经网络",
     "量子网络",
-    "量子软工"
+    "量子软工",
+    "鲁棒性"
   ],
   "ncsCategories": [
     "NCS",

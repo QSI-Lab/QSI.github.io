@@ -1,0 +1,22 @@
+{
+  "id": "ACL2026QRepair",
+  "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
+  "authors": "Z Li, Yifan Zheng, Fanqi Kong, Ziming Zhao*",
+  "year": 2026,
+  "venue": "ACL",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型服务", "大模型推理优化", "推理与调度"
+  ],
+  "link": "",
+  "abstract": "本论文关注大语言模型在线服务中的首 token 延迟（TTFT）问题，指出现有路由器在混合负载下往往忽略请求成本差异，容易造成队列阻塞和尾延迟放大。为此，提出 QUARTZ，一种面向 LLM Serving 的分位数感知路由与排队层，利用路由端可见的轻量信号预测保守的请求成本分位数，而非单一点估计。QUARTZ 结合这些成本分位数与 worker backlog 状态进行调度和准入决策，从而更好地满足 TTFT 尾延迟 SLO，同时兼顾公平性。作者将 QUARTZ 实现为 SGLang 的路由器升级，并在交互式与 RAG 工作负载上验证了其有效性，结果显示该方法能够降低 TTFT 尾延迟和 SLO 违约率。"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "TASE2026CMGFuzz",
+  "title": "Learn by Analogy: Distribution-aware Fuzz Testing for DNNs via Cross-Modal Generation",
+  "authors": "Boli Huang, Tianlin Li, Ming Hu, Ziming Zhao and Mingsong Chen",
+  "year": 2023,
+  "venue": "TASE",
+  "ccf": "C",
+  "core": "NONE",
+  "thcpl": "NONE",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "软件工程"
+  ],
+  "researchDirections": [
+    "神经网络", "可靠性测试", "鲁棒性"
+  ],
+  "link": "",
+  "abstract": "这篇论文关注安全关键场景中 DNN 的可靠性测试问题，指出现有基于训练数据变异的测试方法容易受训练分布限制，难以覆盖真实部署中更广泛的目标分布。提出一种分布感知的模糊测试框架，利用成熟的 AIGC 模型将训练数据先转换到抽象模态，从而保留任务相关语义并弱化颜色、背景、姿态等无关特征。随后，框架基于这些抽象中间数据生成更加多样化的测试样例，并通过聚类式数据清洗机制过滤无效输入。实验结果表明，该方法相比现有 DNN 测试技术可显著提升覆盖率，最高提升 39.47%，同时发现更多模型错误，并带来更好的测试集精度改进。"
+}
