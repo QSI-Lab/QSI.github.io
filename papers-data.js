@@ -92,7 +92,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "ACL2026QUARTZ",
       "title": "QUARTZ: Quantile-Aware Routing and Queueing for TTFT SLOs in LLM Serving",
-      "authors": "Z Li, Yifan Zheng, Fanqi Kong, Ziming Zhao*",
+      "authors": "Z Li#, Yifan Zheng#, Fanqi Kong, Ziming Zhao*",
       "year": 2026,
       "venue": "ACL",
       "ccf": "A",
@@ -757,6 +757,30 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://doi.org/10.1007/978-3-030-78612-0_27",
       "abstract": "为了提升区块链密钥管理的安全性与效率，并满足协同签名场景下的应用需求，本文提出了一种结合安全多方计算与特征加密的层次化密钥管理与协同签名方案。该方案能够保障各层级密钥的安全性，抵御数据篡改攻击、密钥窃取攻击、碎片泄漏攻击和明文窃取攻击；同时，在保证安全性的基础上减少用户文件共享时间和存储开销，提高系统资源利用率与整体运行效率。"
+    },
+    {
+      "id": "ICDCS2026QCLink",
+      "title": "QCLink: Offloading Hybrid Quantum-Classical Computation to SmartNICs via RDMA",
+      "authors": "Xingdong Li#, Yongzhuo Lu#, Z Li, Xiaofei Yue, Junyu Chen, Yu Peng, Tingting Li*, Zhaoxuan Li, Ziming Zhao*, Jianwei Yin*",
+      "year": 2026,
+      "venue": "ICDCS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "计算机网络",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子经典混合加速",
+        "量子算法卸载"
+      ],
+      "link": "",
+      "abstract": "本文从网络系统视角研究混合量子-经典算法的端到端性能瓶颈，指出频繁细粒度通信、主机 CPU 介入和尾延迟放大会使经典优化控制环成为扩展性障碍。论文提出 QCLINK，一个基于 SmartNIC 的卸载框架，将参数扰动、梯度估计和迭代控制等混合优化逻辑下沉到网络数据平面执行。QCLINK 结合 RDMA 实现经典控制器与量子后端之间的低延迟、CPU-bypass 通信，从而降低每轮迭代开销并缓解控制环抖动。原型实验表明，相比以主机为中心的基线方案，QCLINK 能显著改善单次迭代延迟和端到端完成时间，同时稳定尾延迟并释放主机 CPU 资源。"
     },
     {
       "id": "ICME2026EfficientMedicalImageSegmentationCollaborativeFeature",
@@ -2418,6 +2442,8 @@ window.LAB_PAPERS_BUNDLE = {
     "量子安全",
     "量子数据集",
     "量子神经网络",
+    "量子算法卸载",
+    "量子经典混合加速",
     "量子网络",
     "量子软工",
     "鲁棒性"
