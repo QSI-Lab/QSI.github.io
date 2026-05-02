@@ -926,7 +926,7 @@ window.LAB_PAPERS_BUNDLE = {
       "id": "IJCAI2026FedCentra",
       "title": "Harmonizing Federated Heterogeneous Optimization via Adaptive Objective Rectification",
       "authors": "Jianrong Lu, Bangwei Li, Zhuoya Gu, Peng Fang, Ziming Zhao, Jianhai Chen",
-      "year": 2025,
+      "year": 2026,
       "venue": "IJCAI",
       "ccf": "B",
       "core": "A*",
