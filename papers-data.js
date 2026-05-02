@@ -67,6 +67,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "RelOpt 是一种面向量子程序的语义保持优化框架，旨在在降低噪声影响和优化执行性能的同时，避免现有启发式或学习式方法可能引入的语义错误。它基于轻量级中间语言 QCore，构建了支持部分迹等价、测量分布保持以及近似正确性的关系操作语义，用于刻画优化前后程序之间的正确性关系。RelOpt 在优化过程中结合门数量、线路深度和纠错开销等多种目标进行综合权衡，并且只应用那些经过形式化验证、满足用户指定契约的重写规则。其核心引擎融合了符号模拟、SMT 推理和代价分析，从而实现安全且高效的量子程序优化。实验结果表明，在 QFT、Grover 和 QAOA 等标准基准上，RelOpt 在多项成本指标上均优于 Qiskit、t|ket> 和学习式优化器，同时保持严格的形式化保证。"
     },
     {
+      "id": "ACL2026ASE",
+      "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+      "authors": "Keke Lian#, Bing Wang#, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Miaoqian Lin, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li*, Dong Zhang*",
+      "year": 2026,
+      "venue": "ACL",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "大模型代码修复",
+        "代码安全",
+        "基准测试"
+      ],
+      "link": "https://arxiv.org/pdf/2508.18106",
+      "abstract": "现有针对 LLM 生成代码安全性的评测基准与真实 AI 辅助编程场景脱节，难以反映生产环境中的实际风险。为此，作者提出了更贴近真实仓库级编程任务的安全评测基准 A.S.E，并通过实验发现当前主流 LLM 在安全编码方面仍存在明显不足，尤其在复杂仓库场景下表现下降，而且更大的推理预算也未必能带来更好的代码生成效果。"
+    },
+    {
       "id": "ACL2026QRepair",
       "title": "Explainable Quantum Program Repair with Verifiable Proof Traces",
       "authors": "Tingting Li, Ziming Zhao*, Zhaoxuan Li, Jiongchi Yu, Xiaofei Yue, Jianwei Yin*",
@@ -179,53 +203,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://wulixb.iphy.ac.cn/en/article/doi/10.7498/aps.70.20210030",
       "abstract": "针对格点量子色动力学中蒸馏算法在构造关联函数时面临的数据规模大、计算复杂度高的问题，作者提出了一套多层次优化的计算方案。该方法基于蒸馏算法中约化传播子与拉普拉斯本征系统的结构，通过引入中间变量对计算过程进行重构，将原本随本征向量数四次方增长的计算复杂度降低为三次方，从而显著减少计算开销。在实现层面，作者结合MPI、OpenMP以及SIMD三层并行优化技术，并针对数据布局与复数运算进行向量化改造，以提升计算效率与内存访问性能。实验结果表明，该程序在大规模并行环境下具有良好的扩展性，在512个进程下仍可达到约70%的并行效率，同时相比串行计算实现显著加速。"
-    },
-    {
-      "id": "ARXIV2026ARepositoryLevel",
-      "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
-      "authors": "Keke Lian#, Bing Wang#, Lei Zhang, Libo Chen, Junjie Wang, Ziming Zhao, Yujiu Yang, Miaoqian Lin, Haotong Duan, Haoran Zhao, Shuang Liao, Mingda Guo, Jiazheng Quan, Yilu Zhong, Chenhao He, Zichuan Chen, Jie Wu, Haoling Li, Zhaoxuan Li, Jiongchi Yu, Hui Li*, Dong Zhang*",
-      "year": 2026,
-      "venue": "ACL",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": false,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "人工智能"
-      ],
-      "researchDirections": [
-        "大模型代码修复",
-        "代码安全",
-        "基准测试"
-      ],
-      "link": "https://arxiv.org/pdf/2508.18106",
-      "abstract": "现有针对 LLM 生成代码安全性的评测基准与真实 AI 辅助编程场景脱节，难以反映生产环境中的实际风险。为此，作者提出了更贴近真实仓库级编程任务的安全评测基准 A.S.E，并通过实验发现当前主流 LLM 在安全编码方面仍存在明显不足，尤其在复杂仓库场景下表现下降，而且更大的推理预算也未必能带来更好的代码生成效果。"
-    },
-    {
-      "id": "ARXIV2026CoFT2I",
-      "title": "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation",
-      "authors": "Chengzhuo Tong, Mingkun Chang, Shenglong Zhang, Yuran Wang, Cheng Liang, Zhizheng Zhao, Ruichuan An, Bohan Zeng, Yang Shi, Yifan Dai, Ziming Zhao, Guanbin Li, Pengfei Wan, Yuanxing Zhang, Wentao Zhang",
-      "year": 2026,
-      "venue": "arxiv",
-      "ccf": "N",
-      "core": "N",
-      "thcpl": "N",
-      "type": "conference",
-      "accepted": false,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "人工智能"
-      ],
-      "researchDirections": [
-        "文生图",
-        "大模型"
-      ],
-      "link": "https://arxiv.org/abs/2601.10061",
-      "abstract": "本文提出 CoF-T2I，将视频生成模型中的 Chain-of-Frame（CoF）推理能力 引入文本到图像生成任务，通过逐帧渐进式视觉细化，把中间帧作为显式推理过程，最终帧作为生成结果。 为构建这种可解释的生成流程，作者设计了 CoF-Evol-Instruct 数据集，用于刻画从语义到审美的连续生成轨迹。 同时，为了进一步提升生成质量并减少视频模型常见的运动伪影问题，方法中采用了对每一帧进行独立编码的策略。 实验结果表明，CoF-T2I 相比基础视频模型取得了显著提升，并在多个具有挑战性的基准测试中表现出较强竞争力，在 GenEval 上达到 0.86，在 Imagine-Bench 上达到 7.468。"
     },
     {
       "id": "ARXIV2026DataEfficient",
@@ -807,6 +784,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本工作面向医学图像分割任务，提出了一种轻量化U形网络 CEIGM-UNet。该方法通过协同特征增强层（CFEL）强化解码阶段的关键信息传播，并结合调制式 Inception Group Mamba 层（MIGML）实现多尺度特征建模与长程依赖保持，从而提升复杂解剖结构和噪声干扰条件下的分割性能。实验结果表明，该模型在 Synapse 和 ACDC 数据集上均取得了较优的分割精度，同时具有更少的参数量和计算开销，并具备良好的跨模态迁移与实际部署潜力。"
     },
     {
+      "id": "ICML2026CoFT2I",
+      "title": "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation",
+      "authors": "Chengzhuo Tong, Mingkun Chang, Shenglong Zhang, Yuran Wang, Cheng Liang, Zhizheng Zhao, Ruichuan An, Bohan Zeng, Yang Shi, Yifan Dai, Ziming Zhao, Guanbin Li, Pengfei Wan, Yuanxing Zhang, Wentao Zhang",
+      "year": 2026,
+      "venue": "ICML",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能"
+      ],
+      "researchDirections": [
+        "文生图",
+        "大模型"
+      ],
+      "link": "https://arxiv.org/abs/2601.10061",
+      "abstract": "本文提出 CoF-T2I，将视频生成模型中的 Chain-of-Frame（CoF）推理能力 引入文本到图像生成任务，通过逐帧渐进式视觉细化，把中间帧作为显式推理过程，最终帧作为生成结果。 为构建这种可解释的生成流程，作者设计了 CoF-Evol-Instruct 数据集，用于刻画从语义到审美的连续生成轨迹。 同时，为了进一步提升生成质量并减少视频模型常见的运动伪影问题，方法中采用了对每一帧进行独立编码的策略。 实验结果表明，CoF-T2I 相比基础视频模型取得了显著提升，并在多个具有挑战性的基准测试中表现出较强竞争力，在 GenEval 上达到 0.86，在 Imagine-Bench 上达到 7.468。"
+    },
+    {
       "id": "ICSE2023GameRTS",
       "title": "GameRTS: A Regression Testing Framework for Video Games",
       "authors": "Jiongchi Yu#, Yuechen Wu#, Xiaofei Xie, Wei Le, Lei Ma, Yingfeng Chen, Yujing Hu, Fan Zhang",
@@ -902,7 +902,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "IJCAI2025QCDeploy",
       "title": "Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches",
-      "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+      "authors": "Tingting Li, Ziming Zhao*, Jianwei Yin*",
       "year": 2025,
       "venue": "IJCAI",
       "ccf": "B",
@@ -921,6 +921,29 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8845.pdf",
       "abstract": "QCDeploy 是一种面向量子云服务的量子线路部署优化框架，旨在为量子无服务器场景提供更优且更灵活的部署策略。该方法将量子线路表示为有向无环图，并结合图对比学习生成线路表示，再通过面向排序的学习架构输出一组按优先级排列的候选部署方案。与现有方法通常只给出单一启发式结果不同，QCDeploy 能够同时考虑用户需求，并提供多个有效策略供选择。实验结果表明，在多种量子算法线路和不同 IBM 量子设备上，QCDeploy 相比 IBMQ 默认部署方案显著降低了部署开销，并明显提升了线路执行成功率。"
+    },
+    {
+      "id": "IJCAI2026FedCentra",
+      "title": "Harmonizing Federated Heterogeneous Optimization via Adaptive Objective Rectification",
+      "authors": "Jianrong Lu, Bangwei Li, Zhuoya Gu, Peng Fang, Ziming Zhao, Jianhai Chen",
+      "year": 2025,
+      "venue": "IJCAI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "联邦学习"
+      ],
+      "link": "",
+      "abstract": "本文提出 FedCentra，一种面向数据异质性联邦优化的自适应目标校正方法。该方法通过解耦中心化目标，并利用动态泰勒级数展开，为每个客户端准确估计全局目标，从而使本地训练更接近理想的数据中心化训练。理论分析表明，其估计误差会随着训练推进收敛到零。大量真实数据集实验显示，FedCentra 在测试精度和通信效率上优于 SCAFFOLD、MimeLite 和 FedDyn 等先进方法，并且在低至 0.2% 客户端参与率的强异质环境中仍保持稳定优势。"
     },
     {
       "id": "INFOCOM2024Demeter",
@@ -2434,6 +2457,7 @@ window.LAB_PAPERS_BUNDLE = {
     "系统取证",
     "网络安全",
     "网络流量",
+    "联邦学习",
     "软件测试",
     "软硬件部署",
     "量子EDA",
