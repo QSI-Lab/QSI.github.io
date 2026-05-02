@@ -1,0 +1,23 @@
+{
+  "id": "IJCAI2026FedCentra",
+  "title": "Harmonizing Federated Heterogeneous Optimization via Adaptive Objective Rectification",
+  "authors": "Jianrong Lu, Bangwei Li, Zhuoya Gu, Peng Fang, Ziming Zhao, Jianhai Chen",
+  "year": 2025,
+  "venue": "IJCAI",
+  "ccf": "B",
+  "core": "A*",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "联邦学习"
+  ],
+  "link": "",
+  "abstract": "本文提出 FedCentra，一种面向数据异质性联邦优化的自适应目标校正方法。该方法通过解耦中心化目标，并利用动态泰勒级数展开，为每个客户端准确估计全局目标，从而使本地训练更接近理想的数据中心化训练。理论分析表明，其估计误差会随着训练推进收敛到零。大量真实数据集实验显示，FedCentra 在测试精度和通信效率上优于 SCAFFOLD、MimeLite 和 FedDyn 等先进方法，并且在低至 0.2% 客户端参与率的强异质环境中仍保持稳定优势。"
+}

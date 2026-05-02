@@ -1,7 +1,7 @@
 {
   "id": "IJCAI2025QCDeploy",
   "title": "Empowering Quantum Serverless Circuit Deployment Optimization via Graph Contrastive Learning and Learning-to-Rank Co-designed Approaches",
-  "authors": "Tingting Li, Ziming Zhao, Jianwei Yin",
+  "authors": "Tingting Li, Ziming Zhao*, Jianwei Yin*",
   "year": 2025,
   "venue": "IJCAI",
   "ccf": "B",
