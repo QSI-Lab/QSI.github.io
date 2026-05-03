@@ -251,8 +251,8 @@ window.LAB_PAPERS_BUNDLE = {
     },
     {
       "id": "ARXIV2026LEVERAGINGLLM",
-      "title": "Chengjia Wang, Lanling Tang, Ming Yuan, Jiongchi Yu*, Xiaofei Xie, Jiajun Bu",
-      "authors": "LEVERAGING LLM AGENTS FOR AUTOMATEDVIDEO GAME TESTING",
+      "title": "Leveraging LLM Agents for Automated Video Game Testing",
+      "authors": "Chengjia Wang, Lanling Tang, Ming Yuan, Jiongchi Yu*, Xiaofei Xie, Jiajun Bu",
       "year": 2026,
       "venue": "arxiv",
       "ccf": "N",
