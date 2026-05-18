@@ -1,0 +1,22 @@
+{
+  "id": "SIGKDD2026SQChip",
+  "title": "SQChip-EM: A Qiskit-Metal-Based Layout-to-EM Simulation Dataset for Superconducting Quantum Chips",
+  "authors": "Yu Peng, Junyu Chen, Yuhan Chen, Shenglong Zhang, Xingdong Li, Tingting Li*, Ziming Zhao*, Jianwei Yin*",
+  "year": 2026,
+  "venue": "SIGKDD",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "数据库/数据挖掘/内容检索"
+  ],
+  "researchDirections": [
+    "量子数据集", "超导量子计算机", "量子芯片"
+  ],
+  "link": "",
+  "abstract": "本文提出 SQChip-EM，一个基于 Qiskit Metal 构建的开放基准数据集，用于连接超导量子芯片的参数化版图设计与高保真 Ansys HFSS/Q3D 电磁仿真结果。与传统抽象电路模型不同，SQChip-EM 通过提供 GDSII 几何文件、原始仿真输出以及包含频率、非简谐性、色散位移和耦合参数等物理信息的 JSON 标注，显式刻画版图几何对电磁响应的影响。这些物理标注可作为“虚拟芯片”实例，直接支持器件初始化、校准调优和控制脉冲优化等下游流程。SQChip-EM 进一步定义了设计到指标回归、规格可行性分类和逆向设计检索三类基准任务，并提供可复现的基线方法，为数据驱动的量子电子设计自动化研究提供了标准化基础。"
+}

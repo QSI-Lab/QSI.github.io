@@ -1,0 +1,22 @@
+{
+  "id": "SIGKDD2026QBench",
+  "title": "Towards Quantum Program Bug Datasets and Benchmarking",
+  "authors": "Tingting Li#, Jiongchi Yu#, Zhikang Fan, Junqing Wang, Yao Zhai, Shenglong Zhang, Yu Peng, Yuhan Chen, Junyu Chen, Fanqi Kong, Zhaoxuan Li, Xiaofei Yue, Ziming Zhao*, Jianwei Yin*",
+  "year": 2026,
+  "venue": "SIGKDD",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "数据库/数据挖掘/内容检索"
+  ],
+  "researchDirections": [
+    "量子数据集", "大语言模型", "程序修复"
+  ],
+  "link": "",
+  "abstract": "本文提出 QBench，一个面向量子软件真实缺陷修复场景的持续维护型基准，覆盖从底层库与基础设施到用户脚本和实验流程的多层量子软件栈。QBench 从公开量子项目中的开发者修复记录中挖掘实例，并将每个缺陷封装为可复现的修复任务，包含固定环境、失败测试或最小复现样例、真实补丁以及统一评测框架。该基准特别考虑量子软件中的正确性挑战，支持确定性断言以及面向随机测量结果、期望值和容差等价的概率性评测机制。通过对代表性自动程序修复方法进行实验评估，QBench 揭示了随机 oracle 不稳定、依赖版本漂移导致的复现失败，以及编译与模拟边界上的跨层缺陷等量子软件特有问题。"
+}

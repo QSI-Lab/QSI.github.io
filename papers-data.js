@@ -1676,6 +1676,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "TrafficScope 是一种面向加密流量分类的时域—小波融合 Transformer 网络，旨在解决仅依赖流内语义特征时难以区分相似攻击与正常行为的问题。该方法不仅提取流内特征，还进一步建模流量的上下文信息，以形成更全面的表示。针对上下文流量具有非平稳、动态变化的特点，TrafficScope 引入小波变换提取更稳定的不变特征，并通过交叉注意力机制融合时域特征与小波域特征。实验结果表明，TrafficScope 在多组真实流量数据集上优于现有多种先进方法。进一步的相似流内特征、数据污染、流操纵和动态上下文实验也验证了该方法的鲁棒性、稳定性以及跨数据集应用潜力。"
     },
     {
+      "id": "SIGKDD2026QBench",
+      "title": "Towards Quantum Program Bug Datasets and Benchmarking",
+      "authors": "Tingting Li#, Jiongchi Yu#, Zhikang Fan, Junqing Wang, Yao Zhai, Shenglong Zhang, Yu Peng, Yuhan Chen, Junyu Chen, Fanqi Kong, Zhaoxuan Li, Xiaofei Yue, Ziming Zhao*, Jianwei Yin*",
+      "year": 2026,
+      "venue": "SIGKDD",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "数据库/数据挖掘/内容检索"
+      ],
+      "researchDirections": [
+        "量子数据集",
+        "大语言模型",
+        "程序修复"
+      ],
+      "link": "",
+      "abstract": "本文提出 QBench，一个面向量子软件真实缺陷修复场景的持续维护型基准，覆盖从底层库与基础设施到用户脚本和实验流程的多层量子软件栈。QBench 从公开量子项目中的开发者修复记录中挖掘实例，并将每个缺陷封装为可复现的修复任务，包含固定环境、失败测试或最小复现样例、真实补丁以及统一评测框架。该基准特别考虑量子软件中的正确性挑战，支持确定性断言以及面向随机测量结果、期望值和容差等价的概率性评测机制。通过对代表性自动程序修复方法进行实验评估，QBench 揭示了随机 oracle 不稳定、依赖版本漂移导致的复现失败，以及编译与模拟边界上的跨层缺陷等量子软件特有问题。"
+    },
+    {
       "id": "SIGKDD2026QuMap",
       "title": "QuaMap: A Multi-Backend Benchmark Dataset for Quantum Circuit Mapping and Learning-Based Compiler Evaluation",
       "authors": "Ziming Zhao#, Tingting Li#*, Jianwei Yin*",
@@ -1696,6 +1720,30 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "QuaMap 是首个面向量子线路硬件映射的大规模开放基准数据集，旨在系统刻画量子程序在不同硬件后端上的转译与映射效果。该数据集将 75 个代表性量子算法与 10 台 IBM Quantum 设备上的超过 21 万个硬件感知转译线路进行关联，并同时提供原始线路和转译后线路。与已有数据集不同，QuaMap 重点记录了拓扑约束编译带来的影响，包含线路深度、门数量以及 CNOT 数等丰富的结构与性能指标。基于这些数据，作者设计了线路嵌入分类、转译指标预测、映射质量排序和迁移性评估四类基准任务，并提供了可复现的基线方法。实验结果表明，图神经网络在这些任务上明显优于启发式方法和传统模型，为数据驱动的量子编译研究提供了标准化基础。"
+    },
+    {
+      "id": "SIGKDD2026SQChip",
+      "title": "SQChip-EM: A Qiskit-Metal-Based Layout-to-EM Simulation Dataset for Superconducting Quantum Chips",
+      "authors": "Yu Peng, Junyu Chen, Yuhan Chen, Shenglong Zhang, Xingdong Li, Tingting Li*, Ziming Zhao*, Jianwei Yin*",
+      "year": 2026,
+      "venue": "SIGKDD",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "数据库/数据挖掘/内容检索"
+      ],
+      "researchDirections": [
+        "量子数据集",
+        "超导量子计算机",
+        "量子芯片"
+      ],
+      "link": "",
+      "abstract": "本文提出 SQChip-EM，一个基于 Qiskit Metal 构建的开放基准数据集，用于连接超导量子芯片的参数化版图设计与高保真 Ansys HFSS/Q3D 电磁仿真结果。与传统抽象电路模型不同，SQChip-EM 通过提供 GDSII 几何文件、原始仿真输出以及包含频率、非简谐性、色散位移和耦合参数等物理信息的 JSON 标注，显式刻画版图几何对电磁响应的影响。这些物理标注可作为“虚拟芯片”实例，直接支持器件初始化、校准调优和控制脉冲优化等下游流程。SQChip-EM 进一步定义了设计到指标回归、规格可行性分类和逆向设计检索三类基准任务，并提供可复现的基线方法，为数据驱动的量子电子设计自动化研究提供了标准化基础。"
     },
     {
       "id": "SIGKDD2026VQFlow",
@@ -2438,6 +2486,7 @@ window.LAB_PAPERS_BUNDLE = {
     "大模型推理优化",
     "大模型服务",
     "大模型训练模拟",
+    "大语言模型",
     "实证研究",
     "推理与调度",
     "文生图",
@@ -2451,6 +2500,7 @@ window.LAB_PAPERS_BUNDLE = {
     "游戏测试",
     "碳感知算网",
     "神经网络",
+    "程序修复",
     "端网融合",
     "符号执行",
     "算力网络",
@@ -2458,6 +2508,7 @@ window.LAB_PAPERS_BUNDLE = {
     "网络安全",
     "网络流量",
     "联邦学习",
+    "超导量子计算机",
     "软件测试",
     "软硬件部署",
     "量子EDA",
@@ -2469,6 +2520,7 @@ window.LAB_PAPERS_BUNDLE = {
     "量子算法卸载",
     "量子经典混合加速",
     "量子网络",
+    "量子芯片",
     "量子软工",
     "鲁棒性"
   ],
