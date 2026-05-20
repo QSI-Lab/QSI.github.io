@@ -1932,7 +1932,7 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "I²RNN 是一种面向加密流量分类的增量式可解释循环神经网络，通过新的序列传播过程提取具有局部鲁棒性的会话指纹，同时提供时间序列特征归因与类别间相似性刻画，从而兼顾分类性能与可解释性。相比需要整体重训练的传统方法，I²RNN 仅需为新增流量类别训练一组额外参数即可完成增量学习，实验表明其在流量分类、增量适应和解释稳定性、鲁棒性与有效性方面均表现突出。"
     },
     {
-      "id": "TDSC2024MLTrafficShaping",
+      "id": "TDSC2024DFNet",
       "title": "Effective DDoS Mitigation via ML-Driven In-network Traffic Shaping",
       "authors": "Ziming Zhao, Zhuotao Liu, Huan Chen, Fan Zhang*, Zhuoxue Song, Zhaoxuan Li",
       "year": 2024,
