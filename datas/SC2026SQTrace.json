@@ -1,0 +1,22 @@
+{
+  "id": "SC2026SQTrace",
+  "title": "End-to-End Modeling and Trace-Driven Replay for Hybrid Quantum-Classical Supercomputing",
+  "authors": "Ziming Zhao, Tingting Li, Zhaoxuan Li, Xiaofei Yue, Jiongchi Yu, Jianwei Yin*",
+  "year": 2026,
+  "venue": "SC",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "量子计算", "量子经典混合计算", "超算"
+  ],
+  "link": "",
+  "abstract": "这篇论文提出了 QTrace，一种面向混合量子-经典（Hybrid Quantum-Classical）计算工作流的端到端建模与基于轨迹（Trace）的重放分析方法。该方法通过统一记录经典计算、模拟器、云服务和量子后端等不同组件的执行轨迹，并支持可控重放，实现对工作流关键路径和性能瓶颈的精准分析。实验结果表明，QTrace能够高保真地复现真实执行过程，发现传统后端指标难以揭示的性能瓶颈，并准确评估不同调度策略、网络延迟和后端条件对整体性能的影响。该工作为大规模混合量子-经典计算系统的性能分析、优化与可重复实验提供了有效的技术方案。"
+}

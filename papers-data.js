@@ -1200,6 +1200,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作提出了“隐蔽对抗样本”这一新概念，即样本在通过在线社交网络传播前表现为正常图像，但在经过平台的压缩、格式转换等处理后会激活其对抗性。围绕这一现象，作者设计了一套隐蔽对抗样本生成框架，通过质量因子计算、结合差分 JPEG 层的扩散模型来模拟社交平台传输过程，并利用拉格朗日乘子方法对生成过程进行优化。与传统对抗样本不同，这类方法能够更贴近真实网络传播场景中的攻击方式，因此具有更强的隐蔽性和现实威胁。实验结果表明，该方法在多个社交平台和多种目标模型上均优于七种现有先进对抗样本生成技术。进一步的抗检测评估和不同攻击设置下的扩展实验也验证了该方案的可扩展性与有效性。"
     },
     {
+      "id": "MM2026QNav",
+      "title": "Quantum-Classical Hybrid Route Planning for Multi-Goal Embodied Navigation",
+      "authors": "Tingting Li, Ziming Zhao*, Xiaofei Yue, Jiongchi Yu, Zhaoxuan Li, Jianwei Yin*",
+      "year": 2026,
+      "venue": "ACM Multimedia (MM)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "计算机图形学与多媒体"
+      ],
+      "researchDirections": [
+        "量子计算",
+        "具身智能",
+        "量子具身智能"
+      ],
+      "link": "",
+      "abstract": "这篇论文提出了 Q-Nav，一种面向多目标具身导航的量子—经典混合路径规划框架。该方法将导航任务分为高层全局规划与低层控制。前者通过二次无约束二进制优化（QUBO）确定目标访问顺序和中间路径点，后者利用强化学习完成局部导航与避障。实验在 Q-Nav、MultiON 和 GOAT-Bench 等基准上进行，结果显示其成功率最高可提升 7.5%，规划成本可降低约 30%-40%。研究表明，量子辅助组合优化有望成为长时程、多目标具身导航中的有效高层规划手段。"
+    },
+    {
       "id": "MobiCom2024QLSel",
       "title": "QLSel: Demonstrating Efficient High-Fidelity Link Selection for Quantum Networks in the Wild",
       "authors": "Tingting Li, Ziming Zhao, Jianwei Yin*",
@@ -1552,6 +1576,30 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://doi.org/10.1109/RTSS62706.2024.00052",
       "abstract": "针对学术界和工业界广泛关注的 DDoS 缓解问题，本文研究了强攻击者通过组合不同 DDoS 攻击向量，以最大化绕过流量过滤与检测器的数据包数量，并进一步影响清洗效果和恢复时延的现象。为此，本文将攻击向量组合建模为组合优化问题，分析最坏情况下攻击流量清洗效果与恢复延迟，为理解和设计面向极端对抗场景的 DDoS 防御方法提供了新的视角和深刻见解。"
+    },
+    {
+      "id": "SC2026SQTrace",
+      "title": "End-to-End Modeling and Trace-Driven Replay for Hybrid Quantum-Classical Supercomputing",
+      "authors": "Ziming Zhao, Tingting Li, Zhaoxuan Li, Xiaofei Yue, Jiongchi Yu, Jianwei Yin*",
+      "year": 2026,
+      "venue": "SC",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子计算",
+        "量子经典混合计算",
+        "超算"
+      ],
+      "link": "",
+      "abstract": "这篇论文提出了 QTrace，一种面向混合量子-经典（Hybrid Quantum-Classical）计算工作流的端到端建模与基于轨迹（Trace）的重放分析方法。该方法通过统一记录经典计算、模拟器、云服务和量子后端等不同组件的执行轨迹，并支持可控重放，实现对工作流关键路径和性能瓶颈的精准分析。实验结果表明，QTrace能够高保真地复现真实执行过程，发现传统后端指标难以揭示的性能瓶颈，并准确评估不同调度策略、网络延迟和后端条件对整体性能的影响。该工作为大规模混合量子-经典计算系统的性能分析、优化与可重复实验提供了有效的技术方案。"
     },
     {
       "id": "sec2022Traffic",
@@ -2469,6 +2517,7 @@ window.LAB_PAPERS_BUNDLE = {
     "代码安全",
     "僵尸网络",
     "入侵检测",
+    "具身智能",
     "加密流量",
     "医学图像分割",
     "医学图像处理",
@@ -2509,18 +2558,22 @@ window.LAB_PAPERS_BUNDLE = {
     "网络流量",
     "联邦学习",
     "超导量子计算机",
+    "超算",
     "软件测试",
     "软硬件部署",
     "量子EDA",
     "量子云平台",
     "量子代码修复",
+    "量子具身智能",
     "量子安全",
     "量子数据集",
     "量子神经网络",
     "量子算法卸载",
     "量子经典混合加速",
+    "量子经典混合计算",
     "量子网络",
     "量子芯片",
+    "量子计算",
     "量子软工",
     "鲁棒性"
   ],

@@ -1,0 +1,22 @@
+{
+  "id": "MM2026QNav",
+  "title": "Quantum-Classical Hybrid Route Planning for Multi-Goal Embodied Navigation",
+  "authors": "Tingting Li, Ziming Zhao*, Xiaofei Yue, Jiongchi Yu, Zhaoxuan Li, Jianwei Yin*",
+  "year": 2026,
+  "venue": "ACM Multimedia (MM)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "计算机图形学与多媒体"
+  ],
+  "researchDirections": [
+    "量子计算", "具身智能", "量子具身智能"
+  ],
+  "link": "",
+  "abstract": "这篇论文提出了 Q-Nav，一种面向多目标具身导航的量子—经典混合路径规划框架。该方法将导航任务分为高层全局规划与低层控制。前者通过二次无约束二进制优化（QUBO）确定目标访问顺序和中间路径点，后者利用强化学习完成局部导航与避障。实验在 Q-Nav、MultiON 和 GOAT-Bench 等基准上进行，结果显示其成功率最高可提升 7.5%，规划成本可降低约 30%-40%。研究表明，量子辅助组合优化有望成为长时程、多目标具身导航中的有效高层规划手段。"
+}
