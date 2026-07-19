@@ -1,0 +1,25 @@
+{
+  "id": "ICME2026EMISCFEIG",
+  "title": "Towards Efficient Medical Image Segmentation via Collaborative Feature Enhancement and Inception GroupMamba",
+  "authors": "Fanqi Kong , Yuhan Chen, Ziming Zhao*",
+  "year": 2026,
+  "venue": "The IEEE International Conference on Multimedia & Expo 2026",
+  "ccf": "B",
+  "core": "A",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "计算机图形学与多媒体",
+    "人工智能",
+    "其他",
+    "医疗图像分割"
+  ],
+  "researchDirections": [
+    "医学智能"
+  ],
+  "link": "",
+  "abstract": "本工作面向现代医疗多媒体系统中的医学图像分割场景，研究了兼顾全局建模能力与计算效率的轻量化分割方法。针对现有基于Mamba和状态空间模型的分割网络在复杂解剖结构与噪声干扰下难以有效筛选关键特征，以及多尺度信息融合易削弱长程依赖建模能力的问题，提出了一种轻量级U形网络CEIGM-UNet。该方法设计了协同特征增强层（CFEL）和调制式Inception分组Mamba层（MIGML）：前者在解码过程中强化并传递与分割任务相关的关键特征分布，后者通过通道级特征分配实现多尺度特征细化，同时保留主导性的长程信息传播路径。实验结果表明，CEIGM-UNet在Synapse数据集上取得85.61%的Dice相似系数和10.00 mm的95%豪斯多夫距离，在ACDC数据集上取得92.81%的Dice相似系数和1.05 mm的95%豪斯多夫距离，并在参数量和浮点运算量均低于多种竞争方法的情况下实现了更优的分割性能。此外，跨模态迁移与适配器式微调实验进一步验证了该方法在实际医疗影像分析场景中的部署潜力。"
+}
