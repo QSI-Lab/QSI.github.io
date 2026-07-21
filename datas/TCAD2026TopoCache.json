@@ -1,0 +1,22 @@
+{
+  "id": "TCAD2026TopoCache",
+  "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
+  "authors": "Xiaofei Yue, Ziming Zhao*, Tingting Li, Zhaoxuan Li, Jianwei Yin*",
+  "year": 2026,
+  "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "计算机体系结构/并行与分布计算/存储系统"
+  ],
+  "researchDirections": [
+    "大模型推理与训练"
+  ],
+  "link": "",
+  "abstract": "随着大语言模型（LLM）的参数规模和上下文长度持续增长，生产环境中的模型训练越来越需要跨越数千块 GPU。尽管已有研究显著提升了单次迭代中的算子性能和优化器效率，但我们发现了一个与之正交的系统瓶颈：在故障恢复、计划内训练阶段切换（例如从预训练切换到监督微调，以及 ZeRO 阶段变更）和弹性扩缩容过程中，会出现长时间的生命周期停顿。这些停顿的根本原因在于，现有系统通常需要从临时构建的内存对象和扁平化快照中重建执行拓扑，并以近乎串行的方式重新初始化通信组。在大规模集群中，这会导致大量集群级空闲时间。为解决这一问题，我们提出 TopoCache，一种面向分布式大语言模型训练快速恢复与重配置的数据中心化系统。TopoCache 将训练状态表示为持久化、可查询的执行拓扑图（Execution Topology Graph，ETG），并采用紧凑的内容寻址格式，将其存储为分块、依赖索引化且具备版本管理的二进制对象，同时结合共享内存缓存提升访问效率。TopoCache 采用依赖感知的加载调度器，将 I/O、反序列化和通信组初始化相互重叠，从而加速执行拓扑的重建。此外，系统通过增量 ETG 补丁，在故障、训练阶段切换和规模变化期间，仅对受影响的子图进行重配置。TopoCache 还向运行时开放 ETG 索引，以支持通信与计算重叠、数据预取以及轻量级自适应微重分区。我们在 DeepSpeed 之上实现了TopoCache，并在最多包含 1024 块 GPU 的集群上，使用真实工作负载对其进行了评估。实验结果表明，TopoCache 可将启动与恢复延迟降低 6 至 10 倍，将训练阶段切换停顿减少 80% 以上，同时仅引入可忽略不计的运行时开销。"
+}
