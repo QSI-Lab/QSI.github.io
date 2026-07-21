@@ -1,0 +1,22 @@
+{
+  "id": "TIFS2026GraphWave",
+  "title": "GraphWave: A Dynamic Context-Adaptive Multimodal Feature Fusion Framework for Threat Detection",
+  "authors": "Peng Fang, Ziming Zhao*, Feiyang Huang, Fan Zhang*, Jianrong Lu",
+  "year": 2026,
+  "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "N",
+  "type": "journal",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "SCI1",
+  "fields": [
+    "网络与信息安全"
+  ],
+  "researchDirections": [
+    "网络安全", "网络流量"
+  ],
+  "link": "",
+  "abstract": "",
+}
