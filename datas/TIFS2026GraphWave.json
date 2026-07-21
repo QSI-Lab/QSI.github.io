@@ -1,7 +1,7 @@
 {
   "id": "TIFS2026GraphWave",
   "title": "GraphWave: A Dynamic Context-Adaptive Multimodal Feature Fusion Framework for Threat Detection",
-  "authors": "Peng Fang, Ziming Zhao*, Feiyang Huang, Fan Zhang*, Jianrong Lu"
+  "authors": "Peng Fang, Ziming Zhao*, Feiyang Huang, Fan Zhang*, Jianrong Lu",
   "year": 2026,
   "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
   "ccf": "A",
@@ -18,5 +18,5 @@
     "网络安全", "网络流量"
   ],
   "link": "",
-  "abstract": "",
+  "abstract": "论文提出了 GraphWave，一种面向网络威胁检测的动态上下文自适应多模态特征融合框架，旨在解决仅依赖流内特征时难以识别高相似度恶意流量的问题。该方法基于异构图结构建模攻击者、目标与时间上下文，并结合图注意力网络、Transformer 和多模态交叉注意力机制，同时学习短期交互关系与长程流内时序特征。实验结果表明，GraphWave 在六个真实数据集上的平均 F1 分数达到 99.13%，较现有先进方法平均提升 7.62%。此外，该模型在流量混淆、时间扰动、流内相似和低速攻击等复杂场景下仍表现出较强鲁棒性。"
 }

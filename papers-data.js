@@ -116,7 +116,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "ACL2026QUARTZ",
       "title": "QUARTZ: Quantile-Aware Routing and Queueing for TTFT SLOs in LLM Serving",
-      "authors": "Z Li#, Yifan Zheng#, Fanqi Kong, Ziming Zhao*",
+      "authors": "Z Liu#, Yifan Zheng#, Fanqi Kong, Ziming Zhao*",
       "year": 2026,
       "venue": "ACL",
       "ccf": "A",
@@ -760,11 +760,11 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本文从网络系统视角研究混合量子-经典算法的端到端性能瓶颈，指出频繁细粒度通信、主机 CPU 介入和尾延迟放大会使经典优化控制环成为扩展性障碍。论文提出 QCLINK，一个基于 SmartNIC 的卸载框架，将参数扰动、梯度估计和迭代控制等混合优化逻辑下沉到网络数据平面执行。QCLINK 结合 RDMA 实现经典控制器与量子后端之间的低延迟、CPU-bypass 通信，从而降低每轮迭代开销并缓解控制环抖动。原型实验表明，相比以主机为中心的基线方案，QCLINK 能显著改善单次迭代延迟和端到端完成时间，同时稳定尾延迟并释放主机 CPU 资源。"
     },
     {
-      "id": "ICME2026EfficientMedicalImageSegmentationCollaborativeFeature",
+      "id": "ICME2026EMISCFEIG",
       "title": "Towards Efficient Medical Image Segmentation via Collaborative Feature Enhancement and Inception GroupMamba",
-      "authors": "Fangi Kong, Yuhan Chen, Ziming Zhao*",
+      "authors": "Fanqi Kong , Yuhan Chen, Ziming Zhao*",
       "year": 2026,
-      "venue": "ICME",
+      "venue": "The IEEE International Conference on Multimedia & Expo 2026",
       "ccf": "B",
       "core": "A",
       "thcpl": "N",
@@ -773,15 +773,16 @@ window.LAB_PAPERS_BUNDLE = {
       "ncsCategory": "NONE",
       "sciZone": "NONE",
       "fields": [
+        "计算机图形学与多媒体",
         "人工智能",
-        "交叉/综合/新兴"
+        "其他",
+        "医疗图像分割"
       ],
       "researchDirections": [
-        "医学智能",
-        "医学图像处理"
+        "医学智能"
       ],
       "link": "",
-      "abstract": "本工作面向医学图像分割任务，提出了一种轻量化U形网络 CEIGM-UNet。该方法通过协同特征增强层（CFEL）强化解码阶段的关键信息传播，并结合调制式 Inception Group Mamba 层（MIGML）实现多尺度特征建模与长程依赖保持，从而提升复杂解剖结构和噪声干扰条件下的分割性能。实验结果表明，该模型在 Synapse 和 ACDC 数据集上均取得了较优的分割精度，同时具有更少的参数量和计算开销，并具备良好的跨模态迁移与实际部署潜力。"
+      "abstract": "本工作面向现代医疗多媒体系统中的医学图像分割场景，研究了兼顾全局建模能力与计算效率的轻量化分割方法。针对现有基于Mamba和状态空间模型的分割网络在复杂解剖结构与噪声干扰下难以有效筛选关键特征，以及多尺度信息融合易削弱长程依赖建模能力的问题，提出了一种轻量级U形网络CEIGM-UNet。该方法设计了协同特征增强层（CFEL）和调制式Inception分组Mamba层（MIGML）：前者在解码过程中强化并传递与分割任务相关的关键特征分布，后者通过通道级特征分配实现多尺度特征细化，同时保留主导性的长程信息传播路径。实验结果表明，CEIGM-UNet在Synapse数据集上取得85.61%的Dice相似系数和10.00 mm的95%豪斯多夫距离，在ACDC数据集上取得92.81%的Dice相似系数和1.05 mm的95%豪斯多夫距离，并在参数量和浮点运算量均低于多种竞争方法的情况下实现了更优的分割性能。此外，跨模态迁移与适配器式微调实验进一步验证了该方法在实际医疗影像分析场景中的部署潜力。"
     },
     {
       "id": "ICML2026CoFT2I",
@@ -1934,6 +1935,28 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本文针对物联网设备中恶意软件检测面临的监控易被篡改和日志数据量过大的问题，提出了一种基于侧信道的外部监测方案 TPE-Det。与依赖系统调用、系统日志或硬件性能计数器的传统方法不同，TPE-Det 通过 SPI 总线提取芯片级运行痕迹，并设计日志恢复流程，以实现对设备行为的外部感知。该方法具有对抗者难以察觉且难以篡改的优势，同时恢复得到的日志主要聚焦于文件操作命令，相比完整系统日志更加轻量。基于这些恢复日志，本文进一步结合统计特征、序列特征和图特征，构建多种机器学习模型用于恶意软件识别。实验结果表明，TPE-Det 在保证较高检测准确率的同时，还具备良好的防篡改能力以及较低的时间和空间开销。"
     },
     {
+      "id": "TCAD2026TopoCache",
+      "title": "TopoCache: Data-Centric Fast Recovery and Reconfiguration for Distributed LLM Training",
+      "authors": "Xiaofei Yue, Ziming Zhao*, Tingting Li, Zhaoxuan Li, Jianwei Yin*",
+      "year": 2026,
+      "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "大模型推理与训练"
+      ],
+      "link": "",
+      "abstract": "随着大语言模型（LLM）的参数规模和上下文长度持续增长，生产环境中的模型训练越来越需要跨越数千块 GPU。尽管已有研究显著提升了单次迭代中的算子性能和优化器效率，但我们发现了一个与之正交的系统瓶颈：在故障恢复、计划内训练阶段切换（例如从预训练切换到监督微调，以及 ZeRO 阶段变更）和弹性扩缩容过程中，会出现长时间的生命周期停顿。这些停顿的根本原因在于，现有系统通常需要从临时构建的内存对象和扁平化快照中重建执行拓扑，并以近乎串行的方式重新初始化通信组。在大规模集群中，这会导致大量集群级空闲时间。为解决这一问题，我们提出 TopoCache，一种面向分布式大语言模型训练快速恢复与重配置的数据中心化系统。TopoCache 将训练状态表示为持久化、可查询的执行拓扑图（Execution Topology Graph，ETG），并采用紧凑的内容寻址格式，将其存储为分块、依赖索引化且具备版本管理的二进制对象，同时结合共享内存缓存提升访问效率。TopoCache 采用依赖感知的加载调度器，将 I/O、反序列化和通信组初始化相互重叠，从而加速执行拓扑的重建。此外，系统通过增量 ETG 补丁，在故障、训练阶段切换和规模变化期间，仅对受影响的子图进行重配置。TopoCache 还向运行时开放 ETG 索引，以支持通信与计算重叠、数据预取以及轻量级自适应微重分区。我们在 DeepSpeed 之上实现了TopoCache，并在最多包含 1024 块 GPU 的集群上，使用真实工作负载对其进行了评估。实验结果表明，TopoCache 可将启动与恢复延迟降低 6 至 10 倍，将训练阶段切换停顿减少 80% 以上，同时仅引入可忽略不计的运行时开销。"
+    },
+    {
       "id": "TDSC2023ERNN",
       "title": "ERNN: Error-Resilient RNN for Encrypted Traffic Detection towards Network-Induced Phenomena",
       "authors": "Ziming Zhao, Zhaoxuan Li, Jialun Jiang, Fengyuan Yu, Fan Zhang*, Congyuan Xu*, Xinjie Zhao, Rui Zhang, Shize Guo",
@@ -2092,6 +2115,29 @@ window.LAB_PAPERS_BUNDLE = {
       "link": "https://ieeexplore.ieee.org/abstract/document/11202567/",
       "abstract": "该工作提出了一种基于量子任务输出的任务驱动量子设备指纹识别方法 TD-QDF，用于从含噪量子计算结果中提取设备特征。与以往依赖硬件细节或噪声先验信息的方法不同，TD-QDF 仅利用量子任务输出即可完成设备识别，因此具有更强的实用性和可部署性。作者在 10 台 IBM 量子计算机上基于 6 种量子神经网络线路进行了大规模实验，并进一步扩展到 4 类经典量子算法和 3 个 127 比特处理器，以验证方法的通用性与可扩展性。实验结果表明，该方法在 3 分类、7 分类和 10 分类设备识别任务中分别取得了较高的准确率，表现出较强的区分能力。总体来看，TD-QDF 为量子云服务中的设备问责、异常检测与安全分析提供了一种新的技术路径。",
       "imageUrl": "figures/TIFS2025TDQDF.png"
+    },
+    {
+      "id": "TIFS2026GraphWave",
+      "title": "GraphWave: A Dynamic Context-Adaptive Multimodal Feature Fusion Framework for Threat Detection",
+      "authors": "Peng Fang, Ziming Zhao*, Feiyang Huang, Fan Zhang*, Jianrong Lu",
+      "year": 2026,
+      "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
+      "fields": [
+        "网络与信息安全"
+      ],
+      "researchDirections": [
+        "网络安全",
+        "网络流量"
+      ],
+      "link": "",
+      "abstract": "论文提出了 GraphWave，一种面向网络威胁检测的动态上下文自适应多模态特征融合框架，旨在解决仅依赖流内特征时难以识别高相似度恶意流量的问题。该方法基于异构图结构建模攻击者、目标与时间上下文，并结合图注意力网络、Transformer 和多模态交叉注意力机制，同时学习短期交互关系与长程流内时序特征。实验结果表明，GraphWave 在六个真实数据集上的平均 F1 分数达到 99.13%，较现有先进方法平均提升 7.62%。此外，该模型在流量混淆、时间扰动、流内相似和低速攻击等复杂场景下仍表现出较强鲁棒性。"
     },
     {
       "id": "TIFS2026RFC",
@@ -2500,6 +2546,7 @@ window.LAB_PAPERS_BUNDLE = {
     "人工智能",
     "交叉/综合/新兴",
     "其他",
+    "医疗图像分割",
     "网络安全",
     "软件工程"
   ],
@@ -2520,7 +2567,6 @@ window.LAB_PAPERS_BUNDLE = {
     "具身智能",
     "加密流量",
     "医学图像分割",
-    "医学图像处理",
     "半监督学习",
     "可编程交换机",
     "可靠性测试",
@@ -2596,6 +2642,7 @@ window.LAB_PAPERS_BUNDLE = {
     "人工智能": "人工智能",
     "交叉/综合/新兴": "交叉/新兴",
     "其他": "其他",
+    "医疗图像分割": "医疗图像分割",
     "网络安全": "网络安全",
     "软件工程": "软件工程"
   }
