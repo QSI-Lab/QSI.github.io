@@ -1579,6 +1579,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对学术界和工业界广泛关注的 DDoS 缓解问题，本文研究了强攻击者通过组合不同 DDoS 攻击向量，以最大化绕过流量过滤与检测器的数据包数量，并进一步影响清洗效果和恢复时延的现象。为此，本文将攻击向量组合建模为组合优化问题，分析最坏情况下攻击流量清洗效果与恢复延迟，为理解和设计面向极端对抗场景的 DDoS 防御方法提供了新的视角和深刻见解。"
     },
     {
+      "id": "RTSS2026RTPreQEC",
+      "title": "RT-PreQEC: Certified Selective Decoding with Pauli-Frame-Lag-Aware Scheduling for Real-Time Quantum Error Correction",
+      "authors": "Yu Peng, Junyu Chen, Fanqi Kong, Ke Shi, Fulun Ye, Fangming Zhao, Tingting Li, Xiaofei Yue, Zhaoxuan Li, Ziming Zhao*",
+      "year": 2026,
+      "venue": "RTSS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能",
+        "量子纠错"
+      ],
+      "link": "",
+      "abstract": "Surface-code quantum error correction generates a continuous stream of syndrome decoding jobs, and the classical processing must keep pace with the physical measurement cycle. Existing approaches accelerate individual decoders, reduce residual workload through local predecoding, or schedule by deadlines, yet none jointly accounts for logical risk, Pauli-frame lag, boundary commits, and fast-path safety at per-shot granularity. RT-PreQEC treats each syndrome as a QEC-aware real-time task and combines weakly certified residual shaping, strongly certified fast-path commitment, and lag-aware routing between fast and accurate backends under a two-level contract that separates workload shaping from Pauli-frame updates. A calibrated learned risk estimator replaces the hand-tuned routing proxy under the same certification gate, acting only as a routing aid rather than as a standalone decoder. On a rotated surface code at $d{=}7$, RT-PreQEC lowers p99 response time from 435.4~$\\mu$s to 102.4~$\\mu$s and deadline misses from 23.15\\% to 7.60\\%, while holding logical error well below fast-only decoding. Learned risk further reduces logical error from 1.40\\% to 0.33\\% relative to the heuristic certified runtime. At $d{=}11$ and under burst overload, RT-PreQEC exposes residual capacity limits of a single worker yet still reduces logical error relative to unchecked fast-path use; removing validation collapses the $d{=}11$ result to the fast-only error rate, indicating that the certification gate carries most of the safety, while a two-worker sensitivity run shows that remaining burst failures are capacity-bound rather than scheduling-bound. The artifact provides paired-shot protocols, fixed seeds, decoupled threshold sweeps, learned-risk checkpoints, and regenerated tables and figures for independent reproduction."
+    },
+    {
       "id": "SC2026SQTrace",
       "title": "End-to-End Modeling and Trace-Driven Replay for Hybrid Quantum-Classical Supercomputing",
       "authors": "Ziming Zhao, Tingting Li, Zhaoxuan Li, Xiaofei Yue, Jiongchi Yu, Jianwei Yin*",
@@ -2663,6 +2686,7 @@ window.LAB_PAPERS_BUNDLE = {
     "量子数据集",
     "量子神经网络",
     "量子算法卸载",
+    "量子纠错",
     "量子经典混合加速",
     "量子经典混合计算",
     "量子网络",
