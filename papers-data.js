@@ -2048,6 +2048,30 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对隐私交集求和（Private Intersection-Sum, PIS）协议在诚实且好奇敌手模型下存在用户标识符泄露风险的问题，本文系统分析了 Google 开源 Private-Join-and-Compute 库中的安全缺陷，指出攻击者可通过构造特殊输入数据结构推断交集项，从而实施用户标识符窃取攻击。为解决该问题，本文基于差分隐私技术提出了一种改进的 PIS 协议，并对 Private-Join-and-Compute 开源库进行了优化。通过基于 Game 序列的形式化分析以及基于 Tamarin 工具的安全性证明，结果表明改进后的协议在几乎不引入明显额外开销的情况下，有效抵御了已发现的攻击，并提升了协议在实际应用场景中的安全性。"
     },
     {
+      "id": "TDSC2026RearView",
+      "title": "RearView: Secure Two-Stage Malicious Traffic Identification with Dynamic Relationship Awareness",
+      "authors": "Peng Fang, Ziming Zhao, Ziqi Yang, Yixin Jiang, Wenqian Xu, Zhihong Liang, Fan Zhang",
+      "year": 2026,
+      "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
+      "fields": [
+        "网络与信息安全",
+        "计算机网络"
+      ],
+      "researchDirections": [
+        "网络安全",
+        "网络流量"
+      ],
+      "link": "https://www.computer.org/csdl/journal/tq",
+      "abstract": "该论文提出了一种名为 RearView 的安全框架，用于高吞吐企业网络中的恶意流量实时识别。该方法采用两阶段检测策略：首先利用服务个性化变分自编码器（VAE）快速筛选可疑流量，其次通过动态会话图和图神经网络挖掘隐藏的攻击关系模式。论文通过动态关系建模和自监督学习提升了对伪装攻击、流量模仿和数据污染的识别能力。实验结果表明，RearView 在多个真实数据集上取得较高检测精度，同时降低误报率和检测延迟，具备较好的实时性与鲁棒性。"
+    },
+    {
       "id": "TIFS2023SAGE",
       "title": "SAGE: Steering the Adversarial Generation of Examples With Accelerations",
       "authors": "Ziming Zhao, Zhaoxuan Li, Fan Zhang, Ziqi Yang, Shuang Luo, Tingting Li, Rui Zhang, Kui Ren",
