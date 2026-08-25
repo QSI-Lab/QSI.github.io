@@ -387,6 +387,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "Defects4C 是一个面向 C/C++ 程序修复的高质量基准数据集，用于解决当前自动程序修复研究中缺乏真实世界 C/C++ 数据的问题。该方法从开源仓库中构建包含约 900 万条缺陷相关提交、248 个高质量缺陷函数和 102 个漏洞函数的数据集，并配套测试用例以支持可复现评估。在此基础上，基于 Defects4C 对 24 个主流大语言模型在 C/C++ 缺陷修复任务中的能力进行了系统实验分析。结果表明，尽管 LLM 在 Java 等语言上表现良好，但在真实 C/C++ 场景下修复性能显著下降，尤其在多行缺陷和依赖上下文信息的问题上表现不足。总体而言，Defects4C 为评估和改进 LLM 驱动的程序修复方法提供了关键基础，同时揭示了当前方法在复杂系统级语言中的局限性"
     },
     {
+      "id": "ASE2026QGenome",
+      "title": "The Gene Is Not the Gate: Conceptualizing the Semantic Genome of Quantum Software",
+      "authors": "Jiongchi Yu, Yue Duan, Ziming Zhao*, Xiaofei Yue, Zhaoxuan Li",
+      "year": 2026,
+      "venue": "ASE Workshop",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "软件工程/系统软件/程序设计语言"
+      ],
+      "researchDirections": [
+        "量子智能",
+        "量子软工"
+      ],
+      "link": "",
+      "abstract": "本文提出了 QGenome（Quantum Software Genome） 概念框架，旨在为量子软件建立一种类似“基因组”的语义描述体系，以解决现有软件抽象方法难以跨越应用、编译器、运行时和硬件层表达量子软件核心语义的问题。该方法将量子软件中的可复用责任单元定义为“软件基因”，通过类型化描述、依赖关系、演化路径和证据关联，实现对量子程序语义、实现过程和跨层行为的追踪。研究进一步构建了量子软件基因组的组织模型，为量子软件复用、演化分析、缺陷定位和自动化验证提供了新的理论基础。该工作为未来量子软件工程的发展提出了一种面向语义和生命周期管理的新型研究范式。"
+    },
+    {
       "id": "BIBM2024DCANet",
       "title": "DCA-Net:Data-Driven Collaborative Assistance Network  for Semi-supervised Medical Segmentation",
       "authors": "Yuhan Chen, Chunshi Wang, Bin Zhao*",
@@ -1247,6 +1270,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本文面向 NISQ 时代量子网络中高保真链路选择这一关键问题展开研究。由于量子噪声的普遍存在，量子链路保真度较低且波动明显，使得安全通信与高质量数据传输面临挑战。为此，本文提出了一种无需预先假设保真度分布的高效链路选择算法 QLSel，并将问题建模为多臂赌博机问题，以应对探索与利用之间的权衡。具体而言，QLSel 结合变异系数与 Thompson Sampling，设计了定制化的链路探索策略和链路选择概率机制。大量实验结果表明，QLSel 在性能上显著优于现有代表性方法。"
     },
     {
+      "id": "MobiCom2026QASISAC",
+      "title": "QAS-ISAC: Quantum-Assisted Secure ISAC with Encrypted Inference",
+      "authors": "Ziming Zhao, Tingting Li*, Zhaoxuan Li, Xiaofei Yue, Jianwei Yin*",
+      "year": 2026,
+      "venue": "MobiCom WiP",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "计算机网络"
+      ],
+      "researchDirections": [
+        "量子感知与通信",
+        "后量子密码"
+      ],
+      "link": "",
+      "abstract": "本文提出了一种量子辅助安全融合感知与通信（QAS-ISAC）框架，旨在解决集成感知与通信系统中通信数据、感知信息以及人工智能推理过程面临的窃听和篡改风险。该方法将量子纠缠辅助安全标记技术与后量子加密（LWE）推理保护机制相结合，实现对无线信号传输和AI推理过程的联合安全防护。实验结果表明，QAS-ISAC能够有效提升量子攻击场景下的检测能力和推理安全性，同时保持较低的计算开销。该研究为未来6G网络中兼顾高效感知、通信与量子安全防护的智能无线系统提供了一种新的解决方案。"
+    },
+    {
       "id": "NatCommun2024CreatingAndControllingGlobalGHZEntanglement",
       "title": "Creating and controlling global Greenberger-Horne-Zeilinger entanglement on quantum processors",
       "authors": "Zehang Bao, Shibo Xu, Zixuan Song, Ke Wang, Liang Xiang, Zitian Zhu, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Ziqi Tan, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Jiarun Zhong, Tingting Li, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Yang-Ren Liu, Liangtian Zhao, Jie Hao, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Biao Huang, H. Wang",
@@ -1979,7 +2025,7 @@ window.LAB_PAPERS_BUNDLE = {
         "IoT安全"
       ],
       "link": "",
-      "abstract": "随着边缘与嵌入式平台上的安全监测逐渐从单一数据源分析转向主机侧遥测与网络侧观测的跨层联合分析，如何在严格的延迟、内存和能耗约束下实现高质量的跨模态关联成为一个关键问题。尽管现有全局融合方法能够提升主机事件与网络活动之间的关联能力，但我们发现，其依赖的全对全跨模态交互在长时间窗口下计算与内存开销迅速增长，同时生成的关联结果缺乏明确的证据对应关系，难以支持后续安全分析与告警分诊。为解决这一问题，我们提出 PivotOT，一种面向资源受限边缘与嵌入式平台的跨层安全对齐框架。PivotOT 通过少量枢轴（pivot）对跨模态交互进行路由，并在枢轴局部执行最优传输（Optimal Transport，OT），从而在限制跨模态计算规模的同时，显式恢复主机端点事件与网络观测之间的对应关系。具体而言，PivotOT 采用模态专用的长序列编码器分别提取主机侧和网络侧特征，通过置信度感知的枢轴聚合机制压缩跨层交互空间，并利用局部最优传输生成可追溯、可审计的跨层证据链接，从而兼顾关联效果、计算效率与分析可解释性。我们在 OpTC、AIT-LDSv2 和 TON_IoT 三个公开主机—网络安全基准上对 PivotOT 进行了评估，并进一步在 Jetson Orin NX 16GB 平台上验证其端侧部署性能。实验结果表明，在主要的 OpTC 数据集上，相比最强的局部匹配基线，PivotOT 将 Recall@10 从 70.1% 提升至 78.4%，将 Cases@80 从 18.1 降低至 14.2，将每次攻击对应的平均案例碎片数从 2.5 降低至 1.8，并将整体证据质量从 71.8 提升至 82.7。在 AIT-LDSv2 和 TON_IoT 上，PivotOT 同样取得了所有对比方法中最高的 Recall@10，表明其跨数据集泛化能力。在 Jetson Orin NX 16GB 上，PivotOT 仍可保持 77.6% 的 Recall@10 和 14.8 的 Cases@80，同时将单窗口处理延迟控制在 251 ms、峰值内存占用控制在 4.2 GB、能耗控制在 3.61 J；相比之下，不受约束的全局跨注意力方法分别需要 861 ms、8.3 GB 和 16.88 J。实验结果表明，通过显式且局部化的跨层对齐，PivotOT 能够在显著降低计算、内存与能耗开销的同时提升跨层安全关联效果与证据可解释性，为资源受限边缘与嵌入式平台上的实时安全监测提供了一种高效且可部署的解决方案。"
+      "abstract": "本文提出了一种面向边缘和嵌入式系统的跨层安全事件对齐框架 PivotOT，旨在解决主机遥测与网络遥测之间由于数据异构、时间不同步以及缺乏统一标识导致的安全事件关联困难问题。该方法通过构建少量高置信度“枢轴事件（pivot）”，结合最优传输算法和跨模态特征编码，实现不同安全数据源之间的精准匹配与证据关联。在资源受限的计算环境下，PivotOT 能够降低事件关联开销，提高安全分析的准确性、可解释性和审计能力。实验结果表明，该框架适用于边缘网关和嵌入式设备的轻量化安全监测，为跨层威胁检测提供了一种高效解决方案。"
     },
     {
       "id": "TCAD2026TopoCache",
@@ -2642,6 +2688,7 @@ window.LAB_PAPERS_BUNDLE = {
     "可编程交换机",
     "可靠性测试",
     "同态加密",
+    "后量子密码",
     "基准测试",
     "大数据系统优化",
     "大模型",
@@ -2683,6 +2730,7 @@ window.LAB_PAPERS_BUNDLE = {
     "量子代码修复",
     "量子具身智能",
     "量子安全",
+    "量子感知与通信",
     "量子数据集",
     "量子神经网络",
     "量子算法卸载",

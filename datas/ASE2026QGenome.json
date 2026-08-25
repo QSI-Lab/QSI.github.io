@@ -1,0 +1,22 @@
+{
+  "id": "ASE2026QGenome",
+  "title": "The Gene Is Not the Gate: Conceptualizing the Semantic Genome of Quantum Software",
+  "authors": "Jiongchi Yu, Yue Duan, Ziming Zhao*, Xiaofei Yue, Zhaoxuan Li",
+  "year": 2026,
+  "venue": "ASE Workshop",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "软件工程/系统软件/程序设计语言"
+  ],
+  "researchDirections": [
+    "量子智能", "量子软工"
+  ],
+  "link": "",
+  "abstract": "本文提出了 QGenome（Quantum Software Genome） 概念框架，旨在为量子软件建立一种类似“基因组”的语义描述体系，以解决现有软件抽象方法难以跨越应用、编译器、运行时和硬件层表达量子软件核心语义的问题。该方法将量子软件中的可复用责任单元定义为“软件基因”，通过类型化描述、依赖关系、演化路径和证据关联，实现对量子程序语义、实现过程和跨层行为的追踪。研究进一步构建了量子软件基因组的组织模型，为量子软件复用、演化分析、缺陷定位和自动化验证提供了新的理论基础。该工作为未来量子软件工程的发展提出了一种面向语义和生命周期管理的新型研究范式。"
+}

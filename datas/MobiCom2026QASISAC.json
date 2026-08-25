@@ -1,0 +1,22 @@
+{
+  "id": "MobiCom2026QASISAC",
+  "title": "QAS-ISAC: Quantum-Assisted Secure ISAC with Encrypted Inference",
+  "authors": "Ziming Zhao, Tingting Li*, Zhaoxuan Li, Xiaofei Yue, Jianwei Yin*",
+  "year": 2026,
+  "venue": "MobiCom WiP",
+  "ccf": "N",
+  "core": "N",
+  "thcpl": "N",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "计算机网络"
+  ],
+  "researchDirections": [
+    "量子感知与通信", "后量子密码"
+  ],
+  "link": "",
+  "abstract": "本文提出了一种量子辅助安全融合感知与通信（QAS-ISAC）框架，旨在解决集成感知与通信系统中通信数据、感知信息以及人工智能推理过程面临的窃听和篡改风险。该方法将量子纠缠辅助安全标记技术与后量子加密（LWE）推理保护机制相结合，实现对无线信号传输和AI推理过程的联合安全防护。实验结果表明，QAS-ISAC能够有效提升量子攻击场景下的检测能力和推理安全性，同时保持较低的计算开销。该研究为未来6G网络中兼顾高效感知、通信与量子安全防护的智能无线系统提供了一种新的解决方案。"
+}
