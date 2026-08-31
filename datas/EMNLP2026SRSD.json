@@ -1,0 +1,26 @@
+{
+  "id": "EMNLP2026SRSD",
+  "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
+  "authors": "Fangming Zhao#, Xiaofei Yue#, Fulun Ye, Yu Peng, Ziming Zhao*, Lewei Jin, Wei Wu, Tianxiang Chen, Tingting Li, Jianwei Yin",
+  "year": 2026,
+  "venue": "EMNLP 2026 Findings",
+  "ccf": "B",
+  "core": "A*",
+  "thcpl": "B",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "大模型推理与训练",
+    "模型推理",
+    "大模型推理优化"
+  ],
+  "link": "https://openreview.net/forum?id=2XFRaU6aTT",
+  "abstract": "自回归解码的逐 token 生成特性使其成为大语言模型推理的关键瓶颈。投机解码通过一次生成并验证多个 token 来减少目标模型前向次数，但现有方法要么引入额外的草稿模型开销，要么依赖脆弱的词法片段复用。本文观察到，在代码生成和文本编辑等结构化任务中，潜在语义上下文存在显著的引用局部性与语义冗余，据此提出无需训练的语义检索投机解码方法 SRSD，将中间层隐藏状态作为上下文语义索引，在每个解码步骤检索语义相似的历史位置，将多个候选合并为紧凑树并通过一次前向传播联合验证。SRSD 无需辅助模型或外部数据存储。在多种流行大语言模型上的实验表明，相较现有无需训练的方法和参数化草稿模型，SRSD 的吞吐速度最高可提升 5.42 倍。代码已开源于 https://github.com/Secbrain/SRSD。",
+  "pdf": "https://openreview.net/pdf?id=2XFRaU6aTT"
+}
