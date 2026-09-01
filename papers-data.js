@@ -2651,6 +2651,32 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "本论文提出了 RegimeGuard，一种面向可编程交换机队列调度的持续学习框架，旨在提升在线心理咨询、危机热线、远程医疗等社会关键型 Web 服务在网络拥塞下的可靠性。其核心思路是在数据平面提供少量可解释的队列优先级和主动队列管理（AQM）阈值，并由交换机外控制器针对正常期与突发期等反复出现的负载环境持续学习调度策略。为避免在环境切换中遗忘已有有效策略，RegimeGuard结合了经验回放、参数正则化和轻量级适配器等方法，以缓解灾难性遗忘问题。作者在 BMv2 软件交换机上实现了该系统，并通过包含后台流量与社会关键会话的多租户追踪驱动工作负载进行评估。结果表明，相比静态配置、多配置基线和朴素在线学习方法，RegimeGuard能够更有效地降低关键业务的尾时延和 SLO 违约率，并在满足关键目标时提升后台流量吞吐。"
+    },
+    {
+      "id": "EMNLP2026SRSD",
+      "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
+      "authors": "Fangming Zhao#, Xiaofei Yue#, Fulun Ye, Yu Peng, Ziming Zhao*, Lewei Jin, Wei Wu, Tianxiang Chen, Tingting Li, Jianwei Yin",
+      "year": 2026,
+      "venue": "EMNLP 2026 Findings",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "大模型推理与训练",
+        "模型推理",
+        "大模型推理优化"
+      ],
+      "link": "https://openreview.net/forum?id=2XFRaU6aTT",
+      "abstract": "自回归解码的逐 token 生成特性使其成为大语言模型推理的关键瓶颈。投机解码通过一次生成并验证多个 token 来减少目标模型前向次数，但现有方法要么引入额外的草稿模型开销，要么依赖脆弱的词法片段复用。本文观察到，在代码生成和文本编辑等结构化任务中，潜在语义上下文存在显著的引用局部性与语义冗余，据此提出无需训练的语义检索投机解码方法 SRSD，将中间层隐藏状态作为上下文语义索引，在每个解码步骤检索语义相似的历史位置，将多个候选合并为紧凑树并通过一次前向传播联合验证。SRSD 无需辅助模型或外部数据存储。在多种流行大语言模型上的实验表明，相较现有无需训练的方法和参数化草稿模型，SRSD 的吞吐速度最高可提升 5.42 倍。代码已开源于 https://github.com/Secbrain/SRSD。",
+      "pdf": "https://openreview.net/pdf?id=2XFRaU6aTT"
     }
   ],
   "ccfFields": [
