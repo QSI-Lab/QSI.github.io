@@ -666,6 +666,32 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作提出了一种基于专家混合（MoE）的量子校准错误回溯方法，用于解决传统自动校准过程中难以定位根因、往往需要反复尝试的问题。该方法借鉴大语言模型中的 MoE 思想，对校准失败进行可追踪分析，从而更快识别导致偏离校准状态的关键误差来源。相比仅依赖经验或固定流程的传统方法，这种机制能够在自动校准过程中实现更高效的错误定位与修正。实验结果表明，该方法在错误追踪能力和校准效率上均明显优于现有技术，并使 77 个量子比特的平均可见度提升了 25.5%。总体来看，这项研究为构建更可靠、可扩展的量子计算系统提供了一条有前景的技术路径。"
     },
     {
+      "id": "EMNLP2026SRSD",
+      "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
+      "authors": "Fangming Zhao#, Xiaofei Yue#, Fulun Ye, Yu Peng, Ziming Zhao*, Lewei Jin, Wei Wu, Tianxiang Chen, Tingting Li, Jianwei Yin",
+      "year": 2026,
+      "venue": "EMNLP 2026 Findings",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "大模型推理与训练",
+        "模型推理",
+        "大模型推理优化"
+      ],
+      "link": "https://openreview.net/forum?id=2XFRaU6aTT",
+      "abstract": "自回归解码的逐 token 生成特性使其成为大语言模型推理的关键瓶颈。投机解码通过一次生成并验证多个 token 来减少目标模型前向次数，但现有方法要么引入额外的草稿模型开销，要么依赖脆弱的词法片段复用。本文观察到，在代码生成和文本编辑等结构化任务中，潜在语义上下文存在显著的引用局部性与语义冗余，据此提出无需训练的语义检索投机解码方法 SRSD，将中间层隐藏状态作为上下文语义索引，在每个解码步骤检索语义相似的历史位置，将多个候选合并为紧凑树并通过一次前向传播联合验证。SRSD 无需辅助模型或外部数据存储。在多种流行大语言模型上的实验表明，相较现有无需训练的方法和参数化草稿模型，SRSD 的吞吐速度最高可提升 5.42 倍。代码已开源于 https://github.com/Secbrain/SRSD。",
+      "pdf": "https://openreview.net/pdf?id=2XFRaU6aTT"
+    },
+    {
       "id": "EMSE2022SmartFast",
       "title": "SmartFast: An Accurate and Robust Formal Analysis Tool for Ethereum Smart Contracts",
       "authors": "Zhaoxuan Li, Siqi Lu, Rui Zhang, Rui Xue, Wenqiu Ma, Rujin Liang, Ziming Zhao, Sheng Gao",
@@ -1483,6 +1509,55 @@ window.LAB_PAPERS_BUNDLE = {
       "link": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
       "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
       "imageUrl": "figures/NDSS2026Chimera.png"
+    },
+    {
+      "id": "NEURIPS2026FLECAR",
+      "title": "Dispatchable Coordination Envelopes for Embodied Collaboration Under Sequential Uncertainty",
+      "authors": "Yuchen Wang, Fanqi Kong, Ke Shi, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "具身智能"
+      ],
+      "link": "N/A",
+      "abstract": "本文提出 FLECAR，用于提升多智能体协作在突发延误、资源冲突和任务变化下的执行能力。该方法通过灵活包络合成保留任务的可执行时间窗口和协调约束，并在事件发生后利用局部修复维持后续执行。在生成的协调任务上，相较传统点调度修复，FLECAR 将事件后可行率从 0.388 提高到 0.840，将终局成功率从 0.580 提高到 0.840，并将归一化修复负担从 0.536 降至 0.296。结果表明，执行过程中保留时间灵活性和协调选择，有助于系统更稳健地应对连续不确定性。"
+    },
+    {
+      "id": "NeurIPS2026RSymX",
+      "title": "Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis",
+      "authors": "Anonymous Author(s)",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": false,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "网络与信息安全"
+      ],
+      "researchDirections": [
+        "智能合约安全",
+        "强化学习",
+        "符号执行",
+        "漏洞检测"
+      ],
+      "link": "https://github.com/ContractAudit/Code",
+      "abstract": "以太坊智能合约频繁发生安全事件，现有基于符号执行和模糊测试的漏洞检测方法受到跨合约调用、循环分支以及多交易协同等复杂合约行为引发的状态空间爆炸问题影响，难以在有限分析预算内兼顾代码覆盖率、漏洞发现效率以及可利用攻击调用序列的生成。为解决这一问题，本文提出RSymX，一种基于强化学习动态策略引导的智能合约符号执行框架。RSymX建立在SymX基础之上，设计了由时间归一化代码覆盖奖励和漏洞严重程度加权奖励组成的混合奖励机制，并利用3DQN模型学习符号状态的动态调度策略，从而优先探索具有较高覆盖收益和漏洞发现潜力的状态，有效缓解符号执行中的状态空间爆炸问题。实验结果表明，RSymX在Dataset1上取得92.39%的Overlap Score和96.06%的F1，在Dataset2上取得99.21%的准确率和84.87%的F1；相比基础系统SymX，其平均分析时间由68.4秒降低至30.7秒，状态探索效率通常提升2至4倍，部分漏洞场景最高可达到10倍加速。同时，RSymX能够检测出多种现有主流方法漏报的真实世界智能合约漏洞，表明强化学习引导的动态状态调度能够有效提升智能合约符号执行的漏洞检测效果和分析效率。"
     },
     {
       "id": "NPJQI2025QuantumEnsembleLearning",
@@ -2651,32 +2726,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "本论文提出了 RegimeGuard，一种面向可编程交换机队列调度的持续学习框架，旨在提升在线心理咨询、危机热线、远程医疗等社会关键型 Web 服务在网络拥塞下的可靠性。其核心思路是在数据平面提供少量可解释的队列优先级和主动队列管理（AQM）阈值，并由交换机外控制器针对正常期与突发期等反复出现的负载环境持续学习调度策略。为避免在环境切换中遗忘已有有效策略，RegimeGuard结合了经验回放、参数正则化和轻量级适配器等方法，以缓解灾难性遗忘问题。作者在 BMv2 软件交换机上实现了该系统，并通过包含后台流量与社会关键会话的多租户追踪驱动工作负载进行评估。结果表明，相比静态配置、多配置基线和朴素在线学习方法，RegimeGuard能够更有效地降低关键业务的尾时延和 SLO 违约率，并在满足关键目标时提升后台流量吞吐。"
-    },
-    {
-      "id": "EMNLP2026SRSD",
-      "title": "Semantic Retrieval Speculative Decoding with Intermediate Representations",
-      "authors": "Fangming Zhao#, Xiaofei Yue#, Fulun Ye, Yu Peng, Ziming Zhao*, Lewei Jin, Wei Wu, Tianxiang Chen, Tingting Li, Jianwei Yin",
-      "year": 2026,
-      "venue": "EMNLP 2026 Findings",
-      "ccf": "B",
-      "core": "A*",
-      "thcpl": "B",
-      "type": "conference",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "人工智能",
-        "交叉/综合/新兴"
-      ],
-      "researchDirections": [
-        "大模型推理与训练",
-        "模型推理",
-        "大模型推理优化"
-      ],
-      "link": "https://openreview.net/forum?id=2XFRaU6aTT",
-      "abstract": "自回归解码的逐 token 生成特性使其成为大语言模型推理的关键瓶颈。投机解码通过一次生成并验证多个 token 来减少目标模型前向次数，但现有方法要么引入额外的草稿模型开销，要么依赖脆弱的词法片段复用。本文观察到，在代码生成和文本编辑等结构化任务中，潜在语义上下文存在显著的引用局部性与语义冗余，据此提出无需训练的语义检索投机解码方法 SRSD，将中间层隐藏状态作为上下文语义索引，在每个解码步骤检索语义相似的历史位置，将多个候选合并为紧凑树并通过一次前向传播联合验证。SRSD 无需辅助模型或外部数据存储。在多种流行大语言模型上的实验表明，相较现有无需训练的方法和参数化草稿模型，SRSD 的吞吐速度最高可提升 5.42 倍。代码已开源于 https://github.com/Secbrain/SRSD。",
-      "pdf": "https://openreview.net/pdf?id=2XFRaU6aTT"
     }
   ],
   "ccfFields": [
@@ -2727,8 +2776,10 @@ window.LAB_PAPERS_BUNDLE = {
     "大模型训练模拟",
     "大语言模型",
     "实证研究",
+    "强化学习",
     "推理与调度",
     "文生图",
+    "智能合约安全",
     "服务器无感知计算",
     "服务质量",
     "未知检测",
@@ -2737,6 +2788,7 @@ window.LAB_PAPERS_BUNDLE = {
     "模型调度",
     "比特翻转",
     "游戏测试",
+    "漏洞检测",
     "碳感知算网",
     "神经网络",
     "程序修复",
