@@ -1,0 +1,26 @@
+{
+    "id": "NeurIPS2026RSymX",
+    "title": "Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis",
+    "authors": "Anonymous Author(s)",
+    "year": 2026,
+    "venue": "NeurIPS",
+    "ccf": "A",
+    "core": "A*",
+    "thcpl": "A",
+    "type": "conference",
+    "accepted": false,
+    "ncsCategory": "NONE",
+    "sciZone": "NONE",
+    "fields": [
+        "人工智能",
+        "网络与信息安全"
+    ],
+    "researchDirections": [
+        "智能合约安全",
+        "强化学习",
+        "符号执行",
+        "漏洞检测"
+    ],
+    "link": "https://github.com/ContractAudit/Code",
+    "abstract": "以太坊智能合约频繁发生安全事件，现有基于符号执行和模糊测试的漏洞检测方法受到跨合约调用、循环分支以及多交易协同等复杂合约行为引发的状态空间爆炸问题影响，难以在有限分析预算内兼顾代码覆盖率、漏洞发现效率以及可利用攻击调用序列的生成。为解决这一问题，本文提出RSymX，一种基于强化学习动态策略引导的智能合约符号执行框架。RSymX建立在SymX基础之上，设计了由时间归一化代码覆盖奖励和漏洞严重程度加权奖励组成的混合奖励机制，并利用3DQN模型学习符号状态的动态调度策略，从而优先探索具有较高覆盖收益和漏洞发现潜力的状态，有效缓解符号执行中的状态空间爆炸问题。实验结果表明，RSymX在Dataset1上取得92.39%的Overlap Score和96.06%的F1，在Dataset2上取得99.21%的准确率和84.87%的F1；相比基础系统SymX，其平均分析时间由68.4秒降低至30.7秒，状态探索效率通常提升2至4倍，部分漏洞场景最高可达到10倍加速。同时，RSymX能够检测出多种现有主流方法漏报的真实世界智能合约漏洞，表明强化学习引导的动态状态调度能够有效提升智能合约符号执行的漏洞检测效果和分析效率。"
+}
