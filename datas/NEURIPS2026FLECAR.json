@@ -1,0 +1,23 @@
+{
+  "id": "NEURIPS2026FLECAR",
+  "title": "Dispatchable Coordination Envelopes for Embodied Collaboration Under Sequential Uncertainty",
+  "authors": "Yuchen Wang, Fanqi Kong, Ke Shi, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
+  "year": 2026,
+  "venue": "NeurIPS",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "具身智能"
+  ],
+  "link": "N/A",
+  "abstract": "本文提出 FLECAR，用于提升多智能体协作在突发延误、资源冲突和任务变化下的执行能力。该方法通过灵活包络合成保留任务的可执行时间窗口和协调约束，并在事件发生后利用局部修复维持后续执行。在生成的协调任务上，相较传统点调度修复，FLECAR 将事件后可行率从 0.388 提高到 0.840，将终局成功率从 0.580 提高到 0.840，并将归一化修复负担从 0.536 降至 0.296。结果表明，执行过程中保留时间灵活性和协调选择，有助于系统更稳健地应对连续不确定性。"
+}
