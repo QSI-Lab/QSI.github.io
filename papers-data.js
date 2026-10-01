@@ -1534,6 +1534,31 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本文提出 FLECAR，用于提升多智能体协作在突发延误、资源冲突和任务变化下的执行能力。该方法通过灵活包络合成保留任务的可执行时间窗口和协调约束，并在事件发生后利用局部修复维持后续执行。在生成的协调任务上，相较传统点调度修复，FLECAR 将事件后可行率从 0.388 提高到 0.840，将终局成功率从 0.580 提高到 0.840，并将归一化修复负担从 0.536 降至 0.296。结果表明，执行过程中保留时间灵活性和协调选择，有助于系统更稳健地应对连续不确定性。"
     },
     {
+      "id": "NEURIPS2026QResidualPhysics",
+      "title": "Q-Residual Physics: Hamiltonian-Structured Quantum Residual Learning for Embodied Dynamics",
+      "authors": "Fanqi Kong, Ke Shi, Yuchen Wang, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "量子智能",
+        "具身智能",
+        "AI for Science"
+      ],
+      "link": "",
+      "abstract": "具身智能体在接触密集环境中需要建模摩擦不确定性、接触不连续、柔顺性、执行器缺陷、感知噪声及质量或惯量失配等因素。现有残差动力学方法通常用无约束神经网络修正名义物理预测，在未见接触状态、物理参数变化、长时域预测及少样本适应中泛化不足。本文提出 Q-Residual Physics，一种面向具身动力学的哈密顿量结构化量子残差学习框架。该方法以量子比特表示接触冲量、摩擦、滑移、柔顺性、阻尼、感知误差及质量或惯量失配等可解释物理模式，由物理交互图构建哈密顿量残差结构，并通过 Trotter 化参数化量子线路建模模式激活、物理耦合、不确定切换、动态模式交换和高阶交互，最终将量子测量解码为对名义物理预测的修正。在 OmniPush、ManiSkill2、robomimic、D4RL 和 Physion 等基准上，论文报告长时域预测误差降低 23.8%、接触转换预测提升 16.4%、分布外参数误差降低 21.7%，少样本适应提升 28.5%。"
+    },
+    {
       "id": "NeurIPS2026RSymX",
       "title": "Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis",
       "authors": "Anonymous Author(s)",
