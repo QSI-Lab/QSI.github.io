@@ -1561,7 +1561,7 @@ window.LAB_PAPERS_BUNDLE = {
     {
       "id": "NeurIPS2026RSymX",
       "title": "Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis",
-      "authors": "Anonymous Author(s)",
+      "authors": "Zhaoxuan Li, Ziming Zhao, Siqi Lu, Rui Zhang, Wenhao Li, Xiaofei Yue, Fan Zhang",
       "year": 2026,
       "venue": "NeurIPS",
       "ccf": "A",
