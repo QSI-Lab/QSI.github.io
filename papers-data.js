@@ -1533,7 +1533,7 @@ window.LAB_PAPERS_BUNDLE = {
       "link": "N/A",
       "abstract": "本文提出 FLECAR，用于提升多智能体协作在突发延误、资源冲突和任务变化下的执行能力。该方法通过灵活包络合成保留任务的可执行时间窗口和协调约束，并在事件发生后利用局部修复维持后续执行。在生成的协调任务上，相较传统点调度修复，FLECAR 将事件后可行率从 0.388 提高到 0.840，将终局成功率从 0.580 提高到 0.840，并将归一化修复负担从 0.536 降至 0.296。结果表明，执行过程中保留时间灵活性和协调选择，有助于系统更稳健地应对连续不确定性。"
     },
-        {
+    {
       "id": "NEURIPS2026QCoMove",
       "title": "Q-CoMove: Differentiable Quantum Circuit Priors for Coordinated Motion in Multi-Component Embodied Systems",
       "authors": "Ke Shi, Fanqi Kong, Yuchen Wang, Zhipeng Liu, Tingting Li, Ziming Zhao",
@@ -1558,7 +1558,7 @@ window.LAB_PAPERS_BUNDLE = {
       "pdf": "https://openreview.net/pdf?id=KQmzoa2vU6",
       "abstract": "多组件具身机器人需要在共享的空间与时间约束下协调底座、机械臂、相机、夹爪及局部环境。Q-CoMove 将其建模为耦合动力系统，使用在经典硬件上运行的可微分量子线路式先验表征组件间依赖，并将测量得到的协调信息融入物理残差动力学模型和联合动作生成器。论文在模拟环境中与参数量匹配的 Transformer、图神经网络及联合模型预测控制等基线比较，并进行了消融与鲁棒性测试。结果显示，该方法在有限推理开销下改善协调指标；现有证据仅来自模拟环境，尚未与结构匹配的经典协调瓶颈进行直接对比。"
     },
-{
+    {
       "id": "NEURIPS2026QResidualPhysics",
       "title": "Q-Residual Physics: Hamiltonian-Structured Quantum Residual Learning for Embodied Dynamics",
       "authors": "Fanqi Kong, Ke Shi, Yuchen Wang, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
