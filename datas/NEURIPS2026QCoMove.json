@@ -1,0 +1,25 @@
+{
+  "id": "NEURIPS2026QCoMove",
+  "title": "Q-CoMove: Differentiable Quantum Circuit Priors for Coordinated Motion in Multi-Component Embodied Systems",
+  "authors": "Ke Shi, Fanqi Kong, Yuchen Wang, Zhipeng Liu, Tingting Li, Ziming Zhao",
+  "year": 2026,
+  "venue": "NeurIPS",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能",
+    "交叉/综合/新兴"
+  ],
+  "researchDirections": [
+    "量子智能",
+    "具身智能"
+  ],
+  "link": "https://openreview.net/forum?id=KQmzoa2vU6",
+  "pdf": "https://openreview.net/pdf?id=KQmzoa2vU6",
+  "abstract": "多组件具身机器人需要在共享的空间与时间约束下协调底座、机械臂、相机、夹爪及局部环境。Q-CoMove 将其建模为耦合动力系统，使用在经典硬件上运行的可微分量子线路式先验表征组件间依赖，并将测量得到的协调信息融入物理残差动力学模型和联合动作生成器。论文在模拟环境中与参数量匹配的 Transformer、图神经网络及联合模型预测控制等基线比较，并进行了消融与鲁棒性测试。结果显示，该方法在有限推理开销下改善协调指标；现有证据仅来自模拟环境，尚未与结构匹配的经典协调瓶颈进行直接对比。"
+}
