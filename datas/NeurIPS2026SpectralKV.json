@@ -1,0 +1,22 @@
+{
+  "id": "NeurIPS2026SpectralKV",
+  "title": "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection",
+  "authors": "Fangming Zhao#, Xiaofei Yue#, Fulun Ye, Yu Peng, Tingting Li, Junyu Chen, Ziming Zhao*",
+  "year": 2026,
+  "venue": "NeurIPS",
+  "ccf": "A",
+  "core": "A*",
+  "thcpl": "A",
+  "type": "conference",
+  "accepted": true,
+  "ncsCategory": "NONE",
+  "sciZone": "NONE",
+  "fields": [
+    "人工智能"
+  ],
+  "researchDirections": [
+    "大模型推理与训练"
+  ],
+  "link": "",
+  "abstract": "大语言模型的长上下文推理受到键值（KV）缓存的限制：缓存大小随输入长度线性增长，且每个解码步骤都需要读取缓存。现有压缩方法大多独立评估每个缓存词元，保留得分最高的词元并删除其余词元。本文从注意力输出的角度重新审视这一做法，证明当被移除词元可以合并到保留词元时，输出误差可按被移除词元精确分解；如果某个保留词元的注意力与被移除词元成比例，它就能恢复后者的贡献，因此保留一个词元的收益取决于其他保留词元是否已能代表它。基于这一分析，本文提出无需训练的 SpectralKV，将提示词的 KV 缓存压缩为加权核心集。该方法利用观测查询的协方差谱和输出投影构建键值空间，寻找候选代表词元并评估其对各词元贡献的恢复程度，随后跨注意力头联合选择代表词元，以最大化重要性加权覆盖，并将剩余词元合并到代表词元中，同时保持其注意力质量。在 Llama-3.1-8B-Instruct 和 Qwen3-4B 上，基于 LongBench 与 RULER 共 29 个数据集的实验表明，在分别保留 5% 和 10% 提示词缓存的设置下，SpectralKV 保持了完整缓存性能的 98.1%，并比六种近期淘汰方法中最强的基线平均高出 3.2 个百分点。"
+}
