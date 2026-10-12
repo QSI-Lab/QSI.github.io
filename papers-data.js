@@ -481,6 +481,29 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "针对智能合约漏洞仿真、结果验证与行为识别需求，以及传统符号执行难以还原合约真实执行路径的问题，本文提出一种基于动态符号执行的智能合约安全增强方法。该方法通过选择性规避策略尽可能保留相对完整的循环路径，结合真实合约执行以保证调用合约与被调用合约之间的数据一致性，并通过及时记录 EVM 操作过程中的状态变化来支持多交易连续执行。在此基础上，系统能够同时完成漏洞检测、漏洞验证和合约调用行为识别。实验结果表明，该方法实现了 90.22% 的漏洞检测准确率和 98.04% 的合约调用行为识别准确率，并能够有效验证重入、任意发送、合约自毁、整数溢出等典型漏洞。"
     },
     {
+      "id": "CSCWD2024AlertCrossVerification",
+      "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
+      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
+      "year": 2024,
+      "venue": "CSCWD",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "网络与信息安全",
+        "人工智能"
+      ],
+      "researchDirections": [
+        "网络与算网融合"
+      ],
+      "link": "http://2024.cscwd.org/",
+      "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
+    },
+    {
       "id": "CommPhys2024SimulatingUnsteadyFlows",
       "title": "Simulating unsteady flows on a superconducting quantum processor",
       "authors": "Zhaoyuan Meng, Jiarun Zhong, Shibo Xu, Ke Wang, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Zehang Bao, Zitian Zhu, Ziqi Tan, Tingting Li, Pengfei Zhang, Shiying Xiong, Hekang Li, Qiujiang Guo, Zhen Wang, Chao Song, H. Wang, Yue Yang",
@@ -551,29 +574,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://www.sciencedirect.com/science/article/pii/S0167404823005734",
       "abstract": "本文针对 DDoS 防御中攻击变种不断增多所带来的识别与响应难题，提出了“DDoS 家族”这一新概念。随着攻击策略日益复杂，传统机器学习方法在二分类和细粒度攻击分类两端都面临局限，同时大量攻击类别也会导致过滤规则表臃肿、缓解响应变慢。为此，本文从流量模式刻画、攻击指纹生成以及基于社区发现的交叉执行家族划分三个方面构建技术路线，以实现对相似攻击的统一建模。大量实验表明，该方法能够有效刻画攻击之间的相似性，辅助模型分类与未知攻击检测，并优化防御策略、提升过滤响应速度。特别地，研究发现仅用一条规则即可防御 15 种具有同质行为特征的攻击，同时“统计反向数据包”在应对部分攻击时比以往方案更高效、更鲁棒。"
-    },
-    {
-      "id": "CSCWD2024AlertCrossVerification",
-      "title": "An Automated Alert Cross-Verification System with Graph Neural Networks for IDS Events",
-      "authors": "Liang Li, Feiyang Huang, Yuanhui He, Ziming Zhao, Zhuoxue Song, Tong Zhou, Zhenyuan Li, Fan Zhang*",
-      "year": 2024,
-      "venue": "CSCWD",
-      "ccf": "C",
-      "core": "N",
-      "thcpl": "N",
-      "type": "conference",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "网络与信息安全",
-        "人工智能"
-      ],
-      "researchDirections": [
-        "网络与算网融合"
-      ],
-      "link": "http://2024.cscwd.org/",
-      "abstract": "入侵检测系统（IDS）对于检测网络攻击以及确保网络资源的机密性和完整性至关重要。目前，行业标准的IDS主要依赖基于规则或异常检测技术。然而，现有的检测技术常常产生假阳性和假阴性，也称为警报疲劳问题。大量错误事件通过给安全分析师带来的负担，降低了IDS的效率。本文介绍了ACVS，一种创新的自动警报交叉验证系统，利用图神经网络识别安全事件中的错误分类。最初，ACVS利用IP地址和时间戳等属性生成事件图，并利用警报信息验证错误分类。最后，系统使用图神经网络自动分类和纠正这些安全事件。我们基于包含超过500万次安全事件的大量真实世界数据集进行ACVS评估，这些事件被划分为5个不同组别。结果显示，反腐化检测系统显著提升了入侵检测系统的准确性，并大幅减少了人工分析的需求。"
     },
     {
       "id": "DAC2026Bayesian",
@@ -1319,6 +1319,151 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "本文提出了一种量子辅助安全融合感知与通信（QAS-ISAC）框架，旨在解决集成感知与通信系统中通信数据、感知信息以及人工智能推理过程面临的窃听和篡改风险。该方法将量子纠缠辅助安全标记技术与后量子加密（LWE）推理保护机制相结合，实现对无线信号传输和AI推理过程的联合安全防护。实验结果表明，QAS-ISAC能够有效提升量子攻击场景下的检测能力和推理安全性，同时保持较低的计算开销。该研究为未来6G网络中兼顾高效感知、通信与量子安全防护的智能无线系统提供了一种新的解决方案。"
     },
     {
+      "id": "NDSS2026Chimera",
+      "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
+      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Yuhan Ma, Ziming Zhao*",
+      "year": 2026,
+      "venue": "NDSS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "网络与信息安全"
+      ],
+      "researchDirections": [
+        "大模型多智能体",
+        "网络安全"
+      ],
+      "link": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+      "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
+      "imageUrl": "figures/NDSS2026Chimera.png"
+    },
+    {
+      "id": "NEURIPS2026FLECAR",
+      "title": "Dispatchable Coordination Envelopes for Embodied Collaboration Under Sequential Uncertainty",
+      "authors": "Yuchen Wang, Fanqi Kong, Ke Shi, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "具身智能"
+      ],
+      "link": "N/A",
+      "abstract": "本文提出 FLECAR，用于提升多智能体协作在突发延误、资源冲突和任务变化下的执行能力。该方法通过灵活包络合成保留任务的可执行时间窗口和协调约束，并在事件发生后利用局部修复维持后续执行。在生成的协调任务上，相较传统点调度修复，FLECAR 将事件后可行率从 0.388 提高到 0.840，将终局成功率从 0.580 提高到 0.840，并将归一化修复负担从 0.536 降至 0.296。结果表明，执行过程中保留时间灵活性和协调选择，有助于系统更稳健地应对连续不确定性。"
+    },
+    {
+      "id": "NEURIPS2026QCoMove",
+      "title": "Q-CoMove: Differentiable Quantum Circuit Priors for Coordinated Motion in Multi-Component Embodied Systems",
+      "authors": "Ke Shi, Fanqi Kong, Yuchen Wang, Zhipeng Liu, Tingting Li, Ziming Zhao",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "量子智能",
+        "具身智能"
+      ],
+      "link": "https://openreview.net/forum?id=KQmzoa2vU6",
+      "pdf": "https://openreview.net/pdf?id=KQmzoa2vU6",
+      "abstract": "多组件具身机器人需要在共享的空间与时间约束下协调底座、机械臂、相机、夹爪及局部环境。Q-CoMove 将其建模为耦合动力系统，使用在经典硬件上运行的可微分量子线路式先验表征组件间依赖，并将测量得到的协调信息融入物理残差动力学模型和联合动作生成器。论文在模拟环境中与参数量匹配的 Transformer、图神经网络及联合模型预测控制等基线比较，并进行了消融与鲁棒性测试。结果显示，该方法在有限推理开销下改善协调指标；现有证据仅来自模拟环境，尚未与结构匹配的经典协调瓶颈进行直接对比。"
+    },
+    {
+      "id": "NEURIPS2026QResidualPhysics",
+      "title": "Q-Residual Physics: Hamiltonian-Structured Quantum Residual Learning for Embodied Dynamics",
+      "authors": "Fanqi Kong, Ke Shi, Yuchen Wang, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "人工智能",
+        "交叉/综合/新兴"
+      ],
+      "researchDirections": [
+        "量子智能",
+        "具身智能",
+        "AI for Science"
+      ],
+      "link": "",
+      "abstract": "具身智能体在接触密集环境中需要建模摩擦不确定性、接触不连续、柔顺性、执行器缺陷、感知噪声及质量或惯量失配等因素。现有残差动力学方法通常用无约束神经网络修正名义物理预测，在未见接触状态、物理参数变化、长时域预测及少样本适应中泛化不足。本文提出 Q-Residual Physics，一种面向具身动力学的哈密顿量结构化量子残差学习框架。该方法以量子比特表示接触冲量、摩擦、滑移、柔顺性、阻尼、感知误差及质量或惯量失配等可解释物理模式，由物理交互图构建哈密顿量残差结构，并通过 Trotter 化参数化量子线路建模模式激活、物理耦合、不确定切换、动态模式交换和高阶交互，最终将量子测量解码为对名义物理预测的修正。在 OmniPush、ManiSkill2、robomimic、D4RL 和 Physion 等基准上，论文报告长时域预测误差降低 23.8%、接触转换预测提升 16.4%、分布外参数误差降低 21.7%，少样本适应提升 28.5%。"
+    },
+    {
+      "id": "NPJQI2025QuantumEnsembleLearning",
+      "title": "Quantum ensemble learning with a programmable superconducting processor",
+      "authors": "Jiachen Chen, Yaozu Wu, Zhen Yang, Shibo Xu, Xuan Ye, Daili Li, Ke Wang, Chuanyu Zhang, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wei Zhang, Hekang Li, Qiujiang Guo, Zhen Wang, Ying Li, Xiaoting Wang, Chao Song, H. Wang",
+      "year": 2025,
+      "venue": "npj Quantum Information",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41534-025-01037-6",
+      "doi": "https://doi.org/10.1038/s41534-025-01037-6",
+      "abstract": "该工作提出了 AdaBoost.Q，一种面向量子分类器的集成学习方法，通过在自适应训练与组合过程中重新分配注意力来提升量子模型的学习能力。作者在可编程超导量子处理器上验证了该方法对量子神经网络和量子卷积网络等多种模型的增强效果，在多类分类和量子特征识别任务上均取得明显性能提升。研究为推动量子机器学习从噪声设备走向实际应用提供了基础工具。"
+    },
+    {
+      "id": "NPJQI2026QuantumContinualLearning",
+      "title": "Experimental demonstration of quantum continual learning with superconducting qubits",
+      "authors": "Chuanyu Zhang, Zhide Lu, Liangtian Zhao, Shibo Xu, Weikang Li, Ke Wang, Jiachen Chen, Yaozu Wu, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wenjie Jiang, Zheng-Zhi Sun, Pei-Xin Shen, Hekang Li, Qiujiang Guo, Zhen Wang, Jie Hao, H. Wang, Dong-Ling Deng, Chao Song",
+      "year": 2026,
+      "venue": "npj Quantum Information",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NCS_SUB",
+      "sciZone": "SCI1",
+      "fields": [
+        "交叉/综合/新兴",
+        "计算机体系结构/并行与分布计算/存储系统"
+      ],
+      "researchDirections": [
+        "量子智能"
+      ],
+      "link": "https://www.nature.com/articles/s41534-025-01174-y",
+      "doi": "https://doi.org/10.1038/s41534-025-01174-y",
+      "abstract": "该工作在超导量子处理器上实验演示了量子持续学习，并系统展示了量子分类器在顺序任务训练中的灾难性遗忘现象。为缓解这一问题，作者引入弹性权重巩固策略，使模型在连续三项任务训练后仍能保留先前知识，并取得超过 92.3% 的平均准确率。研究结果表明，量子学习系统可以通过合适机制获得面向连续任务的适应能力，为量子机器学习的长期部署提供了可行路径。"
+    },
+    {
       "id": "NatCommun2024CreatingAndControllingGlobalGHZEntanglement",
       "title": "Creating and controlling global Greenberger-Horne-Zeilinger entanglement on quantum processors",
       "authors": "Zehang Bao, Shibo Xu, Zixuan Song, Ke Wang, Liang Xiang, Zitian Zhu, Jiachen Chen, Feitong Jin, Xuhao Zhu, Yu Gao, Yaozu Wu, Chuanyu Zhang, Ning Wang, Yiren Zou, Ziqi Tan, Aosai Zhang, Zhengyi Cui, Fanhao Shen, Jiarun Zhong, Tingting Li, Jinfeng Deng, Xu Zhang, Hang Dong, Pengfei Zhang, Yang-Ren Liu, Liangtian Zhao, Jie Hao, Hekang Li, Zhen Wang, Chao Song, Qiujiang Guo, Biao Huang, H. Wang",
@@ -1487,103 +1632,6 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "该工作在 100 比特可编程超导量子处理器上，通过数字量子模拟一维无序自由稳定子哈密顿量，观测到由预热区间涌现对称性保护的拓扑边界模。实验表明，这类拓扑零模能够在有限温度和无无序条件下保持长寿命，并可通过稳定子强度二聚化进一步抑制其与体激发的耦合。作者还利用这些边界模编码逻辑量子比特并制备逻辑 Bell 态，展示了其作为稳健边界量子存储单元的潜力。"
     },
     {
-      "id": "NDSS2026Chimera",
-      "title": "Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation",
-      "authors": "Jiongchi Yu, Xiaofei Xie, Qiang Hu*, Yuhan Ma, Ziming Zhao*",
-      "year": 2026,
-      "venue": "NDSS",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "网络与信息安全"
-      ],
-      "researchDirections": [
-        "大模型多智能体",
-        "网络安全"
-      ],
-      "link": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
-      "abstract": "Chimera 是一种基于大语言模型的多智能体框架，旨在解决内部威胁检测中高质量、真实训练数据匮乏的问题。它将不同智能体建模为具有细粒度角色的企业员工，通过会议、双人互动和自主日程安排来模拟真实组织环境中的正常与恶意行为。基于从真实事件中抽象出的 15 类内部攻击，作者在三种典型的高敏感组织场景中构建了新的日志数据集 ChimeraLog。实验与人工评估表明，ChimeraLog 在多样性和真实性方面表现较好，而且相较现有数据集更具挑战性。进一步结果显示，在 ChimeraLog 上训练的内部威胁检测模型具有较强的泛化能力，说明基于大模型的多智能体仿真在推动该领域研究方面具有实际价值。",
-      "imageUrl": "figures/NDSS2026Chimera.png"
-    },
-    {
-      "id": "NEURIPS2026FLECAR",
-      "title": "Dispatchable Coordination Envelopes for Embodied Collaboration Under Sequential Uncertainty",
-      "authors": "Yuchen Wang, Fanqi Kong, Ke Shi, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
-      "year": 2026,
-      "venue": "NeurIPS",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "人工智能",
-        "交叉/综合/新兴"
-      ],
-      "researchDirections": [
-        "具身智能"
-      ],
-      "link": "N/A",
-      "abstract": "本文提出 FLECAR，用于提升多智能体协作在突发延误、资源冲突和任务变化下的执行能力。该方法通过灵活包络合成保留任务的可执行时间窗口和协调约束，并在事件发生后利用局部修复维持后续执行。在生成的协调任务上，相较传统点调度修复，FLECAR 将事件后可行率从 0.388 提高到 0.840，将终局成功率从 0.580 提高到 0.840，并将归一化修复负担从 0.536 降至 0.296。结果表明，执行过程中保留时间灵活性和协调选择，有助于系统更稳健地应对连续不确定性。"
-    },
-    {
-      "id": "NEURIPS2026QCoMove",
-      "title": "Q-CoMove: Differentiable Quantum Circuit Priors for Coordinated Motion in Multi-Component Embodied Systems",
-      "authors": "Ke Shi, Fanqi Kong, Yuchen Wang, Zhipeng Liu, Tingting Li, Ziming Zhao",
-      "year": 2026,
-      "venue": "NeurIPS",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "人工智能",
-        "交叉/综合/新兴"
-      ],
-      "researchDirections": [
-        "量子智能",
-        "具身智能"
-      ],
-      "link": "https://openreview.net/forum?id=KQmzoa2vU6",
-      "pdf": "https://openreview.net/pdf?id=KQmzoa2vU6",
-      "abstract": "多组件具身机器人需要在共享的空间与时间约束下协调底座、机械臂、相机、夹爪及局部环境。Q-CoMove 将其建模为耦合动力系统，使用在经典硬件上运行的可微分量子线路式先验表征组件间依赖，并将测量得到的协调信息融入物理残差动力学模型和联合动作生成器。论文在模拟环境中与参数量匹配的 Transformer、图神经网络及联合模型预测控制等基线比较，并进行了消融与鲁棒性测试。结果显示，该方法在有限推理开销下改善协调指标；现有证据仅来自模拟环境，尚未与结构匹配的经典协调瓶颈进行直接对比。"
-    },
-    {
-      "id": "NEURIPS2026QResidualPhysics",
-      "title": "Q-Residual Physics: Hamiltonian-Structured Quantum Residual Learning for Embodied Dynamics",
-      "authors": "Fanqi Kong, Ke Shi, Yuchen Wang, Zhipeng Liu, Xiaofei Yue, Zhaoxuan Li, Tingting Li, Ziming Zhao*",
-      "year": 2026,
-      "venue": "NeurIPS",
-      "ccf": "A",
-      "core": "A*",
-      "thcpl": "A",
-      "type": "conference",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "人工智能",
-        "交叉/综合/新兴"
-      ],
-      "researchDirections": [
-        "量子智能",
-        "具身智能",
-        "AI for Science"
-      ],
-      "link": "",
-      "abstract": "具身智能体在接触密集环境中需要建模摩擦不确定性、接触不连续、柔顺性、执行器缺陷、感知噪声及质量或惯量失配等因素。现有残差动力学方法通常用无约束神经网络修正名义物理预测，在未见接触状态、物理参数变化、长时域预测及少样本适应中泛化不足。本文提出 Q-Residual Physics，一种面向具身动力学的哈密顿量结构化量子残差学习框架。该方法以量子比特表示接触冲量、摩擦、滑移、柔顺性、阻尼、感知误差及质量或惯量失配等可解释物理模式，由物理交互图构建哈密顿量残差结构，并通过 Trotter 化参数化量子线路建模模式激活、物理耦合、不确定切换、动态模式交换和高阶交互，最终将量子测量解码为对名义物理预测的修正。在 OmniPush、ManiSkill2、robomimic、D4RL 和 Physion 等基准上，论文报告长时域预测误差降低 23.8%、接触转换预测提升 16.4%、分布外参数误差降低 21.7%，少样本适应提升 28.5%。"
-    },
-    {
       "id": "NeurIPS2026RSymX",
       "title": "Reinforcement Learning-Guided Symbolic Execution for Efficient and Exploitable Smart Contract Analysis",
       "authors": "Zhaoxuan Li, Ziming Zhao, Siqi Lu, Rui Zhang, Wenhao Li, Xiaofei Yue, Fan Zhang",
@@ -1610,52 +1658,26 @@ window.LAB_PAPERS_BUNDLE = {
       "abstract": "以太坊智能合约频繁发生安全事件，现有基于符号执行和模糊测试的漏洞检测方法受到跨合约调用、循环分支以及多交易协同等复杂合约行为引发的状态空间爆炸问题影响，难以在有限分析预算内兼顾代码覆盖率、漏洞发现效率以及可利用攻击调用序列的生成。为解决这一问题，本文提出RSymX，一种基于强化学习动态策略引导的智能合约符号执行框架。RSymX建立在SymX基础之上，设计了由时间归一化代码覆盖奖励和漏洞严重程度加权奖励组成的混合奖励机制，并利用3DQN模型学习符号状态的动态调度策略，从而优先探索具有较高覆盖收益和漏洞发现潜力的状态，有效缓解符号执行中的状态空间爆炸问题。实验结果表明，RSymX在Dataset1上取得92.39%的Overlap Score和96.06%的F1，在Dataset2上取得99.21%的准确率和84.87%的F1；相比基础系统SymX，其平均分析时间由68.4秒降低至30.7秒，状态探索效率通常提升2至4倍，部分漏洞场景最高可达到10倍加速。同时，RSymX能够检测出多种现有主流方法漏报的真实世界智能合约漏洞，表明强化学习引导的动态状态调度能够有效提升智能合约符号执行的漏洞检测效果和分析效率。"
     },
     {
-      "id": "NPJQI2025QuantumEnsembleLearning",
-      "title": "Quantum ensemble learning with a programmable superconducting processor",
-      "authors": "Jiachen Chen, Yaozu Wu, Zhen Yang, Shibo Xu, Xuan Ye, Daili Li, Ke Wang, Chuanyu Zhang, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wei Zhang, Hekang Li, Qiujiang Guo, Zhen Wang, Ying Li, Xiaoting Wang, Chao Song, H. Wang",
-      "year": 2025,
-      "venue": "npj Quantum Information",
-      "ccf": "N",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
-      "accepted": true,
-      "ncsCategory": "NCS_SUB",
-      "sciZone": "SCI1",
-      "fields": [
-        "交叉/综合/新兴",
-        "计算机体系结构/并行与分布计算/存储系统"
-      ],
-      "researchDirections": [
-        "量子智能"
-      ],
-      "link": "https://www.nature.com/articles/s41534-025-01037-6",
-      "doi": "https://doi.org/10.1038/s41534-025-01037-6",
-      "abstract": "该工作提出了 AdaBoost.Q，一种面向量子分类器的集成学习方法，通过在自适应训练与组合过程中重新分配注意力来提升量子模型的学习能力。作者在可编程超导量子处理器上验证了该方法对量子神经网络和量子卷积网络等多种模型的增强效果，在多类分类和量子特征识别任务上均取得明显性能提升。研究为推动量子机器学习从噪声设备走向实际应用提供了基础工具。"
-    },
-    {
-      "id": "NPJQI2026QuantumContinualLearning",
-      "title": "Experimental demonstration of quantum continual learning with superconducting qubits",
-      "authors": "Chuanyu Zhang, Zhide Lu, Liangtian Zhao, Shibo Xu, Weikang Li, Ke Wang, Jiachen Chen, Yaozu Wu, Feitong Jin, Xuhao Zhu, Yu Gao, Ziqi Tan, Zhengyi Cui, Aosai Zhang, Ning Wang, Yiren Zou, Tingting Li, Fanhao Shen, Jiarun Zhong, Zehang Bao, Zitian Zhu, Zixuan Song, Jinfeng Deng, Hang Dong, Pengfei Zhang, Wenjie Jiang, Zheng-Zhi Sun, Pei-Xin Shen, Hekang Li, Qiujiang Guo, Zhen Wang, Jie Hao, H. Wang, Dong-Ling Deng, Chao Song",
+      "id": "NeurIPS2026SpectralKV",
+      "title": "SpectralKV: Redundancy-Aware KV Cache Compression via Spectral Coreset Selection",
+      "authors": "Fangming Zhao#, Xiaofei Yue#, Fulun Ye, Yu Peng, Tingting Li, Junyu Chen, Ziming Zhao*",
       "year": 2026,
-      "venue": "npj Quantum Information",
-      "ccf": "N",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
+      "venue": "NeurIPS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "type": "conference",
       "accepted": true,
-      "ncsCategory": "NCS_SUB",
-      "sciZone": "SCI1",
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
       "fields": [
-        "交叉/综合/新兴",
-        "计算机体系结构/并行与分布计算/存储系统"
+        "人工智能"
       ],
       "researchDirections": [
-        "量子智能"
+        "大模型推理与训练"
       ],
-      "link": "https://www.nature.com/articles/s41534-025-01174-y",
-      "doi": "https://doi.org/10.1038/s41534-025-01174-y",
-      "abstract": "该工作在超导量子处理器上实验演示了量子持续学习，并系统展示了量子分类器在顺序任务训练中的灾难性遗忘现象。为缓解这一问题，作者引入弹性权重巩固策略，使模型在连续三项任务训练后仍能保留先前知识，并取得超过 92.3% 的平均准确率。研究结果表明，量子学习系统可以通过合适机制获得面向连续任务的适应能力，为量子机器学习的长期部署提供了可行路径。"
+      "link": "",
+      "abstract": "大语言模型的长上下文推理受到键值（KV）缓存的限制：缓存大小随输入长度线性增长，且每个解码步骤都需要读取缓存。现有压缩方法大多独立评估每个缓存词元，保留得分最高的词元并删除其余词元。本文从注意力输出的角度重新审视这一做法，证明当被移除词元可以合并到保留词元时，输出误差可按被移除词元精确分解；如果某个保留词元的注意力与被移除词元成比例，它就能恢复后者的贡献，因此保留一个词元的收益取决于其他保留词元是否已能代表它。基于这一分析，本文提出无需训练的 SpectralKV，将提示词的 KV 缓存压缩为加权核心集。该方法利用观测查询的协方差谱和输出投影构建键值空间，寻找候选代表词元并评估其对各词元贡献的恢复程度，随后跨注意力头联合选择代表词元，以最大化重要性加权覆盖，并将剩余词元合并到代表词元中，同时保持其注意力质量。在 Llama-3.1-8B-Instruct 和 Qwen3-4B 上，基于 LongBench 与 RULER 共 29 个数据集的实验表明，在分别保留 5% 和 10% 提示词缓存的设置下，SpectralKV 保持了完整缓存性能的 98.1%，并比六种近期淘汰方法中最强的基线平均高出 3.2 个百分点。"
     },
     {
       "id": "QCNC2025QuFM",
@@ -1795,29 +1817,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "这篇论文提出了 QTrace，一种面向混合量子-经典（Hybrid Quantum-Classical）计算工作流的端到端建模与基于轨迹（Trace）的重放分析方法。该方法通过统一记录经典计算、模拟器、云服务和量子后端等不同组件的执行轨迹，并支持可控重放，实现对工作流关键路径和性能瓶颈的精准分析。实验结果表明，QTrace能够高保真地复现真实执行过程，发现传统后端指标难以揭示的性能瓶颈，并准确评估不同调度策略、网络延迟和后端条件对整体性能的影响。该工作为大规模混合量子-经典计算系统的性能分析、优化与可重复实验提供了有效的技术方案。"
-    },
-    {
-      "id": "sec2022Traffic",
-      "title": "基于流谱理论的 SSL/TLS 协议攻击检测方法",
-      "authors": "郭世泽, 张帆, 宋卓学, 赵子鸣, 赵新杰, 王小娟, 罗向阳",
-      "year": 2022,
-      "venue": "网络与信息安全学报",
-      "ccf": "C",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "其他"
-      ],
-      "researchDirections": [
-        "网络安全",
-        "加密流量"
-      ],
-      "link": "",
-      "abstract": "网络攻击检测在网络安全中扮演着重要角色。网络攻击检测的对象主要为僵尸网络, SQL 注入等攻击行为。随着安全套接层/安全传输层 (SSL/TLS) 加密协议的广泛使用, 针对 SSL/TLS 协议本身发起的 SSL/TLS 攻击日益增多, 因此通过搭建网络流采集环境, 构建了包含 4 种 SSL/TLS 攻击网络流与正常网络流的网络流数据集。针对当前网络攻击流检测的可观测性有限, 网络流原始时空域分离性有限等问题, 提出流谱理论, 将网络空间中的威胁行为通过 “势变” 过程从原始时空域空间映射到变换域空间, 具象为 “势变谱”, 形成可分离, 可观测的特征表示集合, 实现对网络流的高效分析。流谱理论在实际网络空间威胁行为检测中的应用关键是在给定变换算子的情况下, 针对特定威胁网络流找到势变基底矩阵。"
     },
     {
       "id": "SEC2026AccelerationFrameworkPrivacyPreservingNeuralNetwork",
@@ -2034,28 +2033,6 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://ieeexplore.ieee.org/abstract/document/11342848",
       "abstract": "在半监督医学图像分割任务中，重点在于如何充分利用未标记数据。然而， 当前大多数方法难以解决医学图像轮廓难以分割，对于未标记数据的特征探索不足等问题。为克服上述问题，本文提出了一种基于对比学习的半监督医学图像分割框架-ConsMatch。我们设计了两个关键模块：MCR（Multi-View Contrastive Representation）模块，利用对比学习思想最大化同一图像在不同扰动下的特征相似度，同时最小化不同图像之间的冗余结构相似性；FCR（Feature-level Consistency Regularization）模块，通过最小化不同增强视图下的结构相似矩阵分布差异，引导模型学习具有稳定结构表达的特征。该方法引入特征空间的结构约束，通过多视图对比表示学习和结构一致性正则化，从多个维度强化模型对未标记数据的学习能力。我们在ACDC数据集以及LA数据集进行广泛实验,均取得较好结果。我们的代码在https://github.com/magic-fortune/ConsMatch中可以找到。"
-    },
-    {
-      "id": "soft2022Flink",
-      "title": "面向Flink迭代作业的动态资源分配策略",
-      "authors": "岳晓飞, 史岚, 赵宇海*, 季航旭，王国仁",
-      "year": 2022,
-      "venue": "软件学报",
-      "ccf": "A",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "NONE",
-      "fields": [
-        "其他"
-      ],
-      "researchDirections": [
-        "大数据系统优化"
-      ],
-      "link": "",
-      "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
     },
     {
       "id": "TASE2026CMGFuzz",
@@ -2475,29 +2452,6 @@ window.LAB_PAPERS_BUNDLE = {
       "imageUrl": "figures/TON2024FOSS.png"
     },
     {
-      "id": "ToN2025Exploiting",
-      "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
-      "authors": "Xiaofei Yue, Song Yang*, Liehuang Zhu, Stojan Trajanovski, Fan Li, Xiaoming Fu",
-      "year": 2025,
-      "venue": "IEEE/ACM Transactions on Networking (ToN)",
-      "ccf": "A",
-      "core": "N",
-      "thcpl": "N",
-      "type": "journal",
-      "accepted": true,
-      "ncsCategory": "NONE",
-      "sciZone": "SCI1",
-      "fields": [
-        "计算机网络"
-      ],
-      "researchDirections": [
-        "服务器无感知计算",
-        "算力网络"
-      ],
-      "link": "https://ieeexplore.ieee.org/abstract/document/10742121",
-      "abstract": "针对广域环境下服务器无感知分析中粗粒度调度低效问题，提出函数粒度资源弹性利用框架Demeter，通过多智能体强化学习联合优化放置与资源分配，并结合拥塞控制机制。实验表明成本降低最高46.6%，SLO违约率降至15%以下。"
-    },
-    {
       "id": "TON2025SOFA",
       "title": "SOFA: Service-Oriented Fine-Grained Attack Traffic Detection with Meta Learning",
       "authors": "Peng Fang, Feiyang Huang, Ziming Zhao*, Fan Zhang*, Wenrui Ma",
@@ -2591,6 +2545,29 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "https://doi.org/10.1109/TSE.2023.3317209",
       "abstract": "针对智能合约字节码级漏洞分析中存在的分析需求强、人工规则制定困难以及现有人工智能方法检测结果难以直接利用等问题，本文提出了面向 EVM 字节码的智能合约漏洞检测方法 VulHunter。该方法利用多示例学习机制缓解细粒度执行路径标签缺失条件下模型训练困难的问题，并结合符号执行对检测结果进行可达性验证，从而自动消除部分误报。实验结果表明，VulHunter 能够以更高的准确性、更高的效率和更强的鲁棒性完成合约漏洞检测，达到 90.04% 的准确率，在 121KB 合约上的平均分析时间为 4.4 秒，分析失败率为 0%，并实现了从漏洞检测、漏洞代码定位到结果验证的全流程自动化执行。"
+    },
+    {
+      "id": "ToN2025Exploiting",
+      "title": "Exploiting Wide-Area Resource Elasticity with Fine-Grained Orchestration for Serverless Analytics",
+      "authors": "Xiaofei Yue, Song Yang*, Liehuang Zhu, Stojan Trajanovski, Fan Li, Xiaoming Fu",
+      "year": 2025,
+      "venue": "IEEE/ACM Transactions on Networking (ToN)",
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "SCI1",
+      "fields": [
+        "计算机网络"
+      ],
+      "researchDirections": [
+        "服务器无感知计算",
+        "算力网络"
+      ],
+      "link": "https://ieeexplore.ieee.org/abstract/document/10742121",
+      "abstract": "针对广域环境下服务器无感知分析中粗粒度调度低效问题，提出函数粒度资源弹性利用框架Demeter，通过多智能体强化学习联合优化放置与资源分配，并结合拥塞控制机制。实验表明成本降低最高46.6%，SLO违约率降至15%以下。"
     },
     {
       "id": "WISA2021Online",
@@ -2776,6 +2753,51 @@ window.LAB_PAPERS_BUNDLE = {
       ],
       "link": "",
       "abstract": "本论文提出了 RegimeGuard，一种面向可编程交换机队列调度的持续学习框架，旨在提升在线心理咨询、危机热线、远程医疗等社会关键型 Web 服务在网络拥塞下的可靠性。其核心思路是在数据平面提供少量可解释的队列优先级和主动队列管理（AQM）阈值，并由交换机外控制器针对正常期与突发期等反复出现的负载环境持续学习调度策略。为避免在环境切换中遗忘已有有效策略，RegimeGuard结合了经验回放、参数正则化和轻量级适配器等方法，以缓解灾难性遗忘问题。作者在 BMv2 软件交换机上实现了该系统，并通过包含后台流量与社会关键会话的多租户追踪驱动工作负载进行评估。结果表明，相比静态配置、多配置基线和朴素在线学习方法，RegimeGuard能够更有效地降低关键业务的尾时延和 SLO 违约率，并在满足关键目标时提升后台流量吞吐。"
+    },
+    {
+      "id": "sec2022Traffic",
+      "title": "基于流谱理论的 SSL/TLS 协议攻击检测方法",
+      "authors": "郭世泽, 张帆, 宋卓学, 赵子鸣, 赵新杰, 王小娟, 罗向阳",
+      "year": 2022,
+      "venue": "网络与信息安全学报",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "网络安全",
+        "加密流量"
+      ],
+      "link": "",
+      "abstract": "网络攻击检测在网络安全中扮演着重要角色。网络攻击检测的对象主要为僵尸网络, SQL 注入等攻击行为。随着安全套接层/安全传输层 (SSL/TLS) 加密协议的广泛使用, 针对 SSL/TLS 协议本身发起的 SSL/TLS 攻击日益增多, 因此通过搭建网络流采集环境, 构建了包含 4 种 SSL/TLS 攻击网络流与正常网络流的网络流数据集。针对当前网络攻击流检测的可观测性有限, 网络流原始时空域分离性有限等问题, 提出流谱理论, 将网络空间中的威胁行为通过 “势变” 过程从原始时空域空间映射到变换域空间, 具象为 “势变谱”, 形成可分离, 可观测的特征表示集合, 实现对网络流的高效分析。流谱理论在实际网络空间威胁行为检测中的应用关键是在给定变换算子的情况下, 针对特定威胁网络流找到势变基底矩阵。"
+    },
+    {
+      "id": "soft2022Flink",
+      "title": "面向Flink迭代作业的动态资源分配策略",
+      "authors": "岳晓飞, 史岚, 赵宇海*, 季航旭，王国仁",
+      "year": 2022,
+      "venue": "软件学报",
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "N",
+      "type": "journal",
+      "accepted": true,
+      "ncsCategory": "NONE",
+      "sciZone": "NONE",
+      "fields": [
+        "其他"
+      ],
+      "researchDirections": [
+        "大数据系统优化"
+      ],
+      "link": "",
+      "abstract": "针对Flink迭代作业静态资源分配低效问题，提出基于运行时间预测的动态资源分配策略RABORP，通过预测超步运行时间并动态调整资源，实现最小资源满足SLO约束。"
     }
   ],
   "ccfFields": [
